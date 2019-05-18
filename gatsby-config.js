@@ -3,7 +3,7 @@ module.exports = {
     title: `Road Vagabonds`,
     author: `Florian Strauf`,
     description: `Our blog for travel, troopy and adventure!`,
-    siteUrl: `nostalgic-leakey-9b5457.netlify.com`,
+    siteUrl: `https://nostalgic-leakey-9b5457.netlify.com/`,
     social: {
       instagram: `fstrauf`,
     },
