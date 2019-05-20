@@ -7,6 +7,7 @@ categories: ["Bars", "Cocktail", "drinking", "Singapore"]
 slug: favoritebars
 draft: false
 meta_title: "Favorite bars in Singapore"
+image: IMG_7723.jpg
 ---
 
 ## ATLAS Bar

@@ -7,6 +7,7 @@ categories: ["Uncategorised"]
 slug: 2018-9-21-our-favorite-restaurants-in-singapore
 draft: true
 meta_title: "Favorite restaurants in Singapore"
+image: IMG_7163.jpg
 ---
 
 ## Little Island Brewing Co

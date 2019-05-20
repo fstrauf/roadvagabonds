@@ -7,6 +7,8 @@ categories: ["Indonesia", "Mentawais", "Paradise", "Travel"]
 slug: 2018-5-20-14-hour-ferry-trip-to-paradise
 draft: false
 meta_title: "14 hour Ferry ride to Paradise"
+image: INDO4005.jpg
+tags: ['travel', 'surf']
 ---
 
 ## Mentawais

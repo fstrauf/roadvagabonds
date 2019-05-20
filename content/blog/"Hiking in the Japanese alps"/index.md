@@ -7,6 +7,7 @@ categories: ["hiking", "Travel"]
 slug: 2018-9-11-hiking-in-the-japanese-alps
 draft: false
 meta_title: "Hiking in the Japanese alps"
+image: DSC_2203.jpg
 ---
 
 ## Tokyo

@@ -7,6 +7,7 @@ categories:
 slug: about
 draft: false
 meta_title: "About"
+image: IMG_7985.JPG
 ---
 
 * * *

@@ -7,6 +7,7 @@ categories: ["Expatliving", "Google Docs", "Organisation", "Singapore"]
 slug: 2019-3-1-how-we-organise-ourselves
 draft: false
 meta_title: "How we organise ourselves"
+image: Capture.jpg
 ---
 
 Moving to different countries requires a fair bit of planning and bookkeeping:

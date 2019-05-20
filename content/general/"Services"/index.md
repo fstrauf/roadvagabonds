@@ -7,6 +7,7 @@ categories:
 slug: services
 draft: false
 meta_title: "Services"
+image: DSC_3992.JPG
 ---
 
 * * *

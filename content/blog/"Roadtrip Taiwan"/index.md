@@ -7,6 +7,7 @@ categories: ["Roadtrip", "Taiwan", "Travel"]
 slug: 2018-8-28-dlo4jeg8svwi0jftxah6j2gth9wvi7
 draft: false
 meta_title: "Roadtrip Taiwan"
+image: DSC_1770.jpg
 ---
 
 ![](http://localhost:8888/wordpress/wp-content/uploads/2018/08/Taipei.jpgTaipei?format=original)

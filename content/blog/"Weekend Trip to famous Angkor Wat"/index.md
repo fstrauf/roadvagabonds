@@ -7,6 +7,7 @@ categories: ["Angkor Wat", "Cambodia", "Siem Reap", "southeastasia", "Temples", 
 slug: 2018-11-10-wazhipvevoi4yekjqnnr21jhae76bw
 draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
+image: DSC_3567.jpg
 ---
 
 ## Getting there

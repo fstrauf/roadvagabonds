@@ -51,13 +51,19 @@ class Layout extends React.Component {
         </h3>
       )
     }
+    
     return (
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(50),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          height: '100%',
+          display: 'table',
+          width: '100%',
+          textAlign: 'left',
+          background:'#B1119B'
         }}
       >
         <header>{header}</header>

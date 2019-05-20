@@ -7,6 +7,7 @@ categories: ["Travel", "Vietnam"]
 slug: 2019-1-4-vietnam
 draft: false
 meta_title: "Vietnam - A one week trip"
+image: DSC_4018.jpg
 ---
 
 ## Vietnam

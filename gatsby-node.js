@@ -1,10 +1,12 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const _ = require('lodash');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+
   return graphql(
     `
       {
@@ -45,6 +47,29 @@ exports.createPages = ({ graphql, actions }) => {
           previous,
           next,
         },
+      })
+    })
+
+    const tagsTemplate = path.resolve('./src/templates/tag-template.js');
+
+    //All tags
+    let allTags = []
+    // Iterate through each post, putting all found tags into `allTags array`
+    _.each(posts, edge => {
+      if (_.get(edge, 'node.frontmatter.tags')) {
+        allTags = allTags.concat(edge.node.frontmatter.tags)
+      }
+    })
+    // Eliminate duplicate tags
+    allTags = _.uniq(allTags)
+
+    allTags.forEach((tag, index) => {
+      createPage({
+        path: `/${_.kebabCase(tag)}/`,
+        component: tagsTemplate,
+        context: {
+          tag,
+        }
       })
     })
 

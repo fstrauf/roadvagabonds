@@ -7,6 +7,7 @@ categories:
 slug: get-in-touch
 draft: false
 meta_title: "Get in touch"
+image: IMG_7985.JPG
 ---
 
 * * *

@@ -7,6 +7,7 @@ categories:
 slug: privacy-policy
 draft: true
 meta_title: "Privacy Policy"
+image: DSC_5053.jpg
 ---
 
 ## Who we are

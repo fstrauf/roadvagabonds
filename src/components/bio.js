@@ -22,6 +22,7 @@ function Bio() {
             style={{
               display: `flex`,
               marginBottom: rhythm(2.5),
+              display:'table-row',
             }}
           >
             {/* <Image

@@ -7,6 +7,7 @@ categories: ["Outdoor activities", "Singapore", "weekend"]
 slug: 2018-6-26-weekend-outdoor-activities-in-singapore
 draft: false
 meta_title: "Weekend outdoor activities in Singapore"
+image: IMG_5142.jpg
 ---
 
 ## Botanical Garden

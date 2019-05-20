@@ -1,43 +1,53 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { HeadContent } from '../components/HeadContent';
+import BlogList from '../components/blogList'
+import styled from "@emotion/styled";
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const Section = styled("div")({
+      margin: '1.5rem 0',
+    });
+    const Bold = styled("span")({
+      fontWeight: '700',
+    });
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
+        <HeadContent />
         <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
+        <div style={{
+            display:'table-cell', 
+            height: '100%',
+            width: '100%',
+            background: '#F1684E'
+        }}>
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <div 
+                key={node.fields.slug}
                 style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          )
-        })}
+                  background:'#CCCC51',
+                }}>
+                  <Section>
+                    <BlogList
+                      node={node}
+                    />
+                  </Section>
+              </div>
+            )
+          })}
+          <SideContent> </SideContent>
+        </div>
       </Layout>
     )
   }
@@ -62,7 +72,16 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            # description
+            image {
+                childImageSharp {
+                  resize(width: 1500, height: 1500) {
+                    src
+                  }
+                  fluid(maxWidth: 786) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
           }
         }
       }
