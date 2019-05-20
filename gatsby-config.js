@@ -7,6 +7,32 @@ module.exports = {
     social: {
       instagram: `fstrauf`,
     },
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'about',
+        link: '/About'
+      },
+      {
+        name: 'get in touch',
+        link: '/GetInTouch'
+      },
+      {
+        name: 'photography',
+        link: '/Photography'
+      },
+      {
+        name: 'privacy policy',
+        link: '/PrivacyPolicy'
+      },
+      {
+        name: 'services',
+        link: '/Services'
+      }
+    ]
   },
   plugins: [
     {

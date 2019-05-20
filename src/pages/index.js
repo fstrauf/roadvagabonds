@@ -3,7 +3,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import { HeadContent } from '../components/HeadContent';
+import Header from '../components/header';
 import BlogList from '../components/blogList'
 import styled from "@emotion/styled";
 
@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <HeadContent />
+        {/* <Header /> */}
         <Bio />
         <div style={{
             display:'table-cell', 

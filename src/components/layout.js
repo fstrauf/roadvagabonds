@@ -1,81 +1,103 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, StaticQuery } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
+import Header from '../components/header'
+import PropTypes from "prop-types"
 
-class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    let header
 
-    // if (location.pathname === rootPath) {
-      header = (
-        <h1
+const Layout = ({ children }) => (
+  <StaticQuery
+    query={siteTitleQuery}
+    render={data => (        
+        <div
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `0px 1.0875rem 1.45rem`,
+            paddingTop: 0,
+            background: '#123445'
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    // } else {
-    //   header = (
-    //     <h3
-    //       style={{
-    //         fontFamily: `Montserrat, sans-serif`,
-    //         marginTop: 0,
-    //       }}
-    //     >
-    //       <Link
-    //         style={{
-    //           boxShadow: `none`,
-    //           textDecoration: `none`,
-    //           color: `inherit`,
-    //         }}
-    //         to={`/`}
-    //       >
-    //         {title}
-    //       </Link>
-    //     </h3>
-    //   )
-    // }
-    
-    return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(50),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          height: '100%',
-          display: 'table',
-          width: '100%',
-          textAlign: 'left',
-          background:'#B1119B'
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    )
-  }
+        <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+          <main>{children}</main>
+          <footer>
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          </footer>
+        </div>
+    )}
+  />
+)
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
+const siteTitleQuery = graphql`
+  query SiteTitleQuery {
+    site {
+            siteMetadata {
+              title
+              menuLinks {
+                name
+                link
+            }
+            }
+          }
+  }
+`
+
 export default Layout
+
+// class Layout extends React.Component {
+//   render() {
+//     const { location, title, children } = this.props
+//     let header
+
+//     header = (
+//       <StaticQuery
+//         query={siteTitleQuery}
+//         <React.Fragment>
+//         <Helmet
+//           title={'tite'}
+//           meta={[
+//             { name: 'description', content: 'Sample' },
+//             { name: 'keywords', content: 'sample, something' },
+//           ]}
+//         >
+//         </Helmet>
+//         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
+//       </React.Fragment>
+//         />
+//       )
+
+//     return (
+//       <div
+//         style={{
+//           marginLeft: `auto`,
+//           marginRight: `auto`,
+//           maxWidth: rhythm(50),
+//           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+//           height: '100%',
+//           display: 'table',
+//           width: '100%',
+//           textAlign: 'left',
+//           background: '#B1119B'
+//         }}
+//       >
+//         <header>{header}</header>
+//         <main>{children}</main>
+//         <footer>
+//           © {new Date().getFullYear()}, Built with
+//           {` `}
+//           <a href="https://www.gatsbyjs.org">Gatsby</a>
+//         </footer>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+// export default Layout
