@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Photography"
 author: admi
 date: 2019-05-17T18:09:00+10:00
 categories: 
-slug: travelphotography
+slug: photography
 draft: false
 meta_title: "Photography"
 image: DSC_5065.jpg

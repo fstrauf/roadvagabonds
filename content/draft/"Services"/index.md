@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Services"
 author: admi
 date: 2019-05-17T18:09:20+10:00

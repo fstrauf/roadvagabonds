@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Get in touch"
 author: admi
 date: 2019-05-17T18:09:20+10:00
 categories: 
-slug: get-in-touch
+slug: getInTouch
 draft: false
 meta_title: "Get in touch"
 image: IMG_7985.JPG

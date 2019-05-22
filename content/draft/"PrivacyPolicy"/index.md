@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Privacy Policy"
 author: admi
 date: 2019-05-16T07:48:33+10:00
 categories: 
-slug: privacy-policy
+slug: privacyPolicy
 draft: true
 meta_title: "Privacy Policy"
 image: DSC_5053.jpg

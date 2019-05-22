@@ -14,23 +14,23 @@ module.exports = {
       },
       {
         name: 'about',
-        link: '/About'
+        link: '/about'
       },
       {
         name: 'get in touch',
-        link: '/GetInTouch'
+        link: '/getInTouch'
       },
       {
         name: 'photography',
-        link: '/Photography'
+        link: '/photography'
       },
       {
         name: 'privacy policy',
-        link: '/PrivacyPolicy'
+        link: '/privacyPolicy'
       },
       {
         name: 'services',
-        link: '/Services'
+        link: '/services'
       }
     ]
   },

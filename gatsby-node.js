@@ -5,7 +5,9 @@ const _ = require('lodash');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
+  // ####### Blog Post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  // const blogPage = path.resolve(`./src/templates/page.js`)
 
   return graphql(
     `
@@ -39,40 +41,50 @@ exports.createPages = ({ graphql, actions }) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
 
-      createPage({
-        path: post.node.fields.slug,
-        component: blogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
-      })
+      // switch (post.node.frontmatter.layout) {
+      //   case 'page':
+      //     // code block
+      //     createPage({
+      //       path: post.node.frontmatter.slug,
+      //       component: blogPage,
+      //       context: {
+      //         slug: post.node.fields.slug,
+      //         previous,
+      //         next,
+      //       },
+      //     })
+      //     break;
+      //   case 'post':
+          createPage({
+            path: post.node.fields.slug,
+            component: blogPost,
+            context: {
+              slug: post.node.fields.slug,
+              previous,
+              next,
+            },
+          })
+          // code block
+      //     break;
+      //   default:
+      //     // code block
+      //     break;
+      // }
+
+
     })
 
-    const tagsTemplate = path.resolve('./src/templates/tag-template.js');
-
-    //All tags
-    let allTags = []
-    // Iterate through each post, putting all found tags into `allTags array`
-    _.each(posts, edge => {
-      if (_.get(edge, 'node.frontmatter.tags')) {
-        allTags = allTags.concat(edge.node.frontmatter.tags)
-      }
-    })
-    // Eliminate duplicate tags
-    allTags = _.uniq(allTags)
-
-    allTags.forEach((tag, index) => {
-      createPage({
-        path: `/${_.kebabCase(tag)}/`,
-        component: tagsTemplate,
-        context: {
-          tag,
-        }
-      })
-    })
-
+    // const pages = result.data.pages.edges
+    // pages.forEach(page => {
+    //   if ()
+    //     createPage({
+    //         path: page.node.fields.slug,
+    //         component: blogPage,
+    //         context: {
+    //           slug: page.node.fields.slug,         
+    //         },
+    //     })
+    // })
     return null
   })
 }
@@ -89,3 +101,22 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+
+
+// posts:allMarkdownRemark(
+//   sort: { fields: [frontmatter___date], order: DESC }
+//   limit: 1000
+//   filter:{frontmatter: {layout:{eq:"post"}}}
+// ) {
+//   edges {
+//     node {
+//       fields {
+//         slug
+//       }
+//       frontmatter {
+//         title
+//       }
+//     }
+//   }
+// }
