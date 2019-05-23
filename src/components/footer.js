@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled';
 import Image from 'gatsby-image'
 
+
 const Container = styled('div')({
     display: 'grid',
     gridTemplateColumns: 'repeat(6, 1fr)',
@@ -29,7 +30,7 @@ export default ({ posts, insta }) => (
                     //Check for missing images
                     return (
                         item.node.localImage ?
-                            <Image fluid={item.node.localImage.childImageSharp.fluid} key={i} caption={captionText} />
+                            <a href={item.node.link}> <Image fluid={item.node.localImage.childImageSharp.fluid} key={i} caption={captionText} /></a>
                             : <div></div>
                     )
                 })
