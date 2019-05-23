@@ -8,11 +8,16 @@ slug: 2018-9-11-hiking-in-the-japanese-alps
 draft: false
 meta_title: "Hiking in the Japanese alps"
 image: DSC_2203.jpg
+excerpt: "Test1234"
 ---
+
+
+Our one week trip to the Land of the rising sun was an absolutely stunning adventure into buzzling cities and majestic mountains.
 
 ## Tokyo
 
-With [ANA](https://www.ana.co.jp/en/us/) we arrived at Narita airport, 60 km outside of Tokyo. There are different options to get into city center, depending on your budget and destination you can choose between bus, train or taxi. We took the fastest option, the [Keisei Skyliner](http://www.keisei.co.jp/keisei/tetudou/skyliner/us/ae_outline/index.php<) - for more information go to the Railway ticket center. Tokyo has a good public transport and everything is connected via MRT. Buy a top up Cosmo Card to make travelling with MRT easy and comfortable. You can top up at every station and even buy drinks and snacks at vending machines with it.
+With [ANA](https://www.ana.co.jp/en/us/) we arrived at Narita airport, 60 km outside of Tokyo. <!-- end -->There are different options to get into city center, depending on your budget and destination you can choose between bus, train or taxi.
+ We took the fastest option, the [Keisei Skyliner](http://www.keisei.co.jp/keisei/tetudou/skyliner/us/ae_outline/index.php<) - for more information go to the Railway ticket center. Tokyo has a good public transport and everything is connected via MRT. Buy a top up Cosmo Card to make travelling with MRT easy and comfortable. You can top up at every station and even buy drinks and snacks at vending machines with it.
 
 Tokyo is a modern and exciting city with lots of delicious food and an always busy vibe. Here are some things you can do during your stay:
 

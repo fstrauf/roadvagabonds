@@ -36,6 +36,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-instagram-all`,
+      options: {
+        access_token: "7108811573.1677ed0.d41dc21c794a476787fe7118e5dcd1e0"
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -76,6 +82,7 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
+        "excerpt_separator": `<!-- end -->`,
       },
     },
     `gatsby-transformer-sharp`,

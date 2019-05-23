@@ -29,7 +29,10 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+        <Img style={{
+              marginBottom: rhythm(1)
+            }} 
+            fluid={post.frontmatter.image.childImageSharp.fluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

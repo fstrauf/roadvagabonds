@@ -23,6 +23,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                layout
               }
             }
           }
@@ -55,6 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
       //     })
       //     break;
       //   case 'post':
+      if (post.node.frontmatter.layout == 'post'){
           createPage({
             path: post.node.fields.slug,
             component: blogPost,
@@ -64,6 +66,8 @@ exports.createPages = ({ graphql, actions }) => {
               next,
             },
           })
+        }
+
           // code block
       //     break;
       //   default:
@@ -101,22 +105,3 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
-
-
-
-// posts:allMarkdownRemark(
-//   sort: { fields: [frontmatter___date], order: DESC }
-//   limit: 1000
-//   filter:{frontmatter: {layout:{eq:"post"}}}
-// ) {
-//   edges {
-//     node {
-//       fields {
-//         slug
-//       }
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// }
