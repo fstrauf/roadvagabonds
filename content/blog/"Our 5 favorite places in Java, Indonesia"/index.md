@@ -3,7 +3,7 @@ layout: post
 title: "Our 5 favorite places in Java, Indonesia"
 author: Vicky
 date: 2018-11-24T02:03:59+11:00
-categories: ["Temple", "Travel", "Volcano"]
+tags: ["Temple", "Travel", "Volcano"]
 slug: 2018-11-21-our-5-favorite-places-in-java-indonesia
 draft: false
 meta_title: "Our 5 favorite places in Java, Indonesia"

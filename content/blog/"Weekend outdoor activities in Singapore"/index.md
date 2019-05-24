@@ -3,7 +3,7 @@ layout: post
 title: "Weekend outdoor activities in Singapore"
 author: Vicky
 date: 2018-06-27T00:04:42+10:00
-categories: ["Outdoor activities", "Singapore", "weekend"]
+tags: ["Outdoor activities", "Singapore", "weekend"]
 slug: 2018-6-26-weekend-outdoor-activities-in-singapore
 draft: false
 meta_title: "Weekend outdoor activities in Singapore"

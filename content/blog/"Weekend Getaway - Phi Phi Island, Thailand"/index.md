@@ -3,7 +3,7 @@ layout: post
 title: "Weekend Getaway - Phi Phi Island, Thailand"
 author: Vicky
 date: 2018-06-09T19:13:33+10:00
-categories: ["Paradise", "Phi Phi Island", "Thailand", "Travel", "Weekend Getaway"]
+tags: ["Paradise", "Phi Phi Island", "Thailand", "Travel", "Weekend Getaway"]
 slug: 2018-6-9-weekend-getaway-phi-phi-island-thailand
 draft: false
 meta_title: "Weekend Getaway - Phi Phi Island, Thailand"

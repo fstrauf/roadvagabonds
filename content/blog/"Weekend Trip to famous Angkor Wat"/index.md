@@ -3,11 +3,11 @@ layout: post
 title: "Weekend Trip to famous Angkor Wat"
 author: Vicky
 date: 2018-11-11T12:46:33+11:00
-categories: ["Angkor Wat", "Cambodia", "Siem Reap", "southeastasia", "Temples", "Travel", "travel"]
+tags: ["Angkor Wat", "Cambodia", "Siem Reap", "southeastasia", "Temples", "Travel", "travel"]
 slug: 2018-11-10-wazhipvevoi4yekjqnnr21jhae76bw
 draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
-image: DSC_3567.jpg
+image: DSC_3557.jpg
 ---
 
 ## Getting there

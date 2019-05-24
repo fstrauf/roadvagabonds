@@ -3,7 +3,7 @@ layout: post
 title: "Hiking Mount Sangkareang"
 author: Vicky
 date: 2018-05-23T00:55:18+10:00
-categories: ["hiking", "Indomesia", "Lombok", "Rinjani", "Travel"]
+tags: ["hiking", "Indomesia", "Lombok", "Rinjani", "Travel"]
 slug: 2018-5-22-hiking-mount-rinjani-sangkareal
 draft: false
 meta_title: "Hiking Mount Sangkareang"

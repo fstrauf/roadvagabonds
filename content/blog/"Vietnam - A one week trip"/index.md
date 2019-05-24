@@ -3,7 +3,7 @@ layout: post
 title: "Vietnam - A one week trip"
 author: Vicky
 date: 2019-01-11T18:50:42+11:00
-categories: ["Travel", "Vietnam"]
+tags: ["Travel", "Vietnam"]
 slug: 2019-1-4-vietnam
 draft: false
 meta_title: "Vietnam - A one week trip"

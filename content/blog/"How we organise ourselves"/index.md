@@ -3,7 +3,7 @@ layout: post
 title: "How we organise ourselves"
 author: Vicky
 date: 2019-03-08T08:11:25+11:00
-categories: ["Expatliving", "Google Docs", "Organisation", "Singapore"]
+tags: ["Expatliving", "Google Docs", "Organisation", "Singapore"]
 slug: 2019-3-1-how-we-organise-ourselves
 draft: false
 meta_title: "How we organise ourselves"

@@ -3,7 +3,7 @@ layout: post
 title: "Singapore - Cost of Living"
 author: Vicky
 date: 2019-02-23T20:30:31+11:00
-categories: ["Cost of Living", "Singapore", "Singapore"]
+tags: ["Cost of Living", "Singapore", "Singapore"]
 slug: 2019-2-23-singapore-cost-of-living
 draft: false
 meta_title: "Singapore - Cost of Living"

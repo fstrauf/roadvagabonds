@@ -3,7 +3,7 @@ layout: post
 title: "How we ended up in Singapore"
 author: Vicky
 date: 2018-06-15T17:18:37+10:00
-categories: ["Singapore"]
+tags: ["Singapore"]
 slug: 2018-6-15-how-we-ended-up-in-singapore
 draft: false
 meta_title: "How we ended up in Singapore"

@@ -3,7 +3,7 @@ layout: post
 title: "Beautiful Beaches in WA"
 author: Vicky
 date: 2018-06-03T13:42:44+10:00
-categories: ["Australia", "Margaret River", "Travel", "Western Australia"]
+tags: ["Australia", "Margaret River", "Travel", "Western Australia"]
 slug: 2018-5-30-the-beautiful-beaches-in-wa
 draft: false
 meta_title: "Beautiful Beaches in WA"

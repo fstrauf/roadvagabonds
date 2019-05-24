@@ -3,7 +3,7 @@ layout: post
 title: "Bukit Lawang - Meeting Sumatra's Orangutans"
 author: Vicky
 date: 2018-08-09T22:03:56+10:00
-categories: ["Jungle", "Orangutan", "Travel", "Trekking"]
+tags: ["Jungle", "Orangutan", "Travel", "Trekking"]
 slug: 2018-8-9-bukit-lawang-meeting-sumatras-orangutans
 draft: false
 meta_title: "Bukit Lawang - Meeting Sumatra's Orangutans"

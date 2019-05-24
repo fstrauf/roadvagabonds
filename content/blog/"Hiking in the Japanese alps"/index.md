@@ -3,7 +3,7 @@ layout: post
 title: "Hiking in the Japanese alps"
 author: Vicky
 date: 2018-09-13T00:00:26+10:00
-categories: ["hiking", "Travel"]
+tags: ["hiking", "Travel"]
 slug: 2018-9-11-hiking-in-the-japanese-alps
 draft: false
 meta_title: "Hiking in the Japanese alps"

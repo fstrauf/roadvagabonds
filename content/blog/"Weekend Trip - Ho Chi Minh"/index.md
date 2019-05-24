@@ -3,7 +3,7 @@ layout: post
 title: "Weekend Trip - Ho Chi Minh"
 author: Vicky
 date: 2018-07-10T09:34:40+10:00
-categories: ["Travel"]
+tags: ["Travel"]
 slug: 2018-6-29-weekend-trip-ho-chi-minh
 draft: false
 meta_title: "Weekend Trip - Ho Chi Minh"

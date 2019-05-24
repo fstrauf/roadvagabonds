@@ -23,9 +23,13 @@ const LeftColumn = styled('div')({
     width: '75%',
 })
 
+const imgStyle = {
+    objectFit:'scale-down'
+  }
+
 class blogList extends React.Component {
     render() {
-        let { node } = this.props;
+        let { node } = this.props;  
         return (
             <LeftColumn>
                 <Card>
@@ -37,12 +41,15 @@ class blogList extends React.Component {
                         <h3>{node.frontmatter.title}</h3>
                         <h5>{node.frontmatter.date}</h5>
                         <Img
-                            fixed={node.frontmatter.image.childImageSharp.fluid}
+                            fluid={node.frontmatter.image.childImageSharp.fluid}
+                            // width='1000'
+                            // fixed={node.frontmatter.image.childImageSharp.fixed}     
+                            imgStyle={{ ...imgStyle }}                       
                             style={{ 
                                 width: "100%", 
                                 marginRight: 20, 
                                 height: '300px', 
-                                display: 'table' 
+                                display: 'table' ,                        
                             }} />
                         <p>{node.excerpt}</p>
                     </Link>

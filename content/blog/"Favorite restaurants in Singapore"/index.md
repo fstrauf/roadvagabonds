@@ -3,7 +3,7 @@ layout: post
 title: "Favorite restaurants in Singapore"
 author: Vicky
 date: 2018-09-21T19:14:13+10:00
-categories: ["Uncategorised"]
+tags: ["Singapore", "Eating", "Food", "Restaurants"]
 slug: 2018-9-21-our-favorite-restaurants-in-singapore
 draft: true
 meta_title: "Favorite restaurants in Singapore"

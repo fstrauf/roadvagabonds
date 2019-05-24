@@ -3,7 +3,7 @@ layout: post
 title: "Favorite bars in Singapore"
 author: Vicky
 date: 2019-01-04T09:07:30+11:00
-categories: ["Bars", "Cocktail", "drinking", "Singapore"]
+tags: ["Bars", "Cocktail", "drinking", "Singapore"]
 slug: favoritebars
 draft: false
 meta_title: "Favorite bars in Singapore"

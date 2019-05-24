@@ -3,7 +3,7 @@ layout: post
 title: "Roadtrip Taiwan"
 author: Vicky
 date: 2018-08-29T11:09:47+10:00
-categories: ["Roadtrip", "Taiwan", "Travel"]
+tags: ["Roadtrip", "Taiwan", "Travel"]
 slug: 2018-8-28-dlo4jeg8svwi0jftxah6j2gth9wvi7
 draft: false
 meta_title: "Roadtrip Taiwan"
