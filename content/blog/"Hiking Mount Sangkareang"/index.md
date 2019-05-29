@@ -8,6 +8,7 @@ slug: 2018-5-22-hiking-mount-rinjani-sangkareal
 draft: false
 meta_title: "Hiking Mount Sangkareang"
 image: DSC_6800.jpg
+categories: ["travel"]
 ---
 
 ## Sangkareang

@@ -8,6 +8,7 @@ slug: 2018-11-10-wazhipvevoi4yekjqnnr21jhae76bw
 draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
 image: DSC_3557.jpg
+categories: ["travel"]
 ---
 
 ## Getting there
@@ -24,27 +25,9 @@ Before actually starting with the main attraction in town - the famous temples, 
 
 ![](./DSC_2978.jpg)
 
-![](./DSC_3007.jpg)
-
-![](./DSC_2995.jpg)
-
 ## Angkor Wat
 
 Angkor Wat is one of the largest religious monuments in the world and the best preserved temple in Siem Reap. Obviously it’s also the most popular and crowded temple, especially during and after sunrise. For us the best time to visit Angkor Wat was around 12 pm. It’s hot but you can enjoy the temple with less people. Wee read a lot about the sunrise being very crowded, but it actually wasn't too bad on a Tuesday morning arriving at 5 am. We parked our motorbike at the left parking lot right in front and found a good place on the stairs at the lake. There weren’t that many people as on the right side and it was worth the visit. The colors and the view was amazing.
-
-![](./DSC_3101.jpg)
-
-![](./DSC_3103.jpg)
-
-![](./DSC_3104.jpg)
-
-![](./DSC_3108.jpg)
-
-![](./DSC_3145.jpg)
-
-![](./DSC_3151.jpg)
-
-![](./DSC_3163.jpg)
 
 ![](./DSC_3269.jpg)
 

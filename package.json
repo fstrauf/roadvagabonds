@@ -10,6 +10,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
+    "@material-ui/lab": "^4.0.0-alpha.14",
     "gatsby": "^2.5.4",
     "gatsby-cli": "^2.6.2",
     "gatsby-image": "^2.1.0",
@@ -33,6 +34,7 @@
     "glamor": "^2.20.40",
     "glamorous": "^5.0.0",
     "prismjs": "^1.16.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",

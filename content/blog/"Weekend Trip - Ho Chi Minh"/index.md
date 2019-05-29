@@ -8,6 +8,7 @@ slug: 2018-6-29-weekend-trip-ho-chi-minh
 draft: false
 meta_title: "Weekend Trip - Ho Chi Minh"
 image: DSC_1114.jpg
+categories: ["travel"]
 ---
 
 \[caption id="" align="alignnone" width="2500.0"\]![ Ho Chi Minh City ](http://localhost:8888/wordpress/wp-content/uploads/2018/07/HoChiMinhCIty.jpgHo+Chi+Minh+CIty?format=original) Ho Chi Minh City \[/caption\]

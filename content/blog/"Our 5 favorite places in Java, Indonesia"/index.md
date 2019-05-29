@@ -8,6 +8,7 @@ slug: 2018-11-21-our-5-favorite-places-in-java-indonesia
 draft: false
 meta_title: "Our 5 favorite places in Java, Indonesia"
 image: IMG_2516.jpg
+categories: ["travel"]
 ---
 
 ## Java

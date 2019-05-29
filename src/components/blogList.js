@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import styled from '@emotion/styled'; 
+import styled from '@emotion/styled';
 import Img from 'gatsby-image'
+
 
 const Card = styled('div')({
     backgroundColor: 'white',
@@ -18,18 +19,21 @@ const Card = styled('div')({
     },
 })
 
+
 const LeftColumn = styled('div')({
     float: 'left',
     width: '75%',
 })
 
 const imgStyle = {
-    objectFit:'scale-down'
-  }
+    objectFit: 'scale-down'
+}
+
+
 
 class blogList extends React.Component {
     render() {
-        let { node } = this.props;  
+        let { node } = this.props;
         return (
             <LeftColumn>
                 <Card>
@@ -44,12 +48,12 @@ class blogList extends React.Component {
                             fluid={node.frontmatter.image.childImageSharp.fluid}
                             // width='1000'
                             // fixed={node.frontmatter.image.childImageSharp.fixed}     
-                            imgStyle={{ ...imgStyle }}                       
-                            style={{ 
-                                width: "100%", 
-                                marginRight: 20, 
-                                height: '300px', 
-                                display: 'table' ,                        
+                            imgStyle={{ ...imgStyle }}
+                            style={{
+                                width: "100%",
+                                marginRight: 20,
+                                height: '300px',
+                                display: 'table',
                             }} />
                         <p>{node.excerpt}</p>
                     </Link>

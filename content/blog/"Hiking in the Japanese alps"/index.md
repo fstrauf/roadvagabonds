@@ -9,6 +9,7 @@ draft: false
 meta_title: "Hiking in the Japanese alps"
 image: DSC_2203.jpg
 excerpt: "Test1234"
+categories: ["travel"]
 ---
 
 

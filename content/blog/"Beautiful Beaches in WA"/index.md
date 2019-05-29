@@ -8,7 +8,7 @@ slug: 2018-5-30-the-beautiful-beaches-in-wa
 draft: false
 meta_title: "Beautiful Beaches in WA"
 image: DSC_0744.jpg
-
+categories: ["travel"]
 ---
 
 ## Perth

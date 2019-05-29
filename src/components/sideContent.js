@@ -26,7 +26,9 @@ const Container = styled('div')({
 
 class sideContent extends React.Component {
     render() {
+        console.log(this.props)
         let { posts, insta } = this.props;
+        console.log(this.props)
         return (
             <RightColumn>
                 <Card>
@@ -49,12 +51,27 @@ class sideContent extends React.Component {
                     </h3>
                     <Container className='grid'>
                         {
-                            posts.edges.map((item, i) => {
+                            posts.map((item, i) => {
                                 let captionText = item.node.caption ? deleteTags(item.node.caption.text) : "Instagram Post"
                                 //Check for missing images
                                 return (
                                     item.node.localImage ?
-                                        <a href={item.node.link}> <Image fluid={item.node.localImage.childImageSharp.fluid} key={i} caption={captionText} /></a>
+                                        <a 
+                                            href={item.node.link}
+                                            key={i}
+                                            style={{
+                                                boxShadow: '0 1px 2px 0 rgba(43, 59, 93, 0.29)',
+                                                textDecoration: `none`,
+                                                color: `inherit`,
+                                                ':hover': {
+                                                    boxShadow: '0 10px 30px 0 rgba(0, 0, 0, 0.29)',
+                                                },
+                                            }}> 
+                                            <Image 
+                                                fluid={item.node.localImage.childImageSharp.fluid} 
+                                                key={i} 
+                                                caption={captionText} />
+                                        </a>
                                         : <div></div>
                                 )
                             })

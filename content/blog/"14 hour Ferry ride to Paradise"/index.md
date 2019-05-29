@@ -8,6 +8,7 @@ draft: false
 meta_title: "14 hour Ferry ride to Paradise"
 image: INDO4005.jpg
 tags: ["Indonesia", "Mentawais", "Paradise", "Travel", "surf"]
+categories: ["travel"]
 ---
 
 ## Mentawais

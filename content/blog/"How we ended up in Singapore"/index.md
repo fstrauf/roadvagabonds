@@ -8,6 +8,7 @@ slug: 2018-6-15-how-we-ended-up-in-singapore
 draft: false
 meta_title: "How we ended up in Singapore"
 image: IMG_3700.jpg
+categories: ["life"]
 ---
 
 ## Why we considered Singapore a good idea

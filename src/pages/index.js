@@ -3,77 +3,136 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-// import Header from '../components/header';
 import BlogList from '../components/blogList'
-import styled from "@emotion/styled";
+import styled from "@emotion/styled"
+import categoryHash from '../pages/categories.json'
+import '../css/toggleButton.css'
+import PropTypes from 'prop-types'
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-    const Section = styled("div")({
-      margin: '1.5rem 0',
-    });
-    const Bold = styled("span")({
-      fontWeight: '700',
-    });
+// const changeFilter = title => {
+//   this.setState = 'filter:' + { title }
+//   console.log(this.state.title)
+// }
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        {/* <Header /> */}
-        <Bio />
-        <div style={{
-          display: 'table-cell',
-          height: '100%',
-          width: '100%',
-          background: '#F1684E'
-        }}>
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div
-                key={node.fields.slug}
-                style={{
-                  background: '#CCCC51',
-                }}>
-                <Section>
-                  <BlogList
-                    node={node}
-                  />
-                </Section>
-              </div>
-            )
-          })}
-          <SideContent posts={data.allInstagramContent} insta={data.site.siteMetadata.social.instagram} />
-        </div>
-      </Layout>
-    )
+// const { data } = this.props
+// this.state = {
+//   filter: 'all'
+// }
+
+// const siteTitle = "test"//data.site.siteMetadata.title
+// const posts = data.allMarkdownRemark.edges
+const Section = styled("div")({
+  margin: '1.5rem 0',
+})
+
+const Button = styled('button')({
+  display: 'inline-block',
+  backgroundColor: 'white',
+  padding: '0.1em 1em',
+  margin: '0 1em 0.1em 0',
+  border: '0.16em solid #4CAF50',
+  borderRadius: '2em',
+  boxSizing: 'border-box',
+  textDecoration: 'none',
+  fontFamily: 'sans-serif',
+  fontWeight: '300',
+  color: 'black',
+  textShadow: '0 0.04em 0.04em #AAAAAA',
+  textAlign: 'center',
+  transitionDuration: '0.4s',
+  transition: 'all 0.2s',
+  ':hover': {
+    backgroundColor: '#4CAF50',
+  },
+  '@media all and (max-width:30em)': {
+    display: 'block',
+    margin: '0.2em auto',
   }
+})
+
+const Index = ({
+  data: {
+    content: { siteMetadata: site },
+    blog: { edges: posts },
+    insta: { edges: allInsta },
+  },
+  pageContext: { cat },
+}) => (
+    <Layout title={site.title}>
+      <SEO title="All posts" />
+      {/* <Header /> */}
+      <Bio />
+      <div style={{
+        display: 'table-cell',
+        height: '100%',
+        width: '100%',
+        background: '#F1684E'
+      }}>
+        {categoryHash.categories.map(({ title }) => {
+          return (
+            <Button 
+              key={title} 
+              // onClick={event => this.changeFilter(title)}
+              >
+              {title}
+            </Button>
+          )
+        })}
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <div
+              key={node.fields.slug}
+              style={{
+                background: '#CCCC51',
+              }}>
+              <Section>
+                <BlogList
+                  node={node}
+                />
+              </Section>
+            </div>
+          )
+        })}
+        <SideContent posts={allInsta} insta={site.social.instagram} />
+      </div>
+    </Layout>
+  )
+
+
+
+export default Index
+
+Index.propTypes = {
+  data: PropTypes.shape({
+    content: PropTypes.object.isRequired,
+    blog: PropTypes.shape({
+      edges: PropTypes.array.isRequired,
+    }),
+    insta: PropTypes.object.isRequired,
+  }).isRequired,
+  pageContext: PropTypes.shape({
+    cat: PropTypes.string.isRequired,
+  }).isRequired,
+
 }
 
-export default BlogIndex
-
 export const pageQuery = graphql`
-  # {"skip": 1, "limit": 2}
-  # query ($skip: Int!, $limit: Int!){
-    query{
-    site {
+  query IndexQuery($cat: String!) {  
+    content: site {
       siteMetadata {
         title
         social {
           instagram
         }
       }
-      
     }
-    allMarkdownRemark(
+    blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
+      filter: {frontmatter: {categories: {eq: $cat}}}
       # limit: $limit
       # skip: $skip
       limit: 100
-      skip: 5
     ) {
       edges {
         node {
@@ -103,7 +162,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allInstagramContent {
+    insta: allInstagramContent {
       edges {
         node {
         link

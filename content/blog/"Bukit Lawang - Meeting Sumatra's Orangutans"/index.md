@@ -8,6 +8,7 @@ slug: 2018-8-9-bukit-lawang-meeting-sumatras-orangutans
 draft: false
 meta_title: "Bukit Lawang - Meeting Sumatra's Orangutans"
 image: DSC_8438.jpg
+categories: ["travel"]
 ---
 
 ## Getting there
