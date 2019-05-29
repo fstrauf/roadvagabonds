@@ -9,18 +9,8 @@ import categoryHash from '../pages/categories.json'
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
 
-// const changeFilter = title => {
-//   this.setState = 'filter:' + { title }
-//   console.log(this.state.title)
-// }
 
-// const { data } = this.props
-// this.state = {
-//   filter: 'all'
-// }
 
-// const siteTitle = "test"//data.site.siteMetadata.title
-// const posts = data.allMarkdownRemark.edges
 const Section = styled("div")({
   margin: '1.5rem 0',
 })
@@ -129,7 +119,7 @@ export const pageQuery = graphql`
     }
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: {frontmatter: {categories: {eq: $cat}}}
+      filter: {frontmatter: {categories: {regex: $cat}}}
       # limit: $limit
       # skip: $skip
       limit: 100

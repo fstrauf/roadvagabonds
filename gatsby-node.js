@@ -12,19 +12,18 @@ const wrapper = promise =>
   })
 
 exports.onCreatePage = ({ page, actions }) => {
-  const { createPage } = actions
-    console.log(page)
-    return createPage({
-      ...page,
-      path: page.path,
-      context: {
-        // slug: page.node.fields.slug,
-            // previous,
-            // next,
-        cat: `life`,
-      },
-    })
+  const { createPage, deletePage } = actions
   
+  deletePage(page)
+
+  return createPage({
+    ...page,
+    path: page.path,
+    context: {
+      cat: `//`, //wildcard regex search
+    },
+  })
+
 }
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -63,58 +62,6 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 
   createPosts(result.data.allMarkdownRemark.edges, createPage, blogPost)
-  
-
-  // ).then(result => {
-  //   if (result.errors) {
-  //     throw result.errors
-  //   }
-
-  //   // Create blog posts pages.
-  //   const posts = result.data.allMarkdownRemark.edges
-
-  //   posts.forEach((post, index) => {
-  //     const previous = index === posts.length - 1 ? null : posts[index + 1].node
-  //     const next = index === 0 ? null : posts[index - 1].node
-
-  //     if (post.node.frontmatter.layout == 'post') {
-  //       createPage({
-  //         path: post.node.fields.slug,
-  //         component: blogPost,
-  //         context: {
-  //           slug: post.node.fields.slug,
-  //           // previous,
-  //           // next,
-  //           cat: `travel`,
-  //         },
-  //       })
-  //     }
-  //   })
-
-    // // Tag pages:
-    // let tags = []
-    // // Iterate through each post, putting all found tags into `tags`
-    // _.each(posts, edge => {
-    //   if (_.get(edge, "node.frontmatter.tags")) {
-    //     tags = tags.concat(edge.node.frontmatter.tags)
-    //   }
-    // })
-    // // Eliminate duplicate tags
-    // tags = _.uniq(tags)
-
-    // // Make tag pages
-    // tags.forEach(tag => {
-    //   createPage({
-    //     path: `/tags/${_.kebabCase(tag)}/`,
-    //     component: tagTemplate,
-    //     context: {
-    //       tag,
-    //     },
-    //   })
-    // })
-
-    // return null
-  // })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
