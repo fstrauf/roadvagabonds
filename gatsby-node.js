@@ -23,7 +23,6 @@ exports.onCreatePage = ({ page, actions }) => {
       cat: `//`, //wildcard regex search
     },
   })
-
 }
 
 exports.createPages = async ({ graphql, actions }) => {

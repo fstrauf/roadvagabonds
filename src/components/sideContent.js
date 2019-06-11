@@ -4,10 +4,11 @@ import styled from '@emotion/styled';
 import Image from 'gatsby-image'
 
 const RightColumn = styled('div')({
-    width: '25%',
+    width: '30%',
     paddingLeft: '20px',
     display: 'table-cell',
-    background: '#F9A'
+    background: '#F9A',
+    position: 'fixed'
 })
 
 //todo outsource
@@ -19,7 +20,7 @@ const Card = styled('div')({
 
 const Container = styled('div')({
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
+    gridTemplateColumns: 'repeat(3, 1fr)',
     gridColumnGap: '5px',
     gridRowGap: '5px',
 })

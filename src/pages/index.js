@@ -3,42 +3,46 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import BlogList from '../components/blogList'
+// import BlogList from '../components/blogList'
 import styled from "@emotion/styled"
-import categoryHash from '../pages/categories.json'
+// import categoryHash from '../pages/categories.json'
+// import BlogSection from "../components/blogSection"
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
-
-
+import ItemBlog from '../components/ItemBlog'
 
 const Section = styled("div")({
   margin: '1.5rem 0',
 })
 
-const Button = styled('button')({
-  display: 'inline-block',
-  backgroundColor: 'white',
-  padding: '0.1em 1em',
-  margin: '0 1em 0.1em 0',
-  border: '0.16em solid #4CAF50',
-  borderRadius: '2em',
-  boxSizing: 'border-box',
-  textDecoration: 'none',
-  fontFamily: 'sans-serif',
-  fontWeight: '300',
-  color: 'black',
-  textShadow: '0 0.04em 0.04em #AAAAAA',
-  textAlign: 'center',
-  transitionDuration: '0.4s',
-  transition: 'all 0.2s',
-  ':hover': {
-    backgroundColor: '#4CAF50',
-  },
-  '@media all and (max-width:30em)': {
-    display: 'block',
-    margin: '0.2em auto',
-  }
-})
+// const Button = styled('button')({
+//   display: 'inline-block',
+//   backgroundColor: 'white',
+//   padding: '0.1em 1em',
+//   margin: '0 1em 0.1em 0',
+//   border: '0.16em solid #4CAF50',
+//   borderRadius: '2em',
+//   boxSizing: 'border-box',
+//   textDecoration: 'none',
+//   fontFamily: 'sans-serif',
+//   fontWeight: '300',
+//   color: 'black',
+//   textShadow: '0 0.04em 0.04em #AAAAAA',
+//   textAlign: 'center',
+//   transitionDuration: '0.4s',
+//   transition: 'all 0.2s',
+//   ':hover': {
+//     backgroundColor: '#4CAF50',
+//   },
+//   '@media all and (max-width:30em)': {
+//     display: 'block',
+//     margin: '0.2em auto',
+//   }
+// })
+
+// function changeFilter = node => (
+//   node
+// )
 
 const Index = ({
   data: {
@@ -53,43 +57,59 @@ const Index = ({
       {/* <Header /> */}
       <Bio />
       <div style={{
-        display: 'table-cell',
         height: '100%',
         width: '100%',
-        background: '#F1684E'
+        background: '#F1684E',
+        display: 'table'
       }}>
-        {categoryHash.categories.map(({ title }) => {
+        {/* {categoryHash.categories.map(({ title }) => {
           return (
-            <Button 
-              key={title} 
-              // onClick={event => this.changeFilter(title)}
-              >
+            <Button
+              key={title}
+              onClick={event => this.changeFilter(title)}
+            >
               {title}
             </Button>
           )
-        })}
+        })} */}
+        <div style={{
+        height: '100%',
+        width: '70%',
+        background: '#F1eeee',
+        display: 'table-cell'
+        }}> 
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          {/* const title = node.frontmatter.title || node.fields.slug */ }
           return (
             <div
               key={node.fields.slug}
               style={{
                 background: '#CCCC51',
+                // width: '70%',
               }}>
               <Section>
-                <BlogList
+                {/* <BlogList
                   node={node}
-                />
+                /> */}
+                  <ItemBlog
+                    key={node.fields.slug}
+                    path={node.fields.slug}
+                    cover={node.frontmatter.image.childImageSharp.fluid}
+                    title={node.frontmatter.title}
+                    date={node.frontmatter.date}
+                    category={node.frontmatter.categories}
+                    excerpt={node.excerpt}
+                  />               
               </Section>
             </div>
           )
         })}
+        </div>
+
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>
   )
-
-
 
 export default Index
 
@@ -133,6 +153,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            categories
             image {
                 childImageSharp {
                   # resize(width: 1500, height: 1500) {
@@ -161,7 +182,7 @@ export const pageQuery = graphql`
         }
         localImage{
             childImageSharp {
-                fluid(maxHeight: 500, maxWidth: 500 quality: 50) {
+                fluid(maxHeight: 1000, maxWidth: 1000 quality: 50) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
             }
@@ -181,3 +202,32 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+
+// {categoryHash.categories.map(({ title }) => {
+//   return (
+//     <Button 
+//       key={title} 
+//       // onClick={event => this.changeFilter(title)}
+//       >
+//       {title}
+//     </Button>
+//   )
+// })}
+// {posts.map(({ node }) => {
+//   {/* const title = node.frontmatter.title || node.fields.slug */}
+//   return (
+//     <div
+//       key={node.fields.slug}
+//       style={{
+//         background: '#CCCC51',
+//       }}>
+//       <Section>
+//         <BlogList
+//           node={node}
+//         />
+//       </Section>
+//     </div>
+//   )
+// })}

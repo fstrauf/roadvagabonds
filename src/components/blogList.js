@@ -22,7 +22,7 @@ const Card = styled('div')({
 
 const LeftColumn = styled('div')({
     float: 'left',
-    width: '75%',
+    width: '70%',
 })
 
 const imgStyle = {

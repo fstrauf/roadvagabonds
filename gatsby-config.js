@@ -5,7 +5,7 @@ module.exports = {
     description: `Our blog for travel, troopy and adventure!`,
     siteUrl: `https://nostalgic-leakey-9b5457.netlify.com/`,
     social: {
-      instagram: `fstrauf`,
+      instagram: `roadvagabonds`,
     },
     menuLinks: [
       {
@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram-all`,
       options: {
-        access_token: "7108811573.1677ed0.d41dc21c794a476787fe7118e5dcd1e0"
+        access_token: "13353892861.1677ed0.3d1e027d2b64459fac8cb3633b80f4de"
       }
     },
     {
