@@ -202,32 +202,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-
-
-// {categoryHash.categories.map(({ title }) => {
-//   return (
-//     <Button 
-//       key={title} 
-//       // onClick={event => this.changeFilter(title)}
-//       >
-//       {title}
-//     </Button>
-//   )
-// })}
-// {posts.map(({ node }) => {
-//   {/* const title = node.frontmatter.title || node.fields.slug */}
-//   return (
-//     <div
-//       key={node.fields.slug}
-//       style={{
-//         background: '#CCCC51',
-//       }}>
-//       <Section>
-//         <BlogList
-//           node={node}
-//         />
-//       </Section>
-//     </div>
-//   )
-// })}
