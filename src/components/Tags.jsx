@@ -35,7 +35,7 @@ const Tags = ({ tags, linkPrefix }) => (
   <TagsContainer>
     {tags.map(tag => (
 
-      <Link
+      <Tag
         to={tag}
         style={{
           boxShadow: `none`,
@@ -44,7 +44,7 @@ const Tags = ({ tags, linkPrefix }) => (
         }}
       >
         {tag}
-      </Link>
+      </Tag>
     ))}
   </TagsContainer>
 )

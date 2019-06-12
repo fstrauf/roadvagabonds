@@ -39,13 +39,6 @@ const Categories = ({
 
 export default Categories
 
-// Categories.propTypes = {
-//   data: PropTypes.shape({
-//     content: PropTypes.object.isRequired,
-//     posts: PropTypes.object.isRequired,
-//   }).isRequired,
-// }
-
 export const pageQuery = graphql`
   query CategoriesPage{
     content: site {

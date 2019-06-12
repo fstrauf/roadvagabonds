@@ -1,7 +1,7 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require('lodash');
-const { createPosts } = require('./src/utils/pageCreator')
+const { createPosts, createCategories } = require('./src/utils/pageCreator')
 
 const wrapper = promise =>
   promise.then(result => {
@@ -29,7 +29,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const initialQuery =
     `
-    
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
         limit: 1000
@@ -46,11 +45,17 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-
+      posts: allMarkdownRemark(
+        limit: 2000) {
+        group(field: frontmatter___categories) {
+          fieldValue
+        }
+      }   
     `
 
   // ####### Blog Post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const categoryTemplate = require.resolve('./src/templates/category-pages.jsx')
 
   const result = await wrapper(
     graphql(`
@@ -61,6 +66,7 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 
   createPosts(result.data.allMarkdownRemark.edges, createPage, blogPost)
+  createCategories(result.data.posts.group, createPage, categoryTemplate)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

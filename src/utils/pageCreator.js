@@ -33,4 +33,19 @@ const createPosts = (list, createPage, template) =>
     })
   })
 
-module.exports = { createPosts }
+
+  const createCategories = (list, createPage, template) =>
+  list.forEach(c => {
+    const category = c.fieldValue
+    const path = `/categories/${_.kebabCase(category)}`
+    createPage({
+      path: path,
+      component: template,
+      context: {
+        category,
+        cat: '/{category}/',
+      },
+    })
+  })
+
+module.exports = { createPosts, createCategories }

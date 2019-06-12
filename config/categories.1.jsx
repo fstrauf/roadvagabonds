@@ -72,23 +72,7 @@ export default Categories
 //   }
 // `
 
-// export const pageQuery = graphql`
-//   query CategoriesPage($locale: String!) {
-//     categories: allPrismicKategorie(sort: { fields: data___kategorie, order: ASC }, filter: { lang: { eq: $locale } }) {
-//       totalCount
-//       edges {
-//         node {
-//           data {
-//             kategorie
-//           }
-//         }
-//       }
-//     }
-//     posts: allPrismicBlogpost(filter: { lang: { eq: $locale } }) {
-//       totalCount
-//     }
-//   }
-// `
+
 
 
   {/* <SkipNavContent>
