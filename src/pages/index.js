@@ -15,7 +15,7 @@ const Section = styled("div")({
 })
 
 const CategoriesContainer = styled(Container)`
-  margin: 4rem auto;
+  
   a {
     font-size: 1rem !important;
     padding: 0.25rem 0.85rem !important;
@@ -47,9 +47,6 @@ const CategoriesContainer = styled(Container)`
 //   }
 // })
 
-// function changeFilter = node => (
-//   node
-// )
 
 const Index = ({
   data: {
@@ -62,7 +59,6 @@ const Index = ({
 }) => (
     <Layout title={site.title}>
       <SEO title="All posts" />
-      {/* <Header /> */}
       <Bio />
       <CategoriesContainer>
         <Tags tags={cats.group} linkPrefix="categories" />

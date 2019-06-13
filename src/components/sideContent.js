@@ -8,7 +8,7 @@ const RightColumn = styled('div')({
     paddingLeft: '20px',
     display: 'table-cell',
     background: '#F9A',
-    position: 'fixed'
+    verticalAlign: 'top',
 })
 
 //todo outsource
