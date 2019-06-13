@@ -30,6 +30,16 @@ const Tag = styled(props => <Link {...props} />)`
 
 const Tags = ({ tags, linkPrefix }) => (
   <TagsContainer>
+    <Tag
+      to='/'
+      style={{
+        boxShadow: `none`,
+        textDecoration: `none`,
+        color: `inherit`,
+      }}
+    >
+      all
+    </Tag>
     {tags.map(tag => (
 
       <Tag
@@ -41,8 +51,18 @@ const Tags = ({ tags, linkPrefix }) => (
         }}
       >
         {tag.fieldValue}
-      </Tag>
+      </Tag>      
     ))}
+    <Tag
+      to='/categories'
+      style={{
+        boxShadow: `none`,
+        textDecoration: `none`,
+        color: `inherit`,
+      }}
+    >
+      overview
+    </Tag>
   </TagsContainer>
 )
 

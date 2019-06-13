@@ -3,75 +3,46 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-// import BlogList from '../components/blogList'
 import styled from "@emotion/styled"
-// import categoryHash from '../pages/categories.json'
-// import BlogSection from "../components/blogSection"
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
 import ItemBlog from '../components/ItemBlog'
+import Container from '../elements/Container'
+import Tags from '../components/Tags'
 
 const Section = styled("div")({
   margin: '1.5rem 0',
 })
 
-// const Button = styled('button')({
-//   display: 'inline-block',
-//   backgroundColor: 'white',
-//   padding: '0.1em 1em',
-//   margin: '0 1em 0.1em 0',
-//   border: '0.16em solid #4CAF50',
-//   borderRadius: '2em',
-//   boxSizing: 'border-box',
-//   textDecoration: 'none',
-//   fontFamily: 'sans-serif',
-//   fontWeight: '300',
-//   color: 'black',
-//   textShadow: '0 0.04em 0.04em #AAAAAA',
-//   textAlign: 'center',
-//   transitionDuration: '0.4s',
-//   transition: 'all 0.2s',
-//   ':hover': {
-//     backgroundColor: '#4CAF50',
-//   },
-//   '@media all and (max-width:30em)': {
-//     display: 'block',
-//     margin: '0.2em auto',
-//   }
-// })
-
-// function changeFilter = node => (
-//   node
-// )
+const CategoriesContainer = styled(Container)`
+  margin: 4rem auto;
+  a {
+    font-size: 1rem !important;
+    padding: 0.25rem 0.85rem !important;
+  }
+`
 
 const CategoryPage = ({
   data: {
     content: { siteMetadata: site },
     blog: { edges: posts },
     insta: { edges: allInsta },
+    cats
   },
   pageContext: { cat },
 }) => (
     <Layout title={site.title}>
       <SEO title="All posts" />
-      {/* <Header /> */}
       <Bio />
+      <CategoriesContainer>
+        <Tags tags={cats.group} linkPrefix="categories" />
+      </CategoriesContainer>
       <div style={{
         height: '100%',
         width: '100%',
         background: '#F1684E',
         display: 'table'
       }}>
-        {/* {categoryHash.categories.map(({ title }) => {
-          return (
-            <Button
-              key={title}
-              onClick={event => this.changeFilter(title)}
-            >
-              {title}
-            </Button>
-          )
-        })} */}
         <div style={{
         height: '100%',
         width: '70%',
@@ -79,7 +50,6 @@ const CategoryPage = ({
         display: 'table-cell'
         }}> 
         {posts.map(({ node }) => {
-          {/* const title = node.frontmatter.title || node.fields.slug */ }
           return (
             <div
               key={node.fields.slug}
@@ -101,7 +71,6 @@ const CategoryPage = ({
           )
         })}
         </div>
-
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>
@@ -125,6 +94,13 @@ CategoryPage.propTypes = {
 
 export const pageQuery = graphql`
   query CategoryPage($cat: String!) {  
+    cats: allMarkdownRemark(
+      limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
+      }
+    }
     content: site {
       siteMetadata {
         title
@@ -136,8 +112,6 @@ export const pageQuery = graphql`
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
-      # limit: $limit
-      # skip: $skip
       limit: 100
     ) {
       edges {
@@ -152,9 +126,6 @@ export const pageQuery = graphql`
             categories
             image {
                 childImageSharp {
-                  # resize(width: 1500, height: 1500) {
-                  #   src
-                  # }
                   fluid(
                     maxWidth: 700,
                     maxHeight: 300) {

@@ -3,17 +3,24 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-// import BlogList from '../components/blogList'
 import styled from "@emotion/styled"
-// import categoryHash from '../pages/categories.json'
-// import BlogSection from "../components/blogSection"
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
 import ItemBlog from '../components/ItemBlog'
+import Container from '../elements/Container'
+import Tags from '../components/Tags'
 
 const Section = styled("div")({
   margin: '1.5rem 0',
 })
+
+const CategoriesContainer = styled(Container)`
+  margin: 4rem auto;
+  a {
+    font-size: 1rem !important;
+    padding: 0.25rem 0.85rem !important;
+  }
+`
 
 // const Button = styled('button')({
 //   display: 'inline-block',
@@ -49,6 +56,7 @@ const Index = ({
     content: { siteMetadata: site },
     blog: { edges: posts },
     insta: { edges: allInsta },
+    cats
   },
   pageContext: { cat },
 }) => (
@@ -56,41 +64,29 @@ const Index = ({
       <SEO title="All posts" />
       {/* <Header /> */}
       <Bio />
+      <CategoriesContainer>
+        <Tags tags={cats.group} linkPrefix="categories" />
+      </CategoriesContainer>
       <div style={{
         height: '100%',
         width: '100%',
         background: '#F1684E',
         display: 'table'
       }}>
-        {/* {categoryHash.categories.map(({ title }) => {
-          return (
-            <Button
-              key={title}
-              onClick={event => this.changeFilter(title)}
-            >
-              {title}
-            </Button>
-          )
-        })} */}
         <div style={{
-        height: '100%',
-        width: '70%',
-        background: '#F1eeee',
-        display: 'table-cell'
-        }}> 
-        {posts.map(({ node }) => {
-          {/* const title = node.frontmatter.title || node.fields.slug */ }
-          return (
-            <div
-              key={node.fields.slug}
-              style={{
-                background: '#CCCC51',
-                // width: '70%',
-              }}>
-              <Section>
-                {/* <BlogList
-                  node={node}
-                /> */}
+          height: '100%',
+          width: '70%',
+          background: '#F1eeee',
+          display: 'table-cell'
+        }}>
+          {posts.map(({ node }) => {
+            return (
+              <div
+                key={node.fields.slug}
+                style={{
+                  background: '#CCCC51',
+                }}>
+                <Section>
                   <ItemBlog
                     key={node.fields.slug}
                     path={node.fields.slug}
@@ -99,11 +95,11 @@ const Index = ({
                     date={node.frontmatter.date}
                     category={node.frontmatter.categories}
                     excerpt={node.excerpt}
-                  />               
-              </Section>
-            </div>
-          )
-        })}
+                  />
+                </Section>
+              </div>
+            )
+          })}
         </div>
 
         <SideContent posts={allInsta} insta={site.social.instagram} />
@@ -129,6 +125,13 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery($cat: String!) {  
+    cats: allMarkdownRemark(
+      limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
+      }
+    }
     content: site {
       siteMetadata {
         title
@@ -140,8 +143,7 @@ export const pageQuery = graphql`
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
-      # limit: $limit
-      # skip: $skip
+
       limit: 100
     ) {
       edges {
@@ -156,9 +158,6 @@ export const pageQuery = graphql`
             categories
             image {
                 childImageSharp {
-                  # resize(width: 1500, height: 1500) {
-                  #   src
-                  # }
                   fluid(
                     maxWidth: 700,
                     maxHeight: 300) {
