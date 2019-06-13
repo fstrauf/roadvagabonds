@@ -9,6 +9,7 @@ draft: false
 meta_title: "Bukit Lawang - Meeting Sumatra's Orangutans"
 image: DSC_8438.jpg
 categories: ["travel"]
+initial: B
 ---
 
 ## Getting there

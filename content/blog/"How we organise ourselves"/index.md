@@ -9,6 +9,7 @@ draft: false
 meta_title: "How we organise ourselves"
 image: Capture.jpg
 categories: ["life"]
+initial: H
 ---
 
 Moving to different countries requires a fair bit of planning and bookkeeping:

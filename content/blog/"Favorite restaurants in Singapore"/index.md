@@ -9,6 +9,7 @@ draft: true
 meta_title: "Favorite restaurants in Singapore"
 image: IMG_7163.jpg
 categories: ["travel"]
+initial: F
 ---
 
 ## Little Island Brewing Co

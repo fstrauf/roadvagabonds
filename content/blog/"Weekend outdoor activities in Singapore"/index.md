@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend outdoor activities in Singapore"
 image: IMG_5142.jpg
 categories: ["travel"]
+initial: W
 ---
 
 ## Botanical Garden

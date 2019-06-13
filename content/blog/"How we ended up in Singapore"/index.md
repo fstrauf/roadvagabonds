@@ -9,6 +9,7 @@ draft: false
 meta_title: "How we ended up in Singapore"
 image: IMG_3700.jpg
 categories: ["life"]
+initial: H
 ---
 
 ## Why we considered Singapore a good idea

@@ -14,20 +14,49 @@ const CategoriesContainer = styled(Container)`
   }
 `
 
-// const allCategories = categoryHash.categories.map(category => category.title)
+const Grid = styled('div')({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(3, 1fr)',
+  gridColumnGap: '5px',
+  gridRowGap: '5px',
+})
+
+function sortPosts(initials) {
+  let sortedPosts
+  sortedPosts = initials.map(function (item) {
+    
+    return item.node.frontmatter.title
+  })
+  console.log(sortedPosts)
+  return sortedPosts
+}
 
 const Categories = ({
   data: {
     content: { siteMetadata: site },
-    posts
+    posts,
+    initials
   },
 }) => (
     <Layout title={site.title}>
       <SkipNavContent>
-          <CategoriesContainer>
-            <Tags tags={posts.group} linkPrefix="categories" />
-          </CategoriesContainer>
+        <CategoriesContainer>
+          <Tags tags={posts.group} linkPrefix="categories" />
+        </CategoriesContainer>
       </SkipNavContent>
+      <Grid className='grid'>
+        {sortPosts(initials.edges).map(({ node }) => {
+          return (
+            <div
+              key={node}
+              style={{
+                background: '#CCCC51',
+              }}>
+              {node}
+            </div>
+          )
+        })}
+      </Grid>
     </Layout>
   )
 
@@ -50,5 +79,17 @@ export const pageQuery = graphql`
         totalCount
       }
     }
+    initials:  allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
   }
 `

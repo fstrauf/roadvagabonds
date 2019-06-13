@@ -9,6 +9,7 @@ draft: false
 meta_title: "Favorite bars in Singapore"
 image: IMG_7723.jpg
 categories: ["travel"]
+initial: F
 ---
 
 ## ATLAS Bar

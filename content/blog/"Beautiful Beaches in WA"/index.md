@@ -9,6 +9,7 @@ draft: false
 meta_title: "Beautiful Beaches in WA"
 image: DSC_0744.jpg
 categories: ["travel"]
+initial: B
 ---
 
 ## Perth

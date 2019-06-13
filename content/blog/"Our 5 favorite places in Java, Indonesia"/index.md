@@ -9,6 +9,7 @@ draft: false
 meta_title: "Our 5 favorite places in Java, Indonesia"
 image: IMG_2516.jpg
 categories: ["travel"]
+initial: O
 ---
 
 ## Java

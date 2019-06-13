@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend Getaway - Phi Phi Island, Thailand"
 image: IMG_4995.jpg
 categories: ["travel"]
+initial: W
 ---
 
 ## Getting There

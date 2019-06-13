@@ -9,6 +9,7 @@ draft: false
 meta_title: "Roadtrip Taiwan"
 image: DSC_1770.jpg
 categories: ["travel"]
+initial: O
 ---
 
 ![](http://localhost:8888/wordpress/wp-content/uploads/2018/08/Taipei.jpgTaipei?format=original)

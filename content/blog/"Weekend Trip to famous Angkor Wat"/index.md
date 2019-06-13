@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
 image: DSC_3557.jpg
 categories: ["travel"]
+initial: W
 ---
 
 ## Getting there

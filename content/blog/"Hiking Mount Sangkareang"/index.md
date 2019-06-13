@@ -9,6 +9,7 @@ draft: false
 meta_title: "Hiking Mount Sangkareang"
 image: DSC_6800.jpg
 categories: ["travel"]
+initial: H
 ---
 
 ## Sangkareang

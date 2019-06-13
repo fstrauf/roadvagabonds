@@ -9,6 +9,7 @@ draft: false
 meta_title: "Vietnam - A one week trip"
 image: DSC_4018.jpg
 categories: ["travel"]
+initial: V
 ---
 
 ## Vietnam
