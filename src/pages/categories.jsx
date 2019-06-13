@@ -2,12 +2,9 @@ import React from "react"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import styled from "@emotion/styled"
-// import '../css/toggleButton.css'
-// import PropTypes from 'prop-types'
-import categoryHash from '../pages/categories.json'
 import Container from '../elements/Container'
-// import SkipNavContent from '../elements/SkipNavLink'
 import Tags from '../components/Tags'
+import { SkipNavContent } from '../elements/SkipNavLink'
 
 const CategoriesContainer = styled(Container)`
   margin: 4rem auto;
@@ -17,7 +14,7 @@ const CategoriesContainer = styled(Container)`
   }
 `
 
-const allCategories = categoryHash.categories.map(category => category.title)
+// const allCategories = categoryHash.categories.map(category => category.title)
 
 const Categories = ({
   data: {
@@ -26,14 +23,11 @@ const Categories = ({
   },
 }) => (
     <Layout title={site.title}>
-                {/* <SkipNavContent> */}
-              
-                <CategoriesContainer>
-                  <Tags tags={allCategories} linkPrefix="categories" />
-                </CategoriesContainer>
-              
-            {/* </SkipNavContent> */}
-
+      <SkipNavContent>
+          <CategoriesContainer>
+            <Tags tags={posts.group} linkPrefix="categories" />
+          </CategoriesContainer>
+      </SkipNavContent>
     </Layout>
   )
 

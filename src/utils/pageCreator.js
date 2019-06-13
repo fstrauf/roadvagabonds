@@ -43,7 +43,7 @@ const createPosts = (list, createPage, template) =>
       component: template,
       context: {
         category,
-        cat: '/{category}/',
+        cat: `/${category}/`,
       },
     })
   })

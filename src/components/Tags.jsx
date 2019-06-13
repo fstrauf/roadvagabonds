@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { kebabCase } from 'lodash/kebabCase'
-// import PropTypes from 'prop-types'
-// import LocalizedLink from '../elements/LocalizedLink'
 import { darken } from 'polished'
 import { Link } from 'gatsby'
 
@@ -36,22 +33,17 @@ const Tags = ({ tags, linkPrefix }) => (
     {tags.map(tag => (
 
       <Tag
-        to={tag}
+        to={`${linkPrefix}/${tag.fieldValue}`}
         style={{
           boxShadow: `none`,
           textDecoration: `none`,
           color: `inherit`,
         }}
       >
-        {tag}
+        {tag.fieldValue}
       </Tag>
     ))}
   </TagsContainer>
 )
 
 export default Tags
-
-// Tags.propTypes = {
-//   tags: PropTypes.array.isRequired,
-//   linkPrefix: PropTypes.oneOf(['tags', 'categories']).isRequired,
-// }
