@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Img from 'gatsby-image'
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,10 +28,6 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        {/* <Img style={{
-              marginBottom: rhythm(1)
-            }} 
-            fluid={post.frontmatter.image.childImageSharp.fluid} /> */}
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

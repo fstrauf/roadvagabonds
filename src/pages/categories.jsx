@@ -22,10 +22,10 @@ const Grid = styled('div')({
 })
 
 function sortPosts(initials) {
-  let sortedPosts
+
   let newObj = {}
   let formObj = []
-  sortedPosts = initials.map(function (item) {
+  initials.map(function (item) {
     let initial = item.node.frontmatter.title.charAt(0)
 
     if (!newObj.hasOwnProperty(initial)) {
