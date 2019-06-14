@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from "../components/layout"
 import styled from "@emotion/styled"
 import Container from '../elements/Container'
@@ -23,12 +23,36 @@ const Grid = styled('div')({
 
 function sortPosts(initials) {
   let sortedPosts
+  let newObj = {}
+  let formObj = []
   sortedPosts = initials.map(function (item) {
-    
-    return item.node.frontmatter.title
+    let initial = item.node.frontmatter.title.charAt(0)
+
+    if (!newObj.hasOwnProperty(initial)) {
+      newObj[initial] = initial
+      newObj[initial] = []
+    }
+
+    newObj[initial].push({
+      title: item.node.frontmatter.title,
+      author: item.node.frontmatter.author,
+      date: item.node.frontmatter.date,
+      slug: item.node.frontmatter.slug,
+    })
+
+    return initial
   })
-  console.log(sortedPosts)
-  return sortedPosts
+
+  Object.entries(newObj).forEach(entry => {
+    let helpObj = {}
+    helpObj.header = entry[0]
+    helpObj.detail = entry[1]
+
+    formObj.push(helpObj)
+  })
+
+  console.log(formObj)
+  return formObj
 }
 
 const Categories = ({
@@ -45,17 +69,33 @@ const Categories = ({
         </CategoriesContainer>
       </SkipNavContent>
       <Grid className='grid'>
-        {sortPosts(initials.edges).map(({ node }) => {
+        {sortPosts(initials.edges).map(node => {
+          console.log(node)
           return (
-            <div
-              key={node}
-              style={{
-                background: '#CCCC51',
-              }}>
-              {node}
+            <div>
+              <div
+                key={node.header}
+                style={{
+                  background: '#CCCC51',
+                }}>
+                {node.header}
+              </div>
+              <ul>
+                {node.detail.map(detail => {
+                  console.log(detail)
+                  return (
+                    <li>
+                      <Link to={detail.slug}>
+                        {detail.title}
+                      </Link>
+                    </li>
+                  )
+                })}
+              </ul>
             </div>
           )
         })}
+
       </Grid>
     </Layout>
   )
@@ -87,6 +127,9 @@ export const pageQuery = graphql`
             node {
               frontmatter {
                 title
+                author
+                date
+                slug
               }
             }
           }
