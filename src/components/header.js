@@ -1,15 +1,11 @@
 import { Link } from "gatsby"
 import React from 'react'
-import { rhythm, scale } from "../utils/typography"
-
-
 
 const Header = ({ siteTitle, menuLinks }) => (
     <React.Fragment>
         <h1
-            style={{
-                ...scale(1.5),
-                marginBottom: rhythm(0.5),
+            style={{                
+                marginBottom: '0.5 rem',
                 marginTop: 0,
             }}
         >
@@ -38,7 +34,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                                 color: 'black',
                                 textDecoration: 'none',
                                 boxShadow: 'none',
-                                margin: rhythm(0.2)
+                                margin: '2 rem'
                             }}>
                             {link.name}</Link>
                     </li>

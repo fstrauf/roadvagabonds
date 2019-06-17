@@ -76,12 +76,11 @@ const Index = ({
           display: 'table-cell'
         }}>
           {posts.map(({ node }) => {
-            console.log(node)
             return (
               <div
                 key={node.fields.slug}
                 style={{
-                  background: '#CCCC51',
+                  background: '#77777',
                 }}>
                 <Section>
                   <ItemBlog

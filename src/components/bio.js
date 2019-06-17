@@ -1,6 +1,5 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
@@ -11,7 +10,7 @@ function Bio() {
         return (
           <div
             style={{
-              marginBottom: rhythm(2.5),
+              marginBottom: '2 rem',
               display:'table-row',
             }}
           >

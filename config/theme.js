@@ -123,6 +123,7 @@ const theme = {
     l: '1200px',
   },
   fontFamily: {
+    // "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     body: `Istok Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
     heading: `Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
   },
