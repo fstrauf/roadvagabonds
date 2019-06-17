@@ -12,6 +12,8 @@ categories: ["travel"]
 initial: F
 ---
 
+Singapore has a lot of great bar, here are our favourites<!-- end -->:
+
 ## ATLAS Bar
 
 600 North Bridge Rd, Parkview Square, Singapore 188778 | [<span style="text-decoration: underline;">+65 6396 4466</span>](https://www.google.com/search?q=atlas+bar&spell=1&sa=X&ved=0ahUKEwjOkPHsn8zfAhWKWrwKHRKhCUsQBQgrKAA&cshid=1546334423390000&biw=1442&bih=901# "Call via Hangouts") | [http://atlasbar.sg/](http://atlasbar.sg/)

@@ -12,7 +12,7 @@ categories: ["life"]
 initial: H
 ---
 
-Moving to different countries requires a fair bit of planning and bookkeeping:
+Moving to different countries requires a fair bit of planning and bookkeeping<!-- end -->:
 
 *   How much budget will we have?
     

@@ -12,9 +12,7 @@ categories: ["travel"]
 initial: V
 ---
 
-## Vietnam
-
-December might not be the best time to travel to Vietnam, because it's the cooler and rainier season. Nevertheless, we found cheap flights with [Jetstar](https://www.jetstar.com/sg/en/home) from Singapore to Da Nang. The flight is about 2 ½ hours and immigration is easy. Check out if you need a [Visa](https://www.vietnamimmigration.com/check-vietnam-visa-requirement/), some countries don't require one, like Germany.
+December might not be the best time to travel to Vietnam, because it's the cooler and rainier season.<!-- end --> Nevertheless, we found cheap flights with [Jetstar](https://www.jetstar.com/sg/en/home) from Singapore to Da Nang. The flight is about 2 ½ hours and immigration is easy. Check out if you need a [Visa](https://www.vietnamimmigration.com/check-vietnam-visa-requirement/), some countries don't require one, like Germany.
 
 After arriving in Da Nang we got some cash from the ATM (for a better exchange rate, change money at home) and bought a water to get small notes, some taxi drivers tend to have no change ;). Taxis are available at the airport, Grab works as well and it's even cheaper. We took a Grab to Hoi An, which took about 40 minutes and cost VND 350 k.
 

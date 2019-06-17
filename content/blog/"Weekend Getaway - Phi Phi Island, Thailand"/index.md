@@ -12,9 +12,7 @@ categories: ["travel"]
 initial: W
 ---
 
-## Getting There
-
-To escape the city for a weekend, Phi Phi Island in Thailand is a pretty good option. There are various Friday night flights from Singapore to Phuket. We jumped on a 1 ½ hour flight with [Jetstar](https://www.jetstar.com/sg/en/home). Due to our late arrival in Phuket we decided to stay there overnight, and catch the first ferry from Rassada Pier at 8:30 am (check the timetable [here](https://www.phuketferry.com/)).
+To escape the city for a weekend, Phi Phi Island in Thailand is a pretty good option. There are various Friday night flights from Singapore to Phuket. <!-- end -->We jumped on a 1 ½ hour flight with [Jetstar](https://www.jetstar.com/sg/en/home). Due to our late arrival in Phuket we decided to stay there overnight, and catch the first ferry from Rassada Pier at 8:30 am (check the timetable [here](https://www.phuketferry.com/)).
 
 The ticketing at the terminal can be quite a hassle on the first ferry as you won’t be the only ones with weekend plans. So just make sure the guys give you the right ticket to get back on the time you want (return ticket is cheaper).
 

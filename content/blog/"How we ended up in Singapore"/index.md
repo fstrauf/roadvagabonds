@@ -12,8 +12,6 @@ categories: ["life"]
 initial: H
 ---
 
-## Why we considered Singapore a good idea
-
 My husband always wanted to live and work outside of Germany for a while and he kind of managed to convince me to join him. The main reasons for Singapore were the secure, safe and developed country in the middle of this great region of Asia. We love travelling and exploring countries, so what really got us, was the location of Singapore. After almost 5 months we don’t regret our move here at all. We love the variety of affordable food and not affordable drinks, convenience of public transport, the super efficient airport that gets you almost everywhere and yes we even enjoy the always warm (hot & humid) climate here. Additionally to that we enjoy working and living with so many different ethnic groups, cultures and just types of people.
 
 I want to maintain the following section like a glossary and keep expanding it as we go - so expect some additional content once in a while.

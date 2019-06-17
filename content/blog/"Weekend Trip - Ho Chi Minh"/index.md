@@ -12,10 +12,6 @@ categories: ["travel"]
 initial: W
 ---
 
-\[caption id="" align="alignnone" width="2500.0"\]![ Ho Chi Minh City ](http://localhost:8888/wordpress/wp-content/uploads/2018/07/HoChiMinhCIty.jpgHo+Chi+Minh+CIty?format=original) Ho Chi Minh City \[/caption\]
-
-## Arriving at the Airport
-
 Jetstar offers really convenient evening flights on Friday and Sunday for a short weekend trip to Ho Chi Minh City. After arriving at the airport Ho Chi Minh, get some money from the ATM to pay for a taxi, it’s better to have some small money, sometimes the drivers don’t accept the big notes. Outside, go all the way to the left side and take the Vinsun Taxi or Mai Linh Taxi, they are registered and don’t manipulate their taximeter. The Ride to the city will take about 30 minutes.
 
 ## The Hammock Hotel

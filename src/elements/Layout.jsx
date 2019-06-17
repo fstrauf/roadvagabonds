@@ -1,14 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import { graphql, StaticQuery } from 'gatsby'
-// import { reset, headroom } from 'styles'
-// import { SEO, Navigation } from 'components'
-// import { SkipNavLink } from 'elements'
+import { ThemeProvider } from 'styled-components'
+import { StaticQuery } from 'gatsby'
 import 'typeface-montserrat'
 import 'typeface-istok-web'
 import theme from '../../config/theme'
-// import locales from '../../config/i18n'
 
 const { Provider: LocaleProvider, Consumer: LocaleConsumer } = React.createContext()
 

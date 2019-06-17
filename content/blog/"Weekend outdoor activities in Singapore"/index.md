@@ -12,6 +12,8 @@ categories: ["travel"]
 initial: W
 ---
 
+Although being mostly City, Singapore still has a bunch outdoor activities on offer.<!-- end -->
+
 ## Botanical Garden
 
 With plenty of space to relax on the grass and have a picnic, the botanical garden of Singapore is a great location for a nice and sunny day. Lot’s of beautiful plants and flowers and different theme gardens to explore. Singapore Botanical Garden is the first and only tropical Botanical Garden on theUNESCO's World Heritage list.

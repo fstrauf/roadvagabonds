@@ -14,7 +14,7 @@ initial: H
 ---
 
 
-Our one week trip to the Land of the rising sun was an absolutely stunning adventure into buzzling cities and majestic mountains.
+Our one week trip to the Land of the rising sun was an absolutely stunning adventure into buzzling cities and majestic mountains.<!-- end -->
 
 ## Tokyo
 

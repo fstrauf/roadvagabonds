@@ -12,6 +12,8 @@ categories: ["travel"]
 initial: F
 ---
 
+In our year in Singapore we did not spend a lot of time cooking, here's why<!-- end -->:
+
 ## Little Island Brewing Co
 
 ![](./IMG_20181020_154933_HDR.jpg)
