@@ -118,5 +118,3 @@ Includes all that needs to be done to actually move. A few months before moving 
 ## Others
 
 Last but not least a feature I really love, to keep track of places I like and places I would like to check out - Google Maps. This is how my account looks for Singapore and it’s really handy to quickly pencil in a friends recommendation or something you just found on Facebook. Green are the places I want to go to and the heart-symbol are all places I really like:
-
-![](http://localhost:8888/wordpress/wp-content/uploads/2019/03/GoogleMapsSingapore.pngGoogle+Maps+Singapore?format=original)

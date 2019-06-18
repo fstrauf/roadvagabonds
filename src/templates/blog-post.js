@@ -4,6 +4,9 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "@emotion/styled"
+import ReactDisqusComments from 'react-disqus-comments'
+import Container from '../elements/Container'
+import Line from '../elements/Line'
 
 const postText = styled("div")`
   max-width: 46rem;
@@ -31,13 +34,26 @@ const postText = styled("div")`
   }
 `
 
+const DisqusContainer = styled(Container)`
+  margin-bottom: 4rem;
+`
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const site = this.props.data.site.siteMetadata
+
+      // Disqus
+    const disqus = {
+      shortname: 'roadvagabonds',
+      url: site.siteUrl,
+      identifier: post.frontmatter.slug,
+      title: site.title,
+      language: 'en',
+    }
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={site.title}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
@@ -59,6 +75,16 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
+        <DisqusContainer type="article">
+          <ReactDisqusComments
+            shortname={disqus.shortname}
+            identifier={disqus.identifier}
+            url={disqus.url}
+            title={disqus.title}
+            language={disqus.language}
+          />
+          <Line aria-hidden="true" />
+        </DisqusContainer>
       </Layout>
     )
   }
@@ -72,6 +98,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(

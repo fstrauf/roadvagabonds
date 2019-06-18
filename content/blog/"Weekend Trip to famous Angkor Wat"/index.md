@@ -105,4 +105,4 @@ After a full day of temple watching you should check out Pub Street. It’s a to
 *   Don’t forget sunscreen ;)
     
 
-\[caption id="" align="alignnone" width="1613.0"\]![ Angkor Wat ](http://localhost:8888/wordpress/wp-content/uploads/2018/11/AngkorWat.jpgAngkor+Wat?format=original) Angkor Wat \[/caption\]
+\[caption id="" align="alignnone" width="1613.0"\]![ Angkor Wat ]
