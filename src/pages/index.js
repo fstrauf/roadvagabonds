@@ -9,6 +9,10 @@ import PropTypes from 'prop-types'
 import ItemBlog from '../components/ItemBlog'
 import Container from '../elements/Container'
 import Tags from '../components/Tags'
+import Helmet from 'react-helmet'
+import favicon16 from '../../static/favicon16.png'
+import favicon32 from '../../static/favicon32.png'
+import favicon64 from '../../static/favicon64.png'
 
 const Section = styled("div")({
   margin: '1.5rem 0',
@@ -58,6 +62,14 @@ const Index = ({
   pageContext: { cat },
 }) => (
     <Layout title={site.title}>
+      <Helmet
+        title={site.title}
+        link={[
+          { rel: "icon", type: "image/png", sizes: "16x16", href: `${favicon16}` },
+          { rel: "icon", type: "image/png", sizes: "32x32", href: `${favicon32}` },
+          { rel: "shortcut icon", type: "image/png", href: `${favicon64}` },
+        ]}
+      />
       <SEO title="All posts" />
       <Bio />
       <CategoriesContainer>

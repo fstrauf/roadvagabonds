@@ -10,7 +10,6 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
-    "depcheck": "^0.8.1",
     "gatsby": "^2.5.4",
     "gatsby-cli": "^2.6.2",
     "gatsby-image": "^2.1.0",
@@ -31,8 +30,6 @@
     "gatsby-source-instagram-all": "^2.0.5",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
-    "glamor": "^2.20.40",
-    "glamorous": "^5.0.0",
     "polished": "^3.4.0",
     "prismjs": "^1.16.0",
     "prop-types": "^15.7.2",
@@ -44,9 +41,7 @@
     "typeface-istok-web": "0.0.71",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
-    "typography": "^0.16.19",
-    "typography-theme-irving": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.17.1"

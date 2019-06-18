@@ -13,18 +13,16 @@ const Layout = ({ children }) => (
       <div
         style={{
           margin: `0 auto`,
-          // maxWidth: '1000px',
           width: '100%',
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
-          background: '#123445'
+          background: theme.colors.black.lighter
         }}
       >
 
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
         <main>{children}</main>
         <footer>
-          {/* <Footer posts={data.allInstagramContent} insta={data.site.siteMetadata.social.instagram} /> */}
         </footer>
       </div>
       </ThemeProvider>
@@ -51,33 +49,6 @@ const siteTitleQuery = graphql`
             }
             
           }
-    #       allInstagramContent {
-    #   edges {
-    #     node {
-    #     link
-    #     caption{
-    #        text
-    #     }
-    #     localImage{
-    #         childImageSharp {
-    #             fluid(maxHeight: 500, maxWidth: 500 quality: 50) {
-    #                 ...GatsbyImageSharpFluid_withWebp_tracedSVG
-    #             }
-    #         }
-    #     }
-    #     images {
-    #         standard_resolution {
-    #           width
-    #           height
-    #           url
-    #         }
-    #         low_resolution{
-    #             url
-    #         }
-    #       }
-    #     }
-    #   }
-    # }
     }
   `
 

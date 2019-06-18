@@ -22,19 +22,21 @@ const Header = ({ siteTitle, menuLinks }) => (
         </h1>
         <nav>
             <ul style={{ 
-                display: 'flex', 
-                flex: 1, 
-                listStyle: 'none' 
+                display: 'flex',  
+                listStyle: 'none',
+                marginLeft: '0',                
             }}>
                 {menuLinks.map(link =>
-                    <li key={link.link} >
+                    <li key={link.link} style={{
+                        paddingRight: '1rem' 
+                    }}>
                         <Link
                             to={link.link}
                             style={{
                                 color: 'black',
                                 textDecoration: 'none',
                                 boxShadow: 'none',
-                                margin: '2 rem'
+                                margin: '5 rem'
                             }}>
                             {link.name}</Link>
                     </li>

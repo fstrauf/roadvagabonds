@@ -1,16 +1,16 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import Image from 'gatsby-image'
+import theme from '../../config/theme'
 
 const RightColumn = styled('div')({
     width: '30%',
     paddingLeft: '20px',
     display: 'table-cell',
-    background: '#F9A',
+    background: theme.colors.secondary.base,
     verticalAlign: 'top',
 })
 
-//todo outsource
 const Card = styled('div')({
     backgroundColor: 'white',
     padding: '5px',
@@ -53,7 +53,6 @@ class sideContent extends React.Component {
                         {
                             posts.map((item, i) => {
                                 let captionText = item.node.caption ? deleteTags(item.node.caption.text) : "Instagram Post"
-                                //Check for missing images
                                 return (
                                     item.node.localImage ?
                                         <a 

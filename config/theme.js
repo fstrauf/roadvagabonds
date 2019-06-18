@@ -10,7 +10,7 @@ const colors = {
   black: {
     base: '#333438',
     light: '#4b4e57',
-    lighter: '#696d77',
+    lighter: '#878787',
     blue: '#2e3246',
   },
   primary: {
@@ -21,7 +21,7 @@ const colors = {
     darker: '#45458d',
   },
   secondary: {
-    base: '#db8834',
+    base: '#E6D065',
     light: '#ffaf60',
     dark: '#d17c26',
   },

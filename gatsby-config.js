@@ -90,13 +90,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Road Vagabonds`,
+        short_name: `Road Vagabonds`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/RoadVagabonds_Logo-01.png`,
       },
     },
     `gatsby-plugin-offline`,

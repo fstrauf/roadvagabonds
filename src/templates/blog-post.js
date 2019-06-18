@@ -14,7 +14,7 @@ const postText = styled("div")`
     margin-right: 0;
     margin-top: 0;
     padding-bottom: 0;
-    padding-left: 0;
+    padding-left: 5;
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
@@ -59,34 +59,6 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
-
-
-
-        {/* <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul> */}
       </Layout>
     )
   }
