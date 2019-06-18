@@ -31,24 +31,10 @@ const postText = styled("div")`
   }
 `
 
-// const postText = styled("div")({
-//     margin-left: 1.45rem;
-//     margin-right: 0;
-//     margin-top: 0;
-//     padding-bottom: 0;
-//     padding-left: 0;
-//     padding-right: 0;
-//     padding-top: 0;
-//     margin-bottom: 1.45rem;
-//     list-style-position: outside;
-//     list-style-image: none;
-// })
-
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    // const { previous, next } = this.props.pageContext
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -117,7 +103,7 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(
-      fields: { slug: { eq: $slug } }
+      frontmatter: { slug: { eq: $slug } }
     ){
       id
       excerpt(pruneLength: 160)
@@ -125,6 +111,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        slug
         image {
           childImageSharp {
             resize(width: 1500, height: 1500) {

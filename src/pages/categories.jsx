@@ -70,7 +70,6 @@ const Categories = ({
       </SkipNavContent>
       <Grid className='grid'>
         {sortPosts(initials.edges).map(node => {
-          console.log(node)
           return (
             <div>
               <div

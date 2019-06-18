@@ -82,10 +82,11 @@ const Index = ({
                 style={{
                   background: '#77777',
                 }}>
+                {console.log(node.frontmatter.slug)}
                 <Section>
                   <ItemBlog
                     key={node.fields.slug}
-                    path={node.fields.slug}
+                    path={node.frontmatter.slug}
                     cover={node.frontmatter.image.childImageSharp.fluid}
                     title={node.frontmatter.title}
                     date={node.frontmatter.date}
@@ -152,6 +153,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             categories
+            slug
             image {
                 childImageSharp {
                   fluid(

@@ -52,14 +52,14 @@ const CategoryPage = ({
         {posts.map(({ node }) => {
           return (
             <div
-              key={node.fields.slug}
+              key={node.frontmatter.slug}
               style={{
                 background: '#CCCC51',
               }}>
               <Section>
                   <ItemBlog
-                    key={node.fields.slug}
-                    path={node.fields.slug}
+                    key={node.frontmatter.slug}
+                    path={node.frontmatter.slug}
                     cover={node.frontmatter.image.childImageSharp.fluid}
                     title={node.frontmatter.title}
                     date={node.frontmatter.date}
@@ -124,6 +124,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             categories
+            slug
             image {
                 childImageSharp {
                   fluid(
