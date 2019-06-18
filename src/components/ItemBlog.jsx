@@ -108,11 +108,8 @@ const ItemBlog = ({ path, cover, category, title, date, timeToRead, excerpt }) =
           <Link to={path}>
             <h2>{title}</h2>
           </Link>
-          <div>{date}</div>
           <Statistics>
-            {/* {localizedDate(date, locale)} &mdash; {timeToRead} {i18n.minutes} {i18n.reading_time} &mdash;{' '} */}
-            <Cat>{category}</Cat>
-            {/* <LocalizedLink to={`/categories/${kebabCase(category)}`}>{category}</LocalizedLink> */}
+            <Cat>{`${date}, ${category}`}</Cat>
           </Statistics>
           <Excerpt>{`${excerpt}...`}</Excerpt>
         </Information>

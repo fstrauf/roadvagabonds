@@ -45,7 +45,7 @@ class BlogPostTemplate extends React.Component {
 
       // Disqus
     const disqus = {
-      shortname: 'roadvagabonds',
+      shortname: 'roadvagabonds-com',
       url: site.siteUrl,
       identifier: post.frontmatter.slug,
       title: site.title,
@@ -74,7 +74,6 @@ class BlogPostTemplate extends React.Component {
             marginBottom: '1 rem',
           }}
         />
-        <Bio />
         <DisqusContainer type="article">
           <ReactDisqusComments
             shortname={disqus.shortname}
@@ -85,6 +84,9 @@ class BlogPostTemplate extends React.Component {
           />
           <Line aria-hidden="true" />
         </DisqusContainer>
+
+        <Bio />
+
       </Layout>
     )
   }
