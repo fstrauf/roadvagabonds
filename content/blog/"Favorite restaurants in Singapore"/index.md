@@ -7,9 +7,8 @@ tags: ["Singapore", "Eating", "Food", "Restaurants"]
 slug: 2018-9-21-our-favorite-restaurants-in-singapore
 draft: true
 meta_title: "Favorite restaurants in Singapore"
-image: IMG_7163.jpg
+image: burger-fish-an-chips-little-island-brewing-co.jpg
 categories: ["travel"]
-initial: F
 ---
 
 In our year in Singapore we did not spend a lot of time cooking, here's why<!-- end -->:

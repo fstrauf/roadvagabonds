@@ -9,7 +9,6 @@ draft: false
 meta_title: "How we organise ourselves"
 image: Capture.jpg
 categories: ["life"]
-initial: H
 ---
 
 Moving to different countries requires a fair bit of planning and bookkeeping<!-- end -->:
@@ -74,7 +73,7 @@ This is probably the most interesting - at least to me. We track our current inc
 
 In here we measure our expenses from various sources and match it to the income. By categorizing the expenses, we can easily see how much money we spend say for food or for transportation. We tried to use as few categories as possible so it does not get too confusing. With this you don’t only have an estimate, but you will get a pretty good average of your expenses over time and in case you change plans you have a good base for comparison.
 
-![](./Capture_21.jpg)
+![](./Capture.jpg)
 
 It seems like a lot of work, but it just takes 30 minutes every month. It’s easy; I’ll copy my bank and credit card statements for the respective month and classify the expenses into the categories (Groceries, Shopping, Dinner & Bars, Activities and Transport). This totals the sum per month, so the average balances accordingly. We use these documents a lot to detect areas with saving potential and calculate our way through crazy ideas of future projects we have. Check out this shared version [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRE7F4yAnF7_7r58KWCkX1lbKkOM0k364Z8G9eTe6Z2ZrjXCXYamR_KoepnRxv7rpAYo2S9rd7DdswA/pubhtml?widget=true&amp;headers=false).
 

@@ -7,10 +7,9 @@ tags: ["hiking", "Travel"]
 slug: 2018-9-11-hiking-in-the-japanese-alps
 draft: false
 meta_title: "Hiking in the Japanese alps"
-image: DSC_2203.jpg
+image: omote-ginza-clear-sky.jpg
 excerpt: "Test1234"
 categories: ["travel"]
-initial: H
 ---
 
 

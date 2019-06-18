@@ -9,7 +9,6 @@ draft: false
 meta_title: "Singapore - Cost of Living"
 image: gatsby-icon.png
 categories: ["life"]
-initial: S
 ---
 
 After living almost one year in one of the most expensive cities in the world, (this is [how we got here](https://vickystrauf.com/home-1/2018/6/15/how-we-ended-up-in-singapore)) I would like to share our personal experience with the costs of a life in Singapore. Of course all of this depends on your style of living, but it should give you a good overview.

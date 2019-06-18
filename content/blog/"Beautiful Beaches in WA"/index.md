@@ -7,9 +7,8 @@ tags: ["Australia", "Margaret River", "Travel", "Western Australia"]
 slug: 2018-5-30-the-beautiful-beaches-in-wa
 draft: false
 meta_title: "Beautiful Beaches in WA"
-image: DSC_0744.jpg
+image: margaret-river-beach-view.jpg
 categories: ["travel"]
-initial: B
 ---
 
 ## Perth

@@ -7,9 +7,8 @@ tags: ["Jungle", "Orangutan", "Travel", "Trekking"]
 slug: 2018-8-9-bukit-lawang-meeting-sumatras-orangutans
 draft: false
 meta_title: "Bukit Lawang - Meeting Sumatra's Orangutans"
-image: DSC_8438.jpg
+image: baby-orang-utan-upsidedown.jpg
 categories: ["travel"]
-initial: B
 ---
 
 ## Getting there
@@ -30,9 +29,7 @@ The most important thing is of course to book your jungle-tour. You will need a 
 
 ![](./bukit-monkeys-roof.jpg)
 
-![](./river-rafting-kidjpg)
-
-![](./river-rafting-truck-tyres.jpg)
+![](./river-rafting-kid.jpg)
 
 ## Jungle Trekking
 

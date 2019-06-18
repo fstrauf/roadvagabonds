@@ -7,9 +7,8 @@ tags: ["hiking", "Indomesia", "Lombok", "Rinjani", "Travel"]
 slug: 2018-5-22-hiking-mount-rinjani-sangkareal
 draft: false
 meta_title: "Hiking Mount Sangkareang"
-image: DSC_6800.jpg
+image: mount-rinjani.jpg
 categories: ["travel"]
-initial: H
 ---
 
 ## Sangkareang
@@ -35,7 +34,7 @@ With one guide and one porter it took us about 8 hours hiking through different 
 
 ![](./ascent-weeds.jpg)
 
-![](./ascent-tropical-cloud-forest .jpg)
+![](./ascent-tropical-cloud-forest.jpg)
 
 ![](./cloudy-forest.jpg)
 

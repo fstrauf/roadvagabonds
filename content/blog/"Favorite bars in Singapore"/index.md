@@ -7,9 +7,8 @@ tags: ["Bars", "Cocktail", "drinking", "Singapore"]
 slug: favoritebars
 draft: false
 meta_title: "Favorite bars in Singapore"
-image: IMG_7723.jpg
+image: atlas-bar-spirit-shelf.jpg
 categories: ["travel"]
-initial: F
 ---
 
 Singapore has a lot of great bar, here are our favourites<!-- end -->:
