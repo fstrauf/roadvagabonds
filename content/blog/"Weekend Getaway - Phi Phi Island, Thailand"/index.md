@@ -20,13 +20,13 @@ The ticketing at the terminal can be quite a hassle on the first ferry as you wo
 
 The ferry takes about 2 ½ hours and especially if it's packed and looks a little like rain, you want to make sure to get a seat inside. Our ferry stopped at the famous ‘The Beach’ film set, Maya Bay, which is quite spectacular but really crowded. Once arrived at Tonsai Pier in Phi Phi Island, you’ll have to pay a small ‘Keep the Island Clean’ - Fee and walk straight into a whole bunch of gentlemen wanting to take you to YOUR hotel. Most hotels have their own boat, so make sure to check upfront to know what to look for and what price it's going to be.
 
-![](./4B45B55B-AD1B-466F-91F5-EA1F11FDFBF3.jpg)
+![](./kho-phi-phi-restaurant.jpg)
 
-![](./DSC_1056.jpg)
+![](./phi-phi-island-harbor-boats.jpg)
 
-![](./DSC_1063.jpg)
+![](./phi-phi-island-harbor.jpg)
 
-![](./IMG_4995.jpg)
+![](./phi-phi-island-mountains.jpg)
 
 ## Phi Phi Island Village Resort
 
@@ -34,15 +34,15 @@ The ferry takes about 2 ½ hours and especially if it's packed and looks a littl
 
 You can take a swim in different pools and the beach is right in front of the hotel in case you prefer to swim in the ocean. Furthermore there is a huge Spa Area where they offer different types of Massages and a little shop with local wellness products. Alcohol in Singapore is quite pricey so we sure enjoyed the good and cheap cocktails at the Pool Bar and the Hotel Bar during happy hour. For breakfast they offer a great buffet with tons of options right in front of the beach.
 
-![](./DSC_0783.jpg)
+![](./phi-phi-island-village-resort.jpg)
 
-![](./DSC_0835.jpg)
+![](./phi-phi-island-hammock.jpg)
 
-![](./DSC_0942.jpg)
+![](./phi-phi-island-beach-and-ocean.jpg)
 
-![](./DSC_1033.jpg)
+![](./phi-phi-island-hammock-panorama.jpg)
 
-![](./IMG_20180519_171837_HDR.jpg)
+![](./phi-phi-island-resort-cocktails.jpg)
 
 ## Phi Phi Island
 
@@ -50,15 +50,15 @@ Phi Phi Island in general is very touristic and there might be better places to 
 
 For more adventure and action, ask for boat trips at your hotel. They usually offer trips to different snorkel and diving spots and other small islands with beautiful beaches.
 
-![](./DSC_0932.jpg)
+![](./phi-phi-island-boats.jpg)
 
-![](./DSC_0869.jpg)
+![](./phi-phi-island-mountain-view.jpg)
 
-![](./DSC_0922.jpg)
+![](./phi-phi-island-panorama.jpg)
 
-![](./DSC_0951.jpg)
+![](./phi-phi-island-waterview.jpg)
 
-![](./DSC_0944.jpg)
+![](./phi-phi-island-boats-on-beach.jpg)
 
 ## Things to bring
 

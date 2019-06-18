@@ -22,15 +22,15 @@ Our adventure to Paradise started in Padang, Sumatra. You can reach Padang easy 
 
 We were really happy to have a first class ticket, which included a cabin with two bunk beds! Second class passengers would sleep on a chair and the classes below were even more uncomfortable. We enjoyed a really good sunset dinner with a couple of Aussies and lots of Bintangs. After a more or less pleasant sleep on our overnight ferry, we reached the Mentawais after 14 hours the next morning. From here we moved onto a Speedboat taking us to Macaronis Resort, where we were welcomed with fresh coconuts after another 1 1/2 hours on a boat.
 
-![](./DSC_7663.jpg)
+![](./Ferry-to-mentawai.jpg)
 
-![](./DSC_7665.jpg)
+![](./first-class-ferry-cabin-bunkbeds.jpg)
 
-![](./DSC_7674.jpg)
+![](./ferry-seating-area.jpg)
 
-![](./DSC_7683.jpg)
+![](./beers-and-sunsets.jpg)
 
-![](./DSC_7930.jpg)
+![](./town-arrival-mentawais.jpg)
 
 ## Surf & Relax
 
@@ -38,11 +38,11 @@ Having spent the last 5 weeks all over Indonesia, I have to admit we had never s
 
 While Florian was surfing, I enjoyed the quiet and relaxing atmosphere at the pool, at the beach and had some amazing massages. I also used the Stand-up Paddle Board to explore the Mangroves and took the Shuttle boat to the surfing point to watch Florians surf sessions. During our stay everything was included except for alcohol. Everyday we had delicious food and spent time with nice and friendly people.
 
-![](./DSC_7721.jpg)
+![](./balkony-view-to-paradise.jpg)
 
-![](./DSC_7756.jpg)
+![](./crystal-clear-water-mangroves.jpg)
 
-![](./INDO4005.jpg)
+![](./macaronis-surf.jpg)
 
 ## Things to bring
 

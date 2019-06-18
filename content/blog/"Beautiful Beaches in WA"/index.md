@@ -16,25 +16,25 @@ initial: B
 
 My Husband needed to go to Perth for a two week business trip, so I took the chance to join him to go for a long weekend trip at the end. We stayed in Perth for a couple of days, did some Sightseeing and met some old friends from the Mentawais. On the weekend we visited Rottnest Island to see the little Quokkas. Getting there by ferry is easy - just book a ticket at [Rottnest Express](https://www.rottnestexpress.com.au/). Once arrived, you can rent a bike and take a ride around the island, which is probably the best thing to do. After exploring all the viewpoints, the lighthouse and Quokkas, we had a really good fish 'n chips and and some local wine right in front of the beach before our departure.
 
-![](./DSC_0328.jpg)
+![](./view-perth-skyline.jpg)
 
-![](./DSC_0347.jpg)
+![](./rainbow-lorikeet.jpg)
 
-![](./DSC_0354.jpg)
+![](./perth-skyline-night.jpg)
 
-![](./DSC_0384.jpg)
+![](./rottnest-island-view.jpg)
 
-![](./DSC_0369.jpg)
+![](./rotnest-island-beach.jpg)
 
-![](./IMG_20180325_123751.jpg)
+![](./rottnest-island-bike-ride.jpg)
 
-![](./DSC_0413.jpg)
+![](./quokka-close-up-cute.jpg)
 
-![](./DSC_0397.jpg)
+![](./quokka-close-cute2.jpg)
 
-![](./DSC_0388.jpg)
+![](./rottnest-island-waves.jpg)
 
-![](./IMG_20180325_153855.jpg)
+![](./fish-and-chips.jpg)
 
 ## Roadtrip
 
@@ -44,35 +44,35 @@ Easter weekend we rented out a car at the airport for our little Road Trip to Ma
 
 Our first night we stayed in Yallingup at the [Caves House Hotel Yallingup](https://www.caveshousehotelyallingup.com.au/), which was great and had a really nice breakfast. From here on we left to explore Meelup Beach, Eagle Bay and the Cape Naturaliste Lighthouse. On our way to Margaret River, we stopped at Canal Rocks and the Injidup natural Spa, where you can jump into a natural pool and get a massage from the ocean surf. We spent three more nights in Margaret River, where we discovered this quite idyllic guest house. The guest house is run by a retired couple, taking care of the great house including a library, DVD-Store and the everyday fresh baked cake. The two were just super friendly and welcoming so we kind of fancied the idea of retiring exactly like this ourselves :-) Check out their website, [Margaret River Guest House](https://www.margaretriverguesthouse.com.au/). Margaret River is a small town with a lot of shops and restaurants. It's a good location to explore the area as you can reach a whole bunch of great, empty beaches, small towns and lots of vineyards within 30 min. We spent our day driving from beach to beach which was quite exciting taking all the small, empty and sandy roads to remote beaches. Just make sure get a car with sufficient ground clearance to not get stuck in the sand … it took us quite a while to get out of the sand at one point :-)
 
-![](./DSC_0469.jpg)
+![](./bay-trees.jpg)
 
-![](./DSC_0499.jpg)
+![](./cobblestone-beach.jpg)
 
-![](./DSC_0461.jpg)
+![](./western-australia-shoreline.jpg)
 
-![](./DSC_0511.jpg)
+![](./dirt-road-cruising.jpg)
 
-![](./DSC_0513.jpg)
+![](./dirt-road-close.jpg)
 
-![](./DSC_0492.jpg)
+![](./seagull-blue-water.jpg)
 
-![](./DSC_0542.jpg)
+![](./margaret-river-beach-view.jpg)
 
-![](./DSC_0588.jpg)
+![](./beautiful-forest.jpg)
 
-![](./DSC_0622.jpg)
+![](./walk-in-the-forest.jpg)
 
-![](./DSC_0682.jpg)
+![](./forest-selfie.jpg)
 
-![](./DSC_0712.jpg)
+![](./huge-manta-ray.jpg)
 
-![](./DSC_0720.jpg)
+![](./manta-ray.jpg)
 
-![](./DSC_0734.jpg)
+![](./australian-bush.jpg)
 
-![](./DSC_0744.jpg)
+![](./beach-sky-view.jpg)
 
-![](./DSC_0756.jpg)
+![](./margaret-river-main-break.jpg)
 
 ## Other Tips
 

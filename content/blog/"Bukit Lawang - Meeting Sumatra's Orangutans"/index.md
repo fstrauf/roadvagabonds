@@ -28,13 +28,11 @@ The village itself has quite a few souvenir shops and lots of restaurants with l
 
 The most important thing is of course to book your jungle-tour. You will need a guide in order to get access to the national park. Like everywhere in Indonesia there are thousands of options. We booked the tour with [Jungle Edie](http://www.jungleediebukitlawang.com/) and were escorted by two really nice guys. Make sure your guides have an official certificate form the National Park Authority and are eco-friendly of course. We left our personal belongings back in the hotel and only packed for the hike.
 
-![](./DSC_7986.jpg)
+![](./bukit-monkeys-roof.jpg)
 
-![](./IMG_2859.jpg)
+![](./river-rafting-kidjpg)
 
-![](./DSC_8094.jpg)
-
-![](./DSC_8028.jpg)
+![](./river-rafting-truck-tyres.jpg)
 
 ## Jungle Trekking
 
@@ -46,21 +44,21 @@ After meeting Mina on our way to the next viewing spot we ran into an unknown ma
 
 It was amazing to see and observe these big monkeys, our closest relatives. We loved it, especially the cute, little baby Orangutans. During the hikes and nights at the camps the guide and porter took care of our wellbeing and prepared picnics including fresh fruits, rice and of course tea. We spent the first night in a simple camp at a small river with only a mosquito net, a tarp and a simple mattress on the ground.  To reach the second camp at the main river we had another day of hiking and actually crossed this much bigger, stronger stream. To finish our hike, we packed all our stuff into waterproof bags and got delivered a bunch of old inflated truck tires. The guides tied them together and we rafted down the Bahorok River back to Bukit Lawang.
 
-![](./DSC_8114.jpg)
+![](./thomas-leaf-monkey.jpg)
 
-![](./DSC_8173.jpg)
+![](./lunch-jungle.jpg)
 
-![](./DSC_8220.jpg)
+![](./orang-utan-close.jpg)
 
-![](./IMG_2969.jpg)
+![](./male-orang-utan.jpg)
 
-![](./DSC_8399.jpg)
+![](./male-female-orang-utan.jpg)
 
-![](./DSC_8438.jpg)
+![](./baby-orang-utan-upsidedown.jpg)
 
-![](./DSC_8296.jpg)
+![](./jungle-hut.jpg)
 
-![](./DSC_8306.jpg)
+![](./river-crossing-tree.jpg)
 
 ## What to bring
 

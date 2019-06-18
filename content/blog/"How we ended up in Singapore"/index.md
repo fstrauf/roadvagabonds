@@ -49,11 +49,11 @@ Moving from a German town to a packed Asian city requires some planning. Your fu
 
 Shipping from Germany to Singapore took about 6 weeks. To get a proper insurance we had to estimate the value of our total household goods - quite interesting way to figure out how much stuff you actually have. This made us rethink so we eventually sold a lot.
 
-![](./DSC_9800.jpg)
+![](./moving-to-singapore-boxes.jpg)
 
-![](./E6FF2915-D3D9-4E07-B86E-933F24EDAAFF.jpg)
+![](./moving-to-singapore-boxes-packed.jpg)
 
-![](./IMG_3970.jpg)
+![](./singapore-shipment.jpg)
 
 ### Packing for 4 weeks
 
@@ -130,13 +130,13 @@ Of course you have to find a home as soon as possible but not too early in case 
 *   **Apartment shape** - as mentioned above Germany has a completely different floor plan-style. So 70 sqm are completely different. In Germany you would expect a quite spacious open design with enough room to have a big living room, dining table and sofa. In Singapore 70 sqm is usually a two bedroom apartment with two bathrooms which does not exactly fit the same furniture and the living style of Germans.
     
 
-![](./a26ba5d4-04f4-4931-a614-096eb338422a.jpg)
+![](./duo-residencies-raffles-hospital.jpg)
 
-![](./184BFDB6-C3CB-44B1-8FC4-EE7A90F319AD.jpg)
+![](./bugis-duo-residencies-pool.jpg)
 
-![](./IMG_3700.jpg)
+![](./duo-residencies-kitchen.jpg)
 
-![](./297d6a2e-0291-4d95-a7d3-73504ad17383.jpg)
+![](./duo-residencies-balcony.jpg)
 
 ### Health-Insurance
 
@@ -207,7 +207,7 @@ We stayed at [Frasers Place](https://www.frasershospitality.com/en) for about f
 
 Coming from Germany (a 3rd-World-Internet-Country) this is simply amazing. I’ll let a picture do the talking - this is the smallest contract we could get:
 
-\[caption id="" align="alignnone" width="500.0"\]![ High-speed Internet ](./IMG_5128.png) High-speed Internet \[/caption\]
+![ High-speed Internet ](./singapore-fast-internet.png)
 
 ### Mobile contract
 

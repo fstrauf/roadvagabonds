@@ -1,13 +1,8 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-// import kebabCase from 'lodash/kebabCase'
-// import { LocalizedLink } from 'elements'
 import hide from '../styles/hide'
-// import { localizedDate } from 'utilities'
-// import { LocaleConsumer } from 'elements/Layout'
 
 const Wrapper = styled.article`
   display: flex;

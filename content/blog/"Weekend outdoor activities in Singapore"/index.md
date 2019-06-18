@@ -22,17 +22,17 @@ With plenty of space to relax on the grass and have a picnic, the botanical gard
 
 A nice track through the greens - multiple tracks lead up to the top and if you prefer not to be all sweaty, you can take a bus. There’s a bunch of viewpoints at Mount Faber Park and a cable car will take you  to Sentosa Island after having a cold drink on the top. If you’re up for a longer walk, you can go all the way along the southern ridges (a 10 km stretch of green open spaces in Singapore) to Alexandra. On the way there you’ll pass by The Henderson Waves, an interesting wooden floor bridge and the highest pedestrian bridge in Singapore. The Henderson Waves connect Mount Faber Park with the Telok Blangah Hill Park, which is also part of the southern ridges. The southern ridges, continues with a canopy walk through the forest.
 
-![](./DSC_9905.jpg)
+![](./singapore-panorama-skyline.jpg)
 
-![](./DSC_9957.jpg)
+![](./singapore-henderson-waves.jpg)
 
-![](./DSC_9938.jpg)
+![](./jungle-and-city.jpg)
 
-![](./DSC_9967.jpg)
+![](./treetopwalk-portrait.jpg)
 
-![](./DSC_9964.jpg)
+![](./singapore-treetop-walk.jpg)
 
-![](./DSC_9984.jpg)
+![](./treetop-portrait-far.jpg)
 
 ## MacRitchie Reservoir
 
@@ -42,15 +42,15 @@ The trails are quite nice and lead around the reservoir and into the 'jungle'. I
 
 If 11 km still isn’t enough, you can move on to Bukit Timah for more trails or walk along the old railroad corridor nearby. This is an abandoned [railway track](https://www.nparks.gov.sg/railcorridor) leading from south to north Singapore and is about 24 km long.
 
-![](./DSC_0078.jpg)
+![](./macritchie-view.jpg)
 
-![](./DSC_0077.jpg)
+![](./macritchie-reservoir-suspension-bridge.jpg)
 
-![](./DSC_0094.jpg)
+![](./macritchie-monkey.jpg)
 
-![](./DSC_0088.jpg)
+![](./macritchie-flying-fox.jpg)
 
-![](./DSC_0107.jpg)
+![](./monkey-roadside.jpg)
 
 ## Labrador Park, Keppel Bay, Prive Cafe
 
@@ -66,4 +66,4 @@ Beach, playgrounds and restaurants means there is a lot to do at the East Coast 
 
 Take the MRT to Marina South and walk through the Gardens by the Bay. After reaching the Marina Barrage walk across the barrage to take the long walk along this side of the marina bay. The Barrage is another reservoir keeping out seawater to over time create a big freshwater reservoir. On this side there’s only few people, the park is really nice and you get a great view of the complete skyline including the Flyer.
 
-![](./IMG_5142.jpg)
+![](./marina-bay-gardens-ferris-wheel.jpg)

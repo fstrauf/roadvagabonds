@@ -32,23 +32,13 @@ Public transport in Taipei is really good and comfortable, so you can easy take 
 *   Enjoy a beer at Landmark, a Craft Beer Taproom from Taihu Brewing, with a great outdoor location
     
 
-![](./DSC_1602.jpg)
+![](./taipei-sign.jpg)
 
-![](./DSC_1524.jpg)
+![](./taipei-streets.jpg)
 
-![](./DSC_2074.jpg)
+![](./taipei-tower-night.jpg)
 
-![](./DSC_1549.jpg)
-
-![](./DSC_1657.jpg)
-
-![](./DSC_1596.jpg)
-
-![](./DSC_1589.jpg)
-
-![](./IMG_5943.jpg)
-
-![](./DSC_2047.jpg)
+![](./taiwan-art-gallery-taipei.jpg)
 
 ## Road trip to the east coast
 
@@ -58,35 +48,21 @@ In Kaohsiung we took the MRT to the airport where we picked up our rental car we
 
 Our first night, we stayed in Kenting. The Airbnb was nice, but the small village itself wasn’t worth the visit. There’s not much to do, only a few restaurants and the beach is pretty crowded by tourist buses from the city.
 
-![](./DSC_1713.jpg)
+![](./wamali-trail-valley.jpg)
 
-![](./DSC_1690.jpg)
-
-![](./DSC_2023.jpg)
-
-![](./DSC_2033.jpg)
-
-![](./DSC_1860.jpg)
+![](./taiwan-fields.jpg)
 
 ## Dulan
 
 Dulan in contrast was nicer and had much more charm than Kenting. We stayed in a cheap but nice hostel and met a friendly couple from Perth, who we had a few beers with and really good time. In Dulan the beach is less crowded and you can take a swim, go for a surf or just take a walk along the beach. We found a nice cafe on the cliffs, the [Cape Cafe](http://www.capecafe.tw/). There is an old sugar fabric with a cool bar inside, an expat is selling his own brewed beer and there’s live music on weekends.
 
-![](./DSC_1769.jpg)
+![](./dulan-olds-factory.jpg)
 
-![](./DSC_2017.jpg)
+![](./beach-surf.jpg)
 
-![](./DSC_2042.jpg)
+![](./beach-palms.jpg)
 
-![](./DSC_1778.jpg)
-
-![](./DSC_1781.jpg)
-
-![](./DSC_1775.jpg)
-
-![](./DSC_1745.jpg)
-
-![](./DSC_1770.jpg)
+![](./donghe-beach-clouds.jpg)
 
 ## Walami Trail
 
@@ -98,31 +74,31 @@ We started our hike at 7:15 am and reached the end of the Walami Trail at 11:45 
 
 In fact, if you’re fit, the trail is doable in one day, the hike is easy and nice and you will cross multiple suspension bridges. The only downside for us was the lack of nice viewpoints.
 
-![](./DSC_1896.jpg)
+![](./walami-trail-meountain-view.jpg)
 
-![](./DSC_1908.jpg)
+![](./wamali-trail-views.jpg)
 
-![](./DSC_1952.jpg)
+![](./wamali-trail-suspension-bridge.jpg)
 
-![](./DSC_1990.jpg)
+![](./beware-sign-taiwan-bears.jpg)
 
-![](./DSC_1987.jpg)
+![](./mountain-hut.jpg)
 
-![](./DSC_1991.jpg)
+![](./wamali-trail-first-mountain-hut.jpg)
 
 ## Sixty Stone Mountain
 
 Sixty Stone Mountain is located in the Hualien Country close to Fuli Township and is part of the Taiwan [East Rift Valley National Scenic Area](https://www.erv-nsa.gov.tw/erv/user/main.aspx?Lang=2). Especially during flower season in July - August it’s worth a visit. Views are amazing and the most beautiful thing are the blossom fields full of yellow / orange day (tiger) lilies. There are different viewpoints and it seemed a little bit like you’re in the German Allgäu. Be sure to arrive early and avoid the cars full of tourists who will arrive from 9 am.
 
-![](./DSC_1795.jpg)
+![](./mountain-panorama-view.jpg)
 
-![](./DSC_1802.jpg)
+![](./tigerlily-panorama-view.jpg)
 
-![](./DSC_1818.jpg)
+![](./tigerlily-close-up.jpg)
 
-![](./DSC_1812.jpg)
+![](./tigerlily-farm-blossom.jpg)
 
-![](./DSC_1819.jpg)
+![](./tiger-lily-panorama.jpg)
 
 ## Donghe
 

@@ -44,23 +44,23 @@ Tokyo is a modern and exciting city with lots of delicious food and an always bu
 *   Shinjuku with heaps of restaurants and again lot’s of shopping, if you plan to go hiking and don’t have all your gear yet, make sure to stop at [L-Breath Shinjuku Shop](https://goo.gl/maps/hBBKcivUDrk) - a 7 story hiking and outdoor store it has everything you will need
     
 *   National Garden - closes at 4:30 pm
+
+![](./ginza-shopping.jpg)
+
+![](./Tokio-skyline.jpg)
+
+![](./emperors-palace-garden.jpg)
+
+![](./tokyo-rainbow-bridge.jpg)
+
+![](./tokyo-tower.jpg)
     
 
 ## Yokohma
 
 From Tokyo you can take a 40 minutes MRT ride to the second largest city of Japan, Yokohama. We’ve been there in the evening and enjoyed a romantic and peaceful atmosphere. With an amazing city view we had a walk and a beer at the Ōsanbashi Pier - the oldest pier in Yokohama. After a bit of sightseeing, finish your day in the Noge district in one of the many bars and Izakaya. Izakaya is a classic Japanese bar where they serve delicious food - mostly little bites so you can try lots of different things and as always in Japan, the food is just great. Check your latest MRT back to Tokyo, the MRT runs until 12 am, after that you need to take a taxi which is quite expensive!
 
-![](./DSC_2107.jpg)
-
-![](./DSC_2089.jpg)
-
-![](./DSC_2092.jpg)
-
-![](./DSC_2664.jpg)
-
-![](./IMG_6733.jpg)
-
-![](./IMG_6773.jpg)
+![](./yokohama-skyline.jpg)
 
 ## Hiking - Day 1
 
@@ -68,13 +68,13 @@ After asking one of my husbands colleagues for tips to hike the [Omote Ginza Tra
 
 We met our Japanese friend, Taro at Shinjuku Express Bus Terminal and started our trip with a 4 ½ hour bus ride to Matsumoto. From Matsumoto we took a train to Hotaka, where another bus drove us all the way up to our first accommodation - Nakabusa Onsen at 1455 m altitude. Here we stayed in a simple Japanese style room which was a little bit cold, but you can warm yourself in one of the many Onsen (hot spring). We slept on a simple mattress on the floor. Dinner and breakfast was included and quite good.
 
-![](./IMG_6227.jpg)
+![](./nakabusa-onsen-room.jpg)
 
-![](./IMG_6251.jpg)
+![](./nakabusa-onsen-dinner.jpg)
 
-![](./IMG_6235.jpg)
+![](./nakabusa-onsen.jpg)
 
-![](./IMG_7050.jpg)
+![](./onsen.jpg)
 
 ## Hiking - Day 2
 
@@ -82,23 +82,23 @@ We started our first day hiking at 6:30 am - the departure time depends on the w
 
 At around 2 pm we arrived the Otensho Hutte hut at 2,650 m altitude and had our first night up in the mountains. Again we had a delicious dinner with a cold beer. The room was more comfortable as the first one and we had a more or less good night here.
 
-![](./DSC_2119.jpg)
+![](./nakabusa-onsen-hike-start.jpg)
 
-![](./IMG_6283.jpg)
+![](./omote-ginza-panorama-trees.jpg)
 
-![](./DSC_2144.jpg)
+![](./omote-ginza-hike-start.jpg)
 
-![](./DSC_2191.jpg)
+![](./omote-ginza-view-hike.jpg)
 
-![](./DSC_2170.jpg)
+![](./omote-ginza-pofile.jpg)
 
-![](./DSC_2203.jpg)
+![](./omote-ginza-flower.jpg)
 
-![](./DSC_2167.jpg)
+![](./omote-ginza-trail-panorama.jpg)
 
-![](./DSC_2226.jpg)
+![](./omote-ginza-monkey.jpg)
 
-![](./DSC_2236.jpg)
+![](./omote-ginza-mountain-hut.jpg)
 
 ## Hiking - Day 3
 
@@ -108,23 +108,23 @@ At 11:30 am we finally arrived at Yarigatake Sanso, the hut 100 m below the peak
 
 We got another beer and had a classic Japanese Dinner at 5 pm. After dinner the sky suddenly cleared up and we got an amazing view on the Yarigatake, the surrounding alps and Mount Fuji while we watched the sun set.
 
-![](./DSC_2260.jpg)
+![](./omote-ginza-yarigatake-fog.jpg)
 
-![](./IMG_7083.jpg)
+![](./omote-ginza-stairs.jpg)
 
-![](./DSC_2282.jpg)
+![](./omote-ginza-fog.jpg)
 
-![](./IMG_6536.jpg)
+![](./yarigatake-ascent-fog.jpg)
 
-![](./IMG_6546.jpg)
+![](./yarigatake-top.jpg)
 
-![](./DSC_2335.jpg)
+![](./yarigatake-mountain-hut.jpg)
 
-![](./DSC_2295.jpg)
+![](./omote-ginza-clear-sky.jpg)
 
-![](./DSC_2331.jpg)
+![](./omote-ginza-mountain-hut-above-clouds.jpg)
 
-![](./DSC_2378.jpg)
+![](./omote-ginza-sunset.jpg)
 
 ## Hiking - Day 4
 
@@ -134,33 +134,33 @@ After a cozy night in our tent we walked 1 ½ hours to the national park entranc
 
 We loved the hike in the Japanese alps and were really glad Taro joined us on it. He sure helped us with the bookings and made asking for dinner and breakfast times, navigation and just reading signs a whole lot easier. Thanks a lot Taro, we will be back! The locals were friendly since we were the only western people and had learned a few Japanese words. The nature is truly amazing out here and since there are no roads or lifts up, it is a very special place one can only hike (or fly) up to.
 
-![](./DSC_2399.jpg)
+![](./omote-ginza-sunrise.jpg)
 
-![](./DSC_2402.jpg)
+![](./omote-ginza-mount-fuji.jpg)
 
-![](./DSC_2421.jpg)
+![](./omote-ginza-above-clouds.jpg)
 
-![](./DSC_2432.jpg)
+![](./omote-ginza-monks.jpg)
 
-![](./DSC_2455.jpg)
+![](./omote-ginza-yarigatake-clear.jpg)
 
-![](./DSC_2477.jpg)
+![](./omote-ginza-descent.jpg)
 
-![](./DSC_2493.jpg)
+![](./omote-ginza-riverbed.jpg)
 
-![](./DSC_2500.jpg)
+![](./omote-ginza-rest.jpg)
 
-![](./DSC_2523.jpg)
+![](./omote-ginza-riverflow.jpg)
 
-![](./DSC_2551.jpg)
+![](./omote-ginza-basecamp-tent.jpg)
 
-![](./DSC_2566.jpg)
+![](./omote-ginza-rivercrossing.jpg)
 
-![](./DSC_2590.jpg)
+![](./omote-ginza-dinner-beer.jpg)
 
-![](./DSC_2608.jpg)
+![](./omote-ginza-panorama.jpg)
 
-![](./DSC_2605.jpg)
+![](./omote-ginza-bridge-national-park.jpg)
 
 ## Things to bring
 

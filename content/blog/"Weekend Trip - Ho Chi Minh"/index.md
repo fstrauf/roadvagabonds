@@ -22,13 +22,13 @@ We especially liked the free mini bar and rooftop terrace. On our arrival we ask
 
 Location wise, it’s a good place to stay because the main attractions are in 30 minutes walking distance.
 
-![](./IMG_20180622_223334.jpg)
+![](./hotel-city-map.jpg)
 
-![](./IMG_20180622_221705_HHT.jpg)
+![](./hotel-minibar-chips.jpg)
 
-![](./IMG_20180622_221730.jpg)
+![](./hotel-minibar-drinks.jpg)
 
-![](./IMG_20180623_171521_HDR.jpg)
+![](./hotel-rooftop-view.jpg)
 
 ## ‘Sightseeing’
 
@@ -54,21 +54,21 @@ There are some main spots for tourists, all in walking distance.
 *   War museum - Vietnam War shown in its ugly, bloody truth without a filter.
     
 
-![](./DSC_1127.jpg)
+![](./hochiminh-church.jpg)
 
-![](./DSC_1114.jpg)
+![](./hochiminh-palace.jpg)
 
-![](./DSC_1074.jpg)
+![](./brains-for-sale.jpg)
 
-![](./DSC_1078.jpg)
+![](./market-dried-fruits.jpg)
 
-![](./DSC_1152.jpg)
+![](./hochiminh-shops.jpg)
 
-![](./DSC_1189.jpg)
+![](./saigon-waterbus-terminal.jpg)
 
-![](./DSC_1190.jpg)
+![](./saigon-water-bus-timetable.jpg)
 
-![](./DSC_1193.jpg)
+![](./saigon-skyline.jpg)
 
 ## Cafes & Restaurants - Recommendations
 
@@ -97,15 +97,15 @@ The Cafe Apartment on Saigon’s Walking Street
 *   An old building with lots of small cafes and restaurants inside - many with really nice interior and balconies to sit and watch what’s going on on Nguyen Hue Walking Street. Kind of hidden at first sight, but sure worth a visit.
     
 
-![](./DSC_1204.jpg)
+![](./saigon-garden.jpg)
 
-![](./IMG_20180623_132513_HDR.jpg)
+![](./saigon-foodcourt.jpg)
 
-![](./IMG_5279.jpg)
+![](./pho-soup-food.jpg)
 
-![](./IMG_5304.jpg)
+![](./smothie-shop.jpg)
 
-![](./IMG_5310.jpg)
+![](./hong-hoa-banh-mi.jpg)
 
 ## SPA - Massage
 

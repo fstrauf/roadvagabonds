@@ -16,11 +16,11 @@ In our year in Singapore we did not spend a lot of time cooking, here's why<!-- 
 
 ## Little Island Brewing Co
 
-![](./IMG_20181020_154933_HDR.jpg)
+![](./little-island-brewing-co-beers.jpg)
 
-![](./IMG_20180422_135659.jpg)
+![](./happy-endings.jpg)
 
-![](./IMG_20180422_134002.jpg)
+![](./burger-fish-an-chips-little-island-brewing-co.jpg)
 
 **6 Changi Village Rd**
 
@@ -45,11 +45,11 @@ In our year in Singapore we did not spend a lot of time cooking, here's why<!-- 
 
 ## Camp Kilo Charcoal Club
 
-![](./IMG_7163.jpg)
+![](./camp-kilo-charcoal-club.jpg)
 
-![](./IMG_20180525_205200_HHT.jpg)
+![](./camp-kilo-charcoal-club-menu.jpg)
 
-![](./IMG_20180525_194316_HHT.jpg)
+![](./camp-kilo-charcoal-club-roast.jpg)
 
 **66 Kampong Bugis**
 

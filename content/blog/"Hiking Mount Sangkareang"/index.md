@@ -31,41 +31,41 @@ After getting briefed on the tour the next day, we had dinner with some dutch gu
 
 With one guide and one porter it took us about 8 hours hiking through different vegetation zones, different weather conditions and amazing natural scenes. The track was often steep and sometimes a bit slippery, but nothing one can't handle. During our hike we made a couple of stops to enjoy the views, have some snacks and give the two guys a little break, carrying all the gear (they actually wouldn't let us help for an hour or two).
 
-![](./DSC_7016.jpg)
+![](./base-camp.jpg)
 
-![](./DSC_6764.jpg)
+![](./ascent-weeds.jpg)
 
-![](./DSC_6773.jpg)
+![](./ascent-tropical-cloud-forest .jpg)
 
-![](./DSC_6774.jpg)
+![](./cloudy-forest.jpg)
 
-![](./DSC_6782.jpg)
+![](./ascent.jpg)
 
 ## Camping on the Crater Rim
 
 We reached the rim at about 2200m after 8 hours in the late afternoon and were really impressed by the awesome view above the clouds. The location was simply stunning on an completely empty crater rim. After collecting fire wood, getting water from a nearby source and building up our campground, we had a hot Pop-Mie (Instant Noodles) at the camp-fire. The sunset, stars and the campfire scenery was just beautiful but it was getting quite cold. The night obviously was pretty cold so make sure to put on some extra layers of t-shirts.
 
-![](./DSC_6800.jpg)
+![](./mount-rinjani.jpg)
 
-![](./DSC_6848.jpg)
+![](./camp-on-the-crater-rim.jpg)
 
-![](./DSC_6825.jpg)
+![](./rinjani-water.jpg)
 
-![](./DSC_6834.jpg)
+![](./carriying-water.jpg)
 
-![](./DSC_6865.jpg)
+![](./camp-fire-sunset.jpg)
 
 ## The Summit
 
 We got up early the next morning to see the sunrise around Rinjani which was quite nice and got a decent pancake for breakfast. Then our second ascent up to the summit at 3200m started, which took us another 2 hours. The view was again amazing, with Gili islands on the one side, steep slopes in clouds and the big blue caldera lake including the little volcano on the other. Crowning it all: Mount Rinjani. After the obvious photo session, we hiked back down, had some lunch and packed all our gear for the descent. We made it down a lot faster and arrived at the hostel after 6 hours and took our scooter back to Lombok, where we arrived in the evening.
 
-![](./DSC_6933.jpg)
+![](./sankareang-top.jpg)
 
-![](./DSC_6951.jpg)
+![](./sangkareang-panorama.jpg)
 
-![](./DSC_6943.jpg)
+![](./sangkareang-crater-lake-rinjani.jpg)
 
-![](./DSC_6990.jpg)
+![](./rinjani-crater-lake.jpg)
 
 ## Things to bring
 

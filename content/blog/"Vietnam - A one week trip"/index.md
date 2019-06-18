@@ -26,17 +26,17 @@ In the evening you can spend your time at the restaurants and bars right in fron
 
 We had a super good Banh Mi at Banh Mi Phuong, a popular little street shop, always with a queue in front. Another recommendation is Nostalife, a Vietnamese restaurant.
 
-![](./DSC_3784.jpg)
+![](./from-hoi-an-with-love.jpg)
 
-![](./DSC_3833.jpg)
+![](./hoi-an-riverside.jpg)
 
-![](./IMG_7985.jpg)
+![](./hoi-an-bicycle.jpg)
 
-![](./DSC_3835.jpg)
+![](./hoi-an-street-lights.jpg)
 
-![](./DSC_3788.jpg)
+![](./hoi-an-coloful-houses.jpg)
 
-![](./DSC_3852.jpg)
+![](./hoi-an-lamps.jpg)
 
 ## Da Nang
 
@@ -46,11 +46,11 @@ Marble mountains are an other touristic attraction in Da Nang. We paid VND 40 k 
 
 From Da Nang we took a train to Dong Hoi. You can easily buy a ticket in the ticket office at Da Nang train station, located in the city center. In case your travel plans change, adjust your dates for a small fee at the ticket office - an easy and short process. The train ride is okay, seats are comfortable and snacks are available. Views are nice, but you can’t open the quite dirty windows, so it’s not like one of these epic train rides in Sri Lanka. Departure: 10 am, arrival: 3:45 pm, so the ride is actually quite long as the train travels really slow. At Dong Hoi train station, you will be welcomed by taxi drivers who want to sell you a way too expensive ride. Pay attention and try to negotiate, we paid VND 300 k to Phong Nha but heard of others sharing a ride with VND 80 k.
 
-![](./DSC_3878.jpg)
+![](./panorama-bay-view.jpg)
 
-![](./DSC_4017.jpg)
+![](./danang-mountain.jpg)
 
-![](./DSC_4018.jpg)
+![](./danang-marble-mountain.jpg)
 
 ## Phong Nha
 
@@ -62,11 +62,11 @@ A motorbike for 24 hours cost us about VND 80 k and we really enjoyed being flex
 
 We decided to take the bus from Phong Nha to Hue. It cost VND 320 k for the two of us and  brought us to Hue just within 4 hrs. The bus is a cheap and comfortable alternative to the train and you don’t have to get to Dong Hoi train station - it starts right from Phong Nha.
 
-![](./DSC_3903.jpg)
+![](./cave.jpg)
 
-![](./DSC_3910.jpg)
+![](./cave-sculptures.jpg)
 
-![](./DSC_3915.jpg)
+![](./cave-path-light.jpg)
 
 ## Hue
 
@@ -78,14 +78,14 @@ In Hue there are heaps of restaurants and small cafes with stylish interior and 
 
 After Hue we took a bus back to Da Nang. We booked it through our hotel and its cost us 6 USD per person and took around 3-4 hours.
 
-![](./DSC_3934.jpg)
+![](./hue-palace-flag.jpg)
 
-![](./DSC_3937.jpg)
+![](./hue-palace.jpg)
 
-![](./DSC_3952.jpg)
+![](./hue-palace-doors.jpg)
 
-![](./DSC_3990.jpg)
+![](./hue-wiring.jpg)
 
-![](./DSC_4005.jpg)
+![](./hue-pho.jpg)
 
-![](./DSC_4011.jpg)
+![](./hue-streets.jpg)

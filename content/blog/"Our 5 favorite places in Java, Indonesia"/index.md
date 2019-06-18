@@ -18,57 +18,51 @@ Java was our first stop on a bigger Indonesia holiday we did last year. Java is 
 
 We booked a cheap flight from Singapore to Yogyakarta. Yogyakarta, also known as Jogja is a city in the south of Java and not as big and crowded as Jakarta. The cities center is really nice and the people are friendly. We spent hours hanging around along the famous Jalan Malioboro just watching local people, streetlife and trying different kinds of delicious street food. We suggest to visit the market or a gallery to see how local women create traditional Batik art. Besides Malioboro, which is quite nice, there is not that much to do here. Luckily there are two great temples close by.
 
-![](./DSC_5726.jpg)
+![](./yogyakarta-malioboro-nightlife.jpg)
 
-![](./DSC_5668.jpg)
+![](./yogyakarta-market-malioboro.jpg)
 
-![](./DSC_5675.jpg)
+![](./yogyakarta-streetstands.jpg)
 
-![](./DSC_5677.jpg)
+![](./yogyakarta-streetfood.jpg)
 
-![](./DSC_5717.jpg)
+![](./yogyakarta-malioboro.jpg)
 
-![](./DSC_5873.jpg)
+![](./yogyakarta-batik-kitchen.jpg)
 
-![](./DSC_5868.jpg)
+![](./batik-exhibition.jpg)
 
-![](./DSC_5862.jpg)
+![](./batik-manufacturing.jpg)
 
-![](./DSC_5860.jpg)
+![](./batik-market.jpg)
 
 ## Prambanan Temple
 
 Prambanan is the biggest Hindu temple in Indonesia. If you stay in Yogyakarta you can easily go there by bus. The temple is located 17 km outside of the city and the duration to get there depends on the traffic and the frequency the bus driver stops to pick up random people along the road. This is actually how buses work in most of Java, the driver drives and another dude tries to get people to drive with their bus by loudly advertising his ride to people on the road. Sure a fun thing to see. This way the bus gets loaded up with more and more people so it can get quite cozy in there. Nothing really bad if you’re in for a little adventure. Prambanan itself is an impressive temple and we liked the streets covered with umbrellas, but the park was not that clean and well looked after. Entrance fees were quite high for foreigners in our opinion.
 
-![](./IMG_2516.jpg)
+![](./prambanan-clouds.jpg)
 
-![](./DSC_5835.jpg)
+![](./yogyakarta-prambanan-temple.jpg)
 
-![](./DSC_5852.jpg)
+![](./yogyakarta-prambanan-umbrellas.jpg)
 
-![](./DSC_5853.jpg)
+![](./yogyakarta-prambanan-umbrella-temple.jpg)
 
 ## Borobudur Temple
 
 Borobudur is the biggest Buddhist temple in the world and there is a slight chance you have seen it on a few pictures. We had a nice hotel in Muntilan and just walked there in the morning. We skipped the sunrise, since we heard about the crowds but it's supposed to be quite nice. Borobudur was our favorite temple in Indonesia. The big bells and Buddha statues on top are beautiful and the view over the forest is amazing, especially in the morning. Definitely worth a visit!
 
-![](./DSC_5893.jpg)
+![](./borobodur-umbrella.jpg)
 
-![](./DSC_6036.jpg)
+![](./borobodur-budda.jpg)
 
-![](./DSC_6051.jpg)
+![](./borobodur-people.jpg)
 
-![](./DSC_5930.jpg)
+![](./borobodur_bells-fog.jpg)
 
-![](./DSC_6004.jpg)
+![](./borobodur-bells-budda.jpg)
 
-![](./DSC_5942.jpg)
-
-![](./DSC_5996.jpg)
-
-![](./DSC_6014.jpg)
-
-![](./DSC_5998.jpg)
+![](./borobodur-morning-fog.jpg)
 
 ## Mount Bromo
 
@@ -78,23 +72,7 @@ In Cemoro Lawang we booked a basic Homestay without any hot water. The night up 
 
 We actually managed to avoid the high entrance fee, by navigating down a little footpath into the caldera. It’s on the way back from the viewing point. If you download maps.me you will see a little path winding down into the caldera. The area around Bromo is amazing and you feel like you’re on another planet. After walking through the caldera you will reach Mount Bromo, from here it’s just a bunch of steep stairs and you’ll see the big active crater. Smoke is rising and loud sounds like thunder will give it a mystic atmosphere. You can walk around the crater rim but be careful as it can be quite narrow. After descending, you walk back to the little footpath up to town and hitch one of the buses back to Probolinggo.
 
-![](./DSC_6108.jpg)
-
-![](./DSC_6101.jpg)
-
-![](./DSC_6104.jpg)
-
-![](./DSC_6167.jpg)
-
-![](./DSC_6150.jpg)
-
-![](./DSC_6201.jpg)
-
-![](./DSC_6232.jpg)
-
-![](./DSC_6207.jpg)
-
-![](./DSC_6288.jpg)
+![](./bromo-crater-mount.jpg)
 
 ## Kawah Ijen
 
@@ -106,18 +84,8 @@ On the way down you will already meet a few hard working men, carrying baskets p
 
 From here we actually took a ferry over to Bali which was the next step of our journey.
 
-![](./DSC_6325.jpg)
+![](./kawa-ijen-ascent.jpg)
 
-![](./DSC_6332.jpg)
+![](./ijen-monkeys.jpg)
 
-![](./DSC_6404.jpg)
-
-![](./DSC_6362.jpg)
-
-![](./DSC_6383.jpg)
-
-![](./DSC_6409.jpg)
-
-![](./DSC_6386.jpg)
-
-![](./IMG_260428129.jpg)
+![](./ijen-sulfur-gas.jpg)
