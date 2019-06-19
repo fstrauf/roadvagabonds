@@ -13,7 +13,7 @@ categories: ["travel"]
 
 ## Mentawais
 
-During a 6 weeks trip through Indonesia, our personal highlight was a trip to the Mentawais, a group of islands 150 km off the West Coast of Sumatra, Indonesia. To get there is a long and not always comfortable journey but it was definitely worth the trip.
+During a 6 weeks trip through Indonesia, our personal highlight was a trip to the Mentawais, a group of islands 150 km off the West Coast of Sumatra, Indonesia. To get there is a long and not always comfortable journey but it was definitely worth the trip.<!-- end -->
 
 Our adventure to Paradise started in Padang, Sumatra. You can reach Padang easy and cheap from Kuala Lumpur, Jakarta or Singapore with [Air Asia](https://www.airasia.com/en/home.page?cid=1) or [Garuda Indonesia](https://www.garuda-indonesia.com/sg/en/index.page?). We booked ourselves into the [Macaronis Resort](https://www.macaronisresort.com/), which offers different packages for your stay. They organized the whole trip for us, started with a shuttle from the airport in Padang to the Mercure Hotel, where we stayed at the Pool until the late afternoon. From there another shuttle took us to the Padang ferry terminal where we boarded our ferry to paradise.
 

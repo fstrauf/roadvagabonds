@@ -3,54 +3,14 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import styled from "@emotion/styled"
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
-import ItemBlog from '../components/ItemBlog'
-import Container from '../elements/Container'
-import Tags from '../components/Tags'
 import Helmet from 'react-helmet'
 import favicon16 from '../../static/favicon16.png'
 import favicon32 from '../../static/favicon32.png'
 import favicon64 from '../../static/favicon64.png'
-
-const Section = styled("div")({
-  margin: '1.5rem 0',
-})
-
-const CategoriesContainer = styled(Container)`
-  
-  a {
-    font-size: 1rem !important;
-    padding: 0.25rem 0.85rem !important;
-  }
-`
-
-// const Button = styled('button')({
-//   display: 'inline-block',
-//   backgroundColor: 'white',
-//   padding: '0.1em 1em',
-//   margin: '0 1em 0.1em 0',
-//   border: '0.16em solid #4CAF50',
-//   borderRadius: '2em',
-//   boxSizing: 'border-box',
-//   textDecoration: 'none',
-//   fontFamily: 'sans-serif',
-//   fontWeight: '300',
-//   color: 'black',
-//   textShadow: '0 0.04em 0.04em #AAAAAA',
-//   textAlign: 'center',
-//   transitionDuration: '0.4s',
-//   transition: 'all 0.2s',
-//   ':hover': {
-//     backgroundColor: '#4CAF50',
-//   },
-//   '@media all and (max-width:30em)': {
-//     display: 'block',
-//     margin: '0.2em auto',
-//   }
-// })
-
+import Blog from '../components/blog'
+import theme from '../../config/theme'
 
 const Index = ({
   data: {
@@ -72,45 +32,13 @@ const Index = ({
       />
       <SEO title="All posts" />
       <Bio />
-      <CategoriesContainer>
-        <Tags tags={cats.group} linkPrefix="categories" />
-      </CategoriesContainer>
       <div style={{
         height: '100%',
         width: '100%',
-        background: '#F1684E',
+        background: theme.colors.black.lighter,
         display: 'table'
       }}>
-        <div style={{
-          height: '100%',
-          width: '70%',
-          background: '#F1eeee',
-          display: 'table-cell'
-        }}>
-          {posts.map(({ node }) => {
-            return (
-              <div
-                key={node.fields.slug}
-                style={{
-                  background: '#77777',
-                }}>
-                {console.log(node.frontmatter.slug)}
-                <Section>
-                  <ItemBlog
-                    key={node.fields.slug}
-                    path={node.frontmatter.slug}
-                    cover={node.frontmatter.image.childImageSharp.fluid}
-                    title={node.frontmatter.title}
-                    date={node.frontmatter.date}
-                    category={node.frontmatter.categories}
-                    excerpt={node.excerpt}
-                  />
-                </Section>
-              </div>
-            )
-          })}
-        </div>
-
+        <Blog cats={cats} posts={posts} />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>

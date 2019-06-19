@@ -13,7 +13,7 @@ categories: ["travel"]
 
 ## Perth
 
-My Husband needed to go to Perth for a two week business trip, so I took the chance to join him to go for a long weekend trip at the end. We stayed in Perth for a couple of days, did some Sightseeing and met some old friends from the Mentawais. On the weekend we visited Rottnest Island to see the little Quokkas. Getting there by ferry is easy - just book a ticket at [Rottnest Express](https://www.rottnestexpress.com.au/). Once arrived, you can rent a bike and take a ride around the island, which is probably the best thing to do. After exploring all the viewpoints, the lighthouse and Quokkas, we had a really good fish 'n chips and and some local wine right in front of the beach before our departure.
+My Husband needed to go to Perth for a two week business trip, so I took the chance to join him to go for a long weekend trip at the end. We stayed in Perth for a couple of days, did some Sightseeing and met some old friends from the Mentawais.<!-- end --> On the weekend we visited Rottnest Island to see the little Quokkas. Getting there by ferry is easy - just book a ticket at [Rottnest Express](https://www.rottnestexpress.com.au/). Once arrived, you can rent a bike and take a ride around the island, which is probably the best thing to do. After exploring all the viewpoints, the lighthouse and Quokkas, we had a really good fish 'n chips and and some local wine right in front of the beach before our departure.
 
 ![](./view-perth-skyline.jpg)
 

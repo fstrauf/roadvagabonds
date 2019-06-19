@@ -63,8 +63,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 970,
-              backgroundColor: 'transparent',
-              wrapperStyle: '. gatsby-resp-image-image{ box-shadow: rgb(239, 16, 16) 0px 15px 25px; }'           
+              backgroundColor: 'transparent',       
             },
           },
           {

@@ -32,9 +32,6 @@ const PostText = styled(`div`)`
     font-size: 1.15rem;
     line-height: 1.58;
   }
-  .gatsby-resp-image-image { 
-    box-shadow: #411111 0px 15px 25px;
-  }
 `
 
 const DisqusContainer = styled(Container)`

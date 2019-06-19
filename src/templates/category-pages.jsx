@@ -9,6 +9,8 @@ import PropTypes from 'prop-types'
 import ItemBlog from '../components/ItemBlog'
 import Container from '../elements/Container'
 import Tags from '../components/Tags'
+import theme from '../../config/theme'
+import Blog from '../components/blog'
 
 const Section = styled("div")({
   margin: '1.5rem 0',
@@ -34,43 +36,13 @@ const CategoryPage = ({
     <Layout title={site.title}>
       <SEO title="All posts" />
       <Bio />
-      <CategoriesContainer>
-        <Tags tags={cats.group} linkPrefix="categories" />
-      </CategoriesContainer>
       <div style={{
         height: '100%',
         width: '100%',
-        background: '#F1684E',
+        background: theme.colors.black.lighter,
         display: 'table'
       }}>
-        <div style={{
-        height: '100%',
-        width: '70%',
-        background: '#F1eeee',
-        display: 'table-cell'
-        }}> 
-        {posts.map(({ node }) => {
-          return (
-            <div
-              key={node.frontmatter.slug}
-              style={{
-                background: '#CCCC51',
-              }}>
-              <Section>
-                  <ItemBlog
-                    key={node.frontmatter.slug}
-                    path={node.frontmatter.slug}
-                    cover={node.frontmatter.image.childImageSharp.fluid}
-                    title={node.frontmatter.title}
-                    date={node.frontmatter.date}
-                    category={node.frontmatter.categories}
-                    excerpt={node.excerpt}
-                  />               
-              </Section>
-            </div>
-          )
-        })}
-        </div>
+        <Blog cats={cats} posts={posts} />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>

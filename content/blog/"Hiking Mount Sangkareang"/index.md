@@ -13,7 +13,7 @@ categories: ["travel"]
 
 ## Sangkareang
 
-After a lot of online research, we found out that there is a route to hike the popular Rinjani Mountain without the masses of tourists and with a little more adventure. This meant we actually wouldn't climb Rinjani (3726m) but go for Sangkareang (3200m), which is on the opposite side of the huge, water filled caldera and the mini-volcano inside.
+After a lot of online research, we found out that there is a route to hike the popular Rinjani Mountain without the masses of tourists and with a little more adventure.<!-- end --> This meant we actually wouldn't climb Rinjani (3726m) but go for Sangkareang (3200m), which is on the opposite side of the huge, water filled caldera and the mini-volcano inside.
 
 **Pro**: no crowds,  no trash (at least not as much), view on Rinjani and really off the beaten track  
 **Cons**: you're not climbing Rinjani.

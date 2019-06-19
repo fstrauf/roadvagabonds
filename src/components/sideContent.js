@@ -7,12 +7,12 @@ const RightColumn = styled('div')({
     width: '30%',
     paddingLeft: '20px',
     display: 'table-cell',
-    background: theme.colors.secondary.base,
+    background: theme.colors.black.lighter,
     verticalAlign: 'top',
 })
 
 const Card = styled('div')({
-    backgroundColor: 'white',
+    backgroundColor: theme.colors.secondary.base,
     padding: '5px',
     marginTop: '20px',
 })
