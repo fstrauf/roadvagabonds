@@ -23,7 +23,7 @@ const CategoryPage = ({
       <div style={{
         height: '100%',
         width: '100%',
-        background: theme.colors.black.lighter,
+        background: theme.colors.main.grey,
         display: 'table'
       }}>
         <Blog cats={cats} posts={posts} />

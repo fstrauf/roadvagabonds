@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
           width: '100%',
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
-          background: theme.colors.black.lighter
+          background: theme.colors.main.grey
         }}
       >
 

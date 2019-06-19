@@ -25,7 +25,7 @@ const Blog = ({ cats, posts }) => (
         <div style={{
             height: '100%',
             width: '70%',
-            background: theme.colors.black.lighter,
+            background: theme.colors.main.grey,
             display: 'table-cell'
         }}>
             {posts.map(({ node }) => {
@@ -33,7 +33,7 @@ const Blog = ({ cats, posts }) => (
                     <div
                         key={node.fields.slug}
                         style={{
-                            background: theme.colors.secondary.base,
+                            background: theme.colors.main.yellow,
                         }}>
                         {console.log(node.frontmatter.slug)}
                         <Section>

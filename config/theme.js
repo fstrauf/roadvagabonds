@@ -1,11 +1,9 @@
 import { rgba } from 'polished'
 
 const colors = {
-  white: {
-    base: '#fff',
-    light: '#f0f0f0',
-    blueish: '#d6e1ff',
-    blue: '#a8b8e1',
+  main: {
+    grey: '#878787',
+    yellow: '#E6D065',
   },
   black: {
     base: '#333438',
@@ -43,10 +41,10 @@ const colors = {
 
 const tint = {
   black: rgba(colors.black.base, 0.1),
-  white: rgba(colors.white.light, 0.85),
+  // white: rgba(colors.white.light, 0.85),
   blue: rgba(colors.primary.base, 0.35),
   blueLight: rgba(colors.primary.base, 0.2),
-  blueWhite: rgba(colors.white.blue, 0.7),
+  blueWhite: rgba(colors.primary.light, 0.7),
   orange: rgba(colors.secondary.base, 0.35),
 }
 

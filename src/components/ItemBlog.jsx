@@ -23,7 +23,7 @@ const Image = styled.div`
   }
   &:hover {
     box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    transform: translateY(-12px);
+    ${'' /* transform: translateY(-12px); */}
   }
   a {
     position: absolute;
@@ -80,7 +80,7 @@ const Information = styled.div`
 `
 
 const Statistics = styled.div`
-  color: ${props => props.theme.colors.black.lighter};
+  color: ${props => props.theme.colors.main.grey};
 `
 
 const Excerpt = styled.div`
@@ -91,8 +91,7 @@ const Cat = styled.span`
   ${hide}
 `
 
-const ItemBlog = ({ path, cover, category, title, date, timeToRead, excerpt }) => (
-      // {({ test }) => (
+const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
       <Wrapper>
         <Image>
           <Link to={path} title={title}>
@@ -109,8 +108,6 @@ const ItemBlog = ({ path, cover, category, title, date, timeToRead, excerpt }) =
           <Excerpt>{`${excerpt}...`}</Excerpt>
         </Information>
       </Wrapper>
-    // )}
-
 )
 
 export default ItemBlog

@@ -12,7 +12,7 @@ const TagsContainer = styled.div`
 
 const Tag = styled(props => <Link {...props} />)`
   background: ${props => props.theme.tint.black};
-  color: ${props => props.theme.colors.black.light};
+  color: ${props => props.theme.colors.main.grey};
   font-size: 0.9rem;
   padding: 0.2rem 0.75rem;
   border-radius: ${props => props.theme.borderRadius.default};
@@ -20,7 +20,7 @@ const Tag = styled(props => <Link {...props} />)`
   white-space: nowrap;
   &:hover {
     background: ${props => darken(0.35, props.theme.tint.black)};
-    color: ${props => darken(0.35, props.theme.colors.black.light)};
+    color: ${props => darken(0.35, props.theme.colors.main.grey)};
   }
   &:focus {
     outline: none;

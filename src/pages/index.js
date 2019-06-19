@@ -35,7 +35,7 @@ const Index = ({
       <div style={{
         height: '100%',
         width: '100%',
-        background: theme.colors.black.lighter,
+        background: theme.colors.main.grey,
         display: 'table'
       }}>
         <Blog cats={cats} posts={posts} />
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
                 childImageSharp {
                   fluid(
                     maxWidth: 700,
-                    maxHeight: 300) {
+                    maxHeight: 700) {
                     ...GatsbyImageSharpFluid
                   }
                   fixed(width: 700, height: 300) {
