@@ -3,10 +3,11 @@ import { graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styled from "@emotion/styled"
+// import styled from "@emotion/styled"
 import ReactDisqusComments from 'react-disqus-comments'
-import Container from '../elements/Container'
+// import Container from '../elements/Container'
 import Line from '../elements/Line'
+import styled from 'styled-components'
 
 const PostText = styled(`div`)`
   max-width: 46rem;
@@ -34,8 +35,11 @@ const PostText = styled(`div`)`
   }
 `
 
-const DisqusContainer = styled(Container)`
+const DisqusContainer = styled.section`
   margin-bottom: 4rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: ${props => props.theme.layout[props.type]};
 `
 
 class BlogPostTemplate extends React.Component {

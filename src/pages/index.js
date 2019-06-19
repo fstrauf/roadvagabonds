@@ -1,14 +1,9 @@
 import React from "react"
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import favicon16 from '../../static/favicon16.png'
-import favicon32 from '../../static/favicon32.png'
-import favicon64 from '../../static/favicon64.png'
 import Blog from '../components/blog'
 import theme from '../../config/theme'
 
@@ -24,14 +19,8 @@ const Index = ({
     <Layout title={site.title}>
       <Helmet
         title={site.title}
-        link={[
-          { rel: "icon", type: "image/png", sizes: "16x16", href: `${favicon16}` },
-          { rel: "icon", type: "image/png", sizes: "32x32", href: `${favicon32}` },
-          { rel: "shortcut icon", type: "image/png", href: `${favicon64}` },
-        ]}
       />
       <SEO title="All posts" />
-      <Bio />
       <div style={{
         height: '100%',
         width: '100%',

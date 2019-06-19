@@ -13,22 +13,6 @@ module.exports = {
         link: '/'
       },
       {
-        name: 'about',
-        link: '/about'
-      },
-      {
-        name: 'get in touch',
-        link: '/getInTouch'
-      },
-      {
-        name: 'photography',
-        link: '/photography'
-      },
-      {
-        name: 'privacy policy',
-        link: '/privacyPolicy'
-      },
-      {
         name: 'services',
         link: '/services'
       }

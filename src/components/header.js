@@ -1,8 +1,27 @@
 import { Link } from "gatsby"
 import React from 'react'
 
+import styled from 'styled-components'
+// import theme from '../../config/theme'
+
+const Container = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    height: 81px;
+    ${'' /* width: 100%;     */}
+    ${'' /* position: fixed; */}
+    justify-content: flex-end
+`
+
+const NavBar = styled.nav`
+    justify-content: flex-end;
+    display: flex;
+`
+
 const Header = ({ siteTitle, menuLinks }) => (
-    <React.Fragment>
+<Container>
         <h1
             style={{                
                 marginBottom: '0.5 rem',
@@ -20,7 +39,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 {siteTitle}
             </Link>
         </h1>
-        <nav>
+        <NavBar>
             <ul style={{ 
                 display: 'flex',  
                 listStyle: 'none',
@@ -42,9 +61,8 @@ const Header = ({ siteTitle, menuLinks }) => (
                     </li>
                 )}
             </ul>
-        </nav>
-
-    </React.Fragment>
+        </NavBar>
+        </Container>
 )
 
 export default Header

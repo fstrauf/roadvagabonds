@@ -2,11 +2,12 @@ import React from "react"
 import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
-import Container from '../elements/Container'
 import styled from 'styled-components'
 
-const CategoriesContainer = styled(Container)`
-  
+const CatContainer = styled.section`
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: ${props => props.theme.layout[props.type]};
   a {
     font-size: 1rem !important;
     padding: 0.25rem 0.85rem !important;
@@ -24,9 +25,9 @@ const BlogBox = styled.div`
 
 const Blog = ({ cats, posts }) => (
     <div>
-        <CategoriesContainer>
+        <CatContainer>
             <Tags tags={cats.group} linkPrefix="categories" />
-        </CategoriesContainer>
+        </CatContainer>
         <div style={{
             height: '100%',
             width: '70%',

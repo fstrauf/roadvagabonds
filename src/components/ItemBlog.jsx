@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import hide from '../styles/hide'
 
 const Wrapper = styled.article`
   display: flex;
@@ -23,7 +22,6 @@ const Image = styled.div`
   }
   &:hover {
     box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    ${'' /* transform: translateY(-12px); */}
   }
   a {
     position: absolute;
@@ -87,10 +85,6 @@ const Excerpt = styled.div`
   margin-top: 2rem;
 `
 
-const Cat = styled.span`
-  ${hide}
-`
-
 const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
       <Wrapper>
         <Image>
@@ -103,7 +97,7 @@ const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
             <h2>{title}</h2>
           </Link>
           <Statistics>
-            <Cat>{`${date}, ${category}`}</Cat>
+            <span>{`${date}, ${category}`}</span>
           </Statistics>
           <Excerpt>{`${excerpt}...`}</Excerpt>
         </Information>

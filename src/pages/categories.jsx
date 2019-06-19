@@ -1,13 +1,14 @@
 import React from "react"
 import { graphql, Link } from 'gatsby'
 import Layout from "../components/layout"
-import styled from "@emotion/styled"
-import Container from '../elements/Container'
 import Tags from '../components/Tags'
 import { SkipNavContent } from '../elements/SkipNavLink'
 import theme from '../../config/theme'
+import styled from 'styled-components'
 
-const CategoriesContainer = styled(Container)`
+const CategoriesContainer = styled.section`
+  padding: 0 1.5rem;
+  max-width: ${props => props.theme.layout[props.type]};
   margin: 4rem auto;
   a {
     font-size: 1rem !important;

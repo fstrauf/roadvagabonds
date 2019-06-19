@@ -3,7 +3,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
@@ -19,7 +18,7 @@ const CategoryPage = ({
 }) => (
     <Layout title={site.title}>
       <SEO title="All posts" />
-      <Bio />
+      {/* <Bio /> */}
       <div style={{
         height: '100%',
         width: '100%',

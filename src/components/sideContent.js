@@ -1,5 +1,4 @@
 import React from 'react';
-// import styled from '@emotion/styled';
 import styled from 'styled-components'
 import Image from 'gatsby-image'
 import theme from '../../config/theme'
@@ -19,22 +18,6 @@ const Card = styled.div`
     background-color: ${props => props.theme.colors.main.yellow};
     padding: 5px;
     margin-top: 20px;
-`
-
-const MyLinkCard = styled(LinkCard)`
-  flex-basis: calc(99% * 1 / 4 - 1rem);
-  max-width: 100%;
-  width: 100%;
-  @media (max-width: 1135px) {
-    flex-basis: calc(99% * 1 / 2 - 1rem);
-    ${'' /* max-width: calc(99% * 1 / 2 - 1rem);
-    width: calc(99% * 1 / 2 - 1rem); */}
-  }
-  @media (max-width: 690px) {
-    flex-basis: calc(99% * 1 / 1);
-    ${'' /* max-width: calc(99% * 1 / 1);
-    width: calc(99% * 1 / 1); */}
-  }
 `
 
 const Container = styled('div')({
@@ -59,10 +42,10 @@ class sideContent extends React.Component {
                     <p>🇦🇺 • 🇩🇪</p>
                 </Card>
                 <Card>
-                    <MyLinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
+                    <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
                         <YouTube />
                         Road Vagabonds
-                    </MyLinkCard>
+                    </LinkCard>
                 </Card>
                 <Card>
                     <h3>
