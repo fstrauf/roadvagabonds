@@ -8,7 +8,7 @@ import ReactDisqusComments from 'react-disqus-comments'
 import Container from '../elements/Container'
 import Line from '../elements/Line'
 
-const postText = styled("div")`
+const PostText = styled(`div`)`
   max-width: 46rem;
   margin: 0px auto;
   padding: 0px 1.5rem;
@@ -31,6 +31,9 @@ const postText = styled("div")`
     --x-height-multiplier: 0.35;
     font-size: 1.15rem;
     line-height: 1.58;
+  }
+  .gatsby-resp-image-image { 
+    box-shadow: #411111 0px 15px 25px;
   }
 `
 
@@ -68,7 +71,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <postText dangerouslySetInnerHTML={{ __html: post.html }} />
+        <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: '1 rem',
