@@ -3,26 +3,10 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import styled from "@emotion/styled"
 import '../css/toggleButton.css'
 import PropTypes from 'prop-types'
-import ItemBlog from '../components/ItemBlog'
-import Container from '../elements/Container'
-import Tags from '../components/Tags'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
-
-const Section = styled("div")({
-  margin: '1.5rem 0',
-})
-
-const CategoriesContainer = styled(Container)`
-  margin: 4rem auto;
-  a {
-    font-size: 1rem !important;
-    padding: 0.25rem 0.85rem !important;
-  }
-`
 
 const CategoryPage = ({
   data: {

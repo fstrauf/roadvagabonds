@@ -5,6 +5,7 @@ import styled from "@emotion/styled"
 import Container from '../elements/Container'
 import Tags from '../components/Tags'
 import { SkipNavContent } from '../elements/SkipNavLink'
+import theme from '../../config/theme'
 
 const CategoriesContainer = styled(Container)`
   margin: 4rem auto;
@@ -75,7 +76,7 @@ const Categories = ({
               <div
                 key={node.header}
                 style={{
-                  background: '#CCCC51',
+                  background: theme.colors.secondary.base,
                 }}>
                 {node.header}
               </div>
