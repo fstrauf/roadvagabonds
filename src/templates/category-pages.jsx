@@ -85,7 +85,7 @@ export const pageQuery = graphql`
                 childImageSharp {
                   fluid(
                     maxWidth: 700,
-                    maxHeight: 300) {
+                    maxHeight: 700) {
                     ...GatsbyImageSharpFluid
                   }
                   fixed(width: 700, height: 300) {
@@ -97,7 +97,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    insta: allInstagramContent {
+    insta: allInstagramContent(
+      limit: 6
+    ) {
       edges {
         node {
         link

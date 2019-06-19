@@ -3,6 +3,8 @@ import React from 'react';
 import styled from 'styled-components'
 import Image from 'gatsby-image'
 import theme from '../../config/theme'
+import YouTube from '../icons/YouTube'
+import { LinkCard } from './Card'
 
 const RightColumn = styled('div')({
     width: '30%',
@@ -18,16 +20,26 @@ const Card = styled.div`
     padding: 5px;
     margin-top: 20px;
 `
-// const Card = styled('div')({
-//     backgroundColor: theme.colors.main.yellow,
-//     border-radius: ${props => props.theme.borderRadius.default};
-//     padding: '5px',
-//     marginTop: '20px',
-// })
+
+const MyLinkCard = styled(LinkCard)`
+  flex-basis: calc(99% * 1 / 4 - 1rem);
+  max-width: 100%;
+  width: 100%;
+  @media (max-width: 1135px) {
+    flex-basis: calc(99% * 1 / 2 - 1rem);
+    ${'' /* max-width: calc(99% * 1 / 2 - 1rem);
+    width: calc(99% * 1 / 2 - 1rem); */}
+  }
+  @media (max-width: 690px) {
+    flex-basis: calc(99% * 1 / 1);
+    ${'' /* max-width: calc(99% * 1 / 1);
+    width: calc(99% * 1 / 1); */}
+  }
+`
 
 const Container = styled('div')({
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridTemplateColumns: 'repeat(2, 1fr)',
     gridColumnGap: '5px',
     gridRowGap: '5px',
 })
@@ -40,14 +52,20 @@ class sideContent extends React.Component {
         return (
             <RightColumn>
                 <Card>
-                    <h2>About Me</h2>
-                    <p>Hey this is me</p>
+                    <h2>About us</h2>
+                    <p>Vicky & Flo</p>
+                    <p>📍Sydney</p>
+                    <p>Exploring AUS in our Troopy 🚐</p>
+                    <p>🇦🇺 • 🇩🇪</p>
                 </Card>
                 <Card>
-                    <h3>Popular on the Blog</h3>
+                    <MyLinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
+                        <YouTube />
+                        Road Vagabonds
+                    </MyLinkCard>
                 </Card>
                 <Card>
-                    <h3>            
+                    <h3>
                         <a
                             style={{
                                 boxShadow: `none`,
@@ -63,7 +81,7 @@ class sideContent extends React.Component {
                                 let captionText = item.node.caption ? deleteTags(item.node.caption.text) : "Instagram Post"
                                 return (
                                     item.node.localImage ?
-                                        <a 
+                                        <a
                                             href={item.node.link}
                                             key={i}
                                             style={{
@@ -73,10 +91,10 @@ class sideContent extends React.Component {
                                                 ':hover': {
                                                     boxShadow: '0 10px 30px 0 rgba(0, 0, 0, 0.29)',
                                                 },
-                                            }}> 
-                                            <Image 
-                                                fluid={item.node.localImage.childImageSharp.fluid} 
-                                                key={i} 
+                                            }}>
+                                            <Image
+                                                fluid={item.node.localImage.childImageSharp.fluid}
+                                                key={i}
                                                 caption={captionText} />
                                         </a>
                                         : <div></div>

@@ -110,7 +110,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    insta: allInstagramContent {
+    insta: allInstagramContent(
+      limit: 6
+    ) {
+      
       edges {
         node {
         link

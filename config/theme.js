@@ -1,6 +1,12 @@
 import { rgba } from 'polished'
 
 const colors = {
+  white: {
+    base: '#fff',
+    light: '#f0f0f0',
+    blueish: '#d6e1ff',
+    blue: '#a8b8e1',
+  },
   main: {
     grey: '#878787',
     yellow: '#E6D065',
