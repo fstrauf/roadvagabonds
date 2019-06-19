@@ -1,9 +1,9 @@
+import React from "react"
 import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
-import styled from "@emotion/styled"
 import Container from '../elements/Container'
-import React from "react"
+import styled from 'styled-components'
 
 const CategoriesContainer = styled(Container)`
   
@@ -13,9 +13,14 @@ const CategoriesContainer = styled(Container)`
   }
 `
 
-const Section = styled("div")({
-    margin: '1.5rem 0',
-})
+const Section = styled.div`
+    margin: 1.5rem 0;
+`
+
+const BlogBox = styled.div`
+    border-radius: ${props => props.theme.borderRadius.default};
+    background: ${props => props.theme.colors.main.yellow};
+`
 
 const Blog = ({ cats, posts }) => (
     <div>
@@ -30,12 +35,8 @@ const Blog = ({ cats, posts }) => (
         }}>
             {posts.map(({ node }) => {
                 return (
-                    <div
-                        key={node.fields.slug}
-                        style={{
-                            background: theme.colors.main.yellow,
-                        }}>
-                        {console.log(node.frontmatter.slug)}
+                    <BlogBox
+                        key={node.fields.slug}>
                         <Section>
                             <ItemBlog
                                 key={node.fields.slug}
@@ -47,7 +48,7 @@ const Blog = ({ cats, posts }) => (
                                 excerpt={node.excerpt}
                             />
                         </Section>
-                    </div>
+                    </BlogBox>
                 )
             })}
         </div>

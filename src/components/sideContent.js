@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
+import styled from 'styled-components'
 import Image from 'gatsby-image'
 import theme from '../../config/theme'
 
@@ -11,11 +12,18 @@ const RightColumn = styled('div')({
     verticalAlign: 'top',
 })
 
-const Card = styled('div')({
-    backgroundColor: theme.colors.main.yellow,
-    padding: '5px',
-    marginTop: '20px',
-})
+const Card = styled.div`
+    border-radius: ${props => props.theme.borderRadius.default};
+    background-color: ${props => props.theme.colors.main.yellow};
+    padding: 5px;
+    margin-top: 20px;
+`
+// const Card = styled('div')({
+//     backgroundColor: theme.colors.main.yellow,
+//     border-radius: ${props => props.theme.borderRadius.default};
+//     padding: '5px',
+//     marginTop: '20px',
+// })
 
 const Container = styled('div')({
     display: 'grid',
