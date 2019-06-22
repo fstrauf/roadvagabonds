@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Blog from '../components/blog'
 import theme from '../../config/theme'
+import Bio from '../components/bio'
 
 const Index = ({
   data: {
@@ -21,6 +22,7 @@ const Index = ({
         title={site.title}
       />
       <SEO title="All posts" />
+      <Bio />
       <div style={{
         height: '100%',
         width: '100%',

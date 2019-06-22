@@ -29,9 +29,7 @@ const Container = styled('div')({
 
 class sideContent extends React.Component {
     render() {
-        console.log(this.props)
         let { posts, insta } = this.props;
-        console.log(this.props)
         return (
             <RightColumn>
                 <Card>

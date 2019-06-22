@@ -11,8 +11,8 @@ const TagsContainer = styled.div`
 `
 
 const Tag = styled(props => <Link {...props} />)`
-  background: ${props => props.theme.tint.black};
-  color: ${props => props.theme.colors.main.grey};
+  background: ${props => props.theme.colors.main.yellow};
+  color: ${props => props.theme.colors.main.yellow};
   font-size: 0.9rem;
   padding: 0.2rem 0.75rem;
   border-radius: ${props => props.theme.borderRadius.default};

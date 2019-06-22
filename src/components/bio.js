@@ -1,5 +1,21 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
+import RoadVagabonds from '../icons/RoadVagabonds'
+
+const HeadContent = styled.p`
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+`
+
+const Wrapper = styled.div`
+  height: 400px
+`
 
 function Bio() {
   return (
@@ -8,20 +24,12 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              marginBottom: '2 rem',
-              display:'table-row',
-            }}
-          >
-            <p>
-              Written by <strong>{author}</strong> who lives in Sydney.
-              {` `}
-              <a href={`https://instagram.com/${social.instagram}`}>
-                You should follow him on Instagram
-              </a>
-            </p>
-          </div>
+          <Wrapper>
+            <HeadContent>
+            <RoadVagabonds style={{width:'2.5rem'}} />
+              Check out our latest posts below
+            </HeadContent>
+          </Wrapper>
         )
       }}
     />

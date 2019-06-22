@@ -4,12 +4,12 @@ const colors = {
   white: {
     base: '#fff',
     light: '#f0f0f0',
-    blueish: '#d6e1ff',
-    blue: '#a8b8e1',
+    blueish: '#E6D065',
+    blue: '#878787',
   },
   main: {
-    grey: '#878787',
-    yellow: '#E6D065',
+    grey: '#f0f0f0',
+    yellow: '#878787',
   },
   black: {
     base: '#333438',

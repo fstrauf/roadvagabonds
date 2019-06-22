@@ -53,7 +53,6 @@ function sortPosts(initials) {
     formObj.push(helpObj)
   })
 
-  console.log(formObj)
   return formObj
 }
 
@@ -83,7 +82,6 @@ const Categories = ({
               </div>
               <ul>
                 {node.detail.map(detail => {
-                  console.log(detail)
                   return (
                     <li>
                       <Link to={detail.slug}>
