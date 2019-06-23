@@ -2,13 +2,15 @@ import { Link } from "gatsby"
 import React from 'react'
 import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
+import HeadRoom from 'react-headroom'
 
-const Wrapper = styled.div`    
-    height: 81px;
-    position: fixed;
-    width: 100%;
-    z-index: 2000;
-`
+// const Wrapper = styled.HeadRoom`    
+//     height: 81px;
+//     position: fixed;
+//     width: 100%;
+//     z-index: 2000;
+//     transition: top 0.3s;
+// `
 
 const Container = styled.div`
     position: relative;
@@ -38,8 +40,13 @@ const NavBar = styled.nav`
 //     float:right
 // `
 
+// .headroom--pinned {
+//     position: fixed;
+//     transform: translateY(0%);
+//   }
+
 const Header = ({ siteTitle, menuLinks }) => (
-    <Wrapper>
+    <HeadRoom>
         <Container>
             {/* <div> */}
                 <Link
@@ -89,7 +96,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 </ul>
             </NavBar>
         </Container>
-    </Wrapper>
+    </HeadRoom>
 )
 
 export default Header
