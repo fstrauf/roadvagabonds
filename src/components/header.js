@@ -3,8 +3,6 @@ import React from 'react'
 import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
 
-
-
 const Wrapper = styled.div`    
     height: 81px;
     position: fixed;
@@ -31,19 +29,30 @@ const NavBar = styled.nav`
     align-items: center;
 `
 
-const HeadBar = styled.h2`
-    margin-bottom: 0.5 rem;
-    margin-top: 0;
-    display: flex;
-    webkit-box-align: center;
-    align-items: center;
-`
+// const HeadBar = styled.h2`
+//     margin-bottom: 0.5 rem;
+//     margin-top: 0;
+//     display: flex;
+//     webkit-box-align: center;
+//     align-items: center;
+//     float:right
+// `
 
 const Header = ({ siteTitle, menuLinks }) => (
     <Wrapper>
         <Container>
-            <div>
-                <RoadVagabonds style={{width:'50 px'}} />
+            {/* <div> */}
+                <Link
+                        style={{
+                            boxShadow: `none`,
+                            textDecoration: `none`,
+                            color: `inherit`,
+                        }}
+                        to={`/`}
+                    >
+                    <RoadVagabonds width='4rem' style={{float:'left' }}/>
+                    </Link>
+                {/* <span style={{marginLeft:'0.75rem' }}/>
                 <HeadBar>
                     <Link
                         style={{
@@ -53,10 +62,9 @@ const Header = ({ siteTitle, menuLinks }) => (
                         }}
                         to={`/`}
                     >
-                        {siteTitle}
                     </Link>
-                </HeadBar>
-            </div>
+                </HeadBar> */}
+            {/* </div> */}
             <NavBar>
                 <ul style={{
                     display: 'flex',
