@@ -4,13 +4,13 @@ import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
 import HeadRoom from 'react-headroom'
 
-// const Wrapper = styled.HeadRoom`    
-//     height: 81px;
-//     position: fixed;
-//     width: 100%;
-//     z-index: 2000;
-//     transition: top 0.3s;
-// `
+const Wrapper = styled.HeadRoom`    
+    height: 81px;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+    transition: top 0.3s;
+`
 
 const Container = styled.div`
     position: relative;
@@ -46,7 +46,7 @@ const NavBar = styled.nav`
 //   }
 
 const Header = ({ siteTitle, menuLinks }) => (
-    <HeadRoom>
+    <Wrapper>
         <Container>
             {/* <div> */}
                 <Link
@@ -96,7 +96,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 </ul>
             </NavBar>
         </Container>
-    </HeadRoom>
+    </Wrapper>
 )
 
 export default Header
