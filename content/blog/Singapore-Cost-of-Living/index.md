@@ -7,7 +7,7 @@ tags: ["Cost of Living", "Singapore", "Singapore"]
 slug: 2019-2-23-singapore-cost-of-living
 draft: false
 meta_title: "Singapore - Cost of Living"
-image: gatsby-icon.png
+image: cost-of-living-singapore-receipt.JPG
 categories: ["life"]
 ---
 
