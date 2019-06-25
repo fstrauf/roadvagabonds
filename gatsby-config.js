@@ -3,7 +3,7 @@ module.exports = {
     title: `Road Vagabonds`,
     author: `Florian Strauf`,
     description: `Our blog for travel, troopy and adventure!`,
-    siteUrl: `https://nostalgic-leakey-9b5457.netlify.com/`,
+    siteUrl: `https://roadvagabonds.com`,
     social: {
       instagram: `roadvagabonds`,
     },
@@ -19,6 +19,7 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-instagram-all`,
       options: {
