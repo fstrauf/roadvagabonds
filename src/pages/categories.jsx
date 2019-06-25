@@ -76,7 +76,7 @@ const Categories = ({
               <div
                 key={node.header}
                 style={{
-                  background: theme.colors.main.yellow,
+                  background: theme.colors.main.dark,
                 }}>
                 {node.header}
               </div>

@@ -3,14 +3,20 @@ import React from 'react'
 import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
 import HeadRoom from 'react-headroom'
+import theme from '../../config/theme'
 
-// const Wrapper = styled.HeadRoom`    
-//     height: 81px;
-//     position: fixed;
-//     width: 100%;
-//     z-index: 2000;
-//     transition: top 0.3s;
-// `
+const Wrapper = styled(HeadRoom)`    
+    height: 81px;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+    transition: top 0.3s;
+    .headroom--pinned {
+        position: fixed;
+        transform: translateY(0%);
+        background: ${theme.colors.main.light}
+    }
+`
 
 const Container = styled.div`
     position: relative;
@@ -31,72 +37,50 @@ const NavBar = styled.nav`
     align-items: center;
 `
 
-// const HeadBar = styled.h2`
-//     margin-bottom: 0.5 rem;
-//     margin-top: 0;
-//     display: flex;
-//     webkit-box-align: center;
-//     align-items: center;
-//     float:right
-// `
+const NavBarUl = styled.ul`
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+`
 
-// .headroom--pinned {
-//     position: fixed;
-//     transform: translateY(0%);
-//   }
+const NavBarLi = styled.li`
+    color: ${theme.colors.main.dark};
+    padding-right: 1rem;
+`
 
 const Header = ({ siteTitle, menuLinks }) => (
-    <HeadRoom>
+    <Wrapper>
         <Container>
-            {/* <div> */}
-                <Link
-                        style={{
-                            boxShadow: `none`,
-                            textDecoration: `none`,
-                            color: `inherit`,
-                        }}
-                        to={`/`}
-                    >
-                    <RoadVagabonds width='4rem' style={{float:'left' }}/>
-                    </Link>
-                {/* <span style={{marginLeft:'0.75rem' }}/>
-                <HeadBar>
-                    <Link
-                        style={{
-                            boxShadow: `none`,
-                            textDecoration: `none`,
-                            color: `inherit`,
-                        }}
-                        to={`/`}
-                    >
-                    </Link>
-                </HeadBar> */}
-            {/* </div> */}
+            <Link
+                style={{
+                    boxShadow: `none`,
+                    textDecoration: `none`,
+                    color: `inherit`,
+                }}
+                to={`/`}
+            >
+                <RoadVagabonds width='4rem' style={{ float: 'left' }} />
+            </Link>
             <NavBar>
-                <ul style={{
-                    display: 'flex',
-                    listStyle: 'none',
-                    marginLeft: '0',
-                }}>
+                <NavBarUl>
                     {menuLinks.map(link =>
-                        <li key={link.link} style={{
-                            paddingRight: '1rem'
-                        }}>
+                        <NavBarLi key={link.link}>
                             <Link
                                 to={link.link}
                                 style={{
-                                    color: 'black',
+                                    color: theme.colors.main.dark,
                                     textDecoration: 'none',
                                     boxShadow: 'none',
                                     margin: '5 rem'
                                 }}>
                                 {link.name}</Link>
-                        </li>
+                        </NavBarLi>
                     )}
-                </ul>
+                </NavBarUl>
             </NavBar>
         </Container>
-    </HeadRoom>
+    </Wrapper>
 )
 
 export default Header

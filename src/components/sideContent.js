@@ -9,13 +9,13 @@ const RightColumn = styled('div')({
     width: '30%',
     paddingLeft: '20px',
     display: 'table-cell',
-    background: theme.colors.main.grey,
+    background: theme.colors.main.light,
     verticalAlign: 'top',
 })
 
 const Card = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
-    background-color: ${props => props.theme.colors.main.yellow};
+    background-color: ${props => props.theme.colors.main.dark};
     padding: 5px;
     margin-top: 20px;
 `
@@ -34,10 +34,8 @@ class sideContent extends React.Component {
             <RightColumn>
                 <Card>
                     <h2>About us</h2>
-                    <p>Vicky & Flo</p>
-                    <p>📍Sydney</p>
-                    <p>Exploring AUS in our Troopy 🚐</p>
-                    <p>🇦🇺 • 🇩🇪</p>
+                    <p>Vicky & Flo living in Sydney</p>
+                    <p>Exploring AUS in our Troopy</p>                    
                 </Card>
                 <Card>
                     <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">

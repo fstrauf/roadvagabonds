@@ -78,7 +78,7 @@ const Information = styled.div`
 `
 
 const Statistics = styled.div`
-  color: ${props => props.theme.colors.main.grey};
+  color: ${props => props.theme.colors.main.light};
 `
 
 const Excerpt = styled.div`

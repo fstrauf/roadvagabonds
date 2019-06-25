@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticQuery } from "gatsby"
 import Header from '../components/header'
-import PropTypes from "prop-types"
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
 import Footer from '../components/footer'
@@ -17,7 +16,7 @@ const Layout = ({ children }) => (
           width: '100%',
           // padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
-          background: theme.colors.main.grey
+          background: theme.colors.main.light
         }}
       >
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />

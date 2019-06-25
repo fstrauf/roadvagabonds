@@ -18,11 +18,11 @@ const CategoryPage = ({
 }) => (
     <Layout title={site.title}>
       <SEO title="All posts" />
-      {/* <Bio /> */}
+      <Bio />
       <div style={{
         height: '100%',
         width: '100%',
-        background: theme.colors.main.grey,
+        background: theme.colors.main.light,
         display: 'table'
       }}>
         <Blog cats={cats} posts={posts} />

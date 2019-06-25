@@ -20,7 +20,7 @@ const Section = styled.div`
 
 const BlogBox = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
-    background: ${props => props.theme.colors.main.yellow};
+    background: ${props => props.theme.colors.main.dark};
 `
 
 const Blog = ({ cats, posts }) => (
@@ -31,7 +31,7 @@ const Blog = ({ cats, posts }) => (
         <div style={{
             height: '100%',
             width: '70%',
-            background: theme.colors.main.grey,
+            background: theme.colors.main.light,
             display: 'table-cell'
         }}>
             {posts.map(({ node }) => {
