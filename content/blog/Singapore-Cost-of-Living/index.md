@@ -11,7 +11,7 @@ image: cost-of-living-singapore-receipt.JPG
 categories: ["life"]
 ---
 
-After living almost one year in one of the most expensive cities in the world, (this is [how we got here](https://vickystrauf.com/home-1/2018/6/15/how-we-ended-up-in-singapore)) I would like to share our personal experience with the costs of a life in Singapore.<!-- end --> Of course all of this depends on your style of living, but it should give you a good overview.
+After living almost one year in one of the most expensive cities in the world, (this is [how we got here](https://roadvagabonds.com/2018-6-15-how-we-ended-up-in-singapore)) I would like to share our personal experience with the costs of a life in Singapore.<!-- end --> Of course all of this depends on your style of living, but it should give you a good overview.
 
 ## Singapore - Cost of Living (monthly)
 
@@ -54,7 +54,7 @@ For us, cooking in Singapore would have been more expensive than eating out. Som
 5.  Variety of food in Singapore is amazing - Thai, Japanese, Indian, Indonesian, Vietnamese, Korean
     
 
-Going out for drinks in Singapore is super expensive but you get used to it ;) Check out our favorites [here](https://vickystrauf.com/home-1/favoritebars).
+Going out for drinks in Singapore is super expensive but you get used to it ;) Check out our favorites [here](https://roadvagabonds.com/2019-01-04-Favorite-bars-in-Singapore).
 
 ## Groceries
 

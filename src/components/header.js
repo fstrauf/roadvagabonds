@@ -7,7 +7,7 @@ import theme from '../../config/theme'
 
 const Wrapper = styled(HeadRoom)`    
     height: 81px;
-    position: fixed;
+    ${'' /* position: fixed; */}
     width: 100%;
     z-index: 2000;
     transition: top 0.3s;

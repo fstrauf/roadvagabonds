@@ -4,7 +4,7 @@ title: "Weekend Trip to famous Angkor Wat"
 author: Vicky
 date: 2018-11-11T12:46:33+11:00
 tags: ["Angkor Wat", "Cambodia", "Siem Reap", "southeastasia", "Temples", "Travel", "travel"]
-slug: 2018-11-10-wazhipvevoi4yekjqnnr21jhae76bw
+slug: 2018-11-10-Weekend-Trip-to-famous-Angkor-Wat
 draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
 image: angkor-what-temple.jpg

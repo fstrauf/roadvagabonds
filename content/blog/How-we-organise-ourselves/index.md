@@ -21,12 +21,12 @@ Moving to different countries requires a fair bit of planning and bookkeeping<!-
     
 *   How do we get our currency from A to B?
     
-*   How will living in this country be? (Check out my article on [Singapore - Cost of Living](https://vickystrauf.com/home-1/2019/2/23/singapore-cost-of-living))
+*   How will living in this country be? (Check out my article on [Singapore - Cost of Living](https://roadvagabonds.com/2019-2-23-singapore-cost-of-living))
     
 
 Even if you don’t move to a different country, keeping track of your expenses and putting in a little time to organise and structure your finances can actually help you save a lot of money. There are many ways to do this but we have decided to use [Google-Docs](https://www.google.com/docs/about/). It’s free, easily shareable, allows Excel-Like macro functionality and works on all devices. Multiple users can work in one document at the same time and link to stored and shared documents in Drive as well.
 
-In the following sections I want to show you which tools we use and how we use them to be more efficient and have more time for the fun stuff (check out the travel section [here](https://vickystrauf.com/home-1?category=Travel))!
+In the following sections I want to show you which tools we use and how we use them to be more efficient and have more time for the fun stuff (check out the travel section [here](https://roadvagabonds.com/categories/travel))!
 
 ## Getting digital
 

@@ -1,11 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import styled from "@emotion/styled"
 import ReactDisqusComments from 'react-disqus-comments'
-// import Container from '../elements/Container'
 import Line from '../elements/Line'
 import styled from 'styled-components'
 
@@ -88,9 +85,6 @@ class BlogPostTemplate extends React.Component {
           />
           <Line aria-hidden="true" />
         </DisqusContainer>
-
-        <Bio />
-
       </Layout>
     )
   }

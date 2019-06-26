@@ -4,7 +4,7 @@ title: "Roadtrip Taiwan"
 author: Vicky
 date: 2018-08-29T11:09:47+10:00
 tags: ["Roadtrip", "Taiwan", "Travel"]
-slug: 2018-8-28-dlo4jeg8svwi0jftxah6j2gth9wvi7
+slug: 2018-8-28-Roadtrip-Taiwan
 draft: false
 meta_title: "Roadtrip Taiwan"
 image: tigerlily-panorama-view.jpg
