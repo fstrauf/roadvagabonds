@@ -83,6 +83,7 @@ const Statistics = styled.div`
 
 const Excerpt = styled.div`
   margin-top: 2rem;
+  margin-right: 1rem;
 `
 
 const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
@@ -93,8 +94,8 @@ const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
           </Link>
         </Image>
         <Information>
-          <Link to={path}>
-            <h2>{title}</h2>
+          <Link to={path} >
+            <h2 style={{marginTop:'1rem'}}>{title}</h2>
           </Link>
           <Statistics>
             <span>{`${date}, ${category}`}</span>
