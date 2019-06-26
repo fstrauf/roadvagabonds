@@ -6,6 +6,9 @@ import { SkipNavContent } from '../elements/SkipNavLink'
 import theme from '../../config/theme'
 import styled from 'styled-components'
 import { sortPosts } from '../utils/helper'
+import Bio from '../components/bio'
+import SEO from "../components/seo"
+import Helmet from 'react-helmet'
 
 const CategoriesContainer = styled.section`
   padding: 0 1.5rem;
@@ -32,6 +35,11 @@ const Categories = ({
   },
 }) => (
     <Layout title={site.title}>
+      <Helmet
+        title={site.title}
+      />
+      <SEO title="All posts" />
+      <Bio />
       <SkipNavContent>
         <CategoriesContainer>
           <Tags tags={posts.group} linkPrefix="categories" />
@@ -51,7 +59,7 @@ const Categories = ({
               <ul>
                 {node.detail.map(detail => {
                   return (
-                    <li>
+                    <li style={{listStyle: 'none'}}>
                       <Link to={detail.slug}>
                         {detail.title}
                       </Link>
