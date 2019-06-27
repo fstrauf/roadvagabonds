@@ -49,7 +49,7 @@ const NavBarLi = styled.li`
     padding-right: 1rem;
 `
 
-const Header = ({ siteTitle, menuLinks }) => (
+const header = ({ siteTitle, menuLinks }) => (
     <Wrapper>
         <Container>
             <Link
@@ -83,4 +83,4 @@ const Header = ({ siteTitle, menuLinks }) => (
     </Wrapper>
 )
 
-export default Header
+export default header

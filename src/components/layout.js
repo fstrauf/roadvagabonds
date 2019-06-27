@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
 import Footer from '../components/footer'
 
-const Layout = ({ children }) => (
+const layout = ({ children }) => (
   <StaticQuery
     query={siteTitleQuery}
     render={data => (
@@ -47,4 +47,4 @@ const siteTitleQuery = graphql`
     }
   `
 
-export default Layout
+export default layout

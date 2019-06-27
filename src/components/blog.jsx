@@ -23,7 +23,7 @@ const BlogBox = styled.div`
     background: ${props => props.theme.colors.main.dark};
 `
 
-const Blog = ({ cats, posts }) => (
+const blog = ({ cats, posts }) => (
     <div>
         <CatContainer>
             <Tags tags={cats.group} linkPrefix="categories" />
@@ -57,4 +57,4 @@ const Blog = ({ cats, posts }) => (
 
 )
 
-export default Blog
+export default blog

@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   height: 400px
 `
 
-function Bio() {
+function bio() {
   return (
     <StaticQuery
       query={bioQuery}
@@ -57,4 +57,4 @@ const bioQuery = graphql`
   }
 `
 
-export default Bio
+export default bio
