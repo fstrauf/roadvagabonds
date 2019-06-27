@@ -5,13 +5,19 @@ import theme from '../../config/theme'
 import YouTube from '../icons/YouTube'
 import { LinkCard } from './Card'
 
-const RightColumn = styled('div')({
-    width: '30%',
-    paddingLeft: '20px',
-    display: 'table-cell',
-    background: theme.colors.main.light,
-    verticalAlign: 'top',
-})
+const RightColumn = styled.div`
+    width: 30%;
+    padding-left: 20px;
+    display: table-cell;
+    background: ${theme.colors.main.light};
+    vertical-align: top;
+    @media screen and (max-width: 1000px) {
+        width: 100%;
+        padding-left: 0px;
+        display: table;
+        vertical-align: top;
+      }
+`
 
 const Card = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
