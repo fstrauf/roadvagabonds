@@ -95,7 +95,7 @@ const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (
         </Image>
         <Information>
           <Link to={path} >
-            <h2 style={{marginTop:'1rem'}}>{title}</h2>
+            <h2 style={{marginTop:'1rem', fontSize:'1 vw'}}>{title}</h2>
           </Link>
           <Statistics>
             <span>{`${date}, ${category}`}</span>
