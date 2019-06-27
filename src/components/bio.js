@@ -26,7 +26,7 @@ function Bio() {
         return (
           <Wrapper>
             <HeadContent>
-            <RoadVagabonds style={{width:'2.5rem'}} />
+            <RoadVagabonds style={{width:'240px'}} />
               Check out our latest posts below
             </HeadContent>
           </Wrapper>
