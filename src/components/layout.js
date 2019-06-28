@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Header from '../components/header'
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'

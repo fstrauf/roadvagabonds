@@ -7,6 +7,7 @@ import Helmet from 'react-helmet'
 import Blog from '../components/blog'
 import theme from '../../config/theme'
 import Bio from '../components/bio'
+import { graphql } from 'gatsby'
 
 const Index = ({
   data: {

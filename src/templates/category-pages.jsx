@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import PropTypes from 'prop-types'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
+import { graphql } from 'gatsby'
 
 const CategoryPage = ({
   data: {
