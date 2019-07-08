@@ -56,8 +56,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={site.title}>
         <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          postNode={post} article
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -97,7 +96,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
         siteUrl
       }
     }

@@ -19,6 +19,7 @@ const Index = ({
   pageContext: { cat },
 }) => (
     <Layout title={site.title}>
+    <SEO/>
       <Helmet
         title={site.title}
       />

@@ -5,11 +5,13 @@ import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
 import Footer from '../components/footer'
 
+
 const layout = ({ children }) => (
   <StaticQuery
     query={siteTitleQuery}
     render={data => (
       <ThemeProvider theme={theme}>
+      {/* <SEO/> */}
       <div
         style={{
           margin: `0 auto`,

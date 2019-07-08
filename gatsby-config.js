@@ -1,11 +1,19 @@
+
+const config = require('./config/website')
+
 module.exports = {
   siteMetadata: {
-    title: `Road Vagabonds`,
-    author: `Florian Strauf`,
-    description: `Our blog for travel, troopy and adventure!`,
-    siteUrl: `https://roadvagabonds.com`,
+    title: config.title,
+    siteDescription: config.siteDescription,
+    siteShortName: config.siteShortName,
+    siteUrl: config.siteUrl,
+    siteLogo: config.siteLogo,
+    siteLogoSmall: config.siteLogoSmall,
+    siteBanner: config.siteBanner,
+    siteBannerWidth: config.siteBannerWidth,
+    siteBannerHeight: config.siteBannerHeight,
     social: {
-      instagram: `roadvagabonds`,
+      instagram: config.instagram,
     },
     menuLinks: [
       {
