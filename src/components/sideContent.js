@@ -63,7 +63,7 @@ class sideContent extends React.Component {
                     <Container className='grid'>
                         {
                             posts.map((item, i) => {
-                                let captionText = item.node.caption ? deleteTags(item.node.caption.text) : "Instagram Post"
+                                let captionText = "Instagram Post"
                                 return (
                                     item.node.localImage ?
                                         <a
@@ -96,6 +96,6 @@ class sideContent extends React.Component {
 
 export default sideContent
 
-function deleteTags(text) {
-    return text.replace(/^(\s*#\w+\s*)+$/gm, "")
-}
+// function deleteTags(text) {
+//     return text.replace(/^(\s*#\w+\s*)+$/gm, "")
+// }
