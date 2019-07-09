@@ -75,6 +75,9 @@ const Information = styled.div`
     max-width: 100%;
     width: 100%;
   }
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 `
 
 const Statistics = styled.div`
@@ -82,8 +85,7 @@ const Statistics = styled.div`
 `
 
 const Excerpt = styled.div`
-  margin-top: 2rem;
-  margin-right: 1rem;
+  margin-top: 1rem;
 `
 
 const ItemBlog = ({ path, cover, category, title, date, excerpt }) => (

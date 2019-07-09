@@ -1,5 +1,5 @@
-
 const config = require('./config/website')
+
 
 module.exports = {
   siteMetadata: {
@@ -95,6 +95,9 @@ module.exports = {
         start_url: `/`,
         display: `minimal-ui`,
         icon: `static/RoadVagabonds_Logo-01.png`,
+        background_color: "#f0f0f0",
+        theme_color: "#878787",
+        crossOrigin: `use-credentials`
       },
     },
     `gatsby-plugin-offline`,
