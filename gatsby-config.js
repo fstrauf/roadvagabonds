@@ -99,6 +99,12 @@ module.exports = {
         crossOrigin: `use-credentials`
       },
     },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
+      }
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
