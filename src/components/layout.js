@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from '../components/header'
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
-import Footer from '../components/footer'
+// import Footer from '../components/footer'
 
 
 const layout = ({ children }) => (
@@ -23,8 +23,8 @@ const layout = ({ children }) => (
       >
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
         <main>{children}</main>
-        <Footer>
-        </Footer>
+        {/* <Footer>
+        </Footer> */}
       </div>
       </ThemeProvider>
     )}
