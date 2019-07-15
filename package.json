@@ -12,7 +12,7 @@
     "@emotion/styled": "^10.0.12",
     "babel-plugin-styled-components": "^1.10.4",
     "gatsby": "^2.9.7",
-    "gatsby-cli": "^2.6.10",
+    "gatsby-cli": "^2.7.14",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-feed": "^2.2.3",
     "gatsby-plugin-glamor": "^2.0.10",
@@ -44,10 +44,12 @@
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "styled-components": "^4.3.2",
+    "to": "^0.2.9",
     "typeface-istok-web": "0.0.71",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
-    "typography": "^0.16.19"
+    "typography": "^0.16.19",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

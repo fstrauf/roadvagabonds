@@ -54,6 +54,7 @@ Index.propTypes = {
 }
 
 export const pageQuery = graphql`
+  # query IndexQuery($cat: String!,$skip: Int!, $limit: Int!) {  
   query IndexQuery($cat: String!) {  
     cats: allMarkdownRemark(
       limit: 2000) {
@@ -73,8 +74,8 @@ export const pageQuery = graphql`
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
-
-      limit: 100
+      # limit: $limit
+      # skip: $skip
     ) {
       edges {
         node {

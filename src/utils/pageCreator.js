@@ -1,3 +1,6 @@
+
+// import { graphql } from "gatsby"
+
 const _ = require('lodash')
 
 const prevNext = (list, item) => {
@@ -13,16 +16,27 @@ const prevNext = (list, item) => {
   }
 }
 
-const createPosts = (list, createPage, template) =>
+const createPosts = (list, createPage, template) => {
+
+  const postsPerPage = 6
+  let pageCount = 1
+  let itemCount = 0
+  let path = ''
+
   list.forEach(post => {
     const { left, right } = prevNext(list, post)
-    
     const {
       frontmatter: { slug },
     } = post.node
 
+    if (itemCount >= (postsPerPage * pageCount) ){
+      pageCount++     
+    }
+    itemCount++
+    path = pageCount + '/' + slug
+
     createPage({
-      path: slug,
+      path: path,
       component: template,
       context: {
         slug,
@@ -32,9 +46,10 @@ const createPosts = (list, createPage, template) =>
       },
     })
   })
+}
 
 
-  const createCategories = (list, createPage, template) =>
+const createCategories = (list, createPage, template) =>
   list.forEach(c => {
     const category = c.fieldValue
     const path = `/categories/${_.kebabCase(category)}`
