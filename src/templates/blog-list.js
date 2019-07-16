@@ -6,11 +6,7 @@ import SEO from "../components/seo"
 import PropTypes from 'prop-types'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
-import { Link,graphql } from 'gatsby'
-
-// const { currentPage, numPages } = this.props.pageContext
-
-const numPages = 3
+import { graphql } from 'gatsby'
 
 const BlogListPage = ({
   data: {
@@ -33,18 +29,6 @@ const BlogListPage = ({
         <Blog cats={cats} posts={posts} />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
-      {Array.from({ length: numPages }, (_, i) => (
-
-              <Link
-                to={`/${i + 1}`}
-                style={{
-                  padding: '0.2rem',
-                  textDecoration: 'none',
-                }}
-              >
-                {i + 1}
-              </Link>
-          ))}
     </Layout>
   )
 

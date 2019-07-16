@@ -35,6 +35,7 @@ const Image = styled.div`
     }
     > div > div {
       position: static !important;
+      padding-bottom: 0% !important;
     }
     &:focus {
       outline: none;

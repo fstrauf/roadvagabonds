@@ -31,7 +31,7 @@ const Index = ({
         background: theme.colors.main.light,
         display: 'table'
       }}>
-        <Blog cats={cats} posts={posts} page='2' numPage='6'/>
+        <Blog cats={cats} posts={posts}/>
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>
