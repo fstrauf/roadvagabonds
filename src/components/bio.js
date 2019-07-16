@@ -5,7 +5,7 @@ import RoadVagabonds from '../icons/RoadVagabonds'
 
 const HeadContent = styled.p`
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     align-items: center;
