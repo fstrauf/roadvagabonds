@@ -26,7 +26,7 @@ const BlogListPage = ({
         background: theme.colors.main.light,
         display: 'table'
       }}>
-        <Blog cats={cats} posts={posts} />
+        <Blog cats={cats} posts={posts} numPage='3' />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>

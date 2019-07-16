@@ -3,7 +3,7 @@ import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Tag from '../components/Tag'
 
 const CatContainer = styled.section`
@@ -25,56 +25,107 @@ const BlogBox = styled.div`
     background: ${props => props.theme.colors.main.dark};
 `
 
+class blog extends React.Component {
+    render() {
+        let { cats, posts, numPage } = this.props;
+        return (
+            <div>
+                <CatContainer>
+                    <Tags tags={cats.group} linkPrefix="categories" />
+                </CatContainer>
+                <div style={{
+                    height: '100%',
+                    width: '70%',
+                    background: theme.colors.main.light,
+                    display: 'table-cell'
+                }}>
+                    {posts.map(({ node }) => {
+                        return (
+                            <BlogBox
+                                key={node.fields.slug}>
+                                <Section>
+                                    <ItemBlog
+                                        key={node.fields.slug}
+                                        path={node.frontmatter.slug}
+                                        cover={node.frontmatter.image.childImageSharp.fluid}
+                                        title={node.frontmatter.title}
+                                        date={node.frontmatter.date}
+                                        category={node.frontmatter.categories}
+                                        excerpt={node.excerpt}
+                                    />
+                                </Section>
+                            </BlogBox>
+                        )
+                    })}
+                </div>
 
-const numPages = 3
+                <CatContainer>
+                    {Array.from({ length: numPage }, (_, i) => (
+                        <Tag
+                            to={`/${i === 0 ? '/' : i + 1}`}
+                            style={{
+                                boxShadow: `none`,
+                                textDecoration: `none`,
+                                color: `inherit`,
+                            }}>
+                            {i + 1}
+                        </Tag>
 
-const blog = ({ cats, posts, page, numPage }) => (
-    <div>
-        <CatContainer>
-            <Tags tags={cats.group} linkPrefix="categories" />
-        </CatContainer>
-        <div style={{
-            height: '100%',
-            width: '70%',
-            background: theme.colors.main.light,
-            display: 'table-cell'
-        }}>
-            {posts.map(({ node }) => {
-                return (
-                    <BlogBox
-                        key={node.fields.slug}>
-                        <Section>
-                            <ItemBlog
-                                key={node.fields.slug}
-                                path={node.frontmatter.slug}
-                                cover={node.frontmatter.image.childImageSharp.fluid}
-                                title={node.frontmatter.title}
-                                date={node.frontmatter.date}
-                                category={node.frontmatter.categories}
-                                excerpt={node.excerpt}
-                            />
-                        </Section>
-                    </BlogBox>
-                )
-            })}
-        </div>
+                    ))}
+                </CatContainer>
+            </div>
+        )
+    }
+}
 
-        <CatContainer>
-            {Array.from({ length: numPages }, (_, i) => (
-                <Tag
-                    to={`/${i === 0 ? '/' : i + 1}`}
-                    style={{
-                        boxShadow: `none`,
-                        textDecoration: `none`,
-                        color: `inherit`,
-                    }}>
-                    {i + 1}
-                </Tag>
 
-            ))}
-        </CatContainer>
-    </div>
+// const blog = ({ cats, posts, page, numPage }) => (
+//     <div>
+//         <CatContainer>
+//             <Tags tags={cats.group} linkPrefix="categories" />
+//         </CatContainer>
+//         <div style={{
+//             height: '100%',
+//             width: '70%',
+//             background: theme.colors.main.light,
+//             display: 'table-cell'
+//         }}>
+//             {posts.map(({ node }) => {
+//                 return (
+//                     <BlogBox
+//                         key={node.fields.slug}>
+//                         <Section>
+//                             <ItemBlog
+//                                 key={node.fields.slug}
+//                                 path={node.frontmatter.slug}
+//                                 cover={node.frontmatter.image.childImageSharp.fluid}
+//                                 title={node.frontmatter.title}
+//                                 date={node.frontmatter.date}
+//                                 category={node.frontmatter.categories}
+//                                 excerpt={node.excerpt}
+//                             />
+//                         </Section>
+//                     </BlogBox>
+//                 )
+//             })}
+//         </div>
 
-)
+//         <CatContainer>
+//             {Array.from({ length: numPages }, (_, i) => (
+//                 <Tag
+//                     to={`/${i === 0 ? '/' : i + 1}`}
+//                     style={{
+//                         boxShadow: `none`,
+//                         textDecoration: `none`,
+//                         color: `inherit`,
+//                     }}>
+//                     {i + 1}
+//                 </Tag>
+
+//             ))}
+//         </CatContainer>
+//     </div>
+
+// )
 
 export default blog

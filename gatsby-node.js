@@ -2,6 +2,7 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require('lodash');
 const { createPosts, createCategories, createBlogList } = require('./src/utils/pageCreator')
+const postsPerPage = 6 
 
 const wrapper = promise =>
   promise.then(result => {
@@ -10,8 +11,6 @@ const wrapper = promise =>
     }
     return result
   })
-
-
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions
@@ -23,6 +22,7 @@ exports.onCreatePage = ({ page, actions }) => {
     path: page.path,
     context: {
       cat: `//`, //wildcard regex search
+      limit: postsPerPage
     },
   })
 }
@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions }) => {
     `)
   )
 
-  createBlogList(result.data.allMarkdownRemark.edges, createPage, blogList)
+  createBlogList(result.data.allMarkdownRemark.edges, createPage, blogList, postsPerPage)
   createPosts(result.data.allMarkdownRemark.edges, createPage, blogPost)
   createCategories(result.data.posts.group, createPage, categoryTemplate)
 }

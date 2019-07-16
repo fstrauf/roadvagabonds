@@ -31,7 +31,7 @@ const Index = ({
         background: theme.colors.main.light,
         display: 'table'
       }}>
-        <Blog cats={cats} posts={posts}/>
+        <Blog cats={cats} posts={posts} numPage='3'/>
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>
@@ -54,8 +54,8 @@ Index.propTypes = {
 }
 
 export const pageQuery = graphql`
-  # query IndexQuery($cat: String!,$skip: Int!, $limit: Int!) {  
-  query IndexQuery($cat: String!) {  
+  query IndexQuery($cat: String!, $limit: Int!) {  
+  # query IndexQuery($cat: String!) {  
     cats: allMarkdownRemark(
       limit: 2000) {
       group(field: frontmatter___categories) {
@@ -74,7 +74,7 @@ export const pageQuery = graphql`
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
-      limit: 6
+      limit: $limit
       # skip: $skip
     ) {
       edges {

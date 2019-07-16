@@ -21,7 +21,7 @@ const createPosts = (list, createPage, template) => {
   // const postsPerPage = 6
   // let pageCount = 1
   // let itemCount = 0
-  let path = ''
+  // let path = ''
 
   list.forEach(post => {
     const { left, right } = prevNext(list, post)
@@ -35,10 +35,10 @@ const createPosts = (list, createPage, template) => {
     // itemCount++
     // path = pageCount + '/' + slug
 
-    path = slug
+    // path = slug
 
     createPage({
-      path: path,
+      path: slug,
       component: template,
       context: {
         slug,
@@ -50,9 +50,8 @@ const createPosts = (list, createPage, template) => {
   })
 }
 
-const createBlogList = (list, createPage, template) => {
+const createBlogList = (list, createPage, template, postsPerPage) => {
 
-  const postsPerPage = 6;
   const numPages = Math.ceil(list.length / postsPerPage);
 
   Array.from({ length: numPages }).forEach((_, i) => {
