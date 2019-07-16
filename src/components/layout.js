@@ -3,8 +3,6 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from '../components/header'
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
-// import Footer from '../components/footer'
-
 
 const layout = ({ children }) => (
   <StaticQuery
