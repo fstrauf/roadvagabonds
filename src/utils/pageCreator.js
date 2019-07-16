@@ -18,9 +18,9 @@ const prevNext = (list, item) => {
 
 const createPosts = (list, createPage, template) => {
 
-  const postsPerPage = 6
-  let pageCount = 1
-  let itemCount = 0
+  // const postsPerPage = 6
+  // let pageCount = 1
+  // let itemCount = 0
   let path = ''
 
   list.forEach(post => {
@@ -29,11 +29,13 @@ const createPosts = (list, createPage, template) => {
       frontmatter: { slug },
     } = post.node
 
-    if (itemCount >= (postsPerPage * pageCount) ){
-      pageCount++     
-    }
-    itemCount++
-    path = pageCount + '/' + slug
+    // if (itemCount >= (postsPerPage * pageCount) ){
+    //   pageCount++     
+    // }
+    // itemCount++
+    // path = pageCount + '/' + slug
+
+    path = slug
 
     createPage({
       path: path,
@@ -46,6 +48,26 @@ const createPosts = (list, createPage, template) => {
       },
     })
   })
+}
+
+const createBlogList = (list, createPage, template) => {
+
+  const postsPerPage = 6;
+  const numPages = Math.ceil(list.length / postsPerPage);
+
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/` : `/${i + 1}`,
+      component: template,
+      context: {      
+        limit: postsPerPage,      
+        skip: i * postsPerPage,      
+        numPages,      
+        cat: '//',
+        currentPage: i + 1    
+      } 
+    });
+  });
 }
 
 
@@ -63,4 +85,4 @@ const createCategories = (list, createPage, template) =>
     })
   })
 
-module.exports = { createPosts, createCategories }
+module.exports = { createPosts, createCategories, createBlogList }

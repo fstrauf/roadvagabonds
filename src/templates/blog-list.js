@@ -1,15 +1,18 @@
 import React from "react"
+import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Blog from '../components/blog'
 import theme from '../../config/theme'
-import Bio from '../components/bio'
-import { graphql } from 'gatsby'
+import Blog from '../components/blog'
+import { Link,graphql } from 'gatsby'
 
-const Index = ({
+// const { currentPage, numPages } = this.props.pageContext
+
+const numPages = 3
+
+const BlogListPage = ({
   data: {
     content: { siteMetadata: site },
     blog: { edges: posts },
@@ -19,10 +22,6 @@ const Index = ({
   pageContext: { cat },
 }) => (
     <Layout title={site.title}>
-    {/* <SEO/> */}
-      <Helmet
-        title={site.title}
-      />
       <SEO title="All posts" />
       <Bio />
       <div style={{
@@ -31,15 +30,27 @@ const Index = ({
         background: theme.colors.main.light,
         display: 'table'
       }}>
-        <Blog cats={cats} posts={posts} page='2' numPage='6'/>
+        <Blog cats={cats} posts={posts} />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
+      {Array.from({ length: numPages }, (_, i) => (
+
+              <Link
+                to={`/${i + 1}`}
+                style={{
+                  padding: '0.2rem',
+                  textDecoration: 'none',
+                }}
+              >
+                {i + 1}
+              </Link>
+          ))}
     </Layout>
   )
 
-export default Index
+export default BlogListPage
 
-Index.propTypes = {
+BlogListPage.propTypes = {
   data: PropTypes.shape({
     content: PropTypes.object.isRequired,
     blog: PropTypes.shape({
@@ -54,8 +65,7 @@ Index.propTypes = {
 }
 
 export const pageQuery = graphql`
-  # query IndexQuery($cat: String!,$skip: Int!, $limit: Int!) {  
-  query IndexQuery($cat: String!) {  
+  query BlogListPage($cat: String!, $skip: Int!, $limit: Int!) {  
     cats: allMarkdownRemark(
       limit: 2000) {
       group(field: frontmatter___categories) {
@@ -74,8 +84,8 @@ export const pageQuery = graphql`
     blog: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
-      limit: 6
-      # skip: $skip
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
@@ -91,8 +101,8 @@ export const pageQuery = graphql`
             image {
                 childImageSharp {
                   fluid(
-                    maxWidth: 450,
-                    maxHeight: 300) {
+                    maxWidth: 700,
+                    maxHeight: 700) {
                     ...GatsbyImageSharpFluid
                   }
                   fixed(width: 700, height: 300) {
@@ -107,7 +117,6 @@ export const pageQuery = graphql`
     insta: allInstagramContent(
       limit: 6
     ) {
-      
       edges {
         node {
         link

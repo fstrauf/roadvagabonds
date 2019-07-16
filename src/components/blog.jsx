@@ -3,6 +3,7 @@ import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 const CatContainer = styled.section`
   margin: 0 auto;
@@ -22,8 +23,8 @@ const BlogBox = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
     background: ${props => props.theme.colors.main.dark};
 `
-
-const blog = ({ cats, posts }) => (
+// const nextPage = (currentPage + 1).toString()
+const blog = ({ cats, posts, page, numPage }) => (
     <div>
         <CatContainer>
             <Tags tags={cats.group} linkPrefix="categories" />
@@ -53,6 +54,9 @@ const blog = ({ cats, posts }) => (
                 )
             })}
         </div>
+        <CatContainer>
+            <Tags tags={cats.group} linkPrefix="categories" />
+        </CatContainer>
     </div>
 
 )
