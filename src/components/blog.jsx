@@ -3,7 +3,6 @@ import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
 import styled from 'styled-components'
-// import { Link } from 'gatsby'
 import Tag from '../components/Tag'
 
 const CatContainer = styled.section`
@@ -14,6 +13,19 @@ const CatContainer = styled.section`
     font-size: 1rem !important;
     padding: 0.25rem 0.85rem !important;
   }
+`
+
+const NumContainer = styled.section`
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: ${props => props.theme.layout[props.type]};
+  a {
+    font-size: 1rem !important;
+    padding: 0.25rem 0.85rem !important;
+  }
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 `
 
 const Section = styled.div`
@@ -59,7 +71,7 @@ class blog extends React.Component {
                     })}
                 </div>
 
-                <CatContainer>
+                <NumContainer>
                     {Array.from({ length: numPage }, (_, i) => (
                         <Tag
                             to={`/${i === 0 ? '/' : i + 1}`}
@@ -72,7 +84,7 @@ class blog extends React.Component {
                         </Tag>
 
                     ))}
-                </CatContainer>
+                </NumContainer>
             </div>
         )
     }
