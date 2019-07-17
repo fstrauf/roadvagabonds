@@ -5,7 +5,7 @@ author: Flo
 date: 2019-07-17T20:30:31+11:00
 tags: ["Troopy", "Australia", "Overland", "Guide", "4x4", "Camping"]
 slug: 2019-7-17-troopy-the-ultimate-overland-vehicle
-draft: true
+draft: false
 meta_title: "Troopy - the ultimate overland vehicle?"
 image: troopy-poptop-overland-toyota.jpg
 categories: ["troopy"]
