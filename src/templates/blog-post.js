@@ -7,7 +7,7 @@ import Line from '../elements/Line'
 import styled from 'styled-components'
 
 const PostText = styled(`div`)`
-  max-width: 46rem;
+  max-width: 50rem;
   margin: 0px auto;
   padding: 0px 1.5rem;
   ul {
@@ -39,12 +39,17 @@ const DisqusContainer = styled.section`
   max-width: ${props => props.theme.layout[props.type]};
 `
 
+const HeaderContainer = styled.section`
+  margin-top: 2rem;
+  margin-left: 2rem;
+`
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const site = this.props.data.site.siteMetadata
 
-      // Disqus
+    // Disqus
     const disqus = {
       shortname: 'roadvagabonds-com',
       url: site.siteUrl,
@@ -58,16 +63,18 @@ class BlogPostTemplate extends React.Component {
         <SEO
           postNode={post} article
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            display: `block`,
-            marginBottom: '1 rem',
-            marginTop: '-1 rem',
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <HeaderContainer>
+          <h1>{post.frontmatter.title}</h1>
+          <p
+            style={{
+              display: `block`,
+              marginBottom: '1 rem',
+              marginTop: '-1 rem',
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+        </HeaderContainer>
         <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
