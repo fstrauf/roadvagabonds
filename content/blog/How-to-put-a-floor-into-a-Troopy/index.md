@@ -46,7 +46,7 @@ To make your car a comfy home, start with the floor. It's pretty easy and even i
 10. Rust prevention Spray (Lanolin)
 11. Sandpaper
 
-![Shopping](./troopy-laying-vynil-floor.jpg)
+![Shopping](./troopy-shopping-bunnings-loaded.jpg)
 
 ## Measurements
 
