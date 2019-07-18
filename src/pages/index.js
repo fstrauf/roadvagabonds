@@ -1,21 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import SideContent from "../components/sideContent"
-import SEO from "../components/seo"
-import Helmet from 'react-helmet'
-import Blog from '../components/blog'
-import theme from '../../config/theme'
-import Bio from '../components/bio'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
-
-const BlogMainWrapper = styled.div`
-  height: 100%;
-  background: ${theme.colors.main.light};
-  display: table;
-  margin-left: 3rem;
-  margin-right: 3rem;
-`
+import BlogMain from "../components/blogMain"
 
 class Index extends React.Component {
   render() {
@@ -26,20 +11,14 @@ class Index extends React.Component {
     const cats = data.cats
     const numPage = pageContext.numPage
 
-    console.log(this.props)
-
     return (
-      <Layout title={site.title}>
-        <Helmet
-          title={site.title}
-        />
-        <SEO title="All posts" />
-        <Bio />
-        <BlogMainWrapper>
-          <Blog cats={cats} posts={posts} numPage={numPage} />
-          <SideContent posts={allInsta} insta={site.social.instagram} />
-        </BlogMainWrapper>
-      </Layout>
+      <BlogMain 
+        site={site} 
+        posts={posts} 
+        allInsta={allInsta} 
+        cats={cats}
+        numPage={numPage} 
+      />
     )
   }
 }
