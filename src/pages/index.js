@@ -44,50 +44,6 @@ class Index extends React.Component {
 
 export default Index
 
-// const Index = ({
-//   data: {
-//     content: { siteMetadata: site },
-//     blog: { edges: posts },
-//     insta: { edges: allInsta },
-//     cats
-//   },
-//   pageContext: { cat },
-// }) => (
-//     <Layout title={site.title}>
-//     <SEO/>
-//       <Helmet
-//         title={site.title}
-//       />
-//       <SEO title="All posts" />
-//       <Bio />
-//       <div style={{
-//         height: '100%',
-//         width: '100%',
-//         background: theme.colors.main.light,
-//         display: 'table'
-//       }}>
-//         <Blog cats={cats} posts={posts} numPage='3'/>
-//         <SideContent posts={allInsta} insta={site.social.instagram} />
-//       </div>
-//     </Layout>
-//   )
-
-// export default Index
-
-// Index.propTypes = {
-//   data: PropTypes.shape({
-//     content: PropTypes.object.isRequired,
-//     blog: PropTypes.shape({
-//       edges: PropTypes.array.isRequired,
-//     }),
-//     insta: PropTypes.object.isRequired,
-//   }).isRequired,
-//   pageContext: PropTypes.shape({
-//     cat: PropTypes.string.isRequired,
-//   }).isRequired,
-
-// }
-
 export const pageQuery = graphql`
   query IndexQuery($cat: String!, $limit: Int!) {  
   # query IndexQuery($cat: String!) {  

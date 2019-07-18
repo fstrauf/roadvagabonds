@@ -20,21 +20,22 @@ const CategoriesContainer = styled.section`
   }
 `
 
-const Grid = styled('div')({
-  display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
-  gridColumnGap: '5px',
-  gridRowGap: '5px',
-})
+const Grid = styled.div`
+  display: grid;
+  gridTemplateColumns: repeat(3, 1fr);
+  gridColumnGap: 5px;
+  gridRowGap: 5px;
+`
 
-const Categories = ({
-  data: {
-    content: { siteMetadata: site },
-    posts,
-    initials
-  },
-}) => (
-    <Layout title={site.title}>
+class Categories extends React.Component {
+  render() {
+    const { data } = this.props
+    const site = data.content.siteMetadata
+    const posts = data.posts
+    const initials = data.initials
+    
+    return (
+<Layout title={site.title}>
       <Helmet
         title={site.title}
       />
@@ -73,7 +74,9 @@ const Categories = ({
 
       </Grid>
     </Layout>
-  )
+    )
+  }
+}
 
 export default Categories
 
