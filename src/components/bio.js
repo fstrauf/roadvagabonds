@@ -27,7 +27,7 @@ function bio() {
           <Wrapper>
             <HeadContent>
               <div style={{ width: '240px' }}>
-                <RoadVagabonds style={{ width: '240px' }} />                
+                <RoadVagabonds style={{ width: '240px' }} elementID='bio_logo_large' />                
               </div>
             </HeadContent>
           </Wrapper>

@@ -59,7 +59,7 @@ const header = ({ menuLinks }) => (
                 }}
                 to={`/`}
             >
-                <RoadVagabonds width='4rem' style={{ float: 'left' }} />
+                <RoadVagabonds width='4rem' elementID="rv_svg_1" style={{ float: 'left' }} />
             </Link>
             <NavBar>
                 <NavBarUl>
