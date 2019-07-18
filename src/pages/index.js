@@ -19,22 +19,24 @@ const BlogMainWrapper = styled.div`
 
 class Index extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
     const site = data.content.siteMetadata
     const posts = data.blog.edges
     const allInsta = data.insta.edges
     const cats = data.cats
+    const numPage = pageContext.numPage
+
+    console.log(this.props)
 
     return (
       <Layout title={site.title}>
-        <SEO />
         <Helmet
           title={site.title}
         />
         <SEO title="All posts" />
         <Bio />
         <BlogMainWrapper>
-          <Blog cats={cats} posts={posts} numPage='3' />
+          <Blog cats={cats} posts={posts} numPage={numPage} />
           <SideContent posts={allInsta} insta={site.social.instagram} />
         </BlogMainWrapper>
       </Layout>
@@ -46,7 +48,6 @@ export default Index
 
 export const pageQuery = graphql`
   query IndexQuery($cat: String!, $limit: Int!) {  
-  # query IndexQuery($cat: String!) {  
     cats: allMarkdownRemark(
       limit: 2000) {
       group(field: frontmatter___categories) {
@@ -66,7 +67,6 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
       limit: $limit
-      # skip: $skip
     ) {
       edges {
         node {
