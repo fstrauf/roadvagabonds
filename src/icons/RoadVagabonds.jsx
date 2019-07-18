@@ -1,10 +1,10 @@
 import React from 'react'
 
-const RoadVagabonds = ({ width }) => (
+const RoadVagabonds = ({ width, elementID }) => (
 
   <svg 
-    id="Layer_1" 
-    data-name="Layer 1" 
+    id={elementID} 
+    data-name="rv_svg_1" 
     xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 553.71 489.95"
     width={width}>

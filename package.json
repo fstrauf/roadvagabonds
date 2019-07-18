@@ -1,15 +1,13 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "roadvagabonds",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Florian Strauf <f.strauf@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.10",
-    "@emotion/styled": "^10.0.12",
     "babel-plugin-styled-components": "^1.10.4",
     "gatsby": "^2.9.7",
     "gatsby-cli": "^2.7.14",
@@ -35,7 +33,6 @@
     "gatsby-transformer-remark": "^2.4.0",
     "gatsby-transformer-sharp": "^2.1.21",
     "polished": "^3.4.1",
-    "prismjs": "^1.16.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-disqus-comments": "^1.4.0",
@@ -54,7 +51,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/fstrauf/roadvagabonds#readme",
   "keywords": [
     "gatsby"
   ],
@@ -62,7 +59,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/fstrauf/roadvagabonds.git"
   },
   "scripts": {
     "build": "gatsby build",

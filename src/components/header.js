@@ -7,7 +7,6 @@ import theme from '../../config/theme'
 
 const Wrapper = styled(HeadRoom)`    
     height: 81px;
-    ${'' /* position: fixed; */}
     width: 100%;
     z-index: 2000;
     transition: top 0.3s;
@@ -49,7 +48,7 @@ const NavBarLi = styled.li`
     padding-right: 1rem;
 `
 
-const header = ({ siteTitle, menuLinks }) => (
+const header = ({ menuLinks }) => (
     <Wrapper>
         <Container>
             <tr>
@@ -61,7 +60,7 @@ const header = ({ siteTitle, menuLinks }) => (
                 }}
                 to={`/`}
             >
-                <RoadVagabonds width='4rem' style={{ float: 'left' }} />
+                <RoadVagabonds width='4rem' elementID="rv_svg_1" style={{ float: 'left' }} />
             </Link>
             </tr>
             <tr>

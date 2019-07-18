@@ -64,7 +64,7 @@ We had the troopy for a while now and absolutely love it, not only driving and e
 
 ## Fitting out our troopy (I will link to the topic once available)
 
-* Floor, what materials, process, plan etc. Sound deadening
+* [Floor, what materials, process, plan etc. Sound deadening](https://roadvagabonds.com/2019-7-17-how-to-put-a-floor-into-a-troopy)
 * Side-Panels, how & why.
 * Barn Door table
 * Backdoor storage
