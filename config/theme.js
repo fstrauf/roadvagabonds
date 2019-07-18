@@ -126,11 +126,11 @@ const theme = {
     m: '900px',
     l: '1200px',
   },
-  fontFamily: {
-    // "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    body: `Istok Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
-    heading: `Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
-  },
+  // fontFamily: {
+  //   // "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //   body: `Istok Web, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+  //   heading: `Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+  // },
   layout: {
     article: '46rem',
     base: '70rem',

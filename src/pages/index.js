@@ -8,6 +8,15 @@ import Blog from '../components/blog'
 import theme from '../../config/theme'
 import Bio from '../components/bio'
 import { graphql } from 'gatsby'
+import styled from 'styled-components'
+
+const BlogMainWrapper = styled.div`
+height: 100%;
+background: ${theme.colors.main.light};
+display: table;
+margin-left: 3rem;
+margin-right: 3rem;
+`
 
 const Index = ({
   data: {
@@ -25,15 +34,10 @@ const Index = ({
       />
       <SEO title="All posts" />
       <Bio />
-      <div style={{
-        height: '100%',
-        width: '100%',
-        background: theme.colors.main.light,
-        display: 'table'
-      }}>
+      <BlogMainWrapper>
         <Blog cats={cats} posts={posts} numPage='3'/>
         <SideContent posts={allInsta} insta={site.social.instagram} />
-      </div>
+      </BlogMainWrapper>
     </Layout>
   )
 
