@@ -20,7 +20,7 @@ const typography = new Typography({
     'Segoe UI Symbol',
   ],
   bodyFontFamily: [
-    'Istok Web',
+    'Open Sans',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',

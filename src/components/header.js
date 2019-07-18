@@ -17,11 +17,11 @@ const Wrapper = styled(HeadRoom)`
     }
 `
 
-const Container = styled.div`
+const Container = styled.table`
     position: relative;
     transform: translateY(0px);
     transition: all 0.25s ease-in-out 0s;
-    display: flex;
+    display: table;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
@@ -51,6 +51,7 @@ const NavBarLi = styled.li`
 const header = ({ menuLinks }) => (
     <Wrapper>
         <Container>
+            <tr>
             <Link
                 style={{
                     boxShadow: `none`,
@@ -61,6 +62,8 @@ const header = ({ menuLinks }) => (
             >
                 <RoadVagabonds width='4rem' elementID="rv_svg_1" style={{ float: 'left' }} />
             </Link>
+            </tr>
+            <tr>
             <NavBar>
                 <NavBarUl>
                     {menuLinks.map(link =>
@@ -78,6 +81,7 @@ const header = ({ menuLinks }) => (
                     )}
                 </NavBarUl>
             </NavBar>
+            </tr>
         </Container>
     </Wrapper>
 )

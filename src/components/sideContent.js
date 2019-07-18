@@ -6,7 +6,7 @@ import YouTube from '../icons/YouTube'
 import { LinkCard } from './Card'
 
 const RightColumn = styled.div`
-    width: 30%;
+    width: 23%;
     padding-left: 20px;
     display: table-cell;
     background: ${theme.colors.main.light};
@@ -21,7 +21,7 @@ const RightColumn = styled.div`
 
 const Card = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
-    background-color: ${props => props.theme.colors.main.dark};
+    background-color: ${props => props.theme.colors.main.light};
     padding: 5px;
     margin-top: 20px;
 `
@@ -40,8 +40,9 @@ class sideContent extends React.Component {
             <RightColumn>
                 <Card>
                     <h2>About us</h2>
-                    <p>Vicky & Flo living in Sydney</p>
-                    <p>Exploring AUS in our Troopy</p>                    
+                    <p> Hi! We are Vicky & Flo a German couple living in Sydney. In our Troopy we explore
+                        the beautiful nature of Australia. This blog is to share our adventures and knowledge 
+                        about converting a Troopy into a home and everything we learnt so far.</p>                  
                 </Card>
                 <Card>
                     <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">

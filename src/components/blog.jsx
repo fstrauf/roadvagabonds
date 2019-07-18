@@ -34,7 +34,7 @@ const Section = styled.div`
 
 const BlogBox = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
-    background: ${props => props.theme.colors.main.dark};
+    background: ${props => props.theme.colors.main.light};
 `
 
 class blog extends React.Component {
