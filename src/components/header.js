@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
 import HeadRoom from 'react-headroom'
 import theme from '../../config/theme'
+// import Tag from '../components/Tag'
+import Tags from '../components/Tags'
 
 const Wrapper = styled(HeadRoom)`    
     height: 81px;
@@ -49,17 +51,17 @@ const NavBar = styled.nav`
     margin: auto;
 `
 
-const NavBarUl = styled.ul`
-    list-style: none;
-    display: flex;
-    margin: auto;
-`
+// const NavBarUl = styled.ul`
+//     list-style: none;
+//     display: flex;
+//     margin: auto;
+// `
 
-const NavBarLi = styled.li`
-    color: ${theme.colors.main.dark};
-    padding-right: 1rem;
-    padding-left: 1rem;
-`
+// const NavBarLi = styled.li`
+//     color: ${theme.colors.main.dark};
+//     padding-right: 1rem;
+//     padding-left: 1rem;
+// `
 
 const header = ({ menuLinks }) => (
     <Wrapper>
@@ -80,8 +82,9 @@ const header = ({ menuLinks }) => (
             </Row> 
             <Row>    
             <NavBar>
-                <NavBarUl>
-                    {menuLinks.map(link =>
+                {/* <NavBarUl> */}
+                    <Tags tags={menuLinks} linkPrefix="categories" />
+                    {/* {menuLinks.map(link =>
                         <NavBarLi key={link.link}>
                             <Link
                                 to={link.link}
@@ -92,8 +95,8 @@ const header = ({ menuLinks }) => (
                                 }}>
                                 {link.name}</Link>
                         </NavBarLi>
-                    )}
-                </NavBarUl>
+                    )} */}
+                {/* </NavBarUl> */}
             </NavBar>
             </Row>
 

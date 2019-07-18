@@ -4,8 +4,8 @@ import { darken } from 'polished'
 import { Link } from 'gatsby'
 
 const Tag = styled(props => <Link {...props} />)`
-  background: ${props => props.theme.colors.main.dark};
-  color: ${props => props.theme.colors.main.dark};
+  ${'' /* background: ${props => props.theme.colors.main.dark}; */}
+  ${'' /* color: ${props => props.theme.colors.main.dark}; */}
   font-size: 0.9rem;
   padding: 0.2rem 0.75rem;
   border-radius: ${props => props.theme.borderRadius.default};

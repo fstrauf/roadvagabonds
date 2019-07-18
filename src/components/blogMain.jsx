@@ -1,5 +1,5 @@
 import React from "react"
-import Bio from "../components/bio"
+// import Bio from "../components/bio"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
 import theme from '../../config/theme'

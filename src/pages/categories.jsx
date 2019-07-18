@@ -1,24 +1,24 @@
 import React from "react"
 import { graphql, Link } from 'gatsby'
 import Layout from "../components/layout"
-import Tags from '../components/Tags'
+// import Tags from '../components/Tags'
 import { SkipNavContent } from '../elements/SkipNavLink'
 import theme from '../../config/theme'
 import styled from 'styled-components'
 import { sortPosts } from '../utils/helper'
-import Bio from '../components/bio'
+// import Bio from '../components/bio'
 import SEO from "../components/seo"
 import Helmet from 'react-helmet'
 
-const CategoriesContainer = styled.section`
-  padding: 0 1.5rem;
-  max-width: ${props => props.theme.layout[props.type]};
-  margin: 4rem auto;
-  a {
-    font-size: 1rem !important;
-    padding: 0.25rem 0.85rem !important;
-  }
-`
+// const CategoriesContainer = styled.section`
+//   padding: 0 1.5rem;
+//   max-width: ${props => props.theme.layout[props.type]};
+//   margin: 4rem auto;
+//   a {
+//     font-size: 1rem !important;
+//     padding: 0.25rem 0.85rem !important;
+//   }
+// `
 
 const Grid = styled.div`
   display: grid;
@@ -31,7 +31,7 @@ class Categories extends React.Component {
   render() {
     const { data } = this.props
     const site = data.content.siteMetadata
-    const posts = data.posts
+    // const posts = data.posts
     const initials = data.initials
     
     return (
@@ -40,11 +40,11 @@ class Categories extends React.Component {
         title={site.title}
       />
       <SEO title="All posts" />
-      <Bio />
+      {/* <Bio /> */}
       <SkipNavContent>
-        <CategoriesContainer>
+        {/* <CategoriesContainer>
           <Tags tags={posts.group} linkPrefix="categories" />
-        </CategoriesContainer>
+        </CategoriesContainer> */}
       </SkipNavContent>
       <Grid className='grid'>
         {sortPosts(initials.edges).map(node => {

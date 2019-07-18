@@ -1,11 +1,12 @@
  import React from "react"
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SideContent from "../components/sideContent"
-import SEO from "../components/seo"
-import theme from '../../config/theme'
-import Blog from '../components/blog'
+// import Bio from "../components/bio"
+// import Layout from "../components/layout"
+// import SideContent from "../components/sideContent"
+// import SEO from "../components/seo"
+// import theme from '../../config/theme'
+// import Blog from '../components/blog'
 import { graphql } from 'gatsby'
+import BlogMain from "../components/blogMain"
 
 class BlogListPage extends React.Component {
   render() {
@@ -14,22 +15,29 @@ class BlogListPage extends React.Component {
     const posts = data.blog.edges
     const allInsta = data.insta.edges
     const cats = data.cats
-    const numPages = pageContext.numPages
+    const numPage = pageContext.numPages
 
     return (
-      <Layout title={site.title}>
-      <SEO title="All posts" />
-      <Bio />
-      <div style={{
-        height: '100%',
-        width: '100%',
-        background: theme.colors.main.light,
-        display: 'table'
-      }}>
-        <Blog cats={cats} posts={posts} numPage={numPages} />
-        <SideContent posts={allInsta} insta={site.social.instagram} />
-      </div>
-    </Layout>
+      <BlogMain 
+      site={site} 
+      posts={posts} 
+      allInsta={allInsta} 
+      cats={cats}
+      numPage={numPage} 
+    />
+    //   <Layout title={site.title}>
+    //   <SEO title="All posts" />
+    //   {/* <Bio /> */}
+    //   <div style={{
+    //     height: '100%',
+    //     width: '100%',
+    //     background: theme.colors.main.light,
+    //     display: 'table'
+    //   }}>
+    //     <Blog cats={cats} posts={posts} numPage={numPages} />
+    //     <SideContent posts={allInsta} insta={site.social.instagram} />
+    //   </div>
+    // </Layout>
     )
   }
 }

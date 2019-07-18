@@ -19,7 +19,8 @@ const layout = ({ children }) => (
           background: theme.colors.main.light
         }}
       >
-        <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+        {/* <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} /> */}
+        <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.cats.group} />
         <main>{children}</main>
         {/* <Footer>
         </Footer> */}
@@ -31,6 +32,13 @@ const layout = ({ children }) => (
 
 const siteTitleQuery = graphql`
   query SiteTitleQuery {
+    cats: allMarkdownRemark(
+      limit: 2000) {
+      group(field: frontmatter___categories) {
+        fieldValue
+        totalCount
+      }
+    }
     site {
             siteMetadata {
               title

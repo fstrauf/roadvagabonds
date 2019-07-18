@@ -1,19 +1,19 @@
 import React from "react"
-import Tags from '../components/Tags'
+// import Tags from '../components/Tags'
 import ItemBlog from '../components/ItemBlog'
 import theme from '../../config/theme'
 import styled from 'styled-components'
 import Tag from '../components/Tag'
 
-const CatContainer = styled.section`
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  max-width: ${props => props.theme.layout[props.type]};
-  a {
-    font-size: 1rem !important;
-    padding: 0.25rem 0.85rem !important;
-  }
-`
+// const CatContainer = styled.section`
+//   margin: 0 auto;
+//   padding: 0 1.5rem;
+//   max-width: ${props => props.theme.layout[props.type]};
+//   a {
+//     font-size: 1rem !important;
+//     padding: 0.25rem 0.85rem !important;
+//   }
+// `
 
 const NumContainer = styled.section`
   margin: 0 auto;
@@ -39,12 +39,12 @@ const BlogBox = styled.div`
 
 class blog extends React.Component {
     render() {
-        let { cats, posts, numPage } = this.props;
+        let { posts, numPage } = this.props;
         return (
             <div>
-                <CatContainer>
+                {/* <CatContainer>
                     <Tags tags={cats.group} linkPrefix="categories" />
-                </CatContainer>
+                </CatContainer> */}
                 <div style={{
                     height: '100%',
                     width: '70%',
