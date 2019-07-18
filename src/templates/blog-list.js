@@ -3,7 +3,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-// import PropTypes from 'prop-types'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
 import { graphql } from 'gatsby'
@@ -36,20 +35,6 @@ class BlogListPage extends React.Component {
 }
 
 export default BlogListPage
-
-// BlogListPage.propTypes = {
-//   data: PropTypes.shape({
-//     content: PropTypes.object.isRequired,
-//     blog: PropTypes.shape({
-//       edges: PropTypes.array.isRequired,
-//     }),
-//     insta: PropTypes.object.isRequired,
-//   }).isRequired,
-//   pageContext: PropTypes.shape({
-//     cat: PropTypes.string.isRequired,
-//   }).isRequired,
-
-// }
 
 export const pageQuery = graphql`
   query BlogListPage($cat: String!, $skip: Int!, $limit: Int!) {  
