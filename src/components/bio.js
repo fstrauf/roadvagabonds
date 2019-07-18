@@ -22,7 +22,6 @@ function bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        // const { author, social } = data.site.siteMetadata
         return (
           <Wrapper>
             <HeadContent>

@@ -1,3 +1,5 @@
+import theme from '../../config/theme'
+
 const meta = {
   // Metadata
   title: 'Road Vagabonds',
@@ -23,8 +25,8 @@ const website = {
   googleAnalyticsID: 'UA-47519312-1',
 
   // Manifest
-  themeColor: '#3498DB',
-  backgroundColor: '#2e3246',
+  themeColor: theme.colors.main.dark,
+  backgroundColor: theme.colors.main.light,
 }
 
 module.exports = website
