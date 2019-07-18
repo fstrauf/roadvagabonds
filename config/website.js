@@ -5,7 +5,7 @@ const meta = {
   siteHeadline: 'Travel, life, tech and overlanding',
   siteTitleAlt: 'Road Vagabonds',
   siteShortName: 'Road Vagabonds',
-  siteUrl: 'https://www.roadvagabonds.com', 
+  siteUrl: 'https://roadvagabonds.com', 
 }
 
 const social = {
