@@ -1,10 +1,4 @@
- import React from "react"
-// import Bio from "../components/bio"
-// import Layout from "../components/layout"
-// import SideContent from "../components/sideContent"
-// import SEO from "../components/seo"
-// import theme from '../../config/theme'
-// import Blog from '../components/blog'
+import React from "react"
 import { graphql } from 'gatsby'
 import BlogMain from "../components/blogMain"
 
@@ -25,19 +19,6 @@ class BlogListPage extends React.Component {
       cats={cats}
       numPage={numPage} 
     />
-    //   <Layout title={site.title}>
-    //   <SEO title="All posts" />
-    //   {/* <Bio /> */}
-    //   <div style={{
-    //     height: '100%',
-    //     width: '100%',
-    //     background: theme.colors.main.light,
-    //     display: 'table'
-    //   }}>
-    //     <Blog cats={cats} posts={posts} numPage={numPages} />
-    //     <SideContent posts={allInsta} insta={site.social.instagram} />
-    //   </div>
-    // </Layout>
     )
   }
 }
