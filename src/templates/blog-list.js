@@ -1,23 +1,23 @@
-import React from "react"
+ import React from "react"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
-import PropTypes from 'prop-types'
 import theme from '../../config/theme'
 import Blog from '../components/blog'
 import { graphql } from 'gatsby'
 
-const BlogListPage = ({
-  data: {
-    content: { siteMetadata: site },
-    blog: { edges: posts },
-    insta: { edges: allInsta },
-    cats
-  },
-  pageContext: { cat },
-}) => (
-    <Layout title={site.title}>
+class BlogListPage extends React.Component {
+  render() {
+    const { data, pageContext } = this.props
+    const site = data.content.siteMetadata
+    const posts = data.blog.edges
+    const allInsta = data.insta.edges
+    const cats = data.cats
+    const numPages = pageContext.numPages
+
+    return (
+      <Layout title={site.title}>
       <SEO title="All posts" />
       <Bio />
       <div style={{
@@ -26,27 +26,15 @@ const BlogListPage = ({
         background: theme.colors.main.light,
         display: 'table'
       }}>
-        <Blog cats={cats} posts={posts} numPage='3' />
+        <Blog cats={cats} posts={posts} numPage={numPages} />
         <SideContent posts={allInsta} insta={site.social.instagram} />
       </div>
     </Layout>
-  )
+    )
+  }
+}
 
 export default BlogListPage
-
-BlogListPage.propTypes = {
-  data: PropTypes.shape({
-    content: PropTypes.object.isRequired,
-    blog: PropTypes.shape({
-      edges: PropTypes.array.isRequired,
-    }),
-    insta: PropTypes.object.isRequired,
-  }).isRequired,
-  pageContext: PropTypes.shape({
-    cat: PropTypes.string.isRequired,
-  }).isRequired,
-
-}
 
 export const pageQuery = graphql`
   query BlogListPage($cat: String!, $skip: Int!, $limit: Int!) {  

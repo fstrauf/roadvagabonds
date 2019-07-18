@@ -7,7 +7,7 @@ const typography = new Typography({
   includeNormalize: false,
   /* Use the system font stack as fallback */
   headerFontFamily: [
-    'Montserrat',
+    'Open Sans',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',

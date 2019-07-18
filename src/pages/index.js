@@ -1,43 +1,24 @@
 import React from "react"
-import Layout from "../components/layout"
-import SideContent from "../components/sideContent"
-import SEO from "../components/seo"
-import Helmet from 'react-helmet'
-import Blog from '../components/blog'
-import theme from '../../config/theme'
-import Bio from '../components/bio'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
-
-const BlogMainWrapper = styled.div`
-  height: 100%;
-  background: ${theme.colors.main.light};
-  display: table;
-  margin-left: 3rem;
-  margin-right: 3rem;
-`
+import BlogMain from "../components/blogMain"
 
 class Index extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
     const site = data.content.siteMetadata
     const posts = data.blog.edges
     const allInsta = data.insta.edges
     const cats = data.cats
+    const numPage = pageContext.numPage
 
     return (
-      <Layout title={site.title}>
-        <SEO />
-        <Helmet
-          title={site.title}
-        />
-        <SEO title="All posts" />
-        <Bio />
-        <BlogMainWrapper>
-          <Blog cats={cats} posts={posts} numPage='3' />
-          <SideContent posts={allInsta} insta={site.social.instagram} />
-        </BlogMainWrapper>
-      </Layout>
+      <BlogMain 
+        site={site} 
+        posts={posts} 
+        allInsta={allInsta} 
+        cats={cats}
+        numPage={numPage} 
+      />
     )
   }
 }
@@ -46,7 +27,6 @@ export default Index
 
 export const pageQuery = graphql`
   query IndexQuery($cat: String!, $limit: Int!) {  
-  # query IndexQuery($cat: String!) {  
     cats: allMarkdownRemark(
       limit: 2000) {
       group(field: frontmatter___categories) {
@@ -66,7 +46,6 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {frontmatter: {categories: {regex: $cat}}}
       limit: $limit
-      # skip: $skip
     ) {
       edges {
         node {
