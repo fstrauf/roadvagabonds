@@ -41,9 +41,6 @@
     "react-typography": "^0.16.19",
     "styled-components": "^4.3.2",
     "to": "^0.2.9",
-    "typeface-istok-web": "0.0.71",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
     "update": "^0.7.4"
   },
