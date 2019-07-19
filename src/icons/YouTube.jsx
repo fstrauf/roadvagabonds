@@ -1,12 +1,14 @@
 import React from 'react'
+import theme from '../../config/theme'
 
-const YouTube = () => (
+const YouTube = ({width}) => (
   <svg
     preserveAspectRatio="xMidYMid meet"
-    height="1em"
-    width="1em"
+    fill={theme.colors.main.dark}
+    // height="1em"
+    width={width}
     viewBox="0 0 40 40"
-    style={{ verticalAlign: 'middle' }}
+    style={{ verticalAlign: 'middle', display:'block', margin:'auto' }}
     role="img"
     aria-hidden="true"
     focusable="false"

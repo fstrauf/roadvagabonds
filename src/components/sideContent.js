@@ -41,8 +41,7 @@ class sideContent extends React.Component {
                 <Card>
                     <h2>About us</h2>
                     <p> Hi! We are Vicky & Flo a German couple living in Sydney. In our Troopy we explore
-                        the beautiful nature of Australia. This blog is to share our adventures and knowledge 
-                        about converting a Troopy into a home and everything we learnt so far.</p>                  
+                         Australia.</p>                  
                 </Card>
                 <Card>
                     <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
