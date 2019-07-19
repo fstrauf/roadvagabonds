@@ -1,23 +1,20 @@
 import React from 'react'
-import theme from '../../config/theme'
 
-const YouTube = ({width}) => (
-  <svg
-    preserveAspectRatio="xMidYMid meet"
-    fill={theme.colors.main.dark}
-    // height="1em"
-    width={width}
-    viewBox="0 0 40 40"
-    style={{ verticalAlign: 'middle', display:'block', margin:'auto' }}
-    role="img"
-    aria-hidden="true"
-    focusable="false"
-  >
-    <title>YouTube</title>
-    <g>
-      <path d="m28.6 20q0-0.8-0.7-1.2l-11.4-7.1q-0.7-0.5-1.5-0.1-0.7 0.4-0.7 1.3v14.2q0 0.9 0.7 1.3 0.4 0.2 0.7 0.2 0.5 0 0.8-0.3l11.4-7.1q0.7-0.4 0.7-1.2z m11.4 0q0 2.1 0 3.3t-0.2 3.1-0.5 3.3q-0.4 1.6-1.6 2.7t-2.7 1.3q-5 0.6-15 0.6t-15-0.6q-1.6-0.2-2.8-1.3t-1.5-2.7q-0.3-1.5-0.5-3.3t-0.2-3.1 0-3.3 0-3.3 0.2-3.1 0.5-3.3q0.4-1.6 1.6-2.7t2.7-1.3q5-0.6 15-0.6t15 0.6q1.6 0.2 2.8 1.3t1.5 2.7q0.3 1.5 0.5 3.3t0.2 3.1 0 3.3z" />
-    </g>
-  </svg>
+const GitHub = ({ width }) => (
+  // <svg
+  //   preserveAspectRatio="xMidYMid meet"
+  //   fill={theme.colors.main.dark}
+  //   width={width}
+  //   viewBox="0 0 512 512"
+  //   style={{ verticalAlign: 'middle', display:'block', margin:'auto' }}
+  //   role="img"
+  //   aria-hidden="true"
+  //   focusable="false"
+  // >
+  //   <title>GitHub</title>
+  <g>
+    <path d='M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z' />
+  </g>
 )
 
-export default YouTube
+export default GitHub

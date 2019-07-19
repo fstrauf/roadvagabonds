@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Image from 'gatsby-image'
 import theme from '../../config/theme'
-import YouTube from '../icons/YouTube'
+import YouTube from '../icons/YouTubeSide'
 import { LinkCard } from './Card'
 
 const RightColumn = styled.div`
