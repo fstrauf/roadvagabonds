@@ -24,6 +24,9 @@ const SocialIcon = styled.svg`
         transition: background-color .5s, transform .5s ease-out;
         fill: ${theme.colors.brands.instagram.pink};
     }
+    @media screen and (max-width: 1000px) {
+        width: 2rem;
+    }
 `
 
 const SocialLink = styled.a`

@@ -4,7 +4,7 @@ import { darken } from 'polished'
 import { Link } from 'gatsby'
 
 const Tag = styled(props => <Link {...props} />)`
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   padding: 0.2rem 0.75rem;
   border-radius: ${props => props.theme.borderRadius.default};
   margin: 0.3rem 0.6rem 0.3rem 0;
@@ -16,6 +16,10 @@ const Tag = styled(props => <Link {...props} />)`
   &:focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  @media screen and (max-width: 1000px) {
+    font-size: 0.7rem;
+    margin: 0rem 0rem 0rem 0;
   }
 `
 

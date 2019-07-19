@@ -1,5 +1,4 @@
 import React from "react"
-// import Bio from "../components/bio"
 import SideContent from "../components/sideContent"
 import SEO from "../components/seo"
 import theme from '../../config/theme'
@@ -14,6 +13,10 @@ const BlogMainWrapper = styled.div`
   display: table;
   margin-left: 3rem;
   margin-right: 3rem;
+  @media screen and (max-width: 1000px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 `
 
 class BlogMain extends React.Component {

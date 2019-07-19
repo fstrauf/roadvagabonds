@@ -7,6 +7,10 @@ const TagsContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  @media screen and (max-width: 1000px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 `
 
 const Tags = ({ tags, linkPrefix }) => (

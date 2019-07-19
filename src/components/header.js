@@ -33,6 +33,9 @@ const RowEnd = styled.div`
     align-items: center;
     justify-self: end;
     margin-right: 2rem
+    @media screen and (max-width: 1000px) {
+        margin-right: 1rem
+    }
 `
 
 const NavBar = styled.nav`
@@ -40,6 +43,15 @@ const NavBar = styled.nav`
     align-items: center;
     display: block;
     margin: auto;
+`
+
+const Logo = styled.svg`
+    display: block; 
+    margin: auto; 
+    width: 10rem;
+    @media screen and (max-width: 1000px) {
+        width: 4rem;
+    }
 `
 
 const header = ({ menuLinks }) => (
@@ -56,7 +68,12 @@ const header = ({ menuLinks }) => (
                     }}
                     to={`/`}
                 >
-                    <RoadVagabonds width='10rem' elementID="rv_svg_1" style={{ display: `block`, margin: `auto` }} />
+                    <Logo
+                        data-name="rv_svg_1"
+                        viewBox="0 0 553.71 489.95"
+                        id="rv_svg_1">
+                        <RoadVagabonds />
+                    </Logo>
                 </Link>
             </Row>
             <Row>
@@ -65,7 +82,7 @@ const header = ({ menuLinks }) => (
                 </NavBar>
             </Row>
             <RowEnd>
-                    <SocialBox/>
+                <SocialBox />
             </RowEnd>
         </Container>
     </Wrapper>
