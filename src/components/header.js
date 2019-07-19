@@ -32,7 +32,7 @@ const RowEnd = styled.div`
     display:flex;
     align-items: center;
     justify-self: end;
-    margin-right: 2rem
+    margin-right: 2rem;
     @media screen and (max-width: 1000px) {
         margin-right: 1rem
     }
