@@ -15,7 +15,7 @@ const TagsContainer = styled.div`
 
 const Tags = ({ tags, linkPrefix }) => (
   <TagsContainer>
-    <Tag
+    {/* <Tag
       to='/'
       style={{
         boxShadow: `none`,
@@ -24,7 +24,7 @@ const Tags = ({ tags, linkPrefix }) => (
       }}
     >
       all
-    </Tag>
+    </Tag> */}
     {tags.map(tag => (
 
       <Tag

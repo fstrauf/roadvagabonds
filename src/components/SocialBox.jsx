@@ -11,6 +11,11 @@ const Wrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    @media screen and (max-width: 1000px) {
+        display: flex;
+        align-self: center;
+        width: 100%;
+    }
 `
 
 const SocialIcon = styled.svg`

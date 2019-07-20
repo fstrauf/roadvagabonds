@@ -22,6 +22,12 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    @media screen and (max-width: 1000px) {
+        ${'' /* grid-template-columns: repeat(2, 1fr); */}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 `
 
 const Row = styled.div`
@@ -34,7 +40,7 @@ const RowEnd = styled.div`
     justify-self: end;
     margin-right: 2rem;
     @media screen and (max-width: 1000px) {
-        margin-right: 1rem
+        margin-right: 0
     }
 `
 
@@ -43,6 +49,9 @@ const NavBar = styled.nav`
     align-items: center;
     display: block;
     margin: auto;
+    @media screen and (max-width: 1000px) {
+        margin-right: 1rem;
+    }
 `
 
 const Logo = styled.svg`
@@ -50,7 +59,7 @@ const Logo = styled.svg`
     margin: auto; 
     width: 10rem;
     @media screen and (max-width: 1000px) {
-        width: 4rem;
+        width: 3rem;
     }
 `
 
