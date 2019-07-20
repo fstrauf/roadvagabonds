@@ -40,8 +40,11 @@ const DisqusContainer = styled.section`
 `
 
 const HeaderContainer = styled.section`
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  max-width: 50rem;
+  margin-right: auto;
+  padding: 0px 1.5rem;
 `
 
 class BlogPostTemplate extends React.Component {

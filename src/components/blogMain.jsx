@@ -13,6 +13,7 @@ const BlogMainWrapper = styled.div`
   display: table;
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-top: 5rem;
   @media screen and (max-width: 1000px) {
     margin-left: 1rem;
     margin-right: 1rem;
