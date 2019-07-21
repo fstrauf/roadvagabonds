@@ -7,7 +7,7 @@ tags: ["Angkor Wat", "Cambodia", "Siem Reap", "southeastasia", "Temples", "Trave
 slug: 2018-11-10-Weekend-Trip-to-famous-Angkor-Wat
 draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
-image: angkor-what-temple.jpg
+image: angkor-wat-sunrise.jpg
 categories: ["travel"]
 ---
 

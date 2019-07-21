@@ -6,7 +6,7 @@ date: 2018-05-23T21:25:00+10:00
 slug: 2018-5-20-14-hour-ferry-trip-to-paradise
 draft: false
 meta_title: "14 hour Ferry ride to Paradise"
-image: balkony-view-to-paradise.jpg
+image: crystal-clear-water-macaronis-resort.jpg
 tags: ["Indonesia", "Mentawais", "Paradise", "Travel", "surf"]
 categories: ["travel"]
 ---

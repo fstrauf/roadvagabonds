@@ -7,7 +7,7 @@ tags: ["Paradise", "Phi Phi Island", "Thailand", "Travel", "Weekend Getaway"]
 slug: 2018-6-9-weekend-getaway-phi-phi-island-thailand
 draft: false
 meta_title: "Weekend Getaway - Phi Phi Island, Thailand"
-image: phi-phi-island-waterview.jpg
+image: phi-phi-island-boats-on-beach.jpg
 categories: ["travel"]
 ---
 

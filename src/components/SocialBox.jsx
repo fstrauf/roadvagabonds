@@ -27,7 +27,7 @@ const SocialIcon = styled.svg`
     :hover{
         transform: scale(1.25);
         transition: background-color .5s, transform .5s ease-out;
-        fill: ${theme.colors.brands.instagram.pink};
+        fill: ${theme.colors.brands.social.orange};
     }
     @media screen and (max-width: 1000px) {
         width: 2rem;

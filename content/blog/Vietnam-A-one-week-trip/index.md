@@ -7,7 +7,7 @@ tags: ["Travel", "Vietnam"]
 slug: 2019-1-4-vietnam
 draft: false
 meta_title: "Vietnam - A one week trip"
-image: hoi-an-riverside.jpg
+image: hoi-an-street-lights.jpg
 categories: ["travel"]
 ---
 

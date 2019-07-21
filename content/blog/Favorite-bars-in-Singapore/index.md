@@ -7,7 +7,7 @@ tags: ["Bars", "Cocktail", "drinking", "Singapore"]
 slug: 2019-01-04-Favorite-bars-in-Singapore
 draft: false
 meta_title: "Favorite bars in Singapore"
-image: atlas-bar-spirit-shelf.jpg
+image: mr-storck-rooftop-bar-sunset.jpg
 categories: ["travel"]
 ---
 

@@ -39,6 +39,10 @@ const colors = {
       yellow: '#f7eb4c',
       pink: '#ee2a7b',
       blue: '#4c6aff',
+    
+    },
+    social:{
+      orange:'#d88d0e',
     },
     behance: '#191919',
     youtube: '#ff0000',

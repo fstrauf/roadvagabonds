@@ -7,7 +7,7 @@ tags: ["Travel"]
 slug: 2018-6-29-weekend-trip-ho-chi-minh
 draft: false
 meta_title: "Weekend Trip - Ho Chi Minh"
-image: hochiminh-palace.jpg
+image: hochiminh-church.jpg
 categories: ["travel"]
 ---
 

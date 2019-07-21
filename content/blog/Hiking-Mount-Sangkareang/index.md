@@ -7,7 +7,7 @@ tags: ["hiking", "Indomesia", "Lombok", "Rinjani", "Travel"]
 slug: 2018-5-22-hiking-mount-rinjani-sangkareal
 draft: false
 meta_title: "Hiking Mount Sangkareang"
-image: mount-rinjani.jpg
+image: sangkareang-panorama.jpg
 categories: ["travel"]
 ---
 

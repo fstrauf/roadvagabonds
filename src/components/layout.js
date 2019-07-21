@@ -3,6 +3,21 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from '../components/header'
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+  margin: 0 auto;
+  width: 100%;
+  // padding: 0px 1.0875rem 1.45rem;
+  paddingTop: 0;
+  background: theme.colors.main.light;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  @media screen and (max-width: 1000px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+`
 
 const layout = ({ children }) => (
   <StaticQuery
@@ -10,21 +25,13 @@ const layout = ({ children }) => (
     render={data => (
       <ThemeProvider theme={theme}>
       {/* <SEO/> */}
-      <div
-        style={{
-          margin: `0 auto`,
-          width: '100%',
-          // padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-          background: theme.colors.main.light
-        }}
-      >
+        <Wrapper>
         {/* <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} /> */}
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.cats.group} />
         <main>{children}</main>
         {/* <Footer>
         </Footer> */}
-      </div>
+      </Wrapper>
       </ThemeProvider>
     )}
   />

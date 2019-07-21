@@ -7,7 +7,7 @@ tags: ["Roadtrip", "Taiwan", "Travel"]
 slug: 2018-8-28-Roadtrip-Taiwan
 draft: false
 meta_title: "Roadtrip Taiwan"
-image: tigerlily-panorama-view.jpg
+image: tiger-lily-panorama.jpg
 categories: ["travel"]
 ---
 

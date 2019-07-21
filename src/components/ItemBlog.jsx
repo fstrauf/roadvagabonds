@@ -64,7 +64,7 @@ const Information = styled.div`
     color: ${props => props.theme.colors.black.base};
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
-      color: ${props => props.theme.colors.primary.base};
+      color: ${props => props.theme.colors.brands.social.orange};
     }
   }
 
@@ -82,7 +82,7 @@ const Information = styled.div`
 `
 
 const Statistics = styled.div`
-  color: ${props => props.theme.colors.main.dark};
+  color: ${props => props.theme.colors.brands.social.orange};
 `
 
 const Excerpt = styled.div`
