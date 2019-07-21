@@ -33,6 +33,15 @@ module.exports = {
         displayName: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-pinterest`,
+      options: {
+        // Set to true to display a bigger button
+        tall: true, // default
+        // Set to true to hide the text and display only a round P button
+        round: false // default
+      }
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-instagram-all`,

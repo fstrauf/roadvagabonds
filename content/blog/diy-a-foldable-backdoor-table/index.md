@@ -15,30 +15,67 @@ A must have for the Troopy is a fold down table attached to the backdoor.<!-- en
 
 ![troopy backdoor table slideout](./troop-backdoor-table-slideout-diy.jpg)
 
+---
+
 ## Steps
 
-1. take off the old cover carefully, so you can draw a copy on the new plywood (including holes).
-2. cut out the new plywood back-piece from the 9mm ply.
-3. widen existing holes to fit the rivnuts, place and tighten rivnuts
-4. cut out the table-piece, the slide-out, the slide-frame and the hinge-fix from 12mm ply
-5. screw hinge-fix to back-piece
-6. fix back-piece to door using bolts and rivnuts (we used eye bolts on the top to fix the wire)
-7. place the slide-out ontop of the table-piece to measure where to place the frame - screw down the frame (ensure it's not to tight so you can still slide the slide-out)
-8. fix table-piece to hinge-fix using the hinge
-9. fix eye screws to table-piece end and connect eye screws to eye bolt using wire.
-10. connect all wires with swages to fix them around the eye bolts
+#### Step 1 
 
-![backdoor table open](./troopy-backdoor-table-open.jpg)
+> take off the old cover carefully, so you can draw a copy on the new plywood (including holes).
+
+#### Step 2
+
+> cut out the new plywood back-piece from the 9mm ply.
+
+![backdoor cutout](./troopy-backdoor-cutout-backdoor.jpg)
+
+#### Step 3
+
+> widen existing holes to fit the rivnuts, place and tighten rivnuts
+
+![backdoor rivnut](./troopy-backdoor-rivnut-inserts.jpg)
+
+#### Step 4
+
+> cut out the table-piece, the slide-out, the slide-frame and the hinge-fix from 12mm ply
+
+#### Step 5
+
+> screw hinge-fix to back-piece
+
+![backdoor fix hinge](./troopy-backdoor-fix-hinge.jpg)
+
+#### Step 6
+
+> fix back-piece to door using bolts and rivnuts (we used eye bolts on the top to fix the wire)
+
+#### Step 7
+
+> place the slide-out ontop of the table-piece to measure where to place the frame - screw down the frame (ensure it's not to tight so you can still slide the slide-out)
 
 ![backdoor table closed](./troopy-backdoor-table-closed.jpg)
 
+#### Step 8
+
+> fix table-piece to hinge-fix using the hinge
+
 ![backdoor hinge](./troopy-backdoor-table-hinge.jpg)
+
+#### Step 9
+
+> fix eye screws to table-piece end and connect eye screws to eye bolt using wire.
+
+#### Step 10
+
+> connect all wires with swages to fix them around the eye bolts
 
 ![eye bolt](./troopy-fold-down-table-eye-bolt.jpg)
 
 ![troopy backdoor eye screw](./troopy-fold-down-table-eye-screw.jpg)
 
 ![slideout table](./troopy-backdoor-slideout-table.jpg)
+
+---
 
 ## Shopping List & measurements (in cm)
 
@@ -56,6 +93,8 @@ A must have for the Troopy is a fold down table attached to the backdoor.<!-- en
 12. **small caribiner** (to connect a detachable wire from slide-out to door)
 13. **swages** (to connect wire)
 
+---
+
 ## Tools needed
 
 * Jigsaw
@@ -64,3 +103,5 @@ A must have for the Troopy is a fold down table attached to the backdoor.<!-- en
 * swaging tool (if you don't want to buy this you can use cord as well)
 
 ![finished table in use](./troopy-table-folddown-finished.jpg)
+
+---
