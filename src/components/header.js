@@ -40,7 +40,8 @@ const RowEnd = styled.div`
     justify-self: end;
     margin-right: 2rem;
     @media screen and (max-width: 1000px) {
-        margin-right: 0
+        margin-right: 0;
+        width: 100%;
     }
 `
 
