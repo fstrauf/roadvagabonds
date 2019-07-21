@@ -13,7 +13,7 @@ categories: ["troopy"]
 
 A must have for the Troopy is a fold down table attached to the backdoor.<!-- end --> This one comes with a slide-out extension underneath. It's real simple check out the steps below.
 
-![troopy backdoor table slideout](./troop-backdoor-table-slideout-diy.jpg)
+![troopy backdoor table slideout](./troopy-backdoor-table-slideout-diy.jpg)
 
 ---
 
