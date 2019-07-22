@@ -5,6 +5,9 @@ import { Link } from 'gatsby'
 
 const Tag = styled(props => <Link {...props} />)`
   font-size: 1.2rem;
+  box-shadow: none;
+  text-decoration: none;
+  color: inherit;
   padding: 0.2rem 0.75rem;
   border-radius: ${props => props.theme.borderRadius.default};
   margin: 0.3rem 0.6rem 0.3rem 0;

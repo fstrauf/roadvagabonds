@@ -4,6 +4,7 @@ import Facebook from '../icons/Facebook'
 import Pinterest from '../icons/Pinterest'
 import Instagram from '../icons/Instagram'
 import YouTube from '../icons/YouTube'
+import Mail from '../icons/Mail'
 import styled from 'styled-components'
 import theme from '../../config/theme'
 
@@ -29,6 +30,11 @@ const SocialIcon = styled.svg`
         transition: background-color .5s, transform .5s ease-out;
         fill: ${theme.colors.brands.social.orange};
     }
+    :focus{
+        transform: scale(1.25);
+        transition: background-color .5s, transform .5s ease-out;
+        fill: ${theme.colors.brands.social.orange};
+    }
     @media screen and (max-width: 1000px) {
         width: 2rem;
     }
@@ -44,22 +50,6 @@ class SocialBox extends React.Component {
     render() {
         return (
             <Wrapper>
-
-                {/* {website.social.accounts.map({ account }) => {
-                    return (
-                        <SocialIcon
-                            preserveAspectRatio="xMidYMid meet"               
-                            viewBox="0 0 512 512"
-                            role="img"
-                            aria-hidden="true"
-                            focusable="false"
-                            icon={account}
-                        >
-                            <Instagram />
-                        </SocialIcon>
-                    )
-                }} */}
-
                 <SocialLink
                     href={`https://www.instagram.com/roadvagabonds`}>
                     <SocialIcon
@@ -118,6 +108,18 @@ class SocialBox extends React.Component {
                         focusable="false"
                     >
                         <Pinterest />
+                    </SocialIcon>
+                </SocialLink>
+                <SocialLink
+                    href={`mailto:roadvagabonds@gmail.com`}>
+                    <SocialIcon
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 512 512"
+                        role="img"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
+                        <Mail />
                     </SocialIcon>
                 </SocialLink>
             </Wrapper>

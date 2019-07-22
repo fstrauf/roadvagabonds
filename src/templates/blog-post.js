@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import ReactDisqusComments from 'react-disqus-comments'
 import Line from '../elements/Line'
 import styled from 'styled-components'
+import theme from '../../config/theme'
+import SideContent from "../components/sideContent"
 
 const PostText = styled(`div`)`
   max-width: 50rem;
@@ -30,6 +32,12 @@ const PostText = styled(`div`)`
     font-size: 1.15rem;
     line-height: 1.58;
   }
+  hr {
+    margin-bottom: 1 rem;
+  }
+  @media screen and (max-width: 1000px) {
+    padding: 0;
+  }
 `
 
 const DisqusContainer = styled.section`
@@ -40,17 +48,37 @@ const DisqusContainer = styled.section`
 `
 
 const HeaderContainer = styled.section`
-  margin-top: 5rem;
+  ${'' /* margin-top: 5rem; */}
   margin-left: auto;
   max-width: 50rem;
   margin-right: auto;
   padding: 0px 1.5rem;
+  p {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  @media screen and (max-width: 1000px) {
+    padding: 0;
+  }
+`
+
+const MainWrapper = styled.div`
+  height: 100%;
+  background: ${theme.colors.main.light};
+  display: table;
+  margin-top: 8rem;
+  @media screen and (max-width: 1000px) {
+    margin-top: 4rem;
+  }
 `
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const site = this.props.data.site.siteMetadata
+    const allInsta = this.props.data.insta.edges
+
 
     // Disqus
     const disqus = {
@@ -63,27 +91,20 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={site.title}>
-        <SEO
-          postNode={post} article
-        />
-        <HeaderContainer>
-          <h1>{post.frontmatter.title}</h1>
-          <p
-            style={{
-              display: `block`,
-              marginBottom: '1 rem',
-              marginTop: '-1 rem',
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-        </HeaderContainer>
-        <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: '1 rem',
-          }}
-        />
+        <SEO postNode={post} article />
+        <MainWrapper>
+          <div>
+            <HeaderContainer>
+              <h1>{post.frontmatter.title}</h1>
+              <p>{post.frontmatter.date}</p>
+            </HeaderContainer>
+            <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
+          </div>
+          <SideContent posts={allInsta} insta={site.social.instagram} />
+        </MainWrapper>
+
+
+        <hr/>      
         <DisqusContainer type="article">
           <ReactDisqusComments
             shortname={disqus.shortname}
@@ -102,18 +123,18 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  # query BlogPostBySlug($slug: String!, $skip: Int!, $limit: Int!) {
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title
         siteUrl
+        social {
+          instagram
+        }
       }
     }
     markdownRemark(
       frontmatter: { slug: { eq: $slug } }
-      # limit: $limit
-      # skip: $skip
     ){
       id
       excerpt(pruneLength: 160)
@@ -132,6 +153,36 @@ export const pageQuery = graphql`
             }
           }
        }
+      }
+    }
+    insta: allInstagramContent(
+      limit: 6
+    ) {
+      
+      edges {
+        node {
+        link
+        caption{
+           text
+        }
+        localImage{
+            childImageSharp {
+                fluid(maxHeight: 1000, maxWidth: 1000 quality: 50) {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+            }
+        }
+        images {
+            standard_resolution {
+              width
+              height
+              url
+            }
+            low_resolution{
+                url
+            }
+          }
+        }
       }
     }
   }

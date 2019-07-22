@@ -22,11 +22,8 @@ class BlogMain extends React.Component {
 
         return (
             <Layout title={site.title}>
-                <Helmet
-                    title={site.title}
-                />
+                <Helmet title={site.title}/>
                 <SEO title="All posts" />
-                {/* <Bio /> */}
                 <BlogMainWrapper>
                     <Blog cats={cats} posts={posts}  numPage={numPage} />
                     <SideContent posts={allInsta} insta={site.social.instagram} />

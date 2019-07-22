@@ -15,6 +15,7 @@ const NumContainer = styled.section`
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
+  color: ${props => props.theme.colors.brands.social.orange};
 `
 
 const Section = styled.div`
@@ -60,12 +61,7 @@ class blog extends React.Component {
                 <NumContainer>
                     {Array.from({ length: numPage }, (_, i) => (
                         <Tag
-                            to={`/${i === 0 ? '/' : i + 1}`}
-                            style={{
-                                boxShadow: `none`,
-                                textDecoration: `none`,
-                                color: `inherit`,
-                            }}>
+                            to={`/${i === 0 ? '/' : i + 1}`}>
                             {i + 1}
                         </Tag>
 
