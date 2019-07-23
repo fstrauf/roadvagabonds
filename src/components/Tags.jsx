@@ -22,7 +22,10 @@ const TagsContainer = styled.ul`
   }
 `
 
-const MenuLink = styled(Link)`    
+const MenuLink = styled(Link)`
+  box-shadow: none;
+  text-decoration: none;
+  color: inherit;    
   padding: 20px 30px;
   :hover{
     background-color: ${theme.colors.main.light};
@@ -103,20 +106,15 @@ const MenuLi = styled.li`
 
 const Tags = ({ tags, linkPrefix }) => (
   <div>
-    <MenuButton class="menu-btn" type="checkbox" id="menu-btn" />
+    <MenuButton type="checkbox" id="menu-btn" />
     <MenuIcon for="menu-btn">
-      <NavIcon class="navicon"></NavIcon>
+      <NavIcon/>
     </MenuIcon>
     <TagsContainer>
       {tags.map(tag => (
         <MenuLi>
           <MenuLink
             to={`${linkPrefix}/${tag.fieldValue}`}
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
           >
             {tag.fieldValue}
           </MenuLink>
@@ -125,11 +123,6 @@ const Tags = ({ tags, linkPrefix }) => (
       <MenuLi>
         <MenuLink
           to='/categories'
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
         >
           overview
         </MenuLink>

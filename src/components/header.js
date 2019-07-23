@@ -40,6 +40,7 @@ const RowEnd = styled.div`
     @media screen and (max-width: 1000px) {
         margin-right: 0;
         width: 100%;
+        padding-top: 1rem;
     }
 `
 
