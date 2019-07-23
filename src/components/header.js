@@ -19,12 +19,10 @@ const Wrapper = styled(HeadRoom)`
     }
 `
 const Container = styled.div`
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+    justify-content: space-between;
     @media screen and (max-width: 1000px) {
-        ${'' /* grid-template-columns: repeat(2, 1fr); */}
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -38,7 +36,7 @@ const RowEnd = styled.div`
     display:flex;
     align-items: center;
     justify-self: end;
-    margin-right: 2rem;
+    ${'' /* margin-right: 2rem; */}
     @media screen and (max-width: 1000px) {
         margin-right: 0;
         width: 100%;
@@ -50,9 +48,6 @@ const NavBar = styled.nav`
     align-items: center;
     display: block;
     margin: auto;
-    @media screen and (max-width: 1000px) {
-        margin-right: 1rem;
-    }
 `
 
 const Logo = styled.svg`
