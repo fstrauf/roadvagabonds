@@ -85,6 +85,7 @@ module.exports = {
           },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          'gatsby-remark-check-links',
         ],
         "excerpt_separator": `<!-- end -->`,
       },
