@@ -7,8 +7,12 @@ tags: ["life", "books", "reading", "nonfiction"]
 slug: 2019-8-15-book-recommendations-in-2018-2019
 draft: true
 meta_title: "Book recommendations in 2018 and 2019"
-image: troopy-folddown-backdoor-table-finished.jpg
+image: reading-book-beach.jpg
 categories: ["life"]
+---
+
+One of my daily routines is reading for at least 30 minutes after I get up every day. That's a minimum of 182 hours a year. On top comes the weekend, holidays and bus rides to work. Here is what I've been reading in the last year.<!-- end -->
+
 ---
 
 ##affiliate
@@ -49,7 +53,14 @@ I really enjoy reading autobiographies. This one, written by the founder of Nike
 **Lessons learned**
 > Even the biggest corporations start small and struggle on their way up and it's really not about the idea but about committing to it (meaning there where a bunch of shoe brands already out there).
 
-## Tools of Titals
+## Tools of Titans
+Another book of Tim Ferriss that I really enjoyed. It's a massive book but it's really meant to be read as a buffet - choose what you like. It consists of mainly interviews from his Podcast and the most relevant notes he took during the recording.
+
+**Lessons learned**
+> Loads oesting habits, routines, self talks from successful people condensed into a single source ready for you to try yourself.
+
+<a href="https://www.amazon.com/Tools-Titans-Billionaires-World-Class-Performers/dp/1328683788/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=roadvagabonds-20&linkId=59f46f7da07f459673223413aa9a7e8c&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1328683788&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=roadvagabonds-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=roadvagabonds-20&language=en_US&l=li2&o=1&a=1328683788" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
 # All books I read in 2018 / 2019
 1. The Innovators Dilemma (Clayton Cristensen)
