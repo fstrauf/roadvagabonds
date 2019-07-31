@@ -67,13 +67,14 @@ We had the troopy for a while now and absolutely love it, not only driving and e
 * [Floor, what materials, process, plan etc. Sound deadening](https://roadvagabonds.com/2019-7-17-how-to-put-a-floor-into-a-troopy)
 * [Back door table](https://roadvagabonds.com/2019-7-20-diy-how-to-build-a-foldable-backdoor-table)
 * Backdoor storage
-* Storage boxes
-* Bed
-* Kitchen cabinet
-* Sliding fridge
+* [Storage boxes](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one)
+* [Bed](2019-8-01-troopy-fitout-a-convertible-bed-and-desk)
+* [Kitchen cabinet](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers)
+* [Sliding fridge](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers)
+* [Desk](2019-8-01-troopy-fitout-a-convertible-bed-and-desk)
 * Poptop - Mulgo
-* Drawer
-* Benchtop
+* [Drawer](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers)
+* [Kitchen top](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers)
 * Cushions
 * Cooker
 * Dual Battery System

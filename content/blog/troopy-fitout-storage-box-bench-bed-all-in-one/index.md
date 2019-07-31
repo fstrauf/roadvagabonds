@@ -19,7 +19,7 @@ Before you start with this, think about how you want to fill the whole inside; *
 
 We have a poptop, so the height is adjusted to this and we wanted our fridge accessible from the backdoor. Additionally our bed is only for emergency as we use our poptop whenever we can - we can therefore live with a width of roughly 90cm.
 
-See how we built the [bed](https://roadvagabonds.com/2019-7-20-troopy-fitout-a-convertible-bed-and-desk) and [kitchen](https://roadvagabonds.com/2019-7-20-troopy-fitout-kitchen-slideout-fridge-and-drawers) in our other posts.
+See how we built the [bed](2019-8-01-troopy-fitout-a-convertible-bed-and-desk) and [kitchen](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers) in our other posts.
 
 ![troopy completed setup](./troopy-fitout-completed.jpg)
 

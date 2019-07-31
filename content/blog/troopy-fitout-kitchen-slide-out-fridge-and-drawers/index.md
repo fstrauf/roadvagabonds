@@ -11,7 +11,7 @@ image: troopy-fitout-kitchen-completed.jpg
 categories: ["troopy"]
 ---
 
-More storage and a nice kitchen-top is what we built next to [our storage box](https://roadvagabonds.com/2019-7-20-troopy-fitout-storage-box-bench-bed-all-in-one). It might look a bit more complicated but it's really easy once you've thought it through.<!-- end -->
+More storage and a nice kitchen-top is what we built next to [our storage box](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one). It might look a bit more complicated but it's really easy once you've thought it through.<!-- end -->
 
 ---
 
@@ -19,7 +19,7 @@ Before you start with this, think about how you want to fill the complete inside
 
 We have a poptop, so the height is adjusted to this and we wanted our fridge accessible from the backdoor. Additionally our bed is only for emergency use as we sleep in our poptop whenever we can, meaning we can live with a width of roughly 90cm.
 
-See how we built the [bed](https://roadvagabonds.com/019-7-20-troopy-fitout-a-convertible-bed-and-desk) and [box]((https://roadvagabonds.com/)2019-7-20-troopy-fitout-storage-box-bench-bed-all-in-one) in our other posts.
+See how we built the [bed](2019-8-01-troopy-fitout-a-convertible-bed-and-desk) and [box](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one) in our other posts.
 
 Our main constraint building the kitchen was the size of our fridge.
 
@@ -73,7 +73,7 @@ Our main constraint building the kitchen was the size of our fridge.
 #### Step 6; Kitchen top
 
 > No kitchen without a kitchen-top. We used some nice wood from an old chest, cut it to size and simply attached it to the frame.
-> The part on the fridge side uses hinges - [like we did with the storage box](https://roadvagabonds.com/2019-7-20-troopy-fitout-storage-box-bench-bed-all-in-one) - so you can open the fridge without problems.
+> The part on the fridge side uses hinges - [like we did with the storage box](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one) - so you can open the fridge without problems.
 
 #### Step 7; Panels
 
@@ -100,11 +100,15 @@ Our main constraint building the kitchen was the size of our fridge.
 
 ## Measurements (in cm)
 
-> Kitchen: L180 x W50 x H80
-> Fridge floor: H16 x L69
-> Fridge floor slide: H20 x L69
-> Shelf floor: H40 x L111
-> Drawer: H36 x W45 x L47
+> **Kitchen**: L180 x W50 x H80
+
+> **Fridge floor**: H16 x L69
+
+> **Fridge floor slide**: H20 x L69
+
+> **Shelf floor**: H40 x L111
+
+> **Drawer**: H36 x W45 x L47
 
 ---
 
