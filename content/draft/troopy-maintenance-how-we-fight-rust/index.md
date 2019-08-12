@@ -21,13 +21,13 @@ You put a lot of time and money into your Troopy and ideally you want to keep it
 
 #### Washing it frequently
 
-> Take good measurements and draw up a rough set.
-> We attached the side panels to the box and kitchen first before completing the bed.
+> With the ocean right next door, there is a decent amount of salty air bringing salt and moisture to your chassis. We wash the Troopy at least once a month at a self service car wash - using just water.
+> If we been on the beach, I make sure to spend some extra time cleaning it underneath.
 
 #### Waxing the surface
 
-> The side frames will hold the bed so they need to cover the complete length.
-> Attach them to box and kitchen.
+> This was recommended by a fellow Troopy driver, who uses this surface wax.
+> Initially we did this three times in a row to apply a sort of base coat and then switched to once a quarter
 
 ![troopy side frames bed](./troopy-fitout-bed-sideframes.jpg)
 
@@ -51,4 +51,3 @@ You put a lot of time and money into your Troopy and ideally you want to keep it
 ![troopy desk kitchen](./troopy-fitout-desk-kitchen.jpg)
 
 ---
-3
