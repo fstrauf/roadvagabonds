@@ -15,39 +15,35 @@ You put a lot of time and money into your Troopy and ideally you want to keep it
 
 ---
 
-![troopy completed fitout](./troopy-fitout-completed.jpg)
-
 ## Procedures
 
 #### Washing it frequently
 
-> With the ocean right next door, there is a decent amount of salty air bringing salt and moisture to your chassis. We wash the Troopy at least once a month at a self service car wash - using just water.
-> If we been on the beach, I make sure to spend some extra time cleaning it underneath.
+> With the ocean right next door, there is a decent amount of salty air bringing salt and moisture to our chassis. We wash the Troopy at least once a month at a self service car wash - using just water.
+> If we've been on the beach, I make sure to spend some extra time cleaning it underneath.
+
+![troopy wash](./troopy-maintenance-car-wash.jpg)
 
 #### Waxing the surface
 
-> This was recommended by a fellow Troopy driver, who uses this surface wax.
+> This was recommended by a fellow Trooper, who uses Carnauba Wax to add an extra layer of protection. It also makes it nice and shiny (doesn't last long if you use the Troopy outside of the city)
 > Initially we did this three times in a row to apply a sort of base coat and then switched to once a quarter
 
-![troopy side frames bed](./troopy-fitout-bed-sideframes.jpg)
+![applying troopy wax coat](./troopy-maintenance-applying-wax-coat.jpg)
 
 #### Underbody spray
 
-> The bed is really simple, just cut two pieces of ply, that fit in between box and kitchen (one of them longer than the other will allow you to also use it as a table).
-> We store the ply on the floor when we don't use the bed.
-
-![troopy bed](./troopy-fitout-bed.jpg)
-
-![troopy bed cushion](./troopy-fitout-bed-cushion.jpg)
+> I heard about fish oil and lanolin many times and came across a guy who sprayed his troopy with lanolin sheep oil from underneath. I got myself a 5 liter canister of [Lanotec Steel-Seal](https://www.lanotec.com.au/product/steel-seal-australia/) and a pump-spray can from Bunnings. I first spray and then rub in the oily substance. According to Lanotec, this stuff is biodegradable and non harmful.
+> I also do this once a quarter and can't wait for next time (doing this sucks big time but if it stops corrosion it might be worth it.)
 
 #### Rust repair
 
-> The longer bed piece can slide under the kitchen frame.
-> On the other side we used a piece of old seatbelt and attached it to the C-column with a bolt (a thread here already existed for the backseats)
-> the seatbelt is fixed under the ply so it holds up the table.
+> We try to fix everything as soon as possible so it can't spread far. There's some good guides from [SCA](https://www.supercheapauto.com.au/blog/buying-guides/paint-and-body-repair/rust-repair.html) out there.
+> You pretty much brush down the rust, apply some sort of rust converter, use filler if it's something bigger, clean the surrounding paint, apply a base coat and spray with new paint.
+> I'm certainly now expert on this and it doesn't always look pretty, but as long as it stops the rust it's a win.
 
-![troopy desk c column](./troopy-fitout-desk-c-column.jpg)
+![troopy rust repair kit](./troopy-maintenance-rust-repair.jpg)
 
-![troopy desk kitchen](./troopy-fitout-desk-kitchen.jpg)
+![troopy rust repair](./troopy-maintenance-fixing-rust.jpg)
 
 ---
