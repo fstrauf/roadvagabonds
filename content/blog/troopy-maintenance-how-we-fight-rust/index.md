@@ -2,12 +2,12 @@
 layout: post
 title: "Troopy maintenance - how we fight rust"
 author: Flo
-date: 2019-08-01T07:31:31+11:00
+date: 2019-08-17T07:31:31+11:00
 tags: ["Troopy", "Australia", "Overland", "Guide", "4x4", "DIY", "maintenance"]
-slug: 2019-8-01-troopy-fitout-a-convertible-bed-and-desk
+slug: troopy-maintenance-how-we-fight-rust
 draft: true
 meta_title: "Troopy maintenance - how we fight rust"
-image: troopy-fitout-desk.jpg
+image: troopy-maintenance-car-wash.jpg
 categories: ["troopy"]
 ---
 
@@ -22,8 +22,6 @@ You put a lot of time and money into your Troopy and ideally you want to keep it
 > With the ocean right next door, there is a decent amount of salty air bringing salt and moisture to our chassis. We wash the Troopy at least once a month at a self service car wash - using just water.
 > If we've been on the beach, I make sure to spend some extra time cleaning it underneath.
 
-![troopy wash](./troopy-maintenance-car-wash.jpg)
-
 #### Waxing the surface
 
 > This was recommended by a fellow Trooper, who uses Carnauba Wax to add an extra layer of protection. It also makes it nice and shiny (doesn't last long if you use the Troopy outside of the city)
@@ -35,6 +33,8 @@ You put a lot of time and money into your Troopy and ideally you want to keep it
 
 > I heard about fish oil and lanolin many times and came across a guy who sprayed his troopy with lanolin sheep oil from underneath. I got myself a 5 liter canister of [Lanotec Steel-Seal](https://www.lanotec.com.au/product/steel-seal-australia/) and a pump-spray can from Bunnings. I first spray and then rub in the oily substance. According to Lanotec, this stuff is biodegradable and non harmful.
 > I also do this once a quarter and can't wait for next time (doing this sucks big time but if it stops corrosion it might be worth it.)
+
+![troopy maintenance steel seal](./troopy-maintenance-steel-seal.jpg)
 
 #### Rust repair
 
