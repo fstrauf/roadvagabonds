@@ -11,7 +11,7 @@ const BlogMainWrapper = styled.div`
   height: 100%;
   background: ${theme.colors.main.light};
   display: table;
-  margin-top: 5rem;
+  padding-top: 5rem;
   @media screen and (max-width: 1000px) {
   }
 `

@@ -9,10 +9,31 @@ import SEO from "../components/seo"
 import Helmet from 'react-helmet'
 
 const Grid = styled.div`
-  display: grid;
-  gridTemplateColumns: repeat(3, 1fr);
-  gridColumnGap: 5px;
-  gridRowGap: 5px;
+  display: flex;
+  padding-top: 5rem;
+  ${'' /* max-width: 50rem; */}
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: space-evenly;
+`
+
+const HeaderLine = styled.div`
+  background: ${theme.colors.main.dark};
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: none;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.2rem 0.75rem;
+  border-radius: ${props => props.theme.borderRadius.default};
+  margin: 0.3rem 0.6rem 0.3rem 0;
+  white-space: nowrap;
+`
+
+const Group = styled.div`
+  margin-left: 1rem;
+  width: 10rem;
 `
 
 class Categories extends React.Component {
@@ -20,41 +41,37 @@ class Categories extends React.Component {
     const { data } = this.props
     const site = data.content.siteMetadata
     const initials = data.initials
-    
-    return (
-<Layout title={site.title}>
-      <Helmet
-        title={site.title}
-      />
-      <SEO title="All posts" />
-      <Grid className='grid'>
-        {sortPosts(initials.edges).map(node => {
-          return (
-            <div>
-              <div
-                key={node.header}
-                style={{
-                  background: theme.colors.main.dark,
-                }}>
-                {node.header}
-              </div>
-              <ul>
-                {node.detail.map(detail => {
-                  return (
-                    <li style={{listStyle: 'none'}}>
-                      <Link to={detail.slug}>
-                        {detail.title}
-                      </Link>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          )
-        })}
 
-      </Grid>
-    </Layout>
+    return (
+      <Layout title={site.title}>
+        <Helmet
+          title={site.title}
+        />
+        <SEO title="All posts" />
+        <Grid>
+          {sortPosts(initials.edges).map(node => {
+            return (
+              <Group>
+                <HeaderLine key={node.header}>
+                  {node.header}
+                </HeaderLine>
+                <ul style={{marginLeft: '0'}}>
+                  {node.detail.map(detail => {
+                    return (
+                      <li style={{ listStyle: 'none' }}>
+                        <Link to={detail.slug}>
+                          {detail.title}
+                        </Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </Group>
+            )
+          })}
+
+        </Grid>
+      </Layout>
     )
   }
 }
@@ -79,7 +96,7 @@ export const pageQuery = graphql`
       }
     }
     initials:  allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___title], order: ASC }
           limit: 1000
         ) {
           edges {
