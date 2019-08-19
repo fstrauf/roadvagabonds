@@ -26,4 +26,5 @@ A few months ago I started meditating almost daily. If you'd asked me about this
 # All books I read in 2019 / 2020
 
 > **10% Happier**, Dan Harris
+> **Humble Inquiry - the gentle art of asking instead of telling**, Edgar H. Schein
 >

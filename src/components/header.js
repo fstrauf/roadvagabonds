@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 import React from 'react'
 import styled from 'styled-components'
 import RoadVagabonds from '../icons/RoadVagabonds'
@@ -6,6 +6,7 @@ import HeadRoom from 'react-headroom'
 import theme from '../../config/theme'
 import Tags from '../components/Tags'
 import SocialBox from './SocialBox'
+import Search from '../components/search'
 
 const Wrapper = styled(HeadRoom)`    
     height: 160px;
@@ -60,37 +61,50 @@ const Logo = styled.svg`
 `
 
 const header = ({ menuLinks }) => (
-    <Wrapper>
-        <Container>
-            <Row>
-                <Link
-                    style={{
-                        boxShadow: `none`,
-                        textDecoration: `none`,
-                        color: `inherit`,
-                        display: `block`,
-                        marginLeft: '1rem'
-                    }}
-                    to={`/`}
-                >
-                    <Logo
-                        data-name="rv_svg_1"
-                        viewBox="0 0 553.71 489.95"
-                        id="rv_svg_1">
-                        <RoadVagabonds />
-                    </Logo>
-                </Link>
-            </Row>
-            <Row>
-                <NavBar>
-                    <Tags tags={menuLinks} linkPrefix="categories" />
-                </NavBar>
-            </Row>
-            <RowEnd>
-                <SocialBox />
-            </RowEnd>
-        </Container>
-    </Wrapper>
+    <StaticQuery
+        query={graphql`
+      query SearchIndexQuery {
+        siteSearchIndex {
+          index
+        }
+      }
+    `}
+        render={data => (
+            <Wrapper>
+                <Container>
+                    <Row>
+                        <Link
+                            style={{
+                                boxShadow: `none`,
+                                textDecoration: `none`,
+                                color: `inherit`,
+                                display: `block`,
+                                marginLeft: '1rem'
+                            }}
+                            to={`/`}
+                        >
+                            <Logo
+                                data-name="rv_svg_1"
+                                viewBox="0 0 553.71 489.95"
+                                id="rv_svg_1">
+                                <RoadVagabonds />
+                            </Logo>
+                        </Link>
+                    </Row>
+                    <Row>
+                        <NavBar>
+                            <Tags tags={menuLinks} linkPrefix="categories" />
+                        </NavBar>
+                        <Search searchIndex={data.siteSearchIndex.index} />
+                    </Row>
+                    <RowEnd>
+                        <SocialBox />
+                    </RowEnd>
+                </Container>
+            </Wrapper>
+        )}
+    />
+
 )
 
 export default header
