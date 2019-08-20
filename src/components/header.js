@@ -21,7 +21,6 @@ const Wrapper = styled(HeadRoom)`
 `
 const Container = styled.div`
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     @media screen and (max-width: 1000px) {
         flex-wrap: wrap;
@@ -32,6 +31,12 @@ const Container = styled.div`
 const Row = styled.div`
     display:flex;
     align-items: center;
+`
+
+const RowMid = styled.div`
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 `
 const RowEnd = styled.div`
     display:flex;
@@ -48,7 +53,9 @@ const NavBar = styled.nav`
     justify-content: flex-end;
     align-items: center;
     display: block;
-    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    ${'' /* margin: auto; */}
 `
 
 const Logo = styled.svg`
@@ -91,12 +98,12 @@ const header = ({ menuLinks }) => (
                             </Logo>
                         </Link>
                     </Row>
-                    <Row>
+                    <RowMid>                        
                         <NavBar>
                             <Tags tags={menuLinks} linkPrefix="categories" />
-                        </NavBar>
-                        <Search searchIndex={data.siteSearchIndex.index} />
-                    </Row>
+                        </NavBar>  
+                        <Search searchIndex={data.siteSearchIndex.index} />                      
+                    </RowMid>
                     <RowEnd>
                         <SocialBox />
                     </RowEnd>
