@@ -2,27 +2,49 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import { Index } from "elasticlunr"
 import theme from '../../config/theme'
-
 import styled from 'styled-components'
 
 const ResultList = styled.ul`    
     position: fixed;
-    z-index: 99999;
+    width: 250px;
+    z-index: 99998;
     background: ${theme.colors.main.light};
     list-style: none;
     margin-left: 2rem;
+    margin-top: 40px;
 `
+
 const SearchBar = styled.input`
-  width: 100%;
-  align-self: center;
-  border: 2px solid ${theme.colors.main.dark};
-  outline: none;
-  height: 40px;
-  width: 370px;
-  border-radius: 5px 5px 5px 5px;
-  @media screen and (max-width: 1000px) {
-    height: 30px;
-    width: 130px;
+    align-self: center;
+    border: 2px solid ${theme.colors.main.dark};
+    outline: none;
+    width: 160px;
+    height: 40px;
+    z-index: 99999;
+    border-radius: 5px 5px 5px 5px;
+    @media screen and (max-width: 1000px) {
+        height: 30px;
+        width: 130px;
+  }
+`
+
+const ListItem = styled.li`
+    display:block;
+    cursor:pointer;
+    :hover{
+        background-color:#ccc;
+        color:#000;
+        text-decoration:normal;
+    }
+`
+
+const Wrapper = styled.div`
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    @media screen and (max-width: 1000px) {
+        padding-top: 1rem;
+        justify-content: center;
   }
 `
 
@@ -38,17 +60,17 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div>
+            <Wrapper>
                 <SearchBar type="text" value={this.state.query} onChange={this.search} placeholder="Search the Blog" />
                 <ResultList>
-                    {this.state.results.map(page => (
-                        <li key={page.id}>
+                    {this.state.results.slice(0, 5).map(page => (
+                        <ListItem key={page.id}>
                             <Link to={"/" + page.path}>{page.title}</Link>
                             {": " + page.tags.join(`,`)}
-                        </li>
+                        </ListItem>
                     ))}
                 </ResultList>
-            </div>
+            </Wrapper>
         )
     }
     getOrCreateIndex = () =>

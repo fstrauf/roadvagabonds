@@ -43,7 +43,7 @@ const MenuIcon = styled.label`
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 20px 20px;
     position: relative;
     user-select: none;
   }

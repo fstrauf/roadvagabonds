@@ -45,7 +45,6 @@ const RowEnd = styled.div`
     @media screen and (max-width: 1000px) {
         margin-right: 0;
         width: 100%;
-        padding-top: 1rem;
     }
 `
 
@@ -53,9 +52,15 @@ const NavBar = styled.nav`
     justify-content: flex-end;
     align-items: center;
     display: block;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
-    ${'' /* margin: auto; */}
+    @media screen and (max-width: 1000px) {
+        margin-right: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 `
 
 const Logo = styled.svg`
@@ -70,12 +75,12 @@ const Logo = styled.svg`
 const header = ({ menuLinks }) => (
     <StaticQuery
         query={graphql`
-      query SearchIndexQuery {
-        siteSearchIndex {
-          index
-        }
-      }
-    `}
+            query SearchIndexQuery {
+                siteSearchIndex {
+                    index
+                }
+            }
+        `}
         render={data => (
             <Wrapper>
                 <Container>
@@ -98,16 +103,16 @@ const header = ({ menuLinks }) => (
                             </Logo>
                         </Link>
                     </Row>
-                    <RowMid>                        
+                    <RowMid>
                         <NavBar>
                             <Tags tags={menuLinks} linkPrefix="categories" />
-                        </NavBar>  
-                        <Search searchIndex={data.siteSearchIndex.index} />                      
+                        </NavBar>
                     </RowMid>
                     <RowEnd>
                         <SocialBox />
                     </RowEnd>
                 </Container>
+                <Search searchIndex={data.siteSearchIndex.index} />
             </Wrapper>
         )}
     />
