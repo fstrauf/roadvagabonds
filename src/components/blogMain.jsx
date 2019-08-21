@@ -9,9 +9,13 @@ import Layout from "../components/layout"
 
 const BlogMainWrapper = styled.div`
   height: 100%;
+  width: 100%;
   background: ${theme.colors.main.light};
-  display: table;
+  display: flex;
   padding-top: 5rem;
+  @media screen and (max-width: 1000px) {
+    flex-wrap: wrap;
+  }
 `
 
 class BlogMain extends React.Component {

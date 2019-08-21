@@ -4,7 +4,7 @@ import theme from '../../config/theme'
 import styled from 'styled-components'
 import Tag from '../components/Tag'
 
-const NumContainer = styled.section`
+const NumContainer = styled.div`
   margin: 0 auto;
   padding: 0 1.5rem;
   max-width: ${props => props.theme.layout[props.type]};
@@ -27,17 +27,20 @@ const BlogBox = styled.div`
     background: ${props => props.theme.colors.main.light};
 `
 
+const BlogWrapper = styled.div`
+    height: 100%;
+    width: 70%;
+    background: ${theme.colors.main.light};
+    @media screen and (max-width: 1000px) {
+        width: 100%;
+    }
+`
+
 class blog extends React.Component {
     render() {
         let { posts, numPage } = this.props;
-        return (
-            <div>
-                <div style={{
-                    height: '100%',
-                    width: '70%',
-                    background: theme.colors.main.light,
-                    display: 'table-cell'
-                }}>
+        return (        
+                <BlogWrapper>
                     {posts.map(({ node }) => {
                         return (
                             <BlogBox
@@ -56,9 +59,7 @@ class blog extends React.Component {
                             </BlogBox>
                         )
                     })}
-                </div>
-
-                <NumContainer>
+                    <NumContainer>
                     {Array.from({ length: numPage }, (_, i) => (
                         <Tag
                             to={`/${i === 0 ? '/' : i + 1}`}>
@@ -67,7 +68,7 @@ class blog extends React.Component {
 
                     ))}
                 </NumContainer>
-            </div>
+                </BlogWrapper>
         )
     }
 }

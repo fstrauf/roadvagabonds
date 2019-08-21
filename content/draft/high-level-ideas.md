@@ -29,3 +29,5 @@
 # How to be disciplined
 ## Why I am disciplined
 
+# Troopy maintenance
+## Spare parts

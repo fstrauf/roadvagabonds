@@ -35,6 +35,9 @@ const PostText = styled(`div`)`
   hr {
     margin-bottom: 1 rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
   @media screen and (max-width: 1000px) {
     padding: 0;
   }
@@ -48,7 +51,6 @@ const DisqusContainer = styled.section`
 `
 
 const HeaderContainer = styled.section`
-  ${'' /* margin-top: 5rem; */}
   margin-left: auto;
   max-width: 50rem;
   margin-right: auto;
@@ -65,11 +67,13 @@ const HeaderContainer = styled.section`
 
 const MainWrapper = styled.div`
   height: 100%;
+  width: 100%;
   background: ${theme.colors.main.light};
-  display: table;
+  display: flex;
   margin-top: 8rem;
   @media screen and (max-width: 1000px) {
     margin-top: 4rem;
+    flex-wrap: wrap;
   }
 `
 

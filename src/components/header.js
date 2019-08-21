@@ -7,6 +7,8 @@ import theme from '../../config/theme'
 import Tags from '../components/Tags'
 import SocialBox from './SocialBox'
 import Search from '../components/search'
+import Select from '../components/select'
+
 
 const Wrapper = styled(HeadRoom)`    
     height: 160px;
@@ -112,7 +114,10 @@ const header = ({ menuLinks }) => (
                         <SocialBox />
                     </RowEnd>
                 </Container>
-                <Search searchIndex={data.siteSearchIndex.index} />
+                {/* <Select></Select> */}
+                {/* <Select options={data.siteSearchIndex.index} isClearable="true" isSearchable="true" /> */}
+
+                {/* <Search searchIndex={data.siteSearchIndex.index} /> */}
             </Wrapper>
         )}
     />

@@ -6,15 +6,17 @@ import YouTube from '../icons/YouTubeSide'
 import { LinkCard } from './Card'
 
 const RightColumn = styled.div`
-    width: 23%;
+    width: 30%;
     padding-left: 20px;
-    display: table-cell;
+    display: flex;
     background: ${theme.colors.main.light};
-    vertical-align: top;
+    ${'' /* flex-wrap: wrap; */}
+    ${'' /* vertical-align: top; */}
+    flex-direction: column;
     @media screen and (max-width: 1000px) {
         width: 100%;
         padding-left: 0px;
-        display: table;
+        ${'' /* display: table; */}
         vertical-align: top;
       }
 `
@@ -23,14 +25,15 @@ const Card = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
     background-color: ${props => props.theme.colors.main.light};
     padding: 5px;
+    width: 100%;
 `
 
-const Container = styled('div')({
-    display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
-    gridColumnGap: '5px',
-    gridRowGap: '5px',
-})
+const Container = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+`
 
 class sideContent extends React.Component {
     render() {

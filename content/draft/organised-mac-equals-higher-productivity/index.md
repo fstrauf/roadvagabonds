@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "An organised mac = higher productivity"
+title: "Organised mac = higher productivity; 14 things you can do!"
 author: Flo
 date: 2019-08-09T08:31:31+11:00
 tags: ["life", "productivity", "organised", "nonfiction", "mac"]
 slug: an-organised-mac-higher-productivity
 draft: true
-meta_title: "An organised mac = higher productivity"
+meta_title: "Organised mac = higher productivity; 14 things you can do!"
 image: organised-mac-busy-start-screen.jpg
 categories: ["life"]
 ---
 
-I come across a lot  of people who's computer is an absolute mess. Thinking of the amount of time we spend in front of these machines, here is how you can make more use of it.<!-- end -->
+I come across a lot  of people who's computer is an absolute mess. Thinking of the amount of time we spend in front of these machines, **here are 14 things you can do to improve**<!-- end -->
 
-## Folder structure
+## #1 Folder structure
+------
 
 #### Favorites
 
@@ -21,14 +22,14 @@ I use standard folders as much as I can.
 
 ```
     Documents
-    -- 00_code          // this is where I save developments
-    -- 01_blog          // the content of our blog
+    -- 00_code
+    -- 01_blog
     -- 03_podcast
     -- 04_architecture
     -- 05_tax
     -- 06_scannedDocs
     Pictures
-    -- 00_declutter     // images I often use to sell stuff on Gumtree / Facebook
+    -- 00_declutter
     Movies
     -- 00_MyFavoriteComedy
     -- 01_Youtube Videos
@@ -49,11 +50,10 @@ Here is how my documents folder looks like:
 
 > Like a desk at work, it looks much more inviting and organised if there **nothing on** it. I just keep it like that.
 
----
+## #2 Todo List
+------
 
-## Todo List
-
-> I use the **Apple Reminder app** as I don't need anything fancy, I just need it to be available anywhere, whenever an idea pops up.
+I use the **Apple Reminder app** as I don't need anything fancy, I just need it to be available anywhere, whenever an idea pops up.
 
 > It is **synced** to my phone **via iCloud**, regardless of what you use, this is the most important feature.
 
@@ -63,11 +63,10 @@ Here is how my documents folder looks like:
 
 ![Todo list on my second desktop](./organised-mac-todo-list-second-screen.jpg)
 
----
+## #3 Password manager
+------
 
-## Password manager
-
-> Passwords on notepads?
+Passwords on notepads?
 
 > Same password for every login?
 
@@ -77,15 +76,13 @@ Here is how my documents folder looks like:
 
 > I like LastPass as it's free.
 
----
+## #4 Notifications
+------
 
-## Notifications
+**Simply turn them off**. Nothing is worse than distraction when you're trying to work.
 
-> **Simply turn them off**. Nothing is worse than distraction when you're trying to work.
-
----
-
-## Cloud Storage
+## #5 Cloud Storage
+------
 
 This is a must.
 
@@ -96,26 +93,25 @@ But a must is also to use only one at a time.
 
 **Simply choose one and stick with it**, you can always migrate somewhere else, but don't use two at the same time. I use Google Drive.
 
-Important is also what and what not to sync.
+## #6 Discipline
+------
 
-1. don't: coding and development projects - npm will load lots of small files that will take ages. Code should be stored in Git.
-2. don't: pictures, this is optional but most major cloud providers have their own image storage. Of course this is different you store RAW-files.
-3. do: all documents, project related data
+**Stick to the rules!**
 
-## Discipline
+1. **download files into their folders**. That's what you've created them for.
+2. It might take slightly longer to store files at the correct location, but you will be **much faster when searching** (I certainly open stuff more than I do save)
+3. if you love using your desktop, put your folder structure there, but **don't just dump stuff there**.
+4. whatever comes to mind, **swipe left or right** and write it into your todo list
+5. **don't store stuff at multiple locations**. If images are stored in the cloud, keep this the main storage.
 
-> The biggest thing about an organised computer is sticking to rules:
+## #7 Converting HEIC to JPG
+------
 
-1. download files into their folders. That's what you've created them for.
-2. It might take slightly longer to store files at the correct location, but you will be much faster when searching (I certainly open stuff more than I do save)
-3. if you love using your desktop, put your folder structure there, but don't just dump stuff there.
-4. whatever comes to mind, swipe left or right and write it into your todo list
-5. don't store stuff at multiple locations. If images are stored in the cloud, keep this the main storage.
+**The most annoying problem.**
 
-## Converting HEIC to JPG / JPEG
+> This always happens in transition phases between new technology - just think of the amount of USB interfaces we've had in recent years (HEIC uses much less storage and supports 16-bit color more is better!).
 
-> Kind of annoying copying an image from your iPhone, trying to upload it to see the tool doesn't accept Apples native HEIC format.
-> I have a little Automator that helps converting the iPhone format to jpeg.
+A little Automator helps converting the iPhone format to jpeg.
 
 1. Open Automator, New Document, Choose Quick Action
 2. Adjust top section as shown below
@@ -129,48 +125,78 @@ Important is also what and what not to sync.
 
 ![automator context menu](./organised-mac-automator-context-menu.jpg)
 
-## Storing Images
+## #8 Storing Images
+------
 
-> I use Google Photos to store images in the cloud. My phone syncs them, so that I can access them from any device.
-> For images I frequently use on my computer, I've got a temp folder that I pop them in but then remove.
+Access all your photos on any device.
 
-## Linking spotify with phone
+> I use Google Photos (it's basically free). My phone syncs photos and I can access them from any device.
 
-> Nothing fancy, but the two can actually be linked so you can continue listening to the same playlist.
-> Settings -> Devices -> Devices Menu
+> Images I frequently use on my computer, are stored in a temp folder **but I do not keep them there or sync them to my cloud drive**
 
-## Airdrop
 
-> Make sure to configure this as it is great to send over images or videos from Phone to Computer.
+## #9 Linking Spotify with phone
+------
 
-## Important shortcuts
+Nothing fancy, but the two can actually be linked so you can continue listening to the same playlist.
 
-1. **open search**: command + space
-2. **take a screenshot**: command + shift + 4
-3. **change a file name**: return + selected file
-4. **copy a file instead of moving it**: option + drag 
-5. **split screen like on Windows**: click and hold the green window button
-6. **preview the file**: space + selected file (hit space again to close it)
-7. **close a window**: command + w
-8. **quite an application**: command + q
+> **Settings** -> **Devices** -> **Devices Menu**
 
-## Do I really need this?
+## #10 Airdrop
+------
 
-> **Which apps to start on startup**. I like to decide what I want to run and therefore my Login Items is empty.
-> Goto: System Preferences -> User & Groups -> Login Items, to remove or add items.
-> **declutter** I often to through my Applications folder to see what I can get rid of.
+Send files from Phone to Computer or to other devices.
+
+> **command + space** -> **Airdrop** -> configure who can discover you
+
+## #11 Important shortcuts
+------
+
+>**open search**: command + space
+
+> **take a screenshot**: command + shift + 4
+> 
+> **change a file name**: return + selected file
+>
+> **copy a file instead of moving it**: option + drag 
+> 
+> **split screen like on Windows**: click and hold the green window button
+> 
+> **preview the file**: space + selected file (hit space again to close it)
+> 
+> **close a window**: command + w
+> 
+> **quite an application**: command + q
+
+## #12 Do I really need this?
+------
+
+**Which apps to start on startup**. I like to decide what I want to run and therefore my Login Items is empty.
+
+> **System Preferences** -> **User & Groups** -> **Login Items**, to remove or add items.
+
+> **declutter** I often to go through my Applications folder to see what I can get rid of.
 
 ![mac empty login items](./organised-mac-empty-startup-folder.jpg)
 
-## Chrome tab sync
-> In case you use Chrome, this is a great feature. Even if you don't use it on multiple devices, it is a backup of your browser history, bookmarks, tabs etc.
-> To set it up; open Chrome settings -> login with your gmail account -> sync and google services -> manage sync (I sync everything)
-> In case you set up a new computer all you do is download Chrome, sign in and it will sync everything automatically.
+## #13 Chrome tab sync
+------
 
-## Other tools
+This is a great feature. 
+
+> Even if you don't use it on multiple devices, it is a **backup** of your browser history, bookmarks, tabs etc.
+> 
+> **open Chrome settings** -> **login** with your gmail account -> **sync and google services** -> **manage sync** (I sync everything)
+> 
+> In case you set up a new computer all you do is download Chrome, sign in and it will **sync everything automatically**.
+
+## #14 Other tools
+------
 
 > [Draw.IO](https://www.draw.io/) - a lightweight drawing tool for mindmap, architectures or process flows.
 > [Visual Studio Code](https://code.visualstudio.com/) - my favorite coding app.
 > [Chrome](https://www.google.com/chrome/) - fast browser
 > [Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12) - if you work with different timezone, it sure helps.
 > [Google Docs](https://docs.google.com/) - one of the main reason, I use Google Drive is that it links to Google Docs which is a true online MS Office competitor. Check out our [blog on how we organise ourselves](2019-3-1-how-we-organise-ourselves) to see how we use it.
+
+---
