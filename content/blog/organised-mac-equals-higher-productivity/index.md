@@ -194,9 +194,13 @@ This is a great feature.
 ------
 
 > [Draw.IO](https://www.draw.io/) - a lightweight drawing tool for mindmap, architectures or process flows.
+
 > [Visual Studio Code](https://code.visualstudio.com/) - my favorite coding app.
+
 > [Chrome](https://www.google.com/chrome/) - fast browser
+
 > [Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12) - if you work with different timezone, it sure helps.
+
 > [Google Docs](https://docs.google.com/) - one of the main reason, I use Google Drive is that it links to Google Docs which is a true online MS Office competitor. Check out our [blog on how we organise ourselves](2019-3-1-how-we-organise-ourselves) to see how we use it.
 
 ---

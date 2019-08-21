@@ -27,10 +27,6 @@ const PostText = styled(`div`)`
   li {
     margin-bottom: calc(1.45rem / 2);
     letter-spacing: -0.003em;
-    --baseline-multiplier: 0.179;
-    --x-height-multiplier: 0.35;
-    font-size: 1.15rem;
-    line-height: 1.58;
   }
   hr {
     margin-bottom: 1 rem;
@@ -71,6 +67,7 @@ const MainWrapper = styled.div`
   background: ${theme.colors.main.light};
   display: flex;
   margin-top: 8rem;
+  justify-content: center;
   @media screen and (max-width: 1000px) {
     margin-top: 4rem;
     flex-wrap: wrap;

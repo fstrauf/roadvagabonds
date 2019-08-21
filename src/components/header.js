@@ -24,6 +24,7 @@ const Wrapper = styled(HeadRoom)`
 const Container = styled.div`
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
     @media screen and (max-width: 1000px) {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -44,6 +45,7 @@ const RowEnd = styled.div`
     display:flex;
     align-items: center;
     justify-self: end;
+    padding-top: 1rem;
     @media screen and (max-width: 1000px) {
         margin-right: 0;
         width: 100%;
