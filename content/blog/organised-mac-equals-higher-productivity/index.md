@@ -2,7 +2,7 @@
 layout: post
 title: "Organised mac = higher productivity; 14 things you can do!"
 author: Flo
-date: 2019-08-09T08:31:31+11:00
+date: 2019-08-22T09:31:31+11:00
 tags: ["life", "productivity", "organised", "nonfiction", "mac"]
 slug: an-organised-mac-higher-productivity
 draft: true
