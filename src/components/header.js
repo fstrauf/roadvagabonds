@@ -20,6 +20,10 @@ const Wrapper = styled(HeadRoom)`
         transform: translateY(0%);
         background: ${theme.colors.main.light}
     }
+    .headroom--scrolled {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
 `
 const Container = styled.div`
     display: flex;
