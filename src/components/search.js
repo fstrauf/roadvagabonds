@@ -21,7 +21,10 @@ const SearchBar = styled.input`
     width: 160px;
     height: 40px;
     z-index: 99999;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 15px;
+    not(:valid) ~ .close-icon {
+	display: none;
+}
     @media screen and (max-width: 1000px) {
         height: 30px;
         width: 130px;
@@ -48,6 +51,36 @@ const Wrapper = styled.div`
   }
 `
 
+const CloseIcon = styled.button`
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+    :after{
+        content: "X";
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-color: #FA9595;
+        z-index:1;
+        right: 35px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 2px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-size: 12px;
+        box-shadow: 0 0 2px #E50F0F;
+        cursor: pointer;
+    }
+`
+
 // Search component
 export default class Search extends Component {
     constructor(props) {
@@ -62,6 +95,9 @@ export default class Search extends Component {
         return (
             <Wrapper>
                 <SearchBar type="text" value={this.state.query} onChange={this.search} placeholder="Search the Blog" />
+                <CloseIcon type="reset">
+
+                </CloseIcon>
                 <ResultList>
                     {this.state.results.slice(0, 5).map(page => (
                         <ListItem key={page.id}>

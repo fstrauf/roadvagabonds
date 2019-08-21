@@ -12,8 +12,6 @@ const BlogMainWrapper = styled.div`
   background: ${theme.colors.main.light};
   display: table;
   padding-top: 5rem;
-  @media screen and (max-width: 1000px) {
-  }
 `
 
 class BlogMain extends React.Component {

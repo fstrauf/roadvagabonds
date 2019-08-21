@@ -72,23 +72,6 @@ const instagramStyle = css`
   }
 `
 
-const behanceStyle = css`
-  svg {
-    font-size: 3rem;
-  }
-  &:hover,
-  &:focus {
-    background-color: ${theme.colors.brands.behance};
-    color: ${theme.colors.white.light};
-    svg {
-      fill: ${theme.colors.white.light};
-    }
-  }
-  &:focus {
-    outline: none;
-  }
-`
-
 const youtubeStyle = css`
   svg {
     fill: ${theme.colors.brands.youtube};
@@ -140,7 +123,6 @@ const CustomLink = styled.a`
   ${({ type }) => type === 'default' && ``}
   ${({ type }) => type === 'github' && githubStyle}
   ${({ type }) => type === 'instagram' && instagramStyle}
-  ${({ type }) => type === 'behance' && behanceStyle}
   ${({ type }) => type === 'youtube' && youtubeStyle}
 `
 

@@ -23,7 +23,6 @@ const Card = styled.div`
     border-radius: ${props => props.theme.borderRadius.default};
     background-color: ${props => props.theme.colors.main.light};
     padding: 5px;
-    ${'' /* margin-top: 20px; */}
 `
 
 const Container = styled('div')({
