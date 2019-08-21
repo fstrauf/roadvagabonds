@@ -21,9 +21,13 @@ const Wrapper = styled(HeadRoom)`
         background: ${theme.colors.main.light}
     }
     .headroom--scrolled {
-            padding-left: 3rem;
-            padding-right: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        @media screen and (max-width: 1000px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
+    }
 `
 const Container = styled.div`
     display: flex;
