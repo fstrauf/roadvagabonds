@@ -79,14 +79,24 @@ export default class Search extends React.Component {
         this.search()
     };  
 
+    changeSelect = evt => {
+        return (
+            <Link to={evt.value}/>
+        )
+    };  
+
     render() {
         const { selectedOption } = this.state;
 
         return (
             <Select
+                cacheOptions
+                defaultValue="Troopy"
                 value={selectedOption}
                 onInputChange={this.handleChange}
                 loadOptions={this.loadOptions}
+                defaultOptions
+                onChange={this.changeSelect}
             />
             // <Wrapper>
             //     <Select 
@@ -122,18 +132,21 @@ export default class Search extends React.Component {
     // }
 
     filterColors = () => {
-        // console.log(this.state.results)
-        const reMap = this.state.results.map(
-            res => {
-                // console.log(res)
-                return{
-                    value: res.id,
-                    label: res.title
+
+        if (this.state.results !== undefined){
+            // console.log(this.state.results)
+            const reMap = this.state.results.map(
+                res => {
+                    // console.log(res)
+                    return{
+                        value: res.path,
+                        label: res.title
+                    }
                 }
-            }
-        )
-        // console.log(reMap)
-        return reMap;
+            )
+            // console.log(reMap)
+            return reMap;
+        }
       };
 
     loadOptions = (inputValue, callback) => {
@@ -171,7 +184,7 @@ export default class Search extends React.Component {
                 // Map over each ID and return the full document
                 .map(({ ref }) => this.index.documentStore.getDoc(ref)),
         })
-        // console.log(this.state.results)
+        console.log(this.state.results)
         // return{
         //     value: this.index.documentStore.getDoc(ref).title,
         //     label: this.index.documentStore.getDoc(ref).categories
