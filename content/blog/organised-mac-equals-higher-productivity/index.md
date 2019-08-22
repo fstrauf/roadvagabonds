@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Organised mac = higher productivity; 14 things you can do!"
+title: "14 things you can do to organise your mac and achieve hight productivity!"
 author: Flo
 date: 2019-08-22T09:31:31+11:00
 tags: ["life", "productivity", "organised", "nonfiction", "mac"]
 slug: an-organised-mac-higher-productivity
 draft: true
-meta_title: "Organised mac = higher productivity; 14 things you can do!"
+meta_title: "14 things you can do to organise your mac and achieve hight productivity!"
 image: organised-mac-busy-start-screen.jpg
 categories: ["life"]
 ---
 
 I come across a lot  of people who's computer is an absolute mess. Thinking of the amount of time we spend in front of these machines, **here are 14 things you can do to improve**<!-- end -->
+
 
 ## #1 Folder structure
 ------
@@ -36,7 +37,7 @@ I use standard folders as much as I can.
 
 ```
 
-Most operating systems do a pretty good job in preselecting important folders - but you can still change this to you needs. I pin to favorites whatever I need right now.
+Most operating systems do a pretty good job in preselecting important folders - but you can still change this to your needs. I pin to favorites whatever I need right now.
 
 #### Numbering
 
@@ -49,6 +50,7 @@ Here is how my documents folder looks like:
 #### My Desktop
 
 > Like a desk at work, it looks much more inviting and organised if there **nothing on** it. I just keep it like that.
+
 
 ## #2 Todo List
 ------
@@ -63,6 +65,7 @@ I use the **Apple Reminder app** as I don't need anything fancy, I just need it 
 
 ![Todo list on my second desktop](./organised-mac-todo-list-second-screen.jpg)
 
+
 ## #3 Password manager
 ------
 
@@ -72,14 +75,16 @@ Passwords on notepads?
 
 > Password managers are not 100% safe either, but nothing will ever be 100% safe unless you disconnect from the internet and move to a remote island.
 
-> There are a bunch of [articles](https://www.washingtonpost.com/technology/2019/02/19/password-managers-have-security-flaw-you-should-still-use-one/?noredirect=on) out there and the summary pretty much is; it's better ro use one than not to - this will allow you to generate strong individual passwords.
+> There are a bunch of [articles](https://www.washingtonpost.com/technology/2019/02/19/password-managers-have-security-flaw-you-should-still-use-one/?noredirect=on) out there and the summary pretty much is: it's better ro use one than not to - this will allow you to generate strong individual passwords.
 
 > I like LastPass as it's free.
+
 
 ## #4 Notifications
 ------
 
 **Simply turn them off**. Nothing is worse than distraction when you're trying to work.
+
 
 ## #5 Cloud Storage
 ------
@@ -93,16 +98,18 @@ But a must is also to use only one at a time.
 
 **Simply choose one and stick with it**, you can always migrate somewhere else, but don't use two at the same time. I use Google Drive.
 
+
 ## #6 Discipline
 ------
 
 **Stick to the rules!**
 
-1. **download files into their folders**. That's what you've created them for.
+1. **Download files into their folders**. That's what you've created them for
 2. It might take slightly longer to store files at the correct location, but you will be **much faster when searching** (I certainly open stuff more than I do save)
-3. if you love using your desktop, put your folder structure there, but **don't just dump stuff there**.
-4. whatever comes to mind, **swipe left or right** and write it into your todo list
-5. **don't store stuff at multiple locations**. If images are stored in the cloud, keep this the main storage.
+3. If you love using your desktop, put your folder structure there, but **don't just dump stuff there**
+4. Whatever comes to mind, **swipe left or right** and write it into your todo list
+5. **Don't store stuff at multiple locations**. If images are stored in the cloud, keep this the main storage
+
 
 ## #7 Converting HEIC to JPG
 ------
@@ -125,6 +132,7 @@ A little Automator helps converting the iPhone format to jpeg.
 
 ![automator context menu](./organised-mac-automator-context-menu.jpg)
 
+
 ## #8 Storing Images
 ------
 
@@ -140,14 +148,16 @@ Access all your photos on any device.
 
 Nothing fancy, but the two can actually be linked so you can continue listening to the same playlist.
 
-> **Settings** -> **Devices** -> **Devices Menu**
+> In the Spotify app: **Settings** -> **Devices** -> **Devices Menu**
+
 
 ## #10 Airdrop
 ------
 
 Send files from Phone to Computer or to other devices.
 
-> **command + space** -> **Airdrop** -> configure who can discover you
+> On your mac: **command + space** -> **Airdrop** -> configure who can discover you
+
 
 ## #11 Important shortcuts
 ------
@@ -168,27 +178,31 @@ Send files from Phone to Computer or to other devices.
 > 
 > **quite an application**: command + q
 
+
 ## #12 Do I really need this?
 ------
 
-**Which apps to start on startup**. I like to decide what I want to run and therefore my Login Items is empty.
+**Which apps to start on startup of your mac**. I like to decide what I want to run and therefore my Login Items is empty.
 
-> **System Preferences** -> **User & Groups** -> **Login Items**, to remove or add items.
+> this is how you do it: **System Preferences** -> **User & Groups** -> **Login Items**, to remove or add items.
 
-> **declutter** I often to go through my Applications folder to see what I can get rid of.
+**declutter** 
+> I often go through my Applications folder to see what I can get rid of.
 
 ![mac empty login items](./organised-mac-empty-startup-folder.jpg)
+
 
 ## #13 Chrome tab sync
 ------
 
-This is a great feature. 
+This is a great feature.
 
 > Even if you don't use it on multiple devices, it is a **backup** of your browser history, bookmarks, tabs etc.
 > 
 > **open Chrome settings** -> **login** with your gmail account -> **sync and google services** -> **manage sync** (I sync everything)
 > 
 > In case you set up a new computer all you do is download Chrome, sign in and it will **sync everything automatically**.
+
 
 ## #14 Other tools
 ------

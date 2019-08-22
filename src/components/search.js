@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import { Index } from "elasticlunr"
 import theme from '../../config/theme'
 import styled from 'styled-components'
-import Select from 'react-select'
-import AsyncSelect from 'react-select/async';
+// import Select from 'react-select'
+import Select from 'react-select/async';
 
 const ResultList = styled.ul`    
     position: fixed;
@@ -53,52 +53,94 @@ const Wrapper = styled.div`
   }
 `
 
+const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' },
+  ];
+
 // Search component
-export default class Search extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            query: ``,
-            results: [],
-            inputValue: ``
-        }
-    }
+export default class Search extends React.Component {
+    // constructor(props) {
+    //     super(props)
+    //     this.state = {
+    //         query: ``,
+    //         results: [],
+    //         inputValue: ``
+    //     }
+    // }
+
+    state = {
+        selectedOption: null,
+    };
+
+    handleChange = selectedOption => {
+        this.setState({ selectedOption });
+        this.search()
+    };  
 
     render() {
+        const { selectedOption } = this.state;
+
         return (
-            <Wrapper>
-                <Select options={this.state.results} onChange={this.search}/>
-                {/* <AsyncSelect
-                    cacheOptions
-                    loadOptions={this.loadOptions}
-                    defaultOptions
-                    onInputChange={this.handleInputChange}
-                /> */}
-                <SearchBar type="text" value={this.state.query} onChange={this.search} placeholder="Search the Blog" />
-                <ResultList>
-                    {this.state.results.slice(0, 5).map(page => (
-                        <ListItem>
-                            <Link to="/">{page.value}</Link>
-                            {": " + page.categories.join(`,`)}
-                        </ListItem>
-                    ))}
-                </ResultList>
-            </Wrapper>
+            <Select
+                value={selectedOption}
+                onInputChange={this.handleChange}
+                loadOptions={this.loadOptions}
+            />
+            // <Wrapper>
+            //     <Select 
+            //         value={this.state.query} 
+            //         options={this.state.results} 
+            //         onChange={this.handleChange}
+            //     />
+            //     {/* <AsyncSelect
+            //         cacheOptions
+            //         loadOptions={this.loadOptions}
+            //         defaultOptions
+            //         onInputChange={this.handleInputChange}
+            //     /> */}
+            //     <SearchBar type="text" value={this.state.query} onChange={this.search} placeholder="Search the Blog" />
+            //     <ResultList>
+            //         {this.state.results.slice(0, 5).map(page => (
+            //             <ListItem>
+            //                 <Link to="/">{page.value}</Link>
+            //                 {": " + page.categories.join(`,`)}
+            //             </ListItem>
+            //         ))}
+            //     </ResultList>
+            // </Wrapper>
         )
     }
 
-    // handleInputChange = (newValue) => {
-    //     // console.log(newValue)
-    //     const inputValue = newValue.replace(/\W/g, '');
-    //     this.setState({ inputValue });
-    //     return inputValue;
+    // handleChange = (query) => {
+    //     console.log("query")
+    //     // const inputValue = newValue.replace(/\W/g, '');
+    //     this.setState({ query });
+    //     this.search();
+    //     // return inputValue;
     // }
 
-    // loadOptions = (callback) => {
-    //     setTimeout(() => {
-    //       callback(this.search());
-    //     }, 1000);
-    // }
+    filterColors = () => {
+        // console.log(this.state.results)
+        const reMap = this.state.results.map(
+            res => {
+                // console.log(res)
+                return{
+                    value: res.id,
+                    label: res.title
+                }
+            }
+        )
+        // console.log(reMap)
+        return reMap;
+      };
+
+    loadOptions = (inputValue, callback) => {
+        setTimeout(() => {
+          callback(this.filterColors());
+        }, 1000);
+    }
 
     getOrCreateIndex = () =>
         this.index
@@ -107,9 +149,12 @@ export default class Search extends Component {
             Index.load(this.props.searchIndex)
 
     search = evt => {
-        const query = evt.target.value
+        const { selectedOption } = this.state
+        let query = selectedOption
+        // const query = evt.target.value
         this.index = this.getOrCreateIndex()
-
+        console.log(query)
+  
         // return({
         //     query,
         //     // Query the index with search string to get an [] of IDs
@@ -126,12 +171,10 @@ export default class Search extends Component {
                 // Map over each ID and return the full document
                 .map(({ ref }) => this.index.documentStore.getDoc(ref)),
         })
-
+        // console.log(this.state.results)
         // return{
         //     value: this.index.documentStore.getDoc(ref).title,
         //     label: this.index.documentStore.getDoc(ref).categories
         // } 
-
-        console.log(this.state.results)
     }
 }
