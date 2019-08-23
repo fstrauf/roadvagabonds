@@ -45,8 +45,6 @@ export default class Search extends React.Component {
 
     render() {
         const { defaultValue } = this.state;
-
-
         return (
             <Wrapper>
                 <SearchBar
@@ -67,8 +65,7 @@ export default class Search extends React.Component {
         )
     }
 
-    filterColors = () => {
-
+    remapResult = () => {
         if (this.state.results !== undefined) {
             const reMap = this.state.results.map(
                 res => {
@@ -84,7 +81,7 @@ export default class Search extends React.Component {
 
     loadOptions = (inputValue, callback) => {
         setTimeout(() => {
-            callback(this.filterColors());
+            callback(this.remapResult());
         }, 1000);
     }
 
