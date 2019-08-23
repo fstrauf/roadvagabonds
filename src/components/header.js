@@ -127,7 +127,7 @@ const header = ({ menuLinks }) => (
                 {/* <Select></Select> */}
                 {/* <Select options={data.siteSearchIndex.index} isClearable="true" isSearchable="true" /> */}
 
-                <Search searchIndex={data.siteSearchIndex.index} />
+                {/* <Search searchIndex={data.siteSearchIndex.index} /> */}
             </Wrapper>
         )}
     />
