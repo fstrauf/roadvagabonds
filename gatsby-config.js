@@ -27,6 +27,7 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-mdx`,
     {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
@@ -56,10 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-pinterest`,
       options: {
-        // Set to true to display a bigger button
-        tall: true, // default
-        // Set to true to hide the text and display only a round P button
-        round: false // default
+        tall: true, 
+        round: false
       }
     },
     `gatsby-plugin-sitemap`,
@@ -74,13 +73,6 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
       },
     },
     {
