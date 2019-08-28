@@ -34,6 +34,26 @@ const PostText = styled(`div`)`
   h1 {
     font-size: 2rem;
   }
+  ol {
+  counter-reset: item;
+  margin: 0 0 1.5em;
+  padding: 0;
+  > li {
+    counter-increment: item;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    text-indent: -1.2rem;
+    &::before {
+      content: counter(item) '.';
+      display: inline-block;
+      font-weight: bold;
+      padding-right: .5rem;      
+      text-align: right;
+      width: 1.5rem;
+    }
+  }
+}
   @media screen and (max-width: 1000px) {
     padding: 0;
   }
