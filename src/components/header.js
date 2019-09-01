@@ -70,7 +70,6 @@ const NavBar = styled.nav`
         margin-top: 0;
         margin-bottom: 0;
     }
-
 `
 
 const Logo = styled.svg`

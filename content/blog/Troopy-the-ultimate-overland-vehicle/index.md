@@ -77,7 +77,7 @@ We had the troopy for a while now and absolutely love it, not only driving and e
 * Cushions
 * Dual Battery System
 * Solar Panels
-* Water supply
+* [Water supply](troopy-fitout-thorburns-45l-water-tank)
 * Dual Wheel Carrier
 
 ## Troopy Maintenance

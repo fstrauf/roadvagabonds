@@ -2,7 +2,7 @@
 layout: post
 title: "Troopy fitout - Thorburns 45L water tank"
 author: Flo
-date: 2019-08-01T07:31:31+11:00
+date: 2019-09-02T08:31:31+11:00
 tags: ["Troopy", "Australia", "Overland", "Guide", "4x4", "DIY", "modification"]
 slug: troopy-fitout-thorburns-45l-water-tank
 draft: true
@@ -11,11 +11,11 @@ image: troopy-fitout-thorburns-water-tank.jpg
 categories: ["troopy"]
 ---
 
-Mocking around with Jerrycans for too long, spilling them, taking up space inside etc. we decided to get a water tank that fits underneath our 78 series.<!-- end -->
+Mocking around with jerrycans for too long, spilling them, taking up space inside etc. we decided to get a water tank that fits underneath our 78 series.<!-- end -->
 
 ---
 
-They conveniently supply a pump so you can easily wire it up and have it connected, you will need to think through how to plumb it up and what your requirements are. We chose a flexible set up where we can fill the tank from a hose, gravity feed it but also pump water out of a jerry can. The normal mode is the pump pumping water out of the tank.
+[Thorburns](http://www.thorburns.com.au/product/45l-water-tank-for-all-toyota-troopcarriers/) are located here in Sydney and offer an easy to fit 45L tank. They conveniently supply a pump so you can wire it up, you will need to think through how to plumb it up and what your requirements are. We chose a flexible set up where we can fill the tank from a hose, gravity feed it but also pump water out of a jerry can.
 
 ![fitting the thorburns 45L water tank](./troopy-fitout-fitting-the-tank.jpg)
 
@@ -24,17 +24,16 @@ They conveniently supply a pump so you can easily wire it up and have it connect
 #### Step 1; Fit the extension brackets
 
 1. these go underneath the existing fuel tank bolts. They are long enough so will fit easily.
-2. Do one at a time, so your fueltank won't come crashing down, we supported the tanks with jackstands just to make sure.
+2. Do one at a time, so your fuel tank won't come crashing down, we supported the tanks with jackstands just to make sure.
 
 ![tank extension brackets](./troopy-fitout-mount-tank-extension-brackets.jpg)
 
-
 #### Step 2; Cover tank with foam
 
-1. this will ensure the tank won't rub against the steel chassis frame, we used the remaining formshield from our floor (link post)
+1. this will prevent the tank from rubbing against the steel chassis frame, we used the remaining formshield [from our floor](2019-7-17-how-to-put-a-floor-into-a-troopy)
 2. Just stick a bit on the top and side using double sided tape
 
-![tank top covered in foam](./troopy-fitout-foamshield-cover.jpg)
+![tank top covered in foam](./troopy-fitout-formshield-cover.jpg)
 
 #### Step 3; Mount the tank brackets
 
@@ -59,9 +58,9 @@ They conveniently supply a pump so you can easily wire it up and have it connect
 
 #### Step 5; Plumbing - attaching the pump
 
-1. the pump comes with 4 bolts and a shield to protect it from rock.
+1. the pump comes with 4 bolts and a shield to protect it from rocks.
 2. fix all of this to the side of the tank.
-3. I've connected two short pieces of the 12mm hose directly to the pump and added to gardena hose fittings to it.
+3. I've connected two short pieces of the 12mm hose directly to the pump and added two gardena hose connectors to it.
 
 ![pump hose mounted gardena](./troopy-fitout-pump-hose-connection.jpg)
 
@@ -72,9 +71,9 @@ They conveniently supply a pump so you can easily wire it up and have it connect
 1. the inlet is roughly 25mm wide and i had to use two short pieces of tube to narrow it down to 12mm.
 2. plug a 12mm piece on the breather and elevate it.
 3. now the tank can be filled from a tap.
-4. to switch it to pump filling, the incoming tube to the pump can be detached from the tank outlet (so it's not pumping out anymore)
-5. this piece then goes into a jerrycan
-6. the outlet of the pump now get attached to the inlet ofn the tank.
+4. to switch it to pump filling, the incoming tube to the pump can be detached from the tank outlet (so it's not pumping out anymore).
+5. this piece then goes into a jerrycan.
+6. the outlet of the pump now get attached to the inlet ofn the tank (see diagram below).
 
 ![troopy fitout breather and inlet](./troopy-fitout-watertank-breather-inlet.jpg)
 
@@ -85,7 +84,10 @@ They conveniently supply a pump so you can easily wire it up and have it connect
 1. The easiest way: connect a piece of 12mm hose to the thin outlet on the tank.
 2. Plug it to the pump.
 3. attach a longer hose with tap to the outlet of the pump and off you go.
-4. I've done this flexibly, so the incoming hose to the pump dan be detached and used to fill water out of a jerry can.
+4. I've done this flexibly, so the incoming hose to the pump dan be detached and used to fill water out of a jerry can (see image in Shopping List section).
+5. Wire up the pump and connect to a switch.
+
+![troopy fitout water tank switch](./troopy-fitout-water-tank-switch.jpg)
 
 ---
 
@@ -102,7 +104,16 @@ They conveniently supply a pump so you can easily wire it up and have it connect
 7. rubber band
 
 **Plumbing**:
-   
+
+1. Water hose
+2. Hose connectors (5-10)
+3. Hose coupling (2-3)
+4. Nozzle
+5. Short 2.5mm tube to connect to tank
+6. Hose clamp (5)
+7. Flow reducing coupling (2.5mm to 12mm)
+
+![thorburns water tank plumbing diagram](./troopy-fitout-plumbing-diagram.jpg)
 
 ---
 

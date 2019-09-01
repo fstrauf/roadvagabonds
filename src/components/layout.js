@@ -24,13 +24,9 @@ const layout = ({ children }) => (
     query={siteTitleQuery}
     render={data => (
       <ThemeProvider theme={theme}>
-      {/* <SEO/> */}
         <Wrapper>
-        {/* <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} /> */}
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.cats.group} />
         <main>{children}</main>
-        {/* <Footer>
-        </Footer> */}
       </Wrapper>
       </ThemeProvider>
     )}

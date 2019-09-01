@@ -21,6 +21,10 @@ It is interesting how often you get book recommendations if you listen closely, 
 
 A few months ago I started meditating almost daily. If you'd asked me about this a few years ago, I would have thought your crazy - why would I get into this spiritual, chanting, bell ringing activity. I simply started using apps like Headspace and Waking Up, but since they are quite expensive I sort of stopped after the trial period. In this book Dan Harris perfectly describes his journey into meditation uncovering what it's really all about and that it absolutely does not require any chanting, bell ringing or things of that sort. It simply is a workout for the mind - the tool that filters everything we get in an out odf our brain. So while we spend hours in the gym working on our body, why not also work out the mind. I found it very useful and this book is a short, crisp look into what is really important.
 
+## The Power of Habit
+
+We all have these habits, some are good and some are not. Charles Duhigg explains with plenty of examples how habits can be changed by detecting the cues that trigger them, changing the bad routines that we execute once triggered and using the rewards towards turning them into a good habit. Great book to make you think about how all of this works in your own mind.
+
 ---
 
 # All books I read in 2019 / 2020
