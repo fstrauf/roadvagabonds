@@ -11,7 +11,7 @@ image: troopy-fitout-thorburns-water-tank.jpg
 categories: ["troopy"]
 ---
 
-Mocking around with jerrycans for too long, spilling them, taking up space inside etc. we decided to get a water tank that fits underneath our 78 series.<!-- end -->
+Messing around with jerrycans for too long, spilling them, taking up space inside etc. we decided to get a water tank that fits underneath our 78 series.<!-- end -->
 
 ---
 
