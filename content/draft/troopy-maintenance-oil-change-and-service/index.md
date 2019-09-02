@@ -7,11 +7,11 @@ tags: ["Troopy", "Australia", "Overland", "Guide", "4x4", "DIY", "service", "oil
 slug: troopy-maintenance-oil-change-and-service
 draft: true
 meta_title: "Troopy maintenance - 10K service 1HZ engine"
-image: troopy-fitout-desk.jpg
+image: troopy-maintenance-10k-service-1hz.jpg
 categories: ["troopy"]
 ---
 
-I've never ever done this before and the troopy still works! This is what I've done and where we gotten our information from.<!-- end -->
+I've never ever done this before and the troopy still works! These are the steps I've gone through and my sources of information from.<!-- end -->
 
 ---
 
@@ -31,12 +31,16 @@ Table with all infor on service intervals and the oil required
 
 #### Step 1; remove old oil
 
-1. let it run for little bit - warm oil flows better.
+1. let the engine run for little bit - warm oil flows better.
 2. drive it onto a tarp so you don't mess up the floor/street.
 3. open the filler cap - where you'll fill in oil.
 4. get a bucket big enough to hold all the oil (see above)
 5. loosen the bolt and unscrew it by hand, hold the bucket close once it pours out.
 6. let the oil run out.
+
+![troopy maintenance loosen the bolt](./troopy-maintenance-drain-oil-bolt.jpg)
+
+![troopy maintenance oil drain](./troopy-maintenance-oil-draining-bucket.jpg)
 
 #### Step 2; change oil filter
 
@@ -46,6 +50,12 @@ Table with all infor on service intervals and the oil required
 4. take out trying to catch as much as you can.
 5. apply some oil on the rubber seals of the new filter, to get it off easier next time.
 6. screw on the new filter hand-tight and then another 3/4.
+
+![troopy maintenance oil filter old](./troopy-maintenance-1hz-oil-filter.jpg)
+
+![troopy maintenance oil filter plug](./troopy-maintenance-oil-filter-plug.jpg)
+
+![troopy maintenance new oil filter](./troopy-maintenance-new-oil-filter.jpg)
 
 #### Step 3; change fuel filter
 
@@ -59,6 +69,16 @@ Table with all infor on service intervals and the oil required
 8. Now you need to get the air out of the filters and fill it with diesel.
 9. pump the little black rubber knob until you can't press it down anymore.
 
+![loosen fuel filter one](./troopy-maintenance-remove-fuel-filter-one.jpg)
+
+![fuel filter bottom cap](./troopy-maintenance-fuel-filter-bottom-cap.jpg)
+
+![second fuel filter](./troopy-maintenance-fuel-filter-2.jpg)
+
+![second filter in housing](./troopy-maintenance-second-filter-in-housing.jpg)
+
+![pump fuel filter before starting](./troopy-maintenance-pump-fuel-filter-before-starting.jpg)
+
 #### Step 4; refill with new oil
 
 1. by now, all oil should be gone. Some people pour in a little sip of fresh oil to wash out the old.
@@ -68,9 +88,22 @@ Table with all infor on service intervals and the oil required
 5. let it sit for a bit and see how full it is.
 6. close the cap.
 
+![tighten bolt after drain](./troopy-maintenance-tighten-bolt-after-drain.jpg)
+
+![refill oil with the easy tap fill](./troopy-maintenance-oil-fill-tap.jpg)
+
 #### Step 5; Re-grease
 
 #### Step 6; Tighten bolts radiator
+
+#### Step 7; Change the Air filter
+
+1. This is really easy: Open the big round box attached to the snorkel.
+2. Take out the old filter
+3. Clean it from inside
+4. Place new filter and close the box.
+
+![troopy maintenance air filter change](./troopy-maintenance-air-filter.jpg)
 
 ---
 
