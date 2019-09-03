@@ -17,22 +17,6 @@ const colors = {
     lighter: '#878787',
     blue: '#2e3246',
   },
-  primary: {
-    base: '#3498db',
-    light: '#5abdff',
-    lightest: '#7cc9ff',
-    dark: '#4768b4',
-    darker: '#45458d',
-  },
-  secondary: {
-    base: '#E6D065',
-    light: '#ffaf60',
-    dark: '#d17c26',
-  },
-  background: {
-    light: '#46507a',
-    dark: '#262c41',
-  },
   brands: {
     github: '#24292E',
     instagram: {
