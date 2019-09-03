@@ -62,7 +62,8 @@ class blog extends React.Component {
                     <NumContainer>
                     {Array.from({ length: numPage }, (_, i) => (
                         <Tag
-                            to={`/${i === 0 ? '/' : i + 1}`}>
+                            to={`/${i === 0 ? '/' : i + 1}`}
+                            activeStyle={{color: theme.colors.main.dark}}>
                             {i + 1}
                         </Tag>
 

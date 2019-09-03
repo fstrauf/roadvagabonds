@@ -10,13 +10,10 @@ const RightColumn = styled.div`
     padding-left: 20px;
     display: flex;
     background: ${theme.colors.main.light};
-    ${'' /* flex-wrap: wrap; */}
-    ${'' /* vertical-align: top; */}
     flex-direction: column;
     @media screen and (max-width: 1000px) {
         width: 100%;
         padding-left: 0px;
-        ${'' /* display: table; */}
         vertical-align: top;
       }
 `
@@ -97,7 +94,3 @@ class sideContent extends React.Component {
 }
 
 export default sideContent
-
-// function deleteTags(text) {
-//     return text.replace(/^(\s*#\w+\s*)+$/gm, "")
-// }

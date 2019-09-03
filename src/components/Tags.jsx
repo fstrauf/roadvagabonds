@@ -115,6 +115,7 @@ const Tags = ({ tags, linkPrefix }) => (
         <MenuLi>
           <MenuLink
             to={`${linkPrefix}/${tag.fieldValue}`}
+            activeStyle={{color: theme.colors.brands.social.orange}}
           >
             {tag.fieldValue}
           </MenuLink>
@@ -123,6 +124,7 @@ const Tags = ({ tags, linkPrefix }) => (
       <MenuLi>
         <MenuLink
           to='/categories'
+          activeStyle={{color: theme.colors.brands.social.orange}}
         >
           overview
         </MenuLink>
