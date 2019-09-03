@@ -25,6 +25,30 @@ Toyota Owners Manual,
 
 Table with all infor on service intervals and the oil required
 
+My Toyota Warranty Warranty and Service Manual as the following information:
+
+I: Drive Belts
+R: Engine Oil
+R: Engine Oil Filter
+(R): Main Fuel Filter
+R: Fuel Pre Filter
+I: Water Sedimeter
+I: Air  Filter
+I: Battery
+I: Brake pads and dicsc
+I: Brake fluid
+I: Clutch fluid
+I: Power steering fluid
+(I): Brake pipes and hoses
+(I):  Steering wheel, linkage and steering gearbox oil
+L: Steering knuckle, drag link and steering linkage
+L: Propeller shaft
+T: Propeller shaft bolts
+(I): Front and rear suspension
+I: Tyres and inflation pressure
+
+
+
 ---
 
 ## Steps
@@ -92,9 +116,13 @@ Table with all infor on service intervals and the oil required
 
 ![refill oil with the easy tap fill](./troopy-maintenance-oil-fill-tap.jpg)
 
-#### Step 5; Re-grease
+#### Step 5; Lubricate steering knuckle
 
-#### Step 6; Tighten bolts radiator
+
+#### Step 6; Tighten propeller shaft bolts and lubricate propeller shaft
+1. Grease to be used [NLGI No.2](https://en.wikipedia.org/wiki/NLGI_consistency_number) 
+2. This guy explains what it's about.
+
 
 #### Step 7; Change the Air filter
 
