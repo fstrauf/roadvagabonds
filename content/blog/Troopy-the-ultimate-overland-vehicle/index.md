@@ -82,3 +82,4 @@ We had the troopy for a while now and absolutely love it, not only driving and e
 
 ## Troopy Maintenance
 * [How we fight rust](troopy-maintenance-how-we-fight-rust)
+* [Troopy service 10 1hz engine](troopy-maintenance-oil-change-and-service)

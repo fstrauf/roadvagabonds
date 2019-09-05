@@ -30,8 +30,8 @@
 ## Why I am disciplined
 
 # Troopy maintenance
-## Spare parts
-## Minor Service
+## Spare parts kit for overland trips
 ## Tyre pressure cheat sheet
+##
 
 #Screenfree sunday
