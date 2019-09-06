@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "14 things you can do to organise your mac and achieve hight productivity!"
+title: "14 things you can do to organise your mac and achieve higher productivity!"
 author: Flo
 date: 2019-08-22T09:31:31+11:00
 tags: ["life", "productivity", "organised", "nonfiction", "mac"]
 slug: an-organised-mac-higher-productivity
 draft: true
-meta_title: "14 things you can do to organise your mac and achieve hight productivity!"
+meta_title: "14 things you can do to organise your mac and achieve higher productivity!"
 image: organised-mac-busy-start-screen.jpg
 categories: ["life"]
 category: life

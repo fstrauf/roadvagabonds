@@ -46,12 +46,6 @@ class sideContent extends React.Component {
                          Australia.</p>                  
                 </Card>
                 <Card>
-                    <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
-                        <YouTube />
-                        Road Vagabonds
-                    </LinkCard>
-                </Card>
-                <Card>
                     <h3>
                         <a
                             style={{
@@ -89,6 +83,12 @@ class sideContent extends React.Component {
                             })
                         }
                     </Container>
+                </Card>
+                <Card>
+                    <LinkCard link="https://www.youtube.com/channel/UC0j9AJvGXFZRQjJ-qywQkFg" type="youtube">
+                        <YouTube />
+                        Road Vagabonds
+                    </LinkCard>
                 </Card>
             </RightColumn>
 
