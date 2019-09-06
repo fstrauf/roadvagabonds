@@ -9,6 +9,7 @@ draft: true
 meta_title: "Favorite restaurants in Singapore"
 image: burger-fish-an-chips-little-island-brewing-co.jpg
 categories: ["travel"]
+category: travel
 ---
 
 In our year in Singapore we did not spend a lot of time cooking, here's why<!-- end -->:

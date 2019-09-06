@@ -34,9 +34,12 @@ const Container = styled.div`
 
 class sideContent extends React.Component {
     render() {
-        let { posts, insta } = this.props;
+        let { posts, insta, similarPosts } = this.props;
         return (
             <RightColumn>
+                <Card>
+                    <h2>Similar posts</h2>
+                </Card>
                 <Card>
                     <h2>About us</h2>
                     <p> Hi! We are Vicky & Flo a German couple living in Sydney. In our Troopy we explore

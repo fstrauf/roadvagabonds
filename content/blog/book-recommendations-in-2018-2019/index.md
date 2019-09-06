@@ -9,6 +9,7 @@ draft: true
 meta_title: "Book recommendations in 2018 and 2019"
 image: reading-book-beach.jpg
 categories: ["life"]
+category: life
 ---
 
 One of my daily routines is reading for at least 30 minutes after I get up every day. That's a minimum of 182 hours a year. On top comes the weekend, holidays and bus rides to work. Here is what I've been reading in the last year.<!-- end -->

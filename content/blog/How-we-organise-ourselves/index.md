@@ -9,6 +9,7 @@ draft: false
 meta_title: "How we organise ourselves"
 image: paper-pen-plant.jpg
 categories: ["life"]
+category: life
 ---
 
 Moving to different countries requires a fair bit of planning and bookkeeping<!-- end -->:

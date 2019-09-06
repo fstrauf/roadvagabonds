@@ -9,6 +9,7 @@ draft: true
 meta_title: "14 things you can do to organise your mac and achieve hight productivity!"
 image: organised-mac-busy-start-screen.jpg
 categories: ["life"]
+category: life
 ---
 
 I come across a lot  of people who's computer is an absolute mess. Thinking of the amount of time we spend in front of these machines, **here are 14 things you can do to improve**<!-- end -->

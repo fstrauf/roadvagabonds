@@ -18,7 +18,7 @@ const createPosts = (list, createPage, template) => {
   list.forEach(post => {
     const { left, right } = prevNext(list, post)
     const {
-      frontmatter: { slug },
+      frontmatter: { slug, category },
     } = post.node
 
     createPage({
@@ -28,7 +28,8 @@ const createPosts = (list, createPage, template) => {
         slug,
         cat: '//',
         left,
-        right
+        right,
+        category
       },
     })
   })

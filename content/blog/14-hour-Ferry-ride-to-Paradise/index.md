@@ -9,6 +9,7 @@ meta_title: "14 hour Ferry ride to Paradise"
 image: crystal-clear-water-macaronis-resort.jpg
 tags: ["Indonesia", "Mentawais", "Paradise", "Travel", "surf"]
 categories: ["travel"]
+category: travel
 ---
 
 ## Mentawais

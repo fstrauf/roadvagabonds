@@ -9,6 +9,7 @@ draft: false
 meta_title: "Bukit Lawang - Meeting Sumatra's Orangutans"
 image: baby-orang-utan-upsidedown.jpg
 categories: ["travel"]
+category: travel
 ---
 
 ## Getting there

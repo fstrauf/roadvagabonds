@@ -9,6 +9,7 @@ draft: true
 meta_title: "Troopy fitout - a convertible bed and desk"
 image: troopy-fitout-desk.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 In between our [storage box](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one) and [kitchen](2019-7-31-troopy-fitout-kitchen-slideout-fridge-and-drawers) fits a bed that can be converted into a desk.<!-- end -->

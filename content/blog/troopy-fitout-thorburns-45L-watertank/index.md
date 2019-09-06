@@ -9,6 +9,7 @@ draft: true
 meta_title: "Troopy fitout - Thorburns 45L water tank"
 image: troopy-fitout-thorburns-water-tank.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 Messing around with jerrycans for too long, spilling them, taking up space inside etc. we decided to get a water tank that fits underneath our 78 series.<!-- end -->

@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend Getaway - Phi Phi Island, Thailand"
 image: phi-phi-island-boats-on-beach.jpg
 categories: ["travel"]
+category: travel
 ---
 
 To escape the city for a weekend, Phi Phi Island in Thailand is a pretty good option. There are various Friday night flights from Singapore to Phuket. <!-- end -->We jumped on a 1 ½ hour flight with [Jetstar](https://www.jetstar.com/sg/en/home). Due to our late arrival in Phuket we decided to stay there overnight, and catch the first ferry from Rassada Pier at 8:30 am (check the timetable [here](https://www.phuketferry.com/)).

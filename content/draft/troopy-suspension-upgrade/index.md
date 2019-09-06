@@ -30,3 +30,6 @@ https://www.project200.com.au/gvm-upgrade/
 https://select4wd.com.au/collections/78-series/products/select-4wd-ultimate-suspension-lift-kit-78-series-landcruiser
 
 Minutes Mark:
+https://www.youtube.com/watch?v=AGUC-vUCxLE
+Coil over leaf
+http://blueroomadventures.com/troopy-tips/suspension-upgrade-coil-over-leaf/

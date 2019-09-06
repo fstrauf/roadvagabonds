@@ -9,6 +9,7 @@ draft: false
 meta_title: "Our 5 favorite places in Java, Indonesia"
 image: java-bromo-vulcano-crater.jpg
 categories: ["travel"]
+category: travel
 ---
 
 Java was our first stop on a bigger Indonesia holiday we did last year. Java is one of the main islands of the world’s largest island country Indonesia and the island with the highest population in the world.<!-- end --> It’s located between Sumatra on the west and Bali on the east and lies on the Pacific Ring of Fire. In total we spent 6 days in Java and would have stayed much longer if only we had more time. Here are our favorite five places we visited in Java:

@@ -9,6 +9,7 @@ draft: true
 meta_title: "How to put a floor into a Troopy"
 image: troopy-floor-vynil-walnut.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 To make your car a comfy home, start with the floor. It's pretty easy and even if you are not very skilled you can get the job done.<!-- end --> This is how we did it:

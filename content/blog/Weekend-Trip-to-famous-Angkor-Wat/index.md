@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend Trip to famous Angkor Wat"
 image: angkor-wat-sunrise.jpg
 categories: ["travel"]
+category: travel
 ---
 
 Bookings early will get you a fair priced flight from Singapore to Siem Reap (it’s not cheap).<!-- end --> Jetstar and Air Asia offer flights which take about 2 ½ hours. Make sure to check out if you require a visa for immigration. After arriving at the airport, Siem Reap city centre is convenient to reach by hotel shuttle or taxi in about 20 minutes. In the city centre you’ll find a lot of restaurants, bars, ATMs and everything you need. Tuk Tuk drivers cover public transport, if you want to be independent, rent a motorbike. Angkor Wat official ticket center is located 4 km outside and I recommend to buy a 3 days ticket to get the most out of your temple visit.

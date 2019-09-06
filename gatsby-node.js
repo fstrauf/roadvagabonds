@@ -48,6 +48,7 @@ exports.createPages = async ({ graphql, actions }) => {
               title
               layout
               slug
+              category
             }
           }
         }

@@ -9,6 +9,7 @@ draft: false
 meta_title: "Troopy - the ultimate overland vehicle?"
 image: troopy-poptop-overland-toyota.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 Troopy is the short form for a Toyota Landcruiser Troopcarrier. Toyota describes the Troopy as “Still powerful, still indestructible.” and we take their word for that.<!-- end --> It pretty much is a combination of a reliable engine and a box shaped chassis. In short great for touring and modifying it to your likes.

@@ -9,6 +9,7 @@ draft: false
 meta_title: "Weekend outdoor activities in Singapore"
 image: marina-bay-gardens-ferris-wheel.jpg
 categories: ["travel"]
+category: travel
 ---
 
 Although being mostly City, Singapore still has a bunch outdoor activities on offer.<!-- end -->

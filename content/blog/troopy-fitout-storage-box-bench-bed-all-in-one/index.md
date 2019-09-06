@@ -9,6 +9,7 @@ draft: false
 meta_title: "Troopy fitout - storage box, bench, bed - all in one"
 image: troopy-fitout-cushion-box.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 After [completing the floor](https://roadvagabonds.com/2019-7-20-diy-how-to-build-a-foldable-backdoor-table), we built a nice little living room starting with storage boxes.<!-- end --> You don't need to be a carpenter to get this done.

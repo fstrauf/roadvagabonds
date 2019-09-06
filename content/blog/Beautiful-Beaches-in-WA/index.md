@@ -9,6 +9,7 @@ draft: false
 meta_title: "Beautiful Beaches in WA"
 image: margaret-river-beach-view.jpg
 categories: ["travel"]
+category: travel
 ---
 
 ## Perth

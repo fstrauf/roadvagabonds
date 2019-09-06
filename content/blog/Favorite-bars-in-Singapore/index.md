@@ -9,6 +9,7 @@ draft: false
 meta_title: "Favorite bars in Singapore"
 image: mr-storck-rooftop-bar-sunset.jpg
 categories: ["travel"]
+category: travel
 ---
 
 Singapore has a lot of great bar, here are our favourites<!-- end -->:

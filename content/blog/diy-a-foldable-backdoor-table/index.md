@@ -9,6 +9,7 @@ draft: true
 meta_title: "DIY; how to build a foldable backdoor table"
 image: troopy-folddown-backdoor-table-finished.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 A must have for the Troopy is a fold down table attached to the backdoor.<!-- end --> This one comes with a slide-out extension underneath. It's real simple check out the steps below.

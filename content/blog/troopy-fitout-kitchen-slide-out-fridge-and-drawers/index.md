@@ -9,6 +9,7 @@ draft: false
 meta_title: "Troopy fitout - kitchen, slide out fridge and drawers"
 image: troopy-fitout-kitchen-completed.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 More storage and a nice kitchen-top is what we built next to [our storage box](2019-7-30-troopy-fitout-storage-box-bench-bed-all-in-one). It might look a bit more complicated but it's really easy once you've thought it through.<!-- end -->

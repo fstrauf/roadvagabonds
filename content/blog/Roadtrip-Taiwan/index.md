@@ -9,6 +9,7 @@ draft: false
 meta_title: "Roadtrip Taiwan"
 image: tiger-lily-panorama.jpg
 categories: ["travel"]
+category: travel
 ---
 
 Public transport in Taipei is really good and comfortable, so you can easy take the MRT from Taipei Airport to the city. <!-- end -->Buy a TOP-up card at the ticket machine, so you can top up your card anytime and use it for MRT and bus during your stay in Taipei. - Make sure to get cash from the ATM before, otherwise you can’t buy a ticket. The ride will take about 45 minutes. We stayed at the [citizenM Taipei North Gate Hotel](https://www.citizenm.com/destinations/taipei/taipei-hotel), which has cool and clean rooms and is in walking distance to the Central Station. In Taipei there are different things to see and to do, here’s a short list of our favorites:

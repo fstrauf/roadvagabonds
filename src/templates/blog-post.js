@@ -99,9 +99,8 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const site = this.props.data.site.siteMetadata
     const allInsta = this.props.data.insta.edges
+    const similarPosts = this.props.data.allMarkdownRemark.edges
 
-
-    // Disqus
     const disqus = {
       shortname: 'roadvagabonds-com',
       url: site.siteUrl,
@@ -121,11 +120,11 @@ class BlogPostTemplate extends React.Component {
             </HeaderContainer>
             <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
-          <SideContent posts={allInsta} insta={site.social.instagram} />
+          <SideContent posts={allInsta} insta={site.social.instagram} similarPosts={similarPosts} />
         </MainWrapper>
 
 
-        <hr/>      
+        <hr />
         <DisqusContainer type="article">
           <ReactDisqusComments
             shortname={disqus.shortname}
@@ -144,13 +143,23 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug($slug: String!, $category: String!) {
     site {
       siteMetadata {
         title
         siteUrl
         social {
           instagram
+        }
+      }
+    }
+    allMarkdownRemark(filter: {frontmatter: {category: {eq: $category}}}, limit: 3) {
+      edges {
+        node {
+          frontmatter {
+            title
+            slug
+          }
         }
       }
     }

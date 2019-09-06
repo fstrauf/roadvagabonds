@@ -9,6 +9,7 @@ draft: true
 meta_title: "Troopy service - 10K for the 1HZ engine"
 image: troopy-maintenance-10k-service-1hz.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 A simple step by step guide on how do complete the 10K service for your troopy by yourself. All you need is a couple of hours and everything that is described below.<!-- end -->

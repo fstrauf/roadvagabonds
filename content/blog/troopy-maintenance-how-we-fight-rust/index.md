@@ -9,6 +9,7 @@ draft: true
 meta_title: "Troopy maintenance - how we fight rust"
 image: troopy-maintenance-car-wash.jpg
 categories: ["troopy"]
+category: troopy
 ---
 
 You put a lot of time and money into your Troopy and ideally you want to keep it and drive it for a while. Here is how we take care of rust, remove it and prevent it.<!-- end -->
