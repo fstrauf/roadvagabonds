@@ -6,7 +6,7 @@ import ReactDisqusComments from 'react-disqus-comments'
 import Line from '../elements/Line'
 import styled from 'styled-components'
 import theme from '../../config/theme'
-import SideContent from "../components/sideContent"
+import SideContentPost from "../components/sideContentPost"
 
 const PostText = styled(`div`)`
   max-width: 50rem;
@@ -120,7 +120,7 @@ class BlogPostTemplate extends React.Component {
             </HeaderContainer>
             <PostText dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
-          <SideContent posts={allInsta} insta={site.social.instagram} similarPosts={similarPosts} />
+          <SideContentPost posts={allInsta} insta={site.social.instagram} similarPosts={similarPosts} />
         </MainWrapper>
 
 
@@ -159,6 +159,18 @@ export const pageQuery = graphql`
           frontmatter {
             title
             slug
+            image {
+                childImageSharp {
+                  fluid(
+                    maxWidth: 450,
+                    maxHeight: 300) {
+                    ...GatsbyImageSharpFluid
+                  }
+                  fixed(width: 700, height: 300) {
+                    ...GatsbyImageSharpFixed
+                  }
+                }
+            }
           }
         }
       }

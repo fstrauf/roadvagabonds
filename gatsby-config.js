@@ -27,7 +27,14 @@ module.exports = {
     ]
   },
   plugins: [
-    `gatsby-plugin-mdx`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.roadvagabonds.com',
+        sitemap: 'https://www.roadvagabonds.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
