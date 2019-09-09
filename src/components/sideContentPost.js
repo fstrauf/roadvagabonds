@@ -15,20 +15,22 @@ const Card = styled.div`
 
 const FancyLink = styled(Link)`
 	color: #323234; 
-	font-size: 12px;
-	font-weight: 800;
-	line-height: 1.4;
-	text-transform: uppercase;
-    boxShadow: '0 1px 2px 0 rgba(43, 59, 93, 0.29)';
+    padding-top: 2rem;
+    text-decoration: none;
+    boxShadow: '0 1px 2px 0 rgba(43, 59, 93, 0.29)';    
     ':hover': {
         boxShadow: '0 10px 30px 0 rgba(0, 0, 0, 0.29)',
     },
+    img {
+        > div {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
 `
 
-const SimilarWrapper = styled.div`
-    display: flex;
+const Head = styled.p`
+margin-top: 1rem;
 `
-
 
 class sideContent extends React.Component {
     render() {
@@ -41,8 +43,8 @@ class sideContent extends React.Component {
                         similarPosts.map((post) => {
                             return (
                                 <FancyLink to={post.node.frontmatter.slug}>
-                                        <Image fluid={post.node.frontmatter.image.childImageSharp.fluid} caption={post.node.frontmatter.title} />
-                                        <p>{post.node.frontmatter.title}</p>
+                                    <Head>{post.node.frontmatter.title}</Head>
+                                    <Image fluid={post.node.frontmatter.image.childImageSharp.fluid} />
                                 </FancyLink>
                             )
                         })

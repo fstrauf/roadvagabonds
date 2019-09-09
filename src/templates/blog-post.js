@@ -153,7 +153,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(filter: {frontmatter: {category: {eq: $category}}}, limit: 3) {
+    allMarkdownRemark(filter: {frontmatter: {category: {eq: $category}, slug: {ne: $slug}}}, limit: 3) {
       edges {
         node {
           frontmatter {
