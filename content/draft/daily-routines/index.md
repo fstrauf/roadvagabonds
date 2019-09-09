@@ -11,7 +11,7 @@ image: troopy-fitout-desk.jpg
 categories: ["life"]
 ---
 
-We get up at 0530 am. and run through a bunch of nearly automatic steps every day. This absolutely helps beating your inner voice telling you to do something else. It's a great way to start your day with a sense of accomplishment.
+We get up at 0530 am. and run through a bunch of nearly automatic steps every day. This absolutely helps beating your inner voice telling you to do something else (like staying bed or brainlessly scrolling through social media). It's a great way to start your day with a sense of accomplishment.
 
 These routines carry on during the day and this is what we do:
 
@@ -24,10 +24,40 @@ A great way to get started is a guided meditation using an app such as Mindfulne
 I can absolutely recommend 10% happier written by Dan Harriss.
 
 ## Journaling (10min)
-5MJ (slot in the morning and before I go to bed)
-Daily 10
+### 5MJ 
+(slot in the morning and before I go to bed); the idea is to think/write positive about a day, thinking positive makes you happier.
 
-##Reading (30min)
+Start in the morning:
+
+**I am Grateful for:**
+1. ... 
+2. ...
+3. ...
+
+**What would make today great:**
+1. ...
+2. ...
+3. ...
+
+**Daily practice:**
+1. ...
+
+Before going to bed I do:
+
+**Amazing things that happened today:**
+1. ...
+2. ...
+3. ...
+
+**How could I have made today even better?**
+1. ...
+2. ...
+3. ...
+
+
+### Daily 10
+
+## Reading (30min)
 I read for 30min.
 
 So by the time i've completed this it's 0645 - pretty early still huh?
@@ -36,8 +66,10 @@ So by the time i've completed this it's 0645 - pretty early still huh?
 I love this. It sort of makes you feel like you don't have to do a lot but then you end up writing for 20-30min.
 
 ## Daily Email
+I try to maximize the efficiency when working and that is only possible when reducing distractions. Besides turning off notifications, I try and don't check emails outside my scheduled times. If people really need me, they usually call me.
 
 ## One hour of hobbies
 This can be video editing, coding on the blog, reading some more, working on the troopy etc.
 
 # Bed time usually is around 2130
+After reading Why We Sleep by Matthew Walker, I really take it serious to get 8 hours of sleep a night.
