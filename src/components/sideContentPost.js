@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import RightColumn from '../elements/Rightcolumn'
+import RightColumn from '../elements/RightColumn'
 import Insta from '../components/insta'
 import Youtube from '../components/youtube'
 import { Link } from 'gatsby'
