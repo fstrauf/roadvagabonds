@@ -25,10 +25,16 @@ A few months ago I started meditating almost daily. If you'd asked me about this
 
 We all have these habits, some are good and some are not. Charles Duhigg explains with plenty of examples how habits can be changed by detecting the cues that trigger them, changing the bad routines that we execute once triggered and using the rewards towards turning them into a good habit. Great book to make you think about how all of this works in your own mind.
 
+## Why we Sleep
+
+What an amazing book. Matthew Walker a neuro-scientust / sleep-scientist explains everything important around sleep. It will have you prioritize sleep much higher and make you value this key body function the way it should. He goes into a good level of detail without drifting into scientific papers and explains why sleep is so important, how we can improve it and how society should change to value it more highly.
+
 ---
 
 # All books I read in 2019 / 2020
 
 > **10% Happier**, Dan Harris
 > **Humble Inquiry - the gentle art of asking instead of telling**, Edgar H. Schein
->
+>  **Tribe of Mentors**, Tim Ferriss
+> **Why we sleep**, Matthew Walker
+
