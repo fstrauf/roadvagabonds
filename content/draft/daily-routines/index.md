@@ -1,19 +1,31 @@
 ---
 layout: post
-title: "Our daily routines and how they can help you"
+title: "My daily routines and how they helped me"
 author: Flo
 date: 2019-08-01T07:31:31+11:00
 tags: ["Life", "routines", "GettingThingsDone", "Guide", "habits"]
 slug: our-daily-routines-an-how-they-can-help-you
 draft: true
-meta_title: "Our daily routines and how they can help you"
+meta_title: "My daily routines and how they can help you"
 image: troopy-fitout-desk.jpg
 categories: ["life"]
 ---
 
-We get up at 0530 am. and run through a bunch of nearly automatic steps every day. This absolutely helps beating your inner voice telling you to do something else (like staying bed or brainlessly scrolling through social media). It's a great way to start your day with a sense of accomplishment.
+Do you ever wonder why other people get more stuff done than you? Where all the 24 hours of your day went? Or what you actually got done within a day? Habits helped me to structure a bit of my day and turn certain activities into routines.
 
-These routines carry on during the day and this is what we do:
+I get up at 0530 and run through a bunch of nearly automatic steps every day. Repeating these activities helps beating your inner voice telling you to do something else (like staying in bed or brainlessly scrolling through social media) because you simply get used to them. It's a great way to start your day with a sense of accomplishment and a good list of things already done.
+
+## But first what are habits / routines / cues/ rewards?
+
+[Charles Duhigg (The Power of Habit)](https://charlesduhigg.com/how-habits-work/) has the full explanation and while I highly recommend his book, there is a short version. According to him, a habit consists of
+
+* a cue; that acts as the trigger of a routine (alarm clock at 0530)
+* a routine; the activity you go through (a workout, meditation, journaling, etc .)
+* a reward; seems obvious (this could be the coffee at the end or just the feeling of accomplishment) 
+
+It's by any means easy to manipulate these, but of you manage to see it that way, you might be able to connect certain cues, routines and habits in a way it helps you.
+
+Here is what I do:
 
 ## Excercise, flex workout for roughly (15min)
 I personally like [this 15 minute flex routine](https://www.youtube.com/watch?v=L_xrDAtykMI). I simply follow along every morning. I wouldn't go too crazy on this as it will become easier for your head to try and skip it.
