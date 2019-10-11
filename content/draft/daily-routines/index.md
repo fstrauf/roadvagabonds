@@ -30,6 +30,7 @@ It's by no means easy to manipulate habits, but if you manage to see it that way
 Here is what I do:
 
 ### Excercise, flex workout for roughly (15min)
+
 I personally like [this 15 minute flexibility workout](https://www.youtube.com/watch?v=L_xrDAtykMI). I simply follow along first thing in the morning, before checking my phone.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L_xrDAtykMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,53 +55,64 @@ I don't spend a lot of time on this but I the 5MJ (5 Minute Journal) helps me to
 
 The second type is about creativity; It kind of trains your mind to generate ideas.
 
-
-#### 5MJ 
-(slot in the morning and before I go to bed);.
+#### 5MJ
 
 Start in the morning:
 
 **I am Grateful for:**
+
 1. ... (the great friends I have)
 2. ... (the stuff i've learned today)
-3. ... 
+3. ... (my great surf session yesterday)
 
 **What would make today great:**
-1. ...
-2. ...
-3. ...
+
+1. ... (I finish that presentation)
+2. ... (I call a friend)
+3. ... (have a nice dinner)
 
 **Daily practice:**
-1. ...
+
+1. ... (I have a pool of things I use here and try tio do during the day. Take 'smile' for instance)
 
 Before going to bed I do:
 
 **Amazing things that happened today:**
-1. ...
-2. ...
-3. ...
+
+1. ... (good conversation with a colleague)
+2. ... (wrote a blogpost)
+3. ... (great customer workshop)
 
 **How could I have made today even better?**
-1. ...
-2. ...
-3. ...
 
+1. ... (drink less beer)
+2. ... (less social media)
+3. ... (should have called a friend)
 
 #### Daily 10
 
-### Reading (30min)
-I read for 30min.
+Not quite sure where I got this from but it's something I quite enjoy doing. The idea; generate at least 10 ideas on a chosen topic.
 
-So by the time i've completed this it's 0645 - pretty early still huh?
+So I kind of come up with a problem statement that bothers me and just start churning out whatever comes to my mind. I feel like I can almost train to generate ideas that way (a topic could be: How to reduce traffic).
+
+### Reading (30min)
+
+Reading books is cool. I get mine from the local library and keep a list with books I want to read on my phone (it gets longer over time...).
+
+If you don't know where to start, check out [my recommendations here](book-recommendations-in-2018-2019).
+
+> So by the time i've completed this it's 0645 - pretty early still huh?
+
+## Other things I do during the day
 
 ### Write one sentence a day
-I love this. It sort of makes you feel like you don't have to do a lot but then you end up writing for 20-30min.
+
+I often struggle to start with something, but once i'm at it, i'll keep going for hours. Simply scheduling 10 min per day to write for the blog is a low entry barrier and you end up writing for 20-30min or even longer.
 
 ### Daily Email
-I try to maximize the efficiency when working and that is only possible when reducing distractions. Besides turning off notifications, I try and don't check emails outside my scheduled times. If people really need me, they usually call me.
 
-### One hour of hobbies
-This can be video editing, coding on the blog, reading some more, working on the troopy etc.
+I try to maximize my efficiency when working and that is only possible when reducing distractions. Besides turning off notifications, I try and not check emails outside of scheduled times. I have a slot in the morning and in the afternoon and between that I just work.
 
 # Bed time usually is around 2130
+
 After reading Why We Sleep by Matthew Walker, I really take it serious to get 8 hours of sleep a night.
