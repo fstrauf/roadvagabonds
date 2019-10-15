@@ -78,6 +78,10 @@ Start in the morning:
 
 Before going to bed I do:
 
+**Did I choose courage over comfort?**
+
+1. ... (brought up my opinion in a meeting)
+
 **Amazing things that happened today:**
 
 1. ... (good conversation with a colleague)
