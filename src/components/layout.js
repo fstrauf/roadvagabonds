@@ -4,6 +4,7 @@ import Header from '../components/header'
 import { ThemeProvider } from 'styled-components'
 import theme from '../../config/theme'
 import styled from 'styled-components'
+import Footer from '../components/footer'
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -27,6 +28,7 @@ const layout = ({ children }) => (
         <Wrapper>
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.cats.group} />
         <main>{children}</main>
+        <Footer></Footer>
       </Wrapper>
       </ThemeProvider>
     )}

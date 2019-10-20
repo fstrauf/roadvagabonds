@@ -1,7 +1,9 @@
 import React from 'react'
+import EmailSubscribe from '../components/emailSubscribe'
 
 export default ({ insta }) => (
-        <h1>
+    <div>
+        {/* <h1>
             <a 
                 style={{
                     boxShadow: `none`,
@@ -9,6 +11,10 @@ export default ({ insta }) => (
                     color: `inherit`,
                 }} 
                 href={`https://instagram.com/${insta}`}>Follow us on Instagram</a>
-        </h1>
+        </h1> */}
+<EmailSubscribe>
+
+</EmailSubscribe>
+        </div>
 
 )

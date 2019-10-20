@@ -28,6 +28,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=ffda12184b0315bd2f84bbb1a&amp;id=5991e054cf',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.roadvagabonds.com',
