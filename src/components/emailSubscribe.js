@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import theme from '../../config/theme'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 const EmailListForm = styled.form`
     display: flex;
@@ -9,7 +10,7 @@ const EmailListForm = styled.form`
     background: #f2f2f2;
     color: ${theme.colors.main.dark};
 
-    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    // font-family: -apple-system, Helvetica, Arial, sans-serif;
     padding: 2rem;
     width: 50%
 `
@@ -34,18 +35,12 @@ const EmailInput = styled.input`
 
 const SubscribeButton = styled.button`
     display: inline-block;
-
-    // border: none;
-    background-image: none;
     background-color: ${theme.colors.secondary.dark};
-    // color: white;
-
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
     transition: all 0.1s linear;
     
     &: hover {
         cursor: pointer;
-        background: darken(#DD0505, 15 %);
     }
 `
 
@@ -53,12 +48,17 @@ export default class emailSubscribe extends React.Component {
 
     state = {
         email: '',
-        setEmail: ''
+        setEmail: '',
+        result: ''
     };
 
-    handleSubmit = e => {
+    handleSubmit = async (e) => {
         e.preventDefault();
-    }
+        const result = await addToMailchimp(email, listFields)
+        console.log(result)
+        // I recommend setting `result` to React state
+        // but you can do whatever you want
+      }
 
     handleEmailChange = event => {
         const { email } = this.state
@@ -73,7 +73,7 @@ export default class emailSubscribe extends React.Component {
 
     render() {
         return (
-            <EmailListForm onSubmit={this.handleSubmit} >
+            <EmailListForm onSubmit={this.handleSubmit(email, {listFields})} >
                 <Header>Subscribe to my email list!</Header>
                 <Wrapper>
                     <EmailInput
