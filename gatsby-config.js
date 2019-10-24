@@ -45,7 +45,7 @@ module.exports = {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
         // Fields to index
-        fields: [`title`, `tags`,`categories`, `slug`],
+        fields: [`title`, `tags`, `categories`, `slug`],
         // How to resolve each field`s value for a supported node type
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-pinterest`,
       options: {
-        tall: true, 
+        tall: true,
         round: false
       }
     },
@@ -93,11 +93,42 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+              languageExtensions: [
+                {
+                  language: "superscript",
+                  extend: "javascript",
+                  definition: {
+                    superscript_types: /(SuperType)/,
+                  },
+                  insertBefore: {
+                    function: {
+                      superscript_keywords: /(superif|superelse)/,
+                    },
+                  },
+                },
+              ],
+              // Customize the prompt used in shell output
+              // Values below are default
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 900,
               maxHeight: 900,
-              backgroundColor: 'transparent',   
+              backgroundColor: 'transparent',
               wrapperStyle: 'margin-left: 1rem; margin-right: 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'
               // showCaptions: true   
             },

@@ -2,8 +2,8 @@
 layout: post
 title: "A solar powered overland vehicle?"
 author: Flo
-date: 2019-10-14T07:31:31+11:00
-tags: ["travel", "troopy", "idea", "concept"]
+date: 2019-10-25T07:31:31+11:00
+tags: ["travel", "troopy", "idea", "concept", "solar", "sustainable", "green"]
 slug: a-solar-powered-overland-vehicle
 draft: false
 meta_title: "A solar powered overland vehicle?"
@@ -18,28 +18,27 @@ So the question I've asked myself; is there actually a better alternative to ove
 
 Could you do an overlanding trip and run completely on solar? How would such a trip look like and how would you need to transform your vehicle?
 
-# solar panels
+# let's start with solar panels
 
 Say you had a bunch of [these](https://offroadliving.com.au/products/150w-allspark-flexible-solar-panel):
 
 ![solar panels troopy](./troopy-solar-panels.jpg)
 
-> 1460mmx540mmx3mm in size producing 150W with 25.5V each.
-
-Say you had 8 folded up that you could just unfold on arrival somewhere:
-
-> 0.725 * 8 = 5.8m^2
-
-Kind of like [these](https://smartflower.com/) but on the roof of a car:
+folded up kind of like [this](https://smartflower.com/) but on the roof of a car:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1SqdssSINiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## maximum output
-8x150W=1200W=1.2kW - that would be the maximum output at perfect sun exposure.
+## what's the maximum output?
+
+Let's assume perfect sun exposure (the panel above has a specified max. output of 150W):
+
+```javascript
+8x150W=1200W=1.2kW
+```
 
 with the voltage specs above we have an hourly output of
 
-```
+```javascript
 1200W / 15.3V = 77.9A
 ```
 
@@ -47,9 +46,11 @@ with the voltage specs above we have an hourly output of
 
 to charge a 100Ah battery it would take roughly 1.2 hours
 
-> 100Ah/77A=1.2h
+```javascript
+100Ah/77A=1.2h
+```
 
-This of course assumes maximum sunlight and no powerloss.
+This of course assumes maximum sunlight and no power loss.
 
 Let's say we have about 4 hours a day to charge batteries and we'll do that around noon.
 
@@ -58,51 +59,41 @@ Let's say we have about 4 hours a day to charge batteries and we'll do that arou
 3. hour 75%; 1.2kW * 75% = 0.9kWh
 4. hour 50%; 1.2kW * 50% = 0.6kWh
 
---> an average: 0.9kWh
+**--> an average: 0.9kWh**
 
-# electric engine - how much power do I need
+# electric engine - how much power do I need?
 
-Let's assume we run a similar system to these guys [here](https://www.tembo4x4-elv.com/Technical-Specs). 
+Let's assume we run a similar system to these guys [here](https://www.tembo4x4-elv.com/Technical-Specs).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1Rep8cHNr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 They have a battery capacity of 28,4kWh and claim a range of 80km.
 
-Our Solar setup delivers an average of 0.9 kWh using that to charge the 28.4 would take roughly 31 hours (of good sunlight).
+## how far does that get us with solar power?
 
-More broadly, this means:
+Our Solar setup delivers an average of 0.9 kWh. Using that to charge the 28.4 kWh would take roughly 31 hours (of good sunlight).
 
-- 2.5km per hour of average charging.
+More broadly:
+
+- 2.5km / hour of average charging.
 - charging 4 hours a day gives us 10km / day.
 
-Not a lot!
+Not a lot! I guess we'd still have to charge externally for it to be fun...
 
-Tesla Model S battery module, 24V, 233Ah, 5.2kWh
+## so the main problem is solar - how is this evolving?
 
+[Sunpower](https://www.sunpower.com.au/solar-panel-products/sunpower-maxeon-solar-panels) the company producing the cells I run, is now releasing cells for home with an output of 400W.
 
-Lithium Batteries basic pack starts at 200A/H 114V $14080 (up to 150km range) 
+[This harvard article](http://sitn.hms.harvard.edu/flash/2019/future-solar-bright/) claims two ways to improve solar in the future. Increasing efficiency and reducing cost. Since we can't really place more of these on a car, we need to rely on efficiency ([efficiency](https://en.wikipedia.org/wiki/Solar_cell_efficiency) being the percentage of solar energy that can be converted into electricity).
 
-## per day?
+The Sunpower panels have an [efficiency of 20-22%](https://www.sunpower.com.au/sites/default/files/2019-07/max3-400-390-370-au_0.pdf) and the article above refers to lab test with up top 46% efficiency.
 
 # businesses out there:
 
-https://www.indiegogo.com/projects/jaunt-electric-vehicles-for-adventure#/
-https://www.tembo4x4-elv.com/Technical-Specs
+While we still wait for battery and solar technologies to improve to make this come true, there are a bunch of people out there, already starting to convert potential overlanding vehicles to electric powered.
 
-http://www.goingbush.com/ptev.html
+[Jaunt](https://www.indiegogo.com/projects/jaunt-electric-vehicles-for-adventure#/): Trying to fund their business of converting old Landrovers into electric rental vehicles.
 
+[Tembo4x4](https://www.tembo4x4-elv.com/Technical-Specs): Converts 79 series Toyota Landcruisers into electric mining vehicles.
 
-# troopy facts
-
-consumption: 12l/100km, diesel
-
-Engine: "The 1HZ Toyota Landcruiser 4.2 litre (4164 cc) diesel inline 6-cylinder 12-valve OHC (overhead camshaft) is of the IDI or indirect injection design, and delivers maximum power of 96 kW (129 hp) at 3800 rpm and maximum torque of 285 N⋅m (210 lbf⋅ft) at 2200 rpm."[1](https://en.wikipedia.org/wiki/Toyota_HZ_engine)
-
-I wasnt able to find any info on the weight but let's say 500-700kg?!
-
-Kerb weight: 2300kg
-
-https://www.google.com/amp/s/reneweconomy.com.au/can-solar-on-the-roof-really-power-your-ev-87485/amp/
-
-20m2 = 20kwh/day
-
-https://thedriven.io/2019/09/17/land-cruiser-conversion-disguises-electric-motor-as-v8-engine/amp/
-
+[GoingBush](http://www.goingbush.com/ptev.html): This guy explains in great detail how he did such a conversion.
