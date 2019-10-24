@@ -7,7 +7,7 @@ tags: ["travel", "troopy", "idea", "concept"]
 slug: a-solar-powered-overland-vehicle
 draft: false
 meta_title: "A solar powered overland vehicle?"
-image: daily-routines-vostock-watch.jpg
+image: troopy-solar-panels.jpg
 categories: ["troopy"]
 category: troopy
 ---
@@ -37,18 +37,19 @@ Kind of like [these](https://smartflower.com/) but on the roof of a car:
 ## maximum output
 8x150W=1200W=1.2kW - that would be the maximum output at perfect sun exposure.
 
-with the voltage specs above that would be an hourly output of
-1200W / 25.5V = 47A
+with the voltage specs above we have an hourly output of
 
-to charge a 100Ah battery it would take roughly 2 hours
+```
+1200W / 15.3V = 77.9A
+```
 
-100Ah/47A=2.1h
+(i'm not 100% sure if that's how you calculate this. Do I use the 15.3V from [my DC DC charger](https://www.redarc.com.au/battery-chargers/in-vehicle-chargers) or the voltage from the solar panel?).
+
+to charge a 100Ah battery it would take roughly 1.2 hours
+
+> 100Ah/77A=1.2h
 
 This of course assumes maximum sunlight and no powerloss.
-
-
-
-https://www.redarc.com.au/battery-chargers/in-vehicle-chargers
 
 Let's say we have about 4 hours a day to charge batteries and we'll do that around noon.
 
@@ -57,21 +58,13 @@ Let's say we have about 4 hours a day to charge batteries and we'll do that arou
 3. hour 75%; 1.2kW * 75% = 0.9kWh
 4. hour 50%; 1.2kW * 50% = 0.6kWh
 
-Let's use an average: 0.9
-
-
-
-Watt = Volt * Ampere
-
-In case you forgot most of what you learned about electricity (like I did) then check [this](https://www.solarquotes.com.au/how-does-solar-power-work/how-much-power-do-i-need/)
-
-If a battery is rated at 100 amp hours it should deliver 5 amps of power for 20 hours or 20 amps of power for 5 hours. [2](https://itechworld.com.au/blogs/learn/102204998-how-to-calculate-your-solar-power-requirements)
+--> an average: 0.9kWh
 
 # electric engine - how much power do I need
 
 Let's assume we run a similar system to these guys [here](https://www.tembo4x4-elv.com/Technical-Specs). 
 
-They have a battery capacity of 28,4kWh and claim a range of 80km with this.
+They have a battery capacity of 28,4kWh and claim a range of 80km.
 
 Our Solar setup delivers an average of 0.9 kWh using that to charge the 28.4 would take roughly 31 hours (of good sunlight).
 

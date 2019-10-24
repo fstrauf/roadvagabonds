@@ -112,7 +112,7 @@ const Tags = ({ tags, linkPrefix }) => (
     </MenuIcon>
     <TagsContainer>
       {tags.map(tag => (
-        <MenuLi>
+        <MenuLi key={Tags.fieldValue} >
           <MenuLink
             to={`${linkPrefix}/${tag.fieldValue}`}
             activeStyle={{color: theme.colors.brands.social.orange}}

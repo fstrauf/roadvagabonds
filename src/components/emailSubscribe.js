@@ -52,20 +52,24 @@ export default class emailSubscribe extends React.Component {
         result: ''
     };
 
-    handleSubmit = async (e) => {
-        e.preventDefault();
-        const result = await addToMailchimp(email, listFields)
+    _handleSubmit = async (e) => {
+        // e.preventDefault();
+        console.log(e)
+        const { email } = this.state
+        const result = await addToMailchimp(email)
         console.log(result)
         // I recommend setting `result` to React state
         // but you can do whatever you want
       }
 
-    handleEmailChange = event => {
-        const { email } = this.state
-        var target = event.currentTarget.value
+    _handleEmailChange = event => {
+        
+        // const { email } = this.state
+        var email = event.currentTarget.value
+        console.log(event)
+        // var target = event.currentTarget.value
         this.setState({
-            email,
-            target
+            email
         })
         // setEmail(event.currentTarget.value);
     };
@@ -73,14 +77,14 @@ export default class emailSubscribe extends React.Component {
 
     render() {
         return (
-            <EmailListForm onSubmit={this.handleSubmit(email, {listFields})} >
+            <EmailListForm onSubmit={(e)=>{this._handleSubmit(e);return false;}}>
                 <Header>Subscribe to my email list!</Header>
                 <Wrapper>
                     <EmailInput
                         placeholder="Email address"
                         name="email"
                         type="text"
-                        onChange={this.handleEmailChange}
+                        // onChange={this.handleEmailChange}
                     />
                     <SubscribeButton type="submit">Subscribe</SubscribeButton>
                 </Wrapper>
