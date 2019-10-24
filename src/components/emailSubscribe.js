@@ -6,11 +6,8 @@ import addToMailchimp from 'gatsby-plugin-mailchimp'
 const EmailListForm = styled.form`
     display: flex;
     flex-direction: column;
-
     background: #f2f2f2;
     color: ${theme.colors.main.dark};
-
-    // font-family: -apple-system, Helvetica, Arial, sans-serif;
     padding: 2rem;
     width: 50%
 `
@@ -36,9 +33,7 @@ const EmailInput = styled.input`
 const SubscribeButton = styled.button`
     display: inline-block;
     background-color: ${theme.colors.secondary.dark};
-    // letter-spacing: 1px;
-    transition: all 0.1s linear;
-    
+    transition: all 0.1s linear;    
     &: hover {
         cursor: pointer;
     }
@@ -47,46 +42,39 @@ const SubscribeButton = styled.button`
 export default class emailSubscribe extends React.Component {
 
     state = {
-        email: '',
-        setEmail: '',
-        result: ''
+        email: ''
     };
 
     _handleSubmit = async (e) => {
-        // e.preventDefault();
-        console.log(e)
+        e.preventDefault();
         const { email } = this.state
         const result = await addToMailchimp(email)
-        console.log(result)
-        // I recommend setting `result` to React state
-        // but you can do whatever you want
+        
+        if(result.result === 'success'){
+            var subscribeButton = document.querySelector("#emailSubscribe")
+            subscribeButton.style.backgroundColor = '#03fc4e'
+        }
       }
 
     _handleEmailChange = event => {
-        
-        // const { email } = this.state
         var email = event.currentTarget.value
-        console.log(event)
-        // var target = event.currentTarget.value
         this.setState({
             email
         })
-        // setEmail(event.currentTarget.value);
     };
-
 
     render() {
         return (
-            <EmailListForm onSubmit={(e)=>{this._handleSubmit(e);return false;}}>
+            <EmailListForm onSubmit={(e)=>{this._handleSubmit(e)}}>
                 <Header>Subscribe to my email list!</Header>
                 <Wrapper>
                     <EmailInput
                         placeholder="Email address"
                         name="email"
                         type="text"
-                        // onChange={this.handleEmailChange}
+                        onChange={this._handleEmailChange}
                     />
-                    <SubscribeButton type="submit">Subscribe</SubscribeButton>
+                    <SubscribeButton id="emailSubscribe" type="submit">Subscribe</SubscribeButton>
                 </Wrapper>
             </EmailListForm>
         )
