@@ -29,6 +29,23 @@ We all have these habits, some are good and some are not. Charles Duhigg explain
 
 What an amazing book. Matthew Walker a neuro-scientust / sleep-scientist explains everything important around sleep. It will have you prioritize sleep much higher and make you value this key body function the way it should. He goes into a good level of detail without drifting into scientific papers and explains why sleep is so important, how we can improve it and how society should change to value it more highly.
 
+**Lessons learned**
+sleep more and sleep well, this has a great impact on almost everything in your life.
+
+## The courage to be disliked
+
+These two gentlemen explain, in greek philosopher conversation style, the principles of Adlerian psychology. I had never heard about this topic but found the aspects very compelling. From the answers to freedom and happiness to the source of all problems, this book dives deep into psychology but in a practical way that is easy to understand and practice.
+
+**Lessons learned**
+Do not strive for recognition by others, have the courage to be disliked to achieve freedom.
+
+## The alchemist
+
+I do not usually read too much fiction, but this book is a great way to explain philosophy in a nice little story. It's a really easy read but has a whole bunch of very interesting topics to think about. I was able to reflect this story onto my own life in many different ways.
+
+**Lessons learned**
+“It's the possibility of having a dream come true that makes life interesting.”
+
 ---
 
 # All books I read in 2019 / 2020
@@ -38,4 +55,6 @@ What an amazing book. Matthew Walker a neuro-scientust / sleep-scientist explain
 >  **Tribe of Mentors**, Tim Ferriss
 > **Why we sleep**, Matthew Walker
 > **Start with why**, Simon Sinek
+> **The courage to be disliked**, Ichiro Kishimi, Fumitake Koga
+> **The Alchemist**, Paulo Coelho
 
