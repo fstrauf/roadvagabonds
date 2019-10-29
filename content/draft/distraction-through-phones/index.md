@@ -24,3 +24,28 @@ Tristan Harris again on his Center for Humane Technology: https://www.tristanhar
 
 <iframe src="https://player.vimeo.com/video/332532972?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/332532972">Humane: A New Agenda for Tech</a> from <a href="https://vimeo.com/user97320170">Center for Humane Technology</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+## approaches i've taken: https://humanetech.com/resources/take-control/
+
+
+1. screentime for social to 10min daily
+2. turn off notification to you lockscreen from all app other than calendar.
+3. remove badges from apps, so you don't get distracted by the fact that the amount of emails has changed.
+4. turn off vibration
+5. greyscale
+6. no games
+7. mindful awareness of how much time you spend looking at your phone, how much it distracts social interaction
+8. check the stats in screentime.
+9. go for a walk without phone
+10. bedtime mode
+11. leave your phone out of reach
+12. eat without a screen
+13. 
+
+## Tools
+
+https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg
+
+"Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity" - https://www.journals.uchicago.edu/doi/abs/10.1086/691462
+

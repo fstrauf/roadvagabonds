@@ -22,6 +22,9 @@ What are the main principles?
 ## Separation of Tasks
 The idea is to clearly distinguish between tasks that I myself have and tasks others have and not intervene in them. So if a person is struggling to find a job, you can certainly offer support but at core you should not intervene and leave the task of finding a job to that person.
 
+## 
+
+
 # Mindfulness
 aside from breathing and mindfocus, what else can be learned/trained in mindfulness?
 
