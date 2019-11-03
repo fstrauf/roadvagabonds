@@ -57,4 +57,7 @@ I do not usually read too much fiction, but this book is a great way to explain 
 > **Start with why**, Simon Sinek
 > **The courage to be disliked**, Ichiro Kishimi, Fumitake Koga
 > **The Alchemist**, Paulo Coelho
+> **Joy on Demand**, Chade-Meng Tan
+> **Surfari**, 
+> **Digital Minimalism**, 
 

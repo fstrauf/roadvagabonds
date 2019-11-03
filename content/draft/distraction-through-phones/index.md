@@ -36,37 +36,56 @@ While he is correct with what he is saying, I am not convinced his speeches and 
 
 # Raising ones awareness
 
-If the above hasnt helped you, maybe this will...
+If the above hasn't helped you, maybe some statistics will. Deloitte has released a [study](https://www2.deloitte.com/us/en/pages/technology-media-and-telecommunications/articles/global-mobile-consumer-survey-us-edition.html) that brings up some interesting observations.
 
-it's habits again - recognize what are the triggers, cues and rewards (messages, likes, ...)
+* on average we look at our phones 52 times / day
+* even brief mental blocks created by shifting between tasks can cost as much as 40% of your productive time. (https://www.apa.org/research/action/multitask)
+* [Three quarters of people check their phone first thing when they wake up](https://www.success.com/12-steps-to-breaking-smartphone-addiction).
 
-
+Most of us go through this day by day without even noticing and if that doesn't bother you that's absolutely fine, for me this was a definite sign to reduce my usage. If you look at it, it's habits again (details in my other [post](my-daily-routines-an-how-they-helped-me)) - there are certain triggers that invoke a routine and a reward waiting at the end (two new likes on Instagram!). Here is what I tried so far.
 
 # Practical things you can do
 
-## greyscale
+A good list can be found [here](https://humanetech.com/resources/take-control/)
 
-The tonal change just might be enough to make the apps on your phone a little less enticing, and you’ll help save yourself from endless checking and scrolling. Imagine Instagram without the saturated colors, or dim snapchat videos getting even harder to see. Plenty of app icons themselves use color psychology to entice you to click on them—and when you take away the color spectrum, you might also be able to take away some of their siren call.
+### screentime for social to 10min daily
 
-https://www.apartmenttherapy.com/grayscale-iphone-266894
+This does help and even if you can get around it by just entering your pin, it does make you aware of how many minutes have passed.
 
-1. social media becomes less interesting
-2. videos become less interesting
-3. phone usage overall less attractive
+### turn off notifications
 
-## approaches i've taken: https://humanetech.com/resources/take-control/
+This is the thing I constantly see with people; they see a message popping up oin their lockscreen and without even knowing, their are taken out of the present moment and often dive into whatever popped up. I only have calender reminders, so I don't miss appointments.
+
+### remove badges from apps
+
+Have you ever wondered why these little badges are red (little circles in the upper right corner of every app that indicate what you've missed)? It immediately raises you attention to new emails, likes etc.
+
+### turn off vibration
+
+Mine only vibrates on calender reminders 10/15 min previous to an event.
+
+### greyscale
+
+Simply removes the colors and makes your phone a [little less enticing](https://www.apartmenttherapy.com/grayscale-iphone-266894). Mindlessly scrolling through social media becomes a little less interesting.
+
+### no games
+
+To me, there are better ways to kill time. Read, run, talk to someone etc.
+
+### check your stats in screentime
+
+[This great feature](https://support.apple.com/en-au/HT208982) allows you to look into how much time you spend on what, how often you pick up your phone and set limits.
+
+### bedtime mode
+
+Set this up on your iPhone to block notifications during sleep time.
+
+### screen free sunday
+
+A friend recently recommended this; A day without using any screen. Give it a try, it's not that bad and shows you that you can survive without Instagram.
 
 
-1. screentime for social to 10min daily
-2. turn off notification to you lockscreen from all app other than calendar.
-3. remove badges from apps, so you don't get distracted by the fact that the amount of emails has changed.
-4. turn off vibration
-5. greyscale
-6. no games
-7. mindful awareness of how much time you spend looking at your phone, how much it distracts social interaction
-8. check the stats in screentime.
-9. go for a walk without phone
-10. bedtime mode
+
 11. leave your phone out of reach
 12. eat without a screen
 13. Side note: It took a bit of Googling to figure out how to get the Safari icon off my screen, but it is possible. It’s under Settings > Screen Time > Content and Privacy Restrictions > Allowed Apps.)
@@ -76,6 +95,11 @@ https://www.apartmenttherapy.com/grayscale-iphone-266894
 
 [1](https://www.helpguide.org/articles/addictions/smartphone-addiction.htm)
 [2]
+
+Use the power of intention before you pick up your phone.
+Before automatically picking up your device to see what shiny new notifications are demanding your precious attention, say to yourself, What’s my purpose for using my phone in this moment? Are you reaching out unconsciously or with a specific task in mind?
+
+resist the fear of missing out - https://www.success.com/5-ways-to-avoid-social-media-envy/
 
 
 ## Tools
