@@ -41,10 +41,10 @@ I personally like [this 15 minute flexibility workout](https://www.youtube.com/w
 I never thought I'd do something like this, but I absolutely love meditation and what it helps you to achieve.
 
 **What is it al about?**
-The key is; don't think of mediation as some spiritual, bell ringing, mantra praying activity, think of it as **a workout for your mind** (the thing that filters all that goes into our brain).
-A great way to get started is a guided meditation using an app such as [Headspace](https://www.headspace.com). If you don't want to pay subscription after your trial period, you can just set a timer on your phone and simply get going.
+The key is; don't think of mediation as some spiritual, bell ringing, mantra praying activity, think of it as **a workout for your mind** (the thing that filters all that goes into your brain).
+A great way to get started is a guided meditation using an app such as [Headspace](https://www.headspace.com) or [Waking Up](https://wakingup.com). If you don't want to pay subscription after your trial period, you can just set a timer on your phone and simply get going.
 
-The core of the activity is not thinking of anything, recognizing when your mind has wandered off and then bringing it back to meditation.
+The core of the activity is not thinking of anything in particular, recognizing when your mind has wandered off and then bringing it back to meditation. The easiest way to start is by focussing on your breath.
 I can absolutely recommend [10% happier written by Dan Harriss](https://www.tenpercent.com/) to explore the topic.
 
 **Why would you?**
