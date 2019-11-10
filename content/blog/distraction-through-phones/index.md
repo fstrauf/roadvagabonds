@@ -14,7 +14,6 @@ category: life
 
 Not only during my time in Singapore but also right now here in Australia, I see people staring at there phones wherever I look. While walking, sitting in the bus, in the car,on a bench in front of a beautiful beach, just everywhere.<!-- end --> 
 
-
 What drives me up the wall though is when you are having a conversation with someone, and all of a sudden a notification pops up on their display and instead of ignoring it, they pick up their phone and start answering - I mean what the fuck? We where just talking. Often this happens in the office where people come up to me, interrupt my work and then, a minute into our talk, start reading emails. What happened?
 
 # Why are smartphonees / technology doing this to our brains?
@@ -26,7 +25,8 @@ A quote often used by him is:
 > we have paleolithic emotions;
 > medieval institutions;
 > and god-like technology"
-- E. O. Wilson
+
+> E. O. Wilson
 
 In this intro to the Center for Humane Technology, he goes on to explain what the actual price of free social media and other free apps is:
 
@@ -52,55 +52,33 @@ Most of us go through this day by day without even noticing and if that doesn't 
 
 A good list can be found [here](https://humanetech.com/resources/take-control/)
 
-### 1 - screentime for social to 10min daily
+**screentime for social to 10min daily** This does help and even if you can get around it by just entering your pin, it does make you aware of how many minutes have passed.
 
-This does help and even if you can get around it by just entering your pin, it does make you aware of how many minutes have passed.
+**turn off notifications** This is the thing I constantly see with people; they see a message popping up oin their lockscreen and without even knowing, their are taken out of the present moment and often dive into whatever popped up. 
 
-### 2 - turn off notifications
+I only have calender reminders, so I don't miss appointments. This also works for your computer / mac. It's amazing how much I can focus by not having little popups distract you and urge you to reply as fast as you can.
 
-This is the thing I constantly see with people; they see a message popping up oin their lockscreen and without even knowing, their are taken out of the present moment and often dive into whatever popped up. I only have calender reminders, so I don't miss appointments. This also works for your computer / mac. It's amazing how much I can focus by not having little popups distract you and urge you to reply as fast as you can.
+**remove badges from apps** Have you ever wondered why these little badges are red (little circles in the upper right corner of every app that indicate what you've missed)? It immediately raises you attention to new emails, likes etc.
 
-### 3 - remove badges from apps
+**turn off vibration** Mine only vibrates on calender reminders 10/15 min previous to an event.
 
-Have you ever wondered why these little badges are red (little circles in the upper right corner of every app that indicate what you've missed)? It immediately raises you attention to new emails, likes etc.
+**greyscale** Simply removes the colors and makes your phone a [little less enticing](https://www.apartmenttherapy.com/grayscale-iphone-266894). Mindlessly scrolling through social media becomes a little less interesting.
 
-### 4 - turn off vibration
+**no games** To me, there are better ways to kill time. Read, run, talk to someone etc.
 
-Mine only vibrates on calender reminders 10/15 min previous to an event.
+**check your stats in screentime** [This great feature](https://support.apple.com/en-au/HT208982) allows you to look into how much time you spend on what, how often you pick up your phone and set limits.
 
-### 5 - greyscale
+**bedtime mode** Set this up on your iPhone to block notifications during sleep time.
 
-Simply removes the colors and makes your phone a [little less enticing](https://www.apartmenttherapy.com/grayscale-iphone-266894). Mindlessly scrolling through social media becomes a little less interesting.
+**screen free sunday** A friend recently recommended this; A day without using any screen. Give it a try, it's not that bad and shows you that you can survive without Instagram.
 
-### 6 - no games
+**leave your phone out of reach** Simple but effective. For me my pickup rate increases if my phone is just laying next to me - if I really want to focus, I'll just put it in a different room.
 
-To me, there are better ways to kill time. Read, run, talk to someone etc.
-
-### 7 - check your stats in screentime
-
-[This great feature](https://support.apple.com/en-au/HT208982) allows you to look into how much time you spend on what, how often you pick up your phone and set limits.
-
-### 8 - bedtime mode
-
-Set this up on your iPhone to block notifications during sleep time.
-
-### 9 - screen free sunday
-
-A friend recently recommended this; A day without using any screen. Give it a try, it's not that bad and shows you that you can survive without Instagram.
-
-### 10 - leave your phone out of reach
-
-Simple but effective. For me my pickup rate increases if my phone is just laying next to me - if I really want to focus, I'll just put it in a different room.
-
-### 11 - build / change routines
-
-In the morning, I only dive into social media after my workout, meditation and journaling.
+**build / change routines** In the morning, I only dive into social media after my workout, meditation and journaling.
 
 [more](https://www.helpguide.org/articles/addictions/smartphone-addiction.htm)
 
-# Tools
-
-[The News Feed Eradicator for Facebook](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg) replaces your browser Facebook-Feed with a nice quote. You can deactivate this plugin in emergencies, but it's an additional step before you start mindlessly scrolling.
+**eradicate your newsfeeed** [The News Feed Eradicator for Facebook](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg) replaces your browser Facebook-Feed with a nice quote. You can deactivate this plugin in emergencies, but it's an additional step before you start mindlessly scrolling.
 
 # Benefits 
 

@@ -8,11 +8,12 @@ import styled from 'styled-components'
 import theme from '../../config/theme'
 import SideContentPost from "../components/sideContentPost"
 
-const PostText = styled(`div`)`
+const PostText = styled.div`
   max-width: 50rem;
   margin: 0px auto;
   padding: 0px 1.5rem;
   ul {
+    
     margin-left: 1.45rem;
     margin-right: 0;
     margin-top: 0;
@@ -34,6 +35,15 @@ const PostText = styled(`div`)`
   h1 {
     font-size: 2rem;
   }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+  blockquote p {
+    display: inline;
+  }
   ol {
   counter-reset: item;
   margin: 0 0 1.5em;
@@ -54,9 +64,9 @@ const PostText = styled(`div`)`
     }
   }
 }
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     padding: 0;
-  }
+}
 `
 
 const DisqusContainer = styled.section`
