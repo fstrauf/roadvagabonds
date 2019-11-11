@@ -2,7 +2,7 @@
 layout: post
 title: "Are you addicted to your phone?"
 author: Flo
-date: 2019-11-11T011:31:31+11:00
+date: 2019-11-11T11:31:31+11:00
 tags: ["Life", "ideas", "addiction", "efficiency", "habits"]
 slug: are-you-addicted-to-your-phone
 draft: false
