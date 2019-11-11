@@ -12,9 +12,9 @@ categories: ["life"]
 category: life
 ---
 
-Wherever you look, you see people staring at there phones. While walking, sitting in the bus, in the car, on a bench in front of a beautiful beach, just everywhere.<!-- end --> 
+Wherever you look, you see people staring at there phones. While walking, sitting in the bus, in the car, on a bench in front of a beautiful beach, just everywhere.<!-- end -->
 
-What goes beyond my understanding though, is when you are having a conversation with someone, and all of a sudden a notification pops up on their display and instead of ignoring it, they pick up their phone and start answering - absolutely out of control! Often this happens in the office where people come up to me, interrupt my work and then,a minute into our talk, start reading emails. How did we get here?
+What goes beyond my understanding though, is when you are having a conversation with someone, and all of a sudden a notification pops up on their display and instead of ignoring it, they pick up their phone and start answering - absolutely out of control! Often this happens in the office where people come up to me, interrupt my work and then, a minute into our talk, start reading emails. How did we get here?
 
 # Why are smartphonees / technology doing this to our brains?
 
@@ -80,6 +80,8 @@ I only have calender reminders, so I don't miss appointments. This also works fo
 [more](https://www.helpguide.org/articles/addictions/smartphone-addiction.htm)
 
 Cal Newport, in his book [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) goes even further and describes a fully fledges approach called the **Digital Declutter** to reduce your addiction to phones. If you've read this far, I can absolutely recommend his book.
+
+One aspect he brings up is that deleting social media apps from your phone heightens the barrier towards usage - especially the binge usage of mindlessly scrolling. It will not completely remove you from social media, but if the only chance to use it is to log in to your computer, then you will find yourself using it less but also more purposeful.
 
 # Why would you do all this?
 
