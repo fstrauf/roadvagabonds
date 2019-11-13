@@ -52,7 +52,7 @@ I do not usually read too much fiction, but this book is a great way to explain 
 
 > **10% Happier**, Dan Harris
 > **Humble Inquiry - the gentle art of asking instead of telling**, Edgar H. Schein
->  **Tribe of Mentors**, Tim Ferriss
+> **Tribe of Mentors**, Tim Ferriss
 > **Why we sleep**, Matthew Walker
 > **Start with why**, Simon Sinek
 > **The courage to be disliked**, Ichiro Kishimi, Fumitake Koga
@@ -60,6 +60,5 @@ I do not usually read too much fiction, but this book is a great way to explain 
 > **Joy on Demand**, Chade-Meng Tan
 > **Surfari**, Tim Baker
 > **Digital Minimalism**, Cal Newport
-> **Thinking Fast and Slow**
-> **The Rational Optimist**
-
+> **Thinking Fast and Slow**,
+> **The Rational Optimist**,
