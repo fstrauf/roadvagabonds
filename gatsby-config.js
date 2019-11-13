@@ -128,9 +128,10 @@ module.exports = {
             options: {
               maxWidth: 900,
               maxHeight: 900,
+              quality: 50,
               backgroundColor: 'transparent',
-              wrapperStyle: 'margin-left: 1rem; margin-right: 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);'
-              // showCaptions: true   
+              wrapperStyle: 'margin-left: 1rem; margin-right: 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);',
+              withWebp: true
             },
           },
           {

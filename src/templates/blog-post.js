@@ -152,6 +152,10 @@ class BlogPostTemplate extends React.Component {
 
 export default BlogPostTemplate
 
+// fluid(maxWidth: 786) {
+//   ...GatsbyImageSharpFluid
+// }
+
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!, $category: String!) {
     site {
@@ -200,8 +204,8 @@ export const pageQuery = graphql`
             resize(width: 1500, height: 1500) {
               src
             }
-            fluid(maxWidth: 786) {
-              ...GatsbyImageSharpFluid
+            fluid(quality: 50) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
        }

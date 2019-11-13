@@ -59,5 +59,7 @@ I do not usually read too much fiction, but this book is a great way to explain 
 > **The Alchemist**, Paulo Coelho
 > **Joy on Demand**, Chade-Meng Tan
 > **Surfari**, Tim Baker
-> **Digital Minimalism**, 
+> **Digital Minimalism**, Cal Newport
+> **Thinking Fast and Slow**
+> **The Rational Optimist**
 
