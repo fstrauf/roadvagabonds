@@ -204,8 +204,8 @@ export const pageQuery = graphql`
             resize(width: 1500, height: 1500) {
               src
             }
-            fluid(quality: 50) {
-              ...GatsbyImageSharpFluid_withWebp
+            fluid(maxWidth: 786) {
+              ...GatsbyImageSharpFluid
             }
           }
        }
