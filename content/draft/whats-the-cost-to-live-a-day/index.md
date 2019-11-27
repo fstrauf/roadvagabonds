@@ -39,8 +39,6 @@ If you date the blonde on Friday night, the opportunity cost is that you can’t
 Which has implications that are every bit as philosophical as economic. If you spend your life living like a human ant, crawling through life doing meaningless things year after year, working at jobs where you’re paid merely to breathe, only to arrive home to watch television, then you must face the opportunity cost, which is what you could have done if you went for an existence with more gusto. And, since you only live once, choosing the human ant approach may involve the ultimate opportunity cost: life without living.
 -
 
-
-
 # How much in savings do I need to live off the interest
 
 You may have heard about the FIRE movement, and they in great detail focus on my above question. How can one become financially independent, meaning to live without having to work but just living of the interest rate that you get from your invested capital. There are a few considerations that makes this really, really attractive.
