@@ -12,11 +12,24 @@ categories: ["life"]
 category: life
 ---
 
-I've been thinking about the topic of what does it actually cost to live one day. This initiated with reading about people like Bodensee Overlander or The Way Overland, who take a few years off to just travel the world. So I was wondering how much time I could actually take off with my current saving - or asking a different way, how much does a day of living cost?
+I've been thinking about the topic of what it actually costs to live one day. This initiated by reading about people like Bodensee Overlander or The Way Overland, who take a few years off to just travel the world. So I was wondering how much time I could actually take off with my current savings - or asking a different way, how much does a day of living cost?
 
 # How much does a day of living cost?
 
-So say we require an amount of X to live a day, we could with XX take a few years off. What if you spin this even further and say, how much capital do I need to invest in something like an index fund to live off the interest rate?
+Say we require an amount of $ 100 to live a day. With $ 100,000 we could take off 1,000 days - which is a couple of years already. What if you spin this even further;  how much capital do I need to invest in something like an index fund to live off the interest rate? Let's assume we need $ 100/day and an average interest of 4%.
+
+$ 100 * 365 days = 36,500 $/year
+$ 36,500 / 0.04 =  $ 912,500
+
+So roughly $ 900K is required under the assumption we earn 4% interest per year on require only $ 100. It's a simple example, but it shows that such a saving plan does not have to be difficult and if one is willing to adjust their life accordingly it looks achievable.
+
+Let's say you have a job that pays you $ 100K / year. With cheap living and frugal lifestyle you might be able to fork out 50% as savings.
+
+$ 912,500 / $ 50,000 = 18.2 years
+
+So if your start with 25 you might get to retirement by 43.
+
+
 
 - We work hard and put a lot of our time into earning money.
 
