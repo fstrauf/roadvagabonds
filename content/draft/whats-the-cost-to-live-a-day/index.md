@@ -21,7 +21,7 @@ Say we require an amount of $ 100 to live a day. With $ 100,000 we could take of
 $ 100 * 365 days = 36,500 $/year
 $ 36,500 / 0.04 =  $ 912,500
 
-So roughly $ 900K is required under the assumption we earn 4% interest per year on require only $ 100. It's a simple example, but it shows that such a saving plan does not have to be difficult and if one is willing to adjust their life accordingly it looks achievable.
+So roughly $ 900K is required under the assumption we earn 4% interest per year and require only $ 100. It's a simple example, but it shows that such a saving plan does not have to be difficult and if one is willing to adjust their life accordingly it looks achievable.
 
 Let's say you have a job that pays you $ 100K / year. With cheap living and frugal lifestyle you might be able to fork out 50% as savings.
 
@@ -29,14 +29,9 @@ $ 912,500 / $ 50,000 = 18.2 years
 
 So if your start with 25 you might get to retirement by 43.
 
+It's sure worth to tweak this a little based on your personal circumstances. Teaming up with a partner is certainly good as you will have two incomes and can share the expenses.
 
-
-- We work hard and put a lot of our time into earning money.
-
-- This money we then use to buy goods to a) survive b) improve our life/situation/lifestyle.
-
-
-- What if we just work as much to simply survive and use the rest of our time to enjoy life already at a much younger age?
+I guess the hardest part is a change in mindset, can you actually be so disciplined to live frugal instead of going out, buying fancy stuff and driving an expensive car?
 
 ## New Economics by Henry Thoreau
 
