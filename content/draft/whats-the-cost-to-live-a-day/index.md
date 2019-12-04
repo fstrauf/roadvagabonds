@@ -35,17 +35,14 @@ I guess the hardest part is a change in mindset, can you actually be so discipli
 
 ## New Economics by Henry Thoreau
 
-* He argues that excess possessions not only require excess labor to purchase them, but also oppress us spiritually with worry and constraint
-* As people suppose they need to own things, this need forces them to devote all their time to labor, and the result is the loss of inner freedom
-* How best to earn a living? How much time should I spend at it? How much do I need to live well and to be free? 
-* the necessities of life: food, shelter, clothing and fuel
--
-What Thoreau had a grasp of is one of the most important cornerstones in economics: opportunity cost. I’ll quote Ed’s Third Law of Economics for that: “Opportunity cost is what you could be doing if you weren’t doing what you’re doing.”
+Henry Thoreau in his book Walden did this interesting experiment of moving into a hut in the woods away from the town he was living in, building the hut himself and trying to live as self contained as possible. One interesting aspect in his book is the economics he describes - the cost for his style of living and the conclusions he draws from his experiment.
 
-If you date the blonde on Friday night, the opportunity cost is that you can’t date the brunette. Opportunity costs are invisible–it’s what you can’t have because you chose something else.
+The necessities of life according to him are food, shelter, clothing and fuel and so he concludes that any excess possessions not only require excess labor to purchase them, but also oppress us spiritually with worry and constraint. So if you buy that fancy car in most cases you will have to work more for that and it might bring you more worry and constraints than joy. I guess there's some truth to this. You car might get you worries about potential damage, loss in value, it's huge fuel consumption, rego and insurance cost, the extra parking you need to pay and that your neighbor after all still has a faster car.
 
-Which has implications that are every bit as philosophical as economic. If you spend your life living like a human ant, crawling through life doing meaningless things year after year, working at jobs where you’re paid merely to breathe, only to arrive home to watch television, then you must face the opportunity cost, which is what you could have done if you went for an existence with more gusto. And, since you only live once, choosing the human ant approach may involve the ultimate opportunity cost: life without living.
--
+So during his time in the woods he found that, if these possessions don't bring too much joy, are they worth the effort one needs to undertake to acquire them. It's all about the [opportunity costs](https://www.joshuakennon.com/everything-in-life-has-an-opportunity-cost/) or what you could be doing if you weren’t doing what you’re doing. So if you decide to buy that couch you can't spend that money on your next vacation.
+
+From here it gets quite philosophical; are you going to spend your life working day in day out just to arrive at home and start scrolling on instagram and watch tv or are you going to keep in mind the opportunity cost and do something that might be more valuable for your life.
+
 
 # How much in savings do I need to live off the interest
 
