@@ -43,10 +43,20 @@ So during his time in the woods he found that, if these possessions don't bring 
 
 From here it gets quite philosophical; are you going to spend your life working day in day out just to arrive at home and start scrolling on instagram and watch tv or are you going to keep in mind the opportunity cost and do something that might be more valuable for your life.
 
+# FIRE - Financial Independence, Retire Early
 
-# How much in savings do I need to live off the interest
+Concepts and ideas like the calculation above have a lot of followers, mainly summarised under the [FIRE movement](https://en.wikipedia.org/wiki/FIRE_movement).  
 
 You may have heard about the FIRE movement, and they in great detail focus on my above question. How can one become financially independent, meaning to live without having to work but just living of the interest rate that you get from your invested capital. There are a few considerations that makes this really, really attractive.
+
+## Is it really FIRE that let's you live without working?
+
+I am not entirely sure if the most famous ambassadors of FIRE live completely from interest off their savings. Most of the times it probably works like this:
+
+1. one reads about the FIRE movement, thinks it's a great idea and starts saving - a few will probably even get to their goal and stop working.
+2. What happens next or even during that phase is that - without the pressure of having to earn money - people discover other areas they are truly passionate about and start getting involved.
+3. Over time this might turn into a little business, but doesn't feel like work as it's something you are truly passionate about and do not feel any pressure. The quote "Do something you like and you will never work a day in your life" is quite suitable.
+4. Then the business starts generating revenue. You see lot's of FIRE people writing books, giving talks, running blogs etc. These are all good sources of income and add a significant portion to the above calculation without really being mentioned in most of them.
 
 ## The FIRE Movement
 
@@ -60,9 +70,7 @@ Location is the key component to the financial independence equation. Because lo
 
 - https://www.retirebeforedad.com/move-achieve-financial-independence/
 
-### I will teach yo to be rich
 
-https://www.iwillteachyoutoberich.com/blog/financial-independence/
 
 ### FIRE
 
