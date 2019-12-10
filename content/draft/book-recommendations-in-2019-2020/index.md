@@ -60,5 +60,7 @@ I do not usually read too much fiction, but this book is a great way to explain 
 > **Joy on Demand**, Chade-Meng Tan
 > **Surfari**, Tim Baker
 > **Digital Minimalism**, Cal Newport
-> **Thinking Fast and Slow**,
-> **The Rational Optimist**,
+> **Thinking, Fast and Slow**, Daniel Kahnemann
+> **The Rational Optimist**, Matt Ridley
+> **Getting Things Done**,
+> **I will teach you to be rich**, Ramit Sethi
