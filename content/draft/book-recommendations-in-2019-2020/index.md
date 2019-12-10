@@ -46,6 +46,13 @@ I do not usually read too much fiction, but this book is a great way to explain 
 **Lessons learned**
 “It's the possibility of having a dream come true that makes life interesting.”
 
+## The Rational Optimist
+
+Fascinating book about the evolution of prosperity. I read this book in record time as there is so much positive insight into how we has humans evolved and with it improved our wealth. It is such a great opposition to all the bad and negative media you get day in day out.
+
+**Lessons learned**
+Nothing is as bad as it's displayed in the media and despite the great challenges we have and had, humanity has mastered and strived.
+
 ---
 
 # All books I read in 2019 / 2020
