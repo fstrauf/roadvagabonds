@@ -53,6 +53,16 @@ Fascinating book about the evolution of prosperity. I read this book in record t
 **Lessons learned**
 Nothing is as bad as it's displayed in the media and despite the great challenges we have and had, humanity has mastered and strived.
 
+## Enlightenment Now
+
+Amazing book on enlightenment - I really like these positive, optimistic thinking books, that show us that the world is getting better every day.
+
+Some other ideas I found interesting:
+1. no agricultural product is natural and therefore the whole trend of organic grown, non gmo, paleo diets is brought into a different light.
+2. Mainstream media is extremely negative about nuclear power and while there certainly have been incidents, the number of people killed is still far lower than through other ways of energy generation (meaning coal kills way more people). I have noticed a slight movement back towards nuclear energy which could really help us meet our CO2 goals.
+3. Terrorism is bad, but by far not as bad as it si displayed in media.
+4. How the governance of countries should be treated more like a scientific experiment (try and get to the truth) instead of like a sports competition (where everything is biased based on the tribe or political party you are part of)
+
 ---
 
 # All books I read in 2019 / 2020
@@ -71,3 +81,4 @@ Nothing is as bad as it's displayed in the media and despite the great challenge
 > **The Rational Optimist**, Matt Ridley
 > **Getting Things Done**,
 > **I will teach you to be rich**, Ramit Sethi
+> **Enlightenment Now**, Steven Pinker
