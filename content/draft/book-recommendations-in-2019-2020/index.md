@@ -82,3 +82,4 @@ Some other ideas I found interesting:
 > **Getting Things Done**,
 > **I will teach you to be rich**, Ramit Sethi
 > **Enlightenment Now**, Steven Pinker
+> **Genghis Khan and the making of the modern world**, Jack Weatherford
