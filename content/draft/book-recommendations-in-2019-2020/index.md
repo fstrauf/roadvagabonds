@@ -83,3 +83,5 @@ Some other ideas I found interesting:
 > **I will teach you to be rich**, Ramit Sethi
 > **Enlightenment Now**, Steven Pinker
 > **Genghis Khan and the making of the modern world**, Jack Weatherford
+> **The Evolution of Everything**, Matt Ridley
+> **Sapiens, a brief history of humankind**, Yuval Noah Harari
