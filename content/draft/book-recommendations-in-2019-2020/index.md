@@ -85,3 +85,5 @@ Some other ideas I found interesting:
 > **Genghis Khan and the making of the modern world**, Jack Weatherford
 > **The Evolution of Everything**, Matt Ridley
 > **Sapiens, a brief history of humankind**, Yuval Noah Harari
+> **Mans search for meaning**, Viktor Frankl
+> **When, the scientific secret of Timing**, Daniel Pink
