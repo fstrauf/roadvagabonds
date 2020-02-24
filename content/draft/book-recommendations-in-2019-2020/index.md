@@ -87,3 +87,6 @@ Some other ideas I found interesting:
 > **Sapiens, a brief history of humankind**, Yuval Noah Harari
 > **Mans search for meaning**, Viktor Frankl
 > **When, the scientific secret of Timing**, Daniel Pink
+> **Quiet, the power of introverts in a world that can't stop talking**, Susan Cain
+> **Schwarmdumm**, Gunter Dueck
+> **This changes everything**, Naomi
