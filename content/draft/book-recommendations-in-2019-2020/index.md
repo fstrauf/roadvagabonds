@@ -89,4 +89,9 @@ Some other ideas I found interesting:
 > **When, the scientific secret of Timing**, Daniel Pink
 > **Quiet, the power of introverts in a world that can't stop talking**, Susan Cain
 > **Schwarmdumm**, Gunter Dueck
-> **This changes everything**, Naomi
+> **Thinking in bets**, Annie Duke
+> **The tipping point**, Malcolm Gladwell
+> **The compound effect**, Darren Hardy
+> **The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century**, Steven Pinker
+> **The Selfish Gene**, Richard Dawkins
+> **The uninhabitable Earth**, David Wallace-Wells
