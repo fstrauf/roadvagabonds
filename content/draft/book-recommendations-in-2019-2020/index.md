@@ -95,3 +95,6 @@ Some other ideas I found interesting:
 > **The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century**, Steven Pinker
 > **The Selfish Gene**, Richard Dawkins
 > **The uninhabitable Earth**, David Wallace-Wells
+> **Lessons of History**, Will Durant
+> **David & Goliath**, Malcolm Gladwell
+> **In defence of Food**, Michael Pollan
