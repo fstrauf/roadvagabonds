@@ -11,7 +11,7 @@
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.3.0",
     "babel-plugin-styled-components": "^1.10.6",
     "eslint-plugin-flowtype": "^2.50.3",
-    "gatsby": "^2.17.13",
+    "gatsby": "^2.32.13",
     "gatsby-cli": "^2.8.10",
     "gatsby-image": "^2.2.32",
     "gatsby-plugin-feed": "^2.3.20",
